@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="part1: Hugo + GitHub 免费部署自己的博客介绍 (00:00-00:15) 1.1: 视频目标与演示 视频旨在分享如何使用 Hugo 和 GitHub 免费部署一个属于自己的个人博客。开头展示了作者已经部署成功的博客页面作为最终效果预览。\n(00:15-00:37) 1.2: 作者说明与目的 作者声明自己并非专业的教学视频制作者，制作此视频主要是因为近期想更新内容，且正好在研究 Hugo 博客的搭建过程。目的是分享经验，帮助观看者在搭建过程中少走弯路。\n(00:37-00:44) 1.3: 博客内容示例 简要展示了博客中的一篇文章，内容即为本次视频所要讲解的 Hugo + GitHub 免费部署博客的教程记录。\npart2: 搭建动机与 Hugo vs Hexo 对比 (00:45-00:57) 2.1: 历史背景 (Hexo) 作者提到自己之前已经使用 Hexo 框架搭建过一个个人博客 (展示了之前的 Hexo 博客页面)。\n(00:57-01:19) 2.2: 转向 Hugo 的原因 解释了为何选择使用 Hugo 重新搭建：更换了新电脑 (天选4) 后，之前的 Hexo 本地文件丢失（因为没有上传备份到 GitHub），所以需要重新搭建。借此机会研究并尝试了 Hugo。\n(01:19-01:30) 2.3: Hugo 使用体验 作者认为实际使用下来，Hugo 感觉比 Hexo 更方便。\n(01:30-01:41) 2.4: 对新手的建议 (Hugo vs Hexo) 指出 Hugo 的官方文档基本都是英文，可能对新手不太友好。因此，推荐新手优先尝试 Hexo (文档相对更完善，中文资源多)。使用 Hugo 需要啃英文文档，对新手来说较为麻烦。\n">
+<title>搭建本地hugo博客</title>
+
+<link rel='canonical' href='https://yichixing.github.io/hugo-stack-dev/p/%E6%90%AD%E5%BB%BA%E6%9C%AC%E5%9C%B0hugo%E5%8D%9A%E5%AE%A2/'>
+
+<link rel="stylesheet" href="/hugo-stack-dev/scss/style.min.f6cbf7b6c62e546de49fecd71995cb61699407909599bd62d7d45ee6cb108754.css"><meta property='og:title' content="搭建本地hugo博客">
+<meta property='og:description' content="part1: Hugo + GitHub 免费部署自己的博客介绍 (00:00-00:15) 1.1: 视频目标与演示 视频旨在分享如何使用 Hugo 和 GitHub 免费部署一个属于自己的个人博客。开头展示了作者已经部署成功的博客页面作为最终效果预览。\n(00:15-00:37) 1.2: 作者说明与目的 作者声明自己并非专业的教学视频制作者，制作此视频主要是因为近期想更新内容，且正好在研究 Hugo 博客的搭建过程。目的是分享经验，帮助观看者在搭建过程中少走弯路。\n(00:37-00:44) 1.3: 博客内容示例 简要展示了博客中的一篇文章，内容即为本次视频所要讲解的 Hugo + GitHub 免费部署博客的教程记录。\npart2: 搭建动机与 Hugo vs Hexo 对比 (00:45-00:57) 2.1: 历史背景 (Hexo) 作者提到自己之前已经使用 Hexo 框架搭建过一个个人博客 (展示了之前的 Hexo 博客页面)。\n(00:57-01:19) 2.2: 转向 Hugo 的原因 解释了为何选择使用 Hugo 重新搭建：更换了新电脑 (天选4) 后，之前的 Hexo 本地文件丢失（因为没有上传备份到 GitHub），所以需要重新搭建。借此机会研究并尝试了 Hugo。\n(01:19-01:30) 2.3: Hugo 使用体验 作者认为实际使用下来，Hugo 感觉比 Hexo 更方便。\n(01:30-01:41) 2.4: 对新手的建议 (Hugo vs Hexo) 指出 Hugo 的官方文档基本都是英文，可能对新手不太友好。因此，推荐新手优先尝试 Hexo (文档相对更完善，中文资源多)。使用 Hugo 需要啃英文文档，对新手来说较为麻烦。\n">
+<meta property='og:url' content='https://yichixing.github.io/hugo-stack-dev/p/%E6%90%AD%E5%BB%BA%E6%9C%AC%E5%9C%B0hugo%E5%8D%9A%E5%AE%A2/'>
+<meta property='og:site_name' content='个人笔记博客'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='项目部署' /><meta property='article:published_time' content='2025-02-20T20:14:22&#43;08:00'/><meta property='article:modified_time' content='2025-02-20T20:14:22&#43;08:00'/>
+<meta name="twitter:title" content="搭建本地hugo博客">
+<meta name="twitter:description" content="part1: Hugo + GitHub 免费部署自己的博客介绍 (00:00-00:15) 1.1: 视频目标与演示 视频旨在分享如何使用 Hugo 和 GitHub 免费部署一个属于自己的个人博客。开头展示了作者已经部署成功的博客页面作为最终效果预览。\n(00:15-00:37) 1.2: 作者说明与目的 作者声明自己并非专业的教学视频制作者，制作此视频主要是因为近期想更新内容，且正好在研究 Hugo 博客的搭建过程。目的是分享经验，帮助观看者在搭建过程中少走弯路。\n(00:37-00:44) 1.3: 博客内容示例 简要展示了博客中的一篇文章，内容即为本次视频所要讲解的 Hugo + GitHub 免费部署博客的教程记录。\npart2: 搭建动机与 Hugo vs Hexo 对比 (00:45-00:57) 2.1: 历史背景 (Hexo) 作者提到自己之前已经使用 Hexo 框架搭建过一个个人博客 (展示了之前的 Hexo 博客页面)。\n(00:57-01:19) 2.2: 转向 Hugo 的原因 解释了为何选择使用 Hugo 重新搭建：更换了新电脑 (天选4) 后，之前的 Hexo 本地文件丢失（因为没有上传备份到 GitHub），所以需要重新搭建。借此机会研究并尝试了 Hugo。\n(01:19-01:30) 2.3: Hugo 使用体验 作者认为实际使用下来，Hugo 感觉比 Hexo 更方便。\n(01:30-01:41) 2.4: 对新手的建议 (Hugo vs Hexo) 指出 Hugo 的官方文档基本都是英文，可能对新手不太友好。因此，推荐新手优先尝试 Hexo (文档相对更完善，中文资源多)。使用 Hugo 需要啃英文文档，对新手来说较为麻烦。\n">
+    <link rel="shortcut icon" href="/PixPin_2025-04-25_00-04-07.ico" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/hugo-stack-dev/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/hugo-stack-dev/img/avatar_hu_c9e1ac70cf1ec753.png" width="300"
+                            height="237" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🍥</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/hugo-stack-dev">个人笔记博客</a></h1>
+            <h2 class="site-description">个人学习和工作的笔记的博客</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://github.com/CaiJimmy/hugo-theme-stack'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/hugo-stack-dev/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/hugo-stack-dev/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/hugo-stack-dev/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/hugo-stack-dev/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/hugo-stack-dev/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+                    
+                        <li id="i18n-switch">  
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                            <select name="language" title="language" onchange="window.location.href = this.selectedOptions[0].value">
+                                
+                                    <option value="https://yichixing.github.io/hugo-stack-dev/" selected>English</option>
+                                
+                                    <option value="https://yichixing.github.io/hugo-stack-dev/zh-cn/" >中文</option>
+                                
+                                    <option value="https://yichixing.github.io/hugo-stack-dev/ar/" >عربي</option>
+                                
+                            </select>
+                        </li>
+                    
+                
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>Dark Mode</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/hugo-stack-dev/categories/%E9%A1%B9%E7%9B%AE%E9%83%A8%E7%BD%B2/" >
+                项目部署
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/hugo-stack-dev/p/%E6%90%AD%E5%BB%BA%E6%9C%AC%E5%9C%B0hugo%E5%8D%9A%E5%AE%A2/">搭建本地hugo博客</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Feb 20, 2025</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    3 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h1 id="part1-hugo--github-免费部署自己的博客介绍">part1: Hugo + GitHub 免费部署自己的博客介绍
+</h1><p>(00:00-00:15) <em><strong>1.1: 视频目标与演示</strong></em>
+视频旨在分享如何使用 <strong>Hugo</strong> 和 <strong>GitHub</strong> <strong>免费部署</strong>一个属于自己的<strong>个人博客</strong>。开头展示了作者已经<strong>部署成功</strong>的博客页面作为最终效果预览。</p>
+<p>(00:15-00:37) <em><strong>1.2: 作者说明与目的</strong></em>
+作者声明自己并非专业的教学视频制作者，制作此视频主要是因为近期想更新内容，且正好在研究 <strong>Hugo</strong> 博客的搭建过程。目的是分享经验，帮助观看者在搭建过程中<strong>少走弯路</strong>。</p>
+<p>(00:37-00:44) <em><strong>1.3: 博客内容示例</strong></em>
+简要展示了博客中的一篇文章，内容即为本次视频所要讲解的 <strong>Hugo + GitHub 免费部署博客</strong>的<strong>教程记录</strong>。</p>
+<h1 id="part2-搭建动机与-hugo-vs-hexo-对比">part2: 搭建动机与 Hugo vs Hexo 对比
+</h1><p>(00:45-00:57) <em><strong>2.1: 历史背景 (Hexo)</strong></em>
+作者提到自己之前已经使用 <strong>Hexo</strong> 框架搭建过一个<strong>个人博客</strong> (展示了之前的 Hexo 博客页面)。</p>
+<p>(00:57-01:19) <em><strong>2.2: 转向 Hugo 的原因</strong></em>
+解释了为何选择使用 <strong>Hugo</strong> 重新搭建：更换了新电脑 (<strong>天选4</strong>) 后，之前的 <strong>Hexo</strong> 本地文件丢失（因为<strong>没有上传备份到 GitHub</strong>），所以需要重新搭建。借此机会研究并尝试了 <strong>Hugo</strong>。</p>
+<p>(01:19-01:30) <em><strong>2.3: Hugo 使用体验</strong></em>
+作者认为实际使用下来，<strong>Hugo</strong> <strong>感觉</strong>比 <strong>Hexo</strong> <strong>更方便</strong>。</p>
+<p>(01:30-01:41) <em><strong>2.4: 对新手的建议 (Hugo vs Hexo)</strong></em>
+指出 <strong>Hugo</strong> 的官方文档<strong>基本都是英文</strong>，可能对新手不太友好。因此，<strong>推荐新手</strong>优先尝试 <strong>Hexo</strong> (文档相对更完善，中文资源多)。使用 Hugo 需要<strong>啃英文文档</strong>，对新手来说较为<strong>麻烦</strong>。</p>
+<h1 id="part3-下载-hugo">part3: 下载 Hugo
+</h1><p>(01:41-01:54) <em><strong>3.1: 开始教程：下载准备</strong></em>
+正式进入教程环节，第一步是<strong>下载 Hugo</strong>。作者打开浏览器并搜索 <strong>Hugo</strong>。</p>
+<p>(01:54-02:22) <em><strong>3.2: 定位 Hugo GitHub Releases</strong></em>
+进入 <strong>Hugo</strong> 官网 (<strong>gohugo.io</strong>)，点击 <strong>GitHub</strong> 链接跳转到 <strong>Hugo</strong> 的 <strong>GitHub 仓库</strong>。在仓库页面，点击 <code>Tags</code> (标签/版本) 来查找发布版本。选择了当时的最新版本 <strong>v0.131.0</strong>。</p>
+<p>(02:22-02:30) <em><strong>3.3: 选择并下载 Hugo Extended 版本</strong></em>
+在版本发布页面向下滚动到 <code>Assets</code> (资源) 部分，强调需要下载 <strong>Extended</strong> (扩展) 版本，并选择了适用于 Windows 64位的 <code>hugo_extended_0.131.0_windows-amd64.zip</code> 文件进行<strong>下载</strong>。</p>
+<h1 id="part4-hugo-文件准备与站点创建">part4: Hugo 文件准备与站点创建
+</h1><p>(02:30-02:55) <em><strong>4.1: 解压 Hugo 文件</strong></em>
+展示了下载好的 <strong>zip 压缩包</strong>。在桌面上创建了一个名为 <code>test</code> 的新文件夹。将下载的 <strong>zip 包</strong>移动到 <code>test</code> 文件夹中，并进行<strong>解压</strong>。解压后得到包含 <code>hugo.exe</code> 等文件的文件夹。</p>
+<p>(02:55-03:04) <em><strong>4.2: Hugo 可执行文件说明</strong></em>
+强调 <strong>Hugo</strong> 是用 <strong>Go</strong> 语言编写的，但使用时<strong>不需要单独安装 Go 环境</strong>，♈下载解压后的 <code>hugo.exe</code> <strong>可执行文件</strong>即可直接使用，这一点很方便。清理了多余的文件和文件夹，只保留核心文件。</p>
+<p>(03:04-03:13) <em><strong>4.3: 打开命令行工具 (CMD)</strong></em>
+在包含 <code>hugo.exe</code> 的文件夹（路径类似 <code>C:\Users\Letere\Desktop\test\hugo_extended_0.131.0_windows-amd64</code>）的<strong>地址栏</strong>输入 <code>cmd</code> 并回车，从而<strong>直接在该目录下打开命令行窗口</strong>。</p>
+<p>(03:13-03:34) <em><strong>4.4: 创建新站点命令 (<code>hugo new site</code>)</strong></em>
+在命令行窗口中，♈输入命令 <strong><code>hugo new site dev</code></strong>。该命令会创建一个名为 <code>dev</code> 的新文件夹，并在其中♈♈生成 <strong>Hugo 站点</strong>的<strong>基本目录结构</strong>。</p>
+<p>(03:34-03:45) <em><strong>4.5: 理解命令输出与后续步骤</strong></em>
+展示了 <strong><code>hugo new site</code></strong> 命令执行后的<strong>输出提示</strong>，其中包含了建议的后续操作步骤，如切换目录、安装主题、编辑配置、创建内容和启动服务。作者<strong>截图保存</strong>了这些步骤提示。</p>
+<p>(03:45-04:10) <em><strong>4.6: 切换目录与复制 Hugo 执行文件</strong></em>
+根据提示，首先使用 <strong><code>cd dev</code></strong> 命令<strong>切换到</strong>新创建的 <code>dev</code> 站点<strong>根目录</strong>。因为 <code>hugo.exe</code> 不在系统路径中，需要将其<strong>复制</strong>到当前的 <code>dev</code> 目录下，才能在该目录中执行 <strong>Hugo</strong> 相关命令。</p>
+<h1 id="part5-本地预览-无主题">part5: 本地预览 (无主题)
+</h1><p>(04:10-04:28) <em><strong>5.1: 准备本地预览</strong></em>
+根据之前的步骤提示，下一步是安装主题，但作者决定先<strong>不安装主题</strong>，直接<strong>启动本地服务</strong>看下效果。</p>
+<p>(04:28-05:08) <em><strong>5.2: 启动 Hugo 本地服务 (<code>hugo server -D</code>)</strong></em>
+在 <code>dev</code> 目录下，执行命令 <strong><code>hugo server -D</code></strong> 来启动 <strong>Hugo</strong> 的<strong>内置Web服务器</strong>进行本地预览。解释 <code>-D</code> 是 <code>--buildDrafts</code> 的<strong>简写</strong>，用于包含草稿内容。命令成功执行后，输出了本地服务器地址 <strong><code>http://localhost:1313</code></strong>。</p>
+<p>(05:08-05:16) <em><strong>5.3: 浏览器访问与结果 (Page Not Found)</strong></em>
+<strong>复制</strong>该地址并在浏览器中打开。♈页面显示 <strong><code>Page Not Found</code></strong> (404错误)。作者解释这是<strong>正常现象</strong>，因为目前<strong>既没有安装主题，也没有任何内容</strong>，但这表明 <strong>Hugo 服务已经成功启动</strong>。</p>
+<h1 id="part6-查找与下载-hugo-主题-stack">part6: 查找与下载 Hugo 主题 (Stack)
+</h1><p>(05:16-05:33) <em><strong>6.1: 前往 Hugo 主题站</strong></em>
+回到命令行输出提示，明确需要<strong>安装一个主题</strong>。再次访问 <strong>Hugo</strong> 官网 (<strong>gohugo.io</strong>)，点击导航栏中的 <code>Themes</code>。</p>
+<p>(05:33-05:56) <em><strong>6.2: 选择 Stack 主题</strong></em>
+浏览 <strong>Hugo 主题</strong>列表，作者选择了名为 <strong><code>Stack</code></strong> 的主题（卡片式风格，适用于博主）。点击进入该主题的详情页。</p>
+<p>(05:56-06:13) <em><strong>6.3: ♈下载 Stack 主题源码</strong></em>
+在 <strong>Stack</strong> 主题详情页，点击 <code>Download</code> 按钮，跳转到该主题的 <strong>GitHub 仓库</strong> (<code>CallMeMaybe/hugo-theme-stack</code>)。在仓库页面，同样通过 <code>Tags</code> 找到最新版本 <strong>v3.26.0</strong>，♈并点击 <strong><code>Source code (zip)</code></strong> <strong>下载主题的源代码压缩包</strong>。</p>
+<h1 id="part7-安装与配置-hugo-主题">part7: 安装与配置 Hugo 主题
+</h1><p>(06:13-06:33) <em><strong>7.1: 放置主题文件</strong></em>
+展示下载好的主题压缩包 <code>hugo-theme-stack-3.26.0.zip</code>。回到本地的 <strong>Hugo</strong> 站点 <code>dev</code> 目录，找到 <code>themes</code> 文件夹。♈将下载的<strong>主题压缩包</strong>移动到 <code>themes</code> 文件夹内，并进行<strong>解压</strong>。</p>
+<p>(06:33-07:03) <em><strong>7.2: 重命名主题文件夹与修改配置</strong></em>
+解压后的主题文件夹名带有版本号 (<code>hugo-theme-stack-3.26.0</code>)。为了方便配置，♒将其<strong>重命名</strong>为 <code>hugo-theme-stack</code>。打开站点根目录下的<strong>配置文件</strong> <code>hugo.yaml</code> (之前从主题的 <code>exampleSite</code> 复制过来的)。找到 <code>theme</code> 配置项，将其值修改为<strong>刚刚重命名</strong>的文件夹名 <code>hugo-theme-stack</code>。<strong>保存</strong>配置文件。</p>
+<p>(07:03-07:19) <em><strong>7.3: 应用主题示例配置与内容</strong></em>
+为了快速看到效果，作者将主题♐ <code>exampleSite</code> 目录下的 <code>content</code> 文件夹和 <code>hugo.yaml</code> 文件<strong>复制</strong>到站点根目录 (<code>dev</code>) 下，并选择<strong>覆盖</strong>现有文件。这样就♈直接使用了主题<strong>自带的示例内容和配置</strong>。</p>
+<p>(07:19-07:28) <em><strong>7.4: 清理与重启服务</strong></em>
+♐删除了站点根目录下原有的 <code>hugo.toml</code> 文件【因为现在使用 <code>hugo.yaml</code>，它们是同一个配置文件，只是后缀名不同】。回到命令行窗口，<strong>停止</strong>之前运行的 <strong>Hugo</strong> 服务（通过按 Ctrl+C，虽然画面未显示），然后再次执行 <strong><code>hugo server -D</code></strong> 命令<strong>重新启动服务</strong>。</p>
+<p>(07:28-07:47) <em><strong>7.5: 预览带主题的站点</strong></em>
+<strong>刷新</strong>浏览器中 <code>http://localhost:1313</code> 页面。此时，网站成功加载了 <strong>Stack 主题</strong>和其<strong>示例内容</strong>，外观与之前展示的成品相似。</p>
+<h1 id="part8-主题示例内容处理">part8: 主题示例内容处理
+</h1><p>(07:47-08:07) <em><strong>8.1: 删除 Rich Content 示例文章</strong></em>
+在预览页面滚动时，作者提到主题♋示例中有一个名为 <code>rich-content</code> 的文章。因为这篇文章<strong>引用了 YouTube 等外部资源</strong>，在国内网络环境下可能导致<strong>加载超时</strong>或构建失败，所以♈建议<strong>删除</strong>。随后展示了♈在 <code>根目录/content/post</code> 目录下<strong>删除 <code>rich-content</code> 文件夹</strong>的操作。</p>
+<p>(08:07-08:39) <em><strong>8.2: 参考主题 Demo 站</strong></em>
+回到主题的 <strong>GitHub 仓库</strong>页面，指出 <code>README.md</code> 文件通常包含重要信息。找到了♋主题提供的 <strong>Demo 演示站点</strong>链接 (<code>demo.stack.jimmycai.com</code>) 并打开。说明可以通过访问 <strong>Demo 站点</strong>来了解 <code>rich-content</code> 页面原本包含哪些内容（如嵌入视频、特殊格式等）。</p>
+<h1 id="part9-hugo-国际化-i18n-功能说明">part9: Hugo 国际化 (i18n) 功能说明
+</h1><p>(08:39-09:04) <em><strong>9.1: 文件名与语言代码</strong></em>
+解释 <strong>Hugo</strong> 的<strong>国际化 (i18n)</strong> 功能。以 <code>dev/content/post/chinese-test</code> 文件夹为例，其中的内容文件是 <code>index.zh-cn.md</code>。指出文件名中的 <strong><code>.zh-cn</code></strong> 就是<strong>语言代码</strong>。对比 <code>emoji-support</code> 文件夹下的 <code>index.md</code> 文件，它<strong>没有语言代码</strong>。</p>
+<p>(09:04-09:19) <em><strong>9.2: 国际化工作原理</strong></em>
+说明：如果文件名<strong>不带语言代码</strong> (如 <code>index.md</code>)，则该内容属于在 <code>hugo.yaml</code> 中配置的<strong>默认语言</strong>（此例中为<strong>英语</strong>）。♈网站会根据用户切换的语言（通过页面上的语言切换器）加载对应语言代码的文件【<strong>切出对应后缀名的文件</strong>】。例如，♈切换到中文，会加载 <code>index.zh-cn.md</code>；♈切换到英文，会加载 <code>index.en.md</code> 或默认的 <code>index.md</code>。
+也就是当访问者在您的网站上选择或<strong>切换到中文（简体） 这个语言选项</strong>时，<strong>Hugo 会查找并使用带有 .zh-cn.md 后缀的文件来渲染该页面</strong>，比如 有一个名为 我的笔记.md 的 Markdown 文件，并且您希望它只在网站的中文环境下显示，需要将其重命名为 <strong>我的笔记.zh-cn.md</strong>
+(09:19-09:29) <em><strong>9.3: 国际化演示</strong></em>
+为了演示，♈将 <code>chinese-test</code> 文件夹下的 <code>index.zh-cn.md</code> <strong>重命名</strong>为 <code>index.en.md</code>【<strong>就是改改后缀名而</strong>】。<strong>刷新</strong>本地预览页面。此时切换到<strong>英文</strong>环境，会显示原 &ldquo;Chinese Test&rdquo; 的内容；♈切换到<strong>中文</strong>环境，则该文章消失，因为对应的中文文件 (<code>index.zh-cn.md</code>) 已不存在。说明 <strong>Hugo</strong> 的国际化实现相对<strong>简单</strong>，只需复制文件并修改语言代码即可。</p>
+<h1 id="part10-创建与编辑新内容">part10: 创建与编辑新内容
+</h1><p>(09:29-09:57) <em><strong>10.1: 创建新文章命令 (<code>hugo new content</code>)</strong></em>
+演示如何使用命令行<strong>创建新文章</strong>。命令格式为 <strong><code>hugo new content &lt;section&gt;/&lt;slug&gt;/index.md</code></strong>。其中 <code>&lt;section&gt;</code> 通常是 <code>content</code> 目录下的子目录（如 <code>post</code>），<code>&lt;slug&gt;</code> 是文章的唯一标识（会成为文件夹名），<code>index.md</code> 是内容文件名。
+♈作者执行了命令 <strong><code>hugo new content post/myFirstBlog/index.md</code></strong>，成功创建了一个名为 <code>myFirstBlog</code> 的文章。</p>
+<p>(09:57-10:15) <em><strong>10.2: 编辑新文章内容 (Markdown)</strong></em>
+使用 <strong>Typora</strong> 编辑器打开新创建的 <code>dev/content/post/myFirstBlog/index.md</code> 文件。文件自动包含了<strong>基础的 front matter</strong>（如 <code>title</code>, <code>date</code>, <code>draft: true</code>）。在文件末尾添加了一行 <strong>Markdown</strong> 内容：<strong><code>### Hello World!</code></strong>。<strong>保存</strong>文件。</p>
+<p>(10:15-10:31) <em><strong>10.3: 预览新文章</strong></em>
+<strong>刷新</strong>本地预览页面 (<code>http://localhost:1313</code>)。新创建的 <strong>&ldquo;MyFirstBlog&rdquo;</strong> 文章出现在首页列表。点击进入该文章，可以看到刚才添加的 <strong>&ldquo;Hello World!&rdquo;</strong> 标题。这表明文章已成功创建并显示。</p>
+<h1 id="part11-本地搭建完成与后续步骤">part11: 本地搭建完成与后续步骤
+</h1><p>(10:31-10:38) <em><strong>11.1: 本地搭建总结</strong></em>
+至此，使用 <strong>Hugo</strong> 和 <strong>Stack 主题</strong>在<strong>本地搭建博客</strong>的基本流程已经完成。</p>
+<p>(10:38-10:43) <em><strong>11.2: 后续内容预告</strong></em>
+说明接下来的步骤将涉及♐<strong>修改配置 hugo.yaml</strong>【♐至于hugo.yaml有哪些配置 一般要么样式文件里面的hugo.yaml会讲在哪里找，要么样式文件里面的hugo.yaml已经把全部配置给你了】以及如何将博客<strong>部署到 GitHub Pages</strong>。</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/hugo-stack-dev/tags/%E9%A1%B9%E7%9B%AE%E9%83%A8%E7%BD%B2/">项目部署</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">Related content</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/hugo-stack-dev/p/github-page%E9%83%A8%E7%BD%B2hugo%E5%8D%9A%E5%AE%A2/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">github page部署hugo博客</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/hugo-stack-dev/p/hugo%E5%8D%9A%E5%AE%A2action%E4%BB%A3%E7%A0%81%E9%83%A8%E7%BD%B2action%E4%BB%A3%E7%A0%81%E8%A7%A3%E6%9E%90/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">hugo博客action代码部署：action代码解析</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/hugo-stack-dev/p/hugo%E5%8D%9A%E5%AE%A2action%E4%BB%A3%E7%A0%81%E9%83%A8%E7%BD%B2hugo%E5%8D%9A%E5%AE%A2%E7%9A%84action%E4%BB%A3%E7%A0%81%E6%9C%AC%E4%BD%93/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">hugo博客action代码部署：hugo博客的action代码本体</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/hugo-stack-dev/p/%E4%BD%BF%E7%94%A8github-action%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2hugo%E5%8D%9A%E5%AE%A2%E5%88%B0page%E4%BB%93%E5%BA%93/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">使用github-action自动部署hugo博客到“page”仓库</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/hugo-stack-dev/p/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E5%8F%AA%E6%9C%89%E5%9C%A8%E9%A1%B9%E7%9B%AE%E7%9A%84%E6%9E%84%E5%BB%BA%E7%9A%84%E8%BF%87%E7%A8%8B%E4%B8%AD%E4%BD%BF%E7%94%A8/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">环境变量只有在项目的构建的过程中使用</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "hugo-theme-stack" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (typeof DISQUS == 'object') {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2025 Example Person
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.30.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/hugo-stack-dev/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Collections on موقع تجريبي</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/ar/collections/</link>
+        <description>Recent content in Collections on موقع تجريبي</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>ar</language>
+        <copyright>Example Person</copyright><atom:link href="https://yichixing.github.io/hugo-stack-dev/ar/collections/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
+</rss>

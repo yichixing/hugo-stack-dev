@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="part1: 介绍 GitHub Action 自动化部署 Hugo 博客 (00:00-00:09) 1.1: 介绍目标\n视频开篇展示了一个本地运行的 Hugo 博客 (localhost:1313)。 目标是向大家介绍如何通过 GitHub 的 GitHub Actions 功能来自动部署博客。 (00:09-00:32) 1.2: 手动部署痛点与自动化优势\n♈指出传统方式下，每次修改完文件后，都需要手动将生成的 public 文件夹上传到服务器或托管平台，这个过程比较麻烦。 ♈使用 GitHub Actions 可以实现自动化：自动帮我们生成 public 目录，并将其部署到静态页面网站（如 GitHub Pages）。 ♈优点：只需提交代码 (git push)，后续的构建和部署过程就能自动完成，方便很多。 part2: 创建 GitHub 仓库并推送 Hugo 源码 (00:32-00:41) 2.1: 创建仓库准备\n要实现自动化部署，首先需要一个 GitHub 仓库来存放 Hugo 项目的主文件（源代码）。 操作：导航到 GitHub 网站，准备创建一个新的仓库。 (00:41-01:12) 2.2: 创建私有仓库\n在 GitHub 创建新仓库页面（经历短暂的网络卡顿后），设置仓库信息： 仓库名：hugo-main 可见性：建议选择私有（Private），因为源代码一般不需要公开。 操作：点击 Create repository 完成创建。 (01:12-01:24) 2.3: 上传文件准备\n仓库创建完成后，需要将本地的 Hugo 项目文件上传到这个新仓库。 关键点：上传前需要注意忽略掉一些不需要版本控制的文件。 (01:24-02:04) 2.4: 配置 .gitignore 忽略生成文件\n">
+<title>使用github-action自动部署hugo博客到“page”仓库</title>
+
+<link rel='canonical' href='https://yichixing.github.io/hugo-stack-dev/p/%E4%BD%BF%E7%94%A8github-action%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2hugo%E5%8D%9A%E5%AE%A2%E5%88%B0page%E4%BB%93%E5%BA%93/'>
+
+<link rel="stylesheet" href="/hugo-stack-dev/scss/style.min.f6cbf7b6c62e546de49fecd71995cb61699407909599bd62d7d45ee6cb108754.css"><meta property='og:title' content="使用github-action自动部署hugo博客到“page”仓库">
+<meta property='og:description' content="part1: 介绍 GitHub Action 自动化部署 Hugo 博客 (00:00-00:09) 1.1: 介绍目标\n视频开篇展示了一个本地运行的 Hugo 博客 (localhost:1313)。 目标是向大家介绍如何通过 GitHub 的 GitHub Actions 功能来自动部署博客。 (00:09-00:32) 1.2: 手动部署痛点与自动化优势\n♈指出传统方式下，每次修改完文件后，都需要手动将生成的 public 文件夹上传到服务器或托管平台，这个过程比较麻烦。 ♈使用 GitHub Actions 可以实现自动化：自动帮我们生成 public 目录，并将其部署到静态页面网站（如 GitHub Pages）。 ♈优点：只需提交代码 (git push)，后续的构建和部署过程就能自动完成，方便很多。 part2: 创建 GitHub 仓库并推送 Hugo 源码 (00:32-00:41) 2.1: 创建仓库准备\n要实现自动化部署，首先需要一个 GitHub 仓库来存放 Hugo 项目的主文件（源代码）。 操作：导航到 GitHub 网站，准备创建一个新的仓库。 (00:41-01:12) 2.2: 创建私有仓库\n在 GitHub 创建新仓库页面（经历短暂的网络卡顿后），设置仓库信息： 仓库名：hugo-main 可见性：建议选择私有（Private），因为源代码一般不需要公开。 操作：点击 Create repository 完成创建。 (01:12-01:24) 2.3: 上传文件准备\n仓库创建完成后，需要将本地的 Hugo 项目文件上传到这个新仓库。 关键点：上传前需要注意忽略掉一些不需要版本控制的文件。 (01:24-02:04) 2.4: 配置 .gitignore 忽略生成文件\n">
+<meta property='og:url' content='https://yichixing.github.io/hugo-stack-dev/p/%E4%BD%BF%E7%94%A8github-action%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2hugo%E5%8D%9A%E5%AE%A2%E5%88%B0page%E4%BB%93%E5%BA%93/'>
+<meta property='og:site_name' content='个人笔记博客'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='项目部署' /><meta property='article:published_time' content='2025-02-20T20:14:22&#43;08:00'/><meta property='article:modified_time' content='2025-02-20T20:14:22&#43;08:00'/>
+<meta name="twitter:title" content="使用github-action自动部署hugo博客到“page”仓库">
+<meta name="twitter:description" content="part1: 介绍 GitHub Action 自动化部署 Hugo 博客 (00:00-00:09) 1.1: 介绍目标\n视频开篇展示了一个本地运行的 Hugo 博客 (localhost:1313)。 目标是向大家介绍如何通过 GitHub 的 GitHub Actions 功能来自动部署博客。 (00:09-00:32) 1.2: 手动部署痛点与自动化优势\n♈指出传统方式下，每次修改完文件后，都需要手动将生成的 public 文件夹上传到服务器或托管平台，这个过程比较麻烦。 ♈使用 GitHub Actions 可以实现自动化：自动帮我们生成 public 目录，并将其部署到静态页面网站（如 GitHub Pages）。 ♈优点：只需提交代码 (git push)，后续的构建和部署过程就能自动完成，方便很多。 part2: 创建 GitHub 仓库并推送 Hugo 源码 (00:32-00:41) 2.1: 创建仓库准备\n要实现自动化部署，首先需要一个 GitHub 仓库来存放 Hugo 项目的主文件（源代码）。 操作：导航到 GitHub 网站，准备创建一个新的仓库。 (00:41-01:12) 2.2: 创建私有仓库\n在 GitHub 创建新仓库页面（经历短暂的网络卡顿后），设置仓库信息： 仓库名：hugo-main 可见性：建议选择私有（Private），因为源代码一般不需要公开。 操作：点击 Create repository 完成创建。 (01:12-01:24) 2.3: 上传文件准备\n仓库创建完成后，需要将本地的 Hugo 项目文件上传到这个新仓库。 关键点：上传前需要注意忽略掉一些不需要版本控制的文件。 (01:24-02:04) 2.4: 配置 .gitignore 忽略生成文件\n">
+    <link rel="shortcut icon" href="/PixPin_2025-04-25_00-04-07.ico" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/hugo-stack-dev/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/hugo-stack-dev/img/avatar_hu_c9e1ac70cf1ec753.png" width="300"
+                            height="237" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🍥</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/hugo-stack-dev">个人笔记博客</a></h1>
+            <h2 class="site-description">个人学习和工作的笔记的博客</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://github.com/CaiJimmy/hugo-theme-stack'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/hugo-stack-dev/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/hugo-stack-dev/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/hugo-stack-dev/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/hugo-stack-dev/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/hugo-stack-dev/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+                    
+                        <li id="i18n-switch">  
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                            <select name="language" title="language" onchange="window.location.href = this.selectedOptions[0].value">
+                                
+                                    <option value="https://yichixing.github.io/hugo-stack-dev/" selected>English</option>
+                                
+                                    <option value="https://yichixing.github.io/hugo-stack-dev/zh-cn/" >中文</option>
+                                
+                                    <option value="https://yichixing.github.io/hugo-stack-dev/ar/" >عربي</option>
+                                
+                            </select>
+                        </li>
+                    
+                
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>Dark Mode</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/hugo-stack-dev/categories/%E9%A1%B9%E7%9B%AE%E9%83%A8%E7%BD%B2/" >
+                项目部署
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/hugo-stack-dev/p/%E4%BD%BF%E7%94%A8github-action%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2hugo%E5%8D%9A%E5%AE%A2%E5%88%B0page%E4%BB%93%E5%BA%93/">使用github-action自动部署hugo博客到“page”仓库</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Feb 20, 2025</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    4 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h1 id="part1-介绍-github-action-自动化部署-hugo-博客">part1: 介绍 GitHub Action 自动化部署 Hugo 博客
+</h1><p>(00:00-00:09) <em><strong>1.1: 介绍目标</strong></em></p>
+<ul>
+<li>视频开篇展示了一个本地运行的 <strong>Hugo</strong> 博客 (<code>localhost:1313</code>)。</li>
+<li>目标是向大家介绍如何通过 <strong>GitHub</strong> 的 <strong>GitHub Actions</strong> 功能来<strong>自动部署</strong>博客。</li>
+</ul>
+<p>(00:09-00:32) <em><strong>1.2: 手动部署痛点与自动化优势</strong></em></p>
+<ul>
+<li>♈指出传统方式下，每次修改完文件后，都需要<strong>手动将生成</strong>的 <code>public</code> 文件夹<strong>上传</strong>到服务器或托管平台，这个过程比较<strong>麻烦</strong>。</li>
+<li>♈使用 <strong>GitHub Actions</strong> 可以实现<strong>自动化</strong>：<strong>自动</strong>帮我们<strong>生成</strong> <code>public</code> 目录，并将其<strong>部署</strong>到<strong>静态页面网站</strong>（如 GitHub Pages）。</li>
+<li>♈<strong>优点</strong>：只需<strong>提交代码</strong> (<code>git push</code>)，后续的<strong>构建</strong>和<strong>部署</strong>过程就能<strong>自动完成</strong>，<strong>方便</strong>很多。</li>
+</ul>
+<h1 id="part2-创建-github-仓库并推送-hugo-源码">part2: 创建 GitHub 仓库并推送 Hugo 源码
+</h1><p>(00:32-00:41) <em><strong>2.1: 创建仓库准备</strong></em></p>
+<ul>
+<li>要实现自动化部署，首先需要一个 <strong>GitHub 仓库</strong>来存放 <strong>Hugo</strong> 项目的<strong>主文件</strong>（源代码）。</li>
+<li>操作：导航到 <strong>GitHub</strong> 网站，准备<strong>创建</strong>一个新的仓库。</li>
+</ul>
+<p>(00:41-01:12) <em><strong>2.2: 创建私有仓库</strong></em></p>
+<ul>
+<li>在 GitHub 创建新仓库页面（经历短暂的网络卡顿后），设置仓库信息：
+<ul>
+<li>仓库名：<code>hugo-main</code></li>
+<li>可见性：<strong>建议</strong>选择<strong>私有（Private）</strong>，因为源代码一般不需要公开。</li>
+</ul>
+</li>
+<li>操作：点击 <code>Create repository</code> 完成创建。</li>
+</ul>
+<p>(01:12-01:24) <em><strong>2.3: 上传文件准备</strong></em></p>
+<ul>
+<li>仓库创建完成后，需要将本地的 <strong>Hugo</strong> 项目文件<strong>上传</strong>到这个新仓库。</li>
+<li><strong>关键点</strong>：上传前需要注意<strong>忽略</strong>掉一些不需要版本控制的文件。</li>
+</ul>
+<p>(01:24-02:04) <em><strong>2.4: 配置 .gitignore 忽略生成文件</strong></em></p>
+<ul>
+<li><strong>说明</strong>：<strong>Hugo</strong> 项目中的某些文件/目录是<strong>自动生成的</strong>，<strong>不应该</strong>提交到源代码仓库，包括：
+<ul>
+<li><code>public/</code>：<strong>Hugo</strong> 生成的静态网站文件目录。</li>
+<li><code>resources/</code>：<strong>Hugo</strong> 处理后的资源缓存目录。</li>
+<li><code>hugo.build.lock</code>：构建锁文件。</li>
+<li><code>hugo.exe</code>：（如果在 Windows 下）<strong>Hugo</strong> 可执行文件本身。</li>
+</ul>
+</li>
+<li>♈ <strong>操作</strong>：在本地 Hugo 项目根目录下，<strong>创建</strong>一个名为 <code>.gitignore</code> 的文件。</li>
+<li>♈<strong>操作</strong>：编辑 <code>.gitignore</code> 文件，将上述需要忽略的文件名或目录名（如 <code>public</code>, <code>resources</code>, <code>hugo.build.lock</code>, <code>hugo.exe</code>）添加进去，每行一个。</li>
+<li>♈<strong>目的</strong>：<strong>保证</strong>上传到 <strong>GitHub</strong> 的是<strong>最干净、最原始</strong>的 Hugo 项目文件。</li>
+</ul>
+<p>(02:04-03:10) <em><strong>2.5: Git 推送操作</strong></em></p>
+<ul>
+<li><strong>操作</strong>：在本地 Hugo 项目目录下打开<strong>命令行终端 (cmd)</strong>。</li>
+<li>♈<strong>操作</strong>：执行一系列 **Git 命令（仓库首页有）**来初始化仓库、添加文件并推送到远程 <strong>GitHub</strong> 仓库：
+<ul>
+<li><code>git init</code>：<strong>初始化</strong>本地 Git 仓库。</li>
+<li><code>git add .</code>：<strong>添加</strong>所有文件到暂存区（<code>.gitignore</code> 会生效，忽略指定文件）。</li>
+<li><code>git commit -m &quot;first commit&quot;</code>：<strong>提交</strong>更改。</li>
+<li><code>git branch -M main</code>：<strong>重命名</strong>当前分支为 <code>main</code>。</li>
+<li><code>git remote add origin https://github.com/letere-gz/hugo-main.git</code>：<strong>关联</strong>远程仓库地址。</li>
+<li><code>git push -u origin main</code>：<strong>推送</strong>本地 <code>main</code> 分支到远程仓库。</li>
+</ul>
+</li>
+<li><strong>验证</strong>：切换到 <strong>GitHub</strong> 仓库页面刷新，确认项目文件已上传，且 <code>.gitignore</code> 中指定的文件（如 <code>public</code>）<strong>未被上传</strong>。</li>
+</ul>
+<h1 id="part3-配置-github-actions-workflow">part3: 配置 GitHub Actions Workflow
+</h1><p>(03:10-03:59) <em><strong>3.1: 参考官方与民间方案</strong></em></p>
+<ul>
+<li><strong>提及</strong>：作者自己的博客 (<code>letere-gz.github.io/hugo-stack/</code>) 提供了关于 <strong>Hugo + GitHub</strong> 免费部署的教程文章。</li>
+<li>♈<strong>参考</strong>：查看 <strong>Hugo 官方文档</strong> (<code>gohugo.io</code>) 中关于 <code>Hosting and deployment</code> -&gt; <code>Host on GitHub Pages</code> 的部分。</li>
+<li><strong>发现</strong>：官方文档提供了一个使用 <strong>GitHub Actions</strong> 部署的 <strong>workflow</strong> 示例（<code>Step 6</code> 中的 <code>hugo.yml</code> 文件内容）。</li>
+<li><strong>评价</strong>：作者认为官方提供的 <strong>workflow</strong> 文件内容<strong>很长</strong>，配置起来可能有点<strong>麻烦</strong>。</li>
+</ul>
+<p>(03:59-04:13) <em><strong>3.2: 引入简化版 Workflow</strong></em></p>
+<ul>
+<li><strong>建议</strong>：作者推荐使用一个<strong>民间大佬（peaceiris）<strong>编写和维护的</strong>简化版</strong>的 <strong>GitHub Actions workflow</strong> 配置。</li>
+<li><strong>来源</strong>：该简化配置可以在作者的教程文章中找到（或者直接参考 <code>peaceiris/actions-hugo</code> 和 <code>peaceiris/actions-gh-pages</code> 这两个 Action）。</li>
+<li><strong>优势</strong>：相比官方示例，这个版本<strong>更简洁、更方便</strong>使用。</li>
+</ul>
+<p>(04:13-06:15) <em><strong>3.3: 解析简化版 Workflow 配置</strong></em></p>
+<ul>
+<li><strong>展示</strong>：作者展示了其教程文章中的<strong>简化版 workflow YAML 文件</strong>内容，并逐段解释其含义：
+<ul>
+<li><code>name: deploy</code>: 定义 <strong>Workflow 的名称</strong>，显示在 Actions 列表里。</li>
+<li><code>on: push: branches: [ main ]</code>: 设置<strong>触发条件</strong>，当代码被 <code>push</code> 到 <code>main</code> 分支时，自动执行此 workflow。</li>
+<li><code>jobs: deploy:</code>: 定义一个名为 <code>deploy</code> 的<strong>作业 (job)</strong>。</li>
+<li>♈ <code>runs-on: ubuntu-latest</code>: 指定该作业运行在 <strong>GitHub</strong> 提供的最新版 <strong>Ubuntu</strong> 虚拟环境上。</li>
+<li><code>steps:</code>: 定义该作业包含的一系列<strong>步骤 (step)</strong>。</li>
+<li><code>- name: Checkout</code>: 步骤名称。</li>
+<li><code>uses: actions/checkout@v4</code>: 使用官方提供的 <code>checkout</code> <strong>Action</strong>，将<strong>仓库代码</strong>下载到运行环境中。</li>
+<li><code>with: fetch-depth: 0</code>: <strong>获取</strong>完整的 Git 历史记录（对于 Hugo 可能需要）。</li>
+<li><code>- name: Setup Hugo</code>: 步骤名称。</li>
+<li><code>uses: peaceiris/actions-hugo@v3</code>: 使用 <code>peaceiris</code> 提供的 <code>actions-hugo</code> <strong>Action</strong> 来<strong>安装和设置 Hugo 环境</strong>。</li>
+<li><code>with: hugo-version: 'latest', extended: true</code>: 配置 <code>actions-hugo</code>，指定安装<strong>最新 (latest)</strong> 版本的 Hugo，并且是<strong>扩展 (extended)</strong> 版本（支持 Sass/SCSS）。</li>
+<li><code>- name: Build Web</code>: 步骤名称。</li>
+<li><code>run: hugo -D</code>: <strong>执行 Hugo 命令</strong> (<code>hugo</code> 默认会构建，<code>-D</code> 表示包含草稿内容，但在部署时通常不需要 <code>-D</code>，作者这里可能写错了，通常只用 <code>hugo</code>)，<strong>生成静态网站文件</strong>到 <code>public</code> 目录。</li>
+<li><code>- name: Deploy Web</code>: 步骤名称。</li>
+<li>♈ <code>uses: peaceiris/actions-gh-pages@v4</code>: 使用 <code>peaceiris</code> 提供的 <code>actions-gh-pages</code> <strong>Action</strong>，将构建好的网站<strong>部署到 GitHub Pages</strong>。</li>
+<li><code>with:</code>: 配置 <code>actions-gh-pages</code>。</li>
+<li><code>PERSONAL_TOKEN: ${{ secrets.你的token变量名 }}</code>: <strong>关键配置</strong>，用于<strong>授权</strong> Action 推送代码到目标仓库。需要一个<strong>个人访问令牌 (PAT)</strong>，并将其存储为仓库的 <strong>Secret</strong>。<code>你的token变量名</code> 需要替换成实际设置的 <strong>Secret 名称</strong>。</li>
+<li><code>EXTERNAL_REPOSITORY: 你的github名/你的仓库名</code>: <strong>关键配置</strong>，指定<strong>目标仓库</strong>，即用来<strong>托管 GitHub Pages 的仓库地址</strong>（例如 <code>letere-gz/hugo-dev</code>），<strong>必须修改</strong>为用户自己的 Pages 仓库。</li>
+<li><code>PUBLISH_BRANCH: main</code>: 指定将 <code>public</code> 目录的内容推送到<strong>目标仓库</strong>的哪个<strong>分支</strong>（通常是 <code>gh-pages</code> 或 <code>main</code>，取决于 Pages 设置）。</li>
+<li><code>PUBLISH_DIR: ./public</code>: 指定要<strong>发布</strong>的<strong>目录</strong>，即 Hugo 构建生成的 <code>public</code> 目录。</li>
+<li><code>commit_message: auto deploy</code>: <strong>自动部署</strong>时 Git 提交的<strong>消息</strong>。</li>
+</ul>
+</li>
+</ul>
+<h1 id="part4-创建和配置-personal-access-token-pat">part4: 创建和配置 Personal Access Token (PAT)
+</h1><p>(06:15-06:49) <em><strong>4.1: Token 的作用与必要性</strong></em></p>
+<ul>
+<li><strong>重申</strong>：Workflow 中的 <code>PERSONAL_TOKEN</code> 参数需要填入一个<strong>个人访问令牌 (PAT)</strong>。</li>
+<li><strong>目的</strong>：这个 Token 用于<strong>身份验证</strong>，使得 <strong>GitHub Actions</strong> 有权限将构建好的静态文件推送到<strong>目标 GitHub Pages 仓库</strong>。没有它，推送会因权限不足而失败。</li>
+<li><strong>操作准备</strong>：接下来演示如何生成这个 Token。</li>
+</ul>
+<p>(06:49-08:09) <em><strong>4.2: 生成 Personal Access Token (Classic)</strong></em></p>
+<ul>
+<li><strong>操作路径</strong>：在 <strong>GitHub</strong> 页面，点击右上角个人头像 -&gt; <code>Settings</code> -&gt; 左侧菜单滚动到底部找到 <code>Developer settings</code> -&gt; <code>Personal access tokens</code> -&gt; <code>Tokens (classic)</code>。</li>
+<li><strong>操作</strong>：点击 <code>Generate new token</code> 按钮，选择 <code>Generate new token (classic)</code>。</li>
+<li><strong>配置 Token</strong>：
+<ul>
+<li><code>Note</code>：给 Token 起一个<strong>描述性名称</strong>，例如 “用作部署”。</li>
+<li><code>Expiration</code>：设置<strong>过期时间</strong>。作者<strong>建议选择 <code>No expiration</code>（永不过期）</strong>，理由是避免定期更新 Token 的麻烦。<strong>但也提示</strong> GitHub 出于<strong>安全</strong>考虑<strong>建议</strong>设置过期时间。对于个人私有仓库，作者认为永不过期问题不大。
+♈*   <code>Select scopes</code>：选择 Token 的<strong>权限范围</strong>。<strong>必须勾选</strong>以下两项：
+<ul>
+<li><code>repo</code>：授予对仓库的完全控制权（包括推送）。</li>
+<li><code>workflow</code>：授予更新 GitHub Actions workflow 的权限。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>生成</strong>：点击页面底部的 <code>Generate token</code> 按钮。</li>
+</ul>
+<p>(08:09-08:41) <em><strong>4.3: 保存 Token</strong></em></p>
+<ul>
+<li>♈ <strong>重要提示</strong>：Token 生成后，<strong>完整的 Token 字符串</strong>只会<strong>显示这一次</strong>。<strong>必须立即复制</strong> (<code>Copy</code> 按钮) 并将其<strong>保存</strong>在安全的地方（例如，作者将其粘贴到了本地的记事本文件中）。如果关闭或刷新页面，将<strong>无法再次查看</strong>完整的 Token。</li>
+</ul>
+<p>(08:41-10:19) <em><strong>4.4: 配置 Repository Secret</strong></em></p>
+<ul>
+<li>♈ <strong>目的</strong>：将生成的 Token 安全地提供给 <strong>GitHub Actions workflow</strong> 使用。<strong>不应该</strong>直接将 Token 字符串写入 YAML 文件。</li>
+<li><strong>操作路径</strong>：回到<strong>存放 Hugo 源代码</strong>的仓库（即 <code>hugo-main</code>），进入该仓库的 <code>Settings</code> -&gt; 左侧菜单 <code>Security</code> 下的 <code>Secrets and variables</code> -&gt; <code>Actions</code>。</li>
+<li>♈<strong>操作</strong>：点击 <code>New repository secret</code> 按钮。</li>
+<li><strong>配置 Secret</strong>：
+<ul>
+<li><code>Name</code>：输入 <strong>Secret 的名称</strong>。这个名称<strong>必须</strong>与 workflow YAML 文件中 <code>secrets.</code> 后面引用的名称<strong>完全一致</strong>。作者在这里将其命名为 <code>TOKEN</code>。</li>
+<li><code>Secret</code>：将刚才<strong>复制并保存</strong>的<strong>完整 Token 字符串</strong>粘贴到这里。</li>
+</ul>
+</li>
+<li><strong>保存</strong>：点击 <code>Add secret</code>。</li>
+<li>♈<strong>优点</strong>：使用 <strong>Secrets</strong> 可以<strong>隐藏</strong>敏感信息，workflow 运行时会安全地注入该值，比硬编码在代码中<strong>安全</strong>得多。</li>
+</ul>
+<h1 id="part5-演示自动化部署流程">part5: 演示自动化部署流程
+</h1><p>(10:19-10:31) <em><strong>5.1: 准备 workflow 文件</strong></em></p>
+<ul>
+<li><strong>操作</strong>：回到本地的 Hugo 项目目录（<code>dev</code> 目录）。</li>
+<li><strong>下一步</strong>：需要将包含 workflow 配置的 YAML 文件添加到项目中。</li>
+</ul>
+<p>(10:31-11:29) <em><strong>5.2: 创建并编辑 workflow 文件</strong></em></p>
+<ul>
+<li>♈<strong>操作</strong>：在本地 Hugo 项目根目录下，<strong>创建</strong> <code>.github</code> 文件夹，然后在 <code>.github</code> 文件夹内<strong>创建</strong> <code>workflows</code> 文件夹。</li>
+<li>♈<strong>操作</strong>：在 <code>workflows</code> 文件夹中，<strong>新建</strong>一个 <strong>YAML 文件</strong>，作者将其命名为 <code>hugo_deploy.yaml</code>。</li>
+<li>♈<strong>操作</strong>：使用文本编辑器打开 <code>hugo_deploy.yaml</code> 文件，将之前从教程文章中<strong>复制</strong>的<strong>简化版 workflow</strong> 内容<strong>粘贴</strong>进去。</li>
+</ul>
+<p>(11:29-11:57) <em><strong>5.3: 修改 workflow 文件参数</strong></em></p>
+<ul>
+<li><strong>操作</strong>：在粘贴好的 workflow 内容中，<strong>修改</strong>两个关键的 <code>with</code> 参数：
+<ul>
+<li>♈将 <code>PERSONAL_TOKEN: ${{ secrets.你的token变量名 }}</code> 修改为 <code>PERSONAL_TOKEN: ${{ secrets.TOKEN }}</code>，确保 <code>TOKEN</code> 与上一步创建的 <strong>Repository Secret 名称</strong>一致。</li>
+<li>♈ 将 <code>EXTERNAL_REPOSITORY: 你的github名/你的仓库名</code> 修改为<strong>实际的 GitHub Pages 目标仓库地址</strong>，作者修改为 <code>letere-gz/hugo-dev</code>。</li>
+</ul>
+</li>
+<li><strong>保存</strong>：保存对 <code>hugo_deploy.yaml</code> 文件的修改。</li>
+</ul>
+<p>(11:57-12:47) <em><strong>5.4: 创建新文章验证部署</strong></em></p>
+<ul>
+<li><strong>目的</strong>：为了验证<strong>推送到 <code>main</code> 分支</strong>是否能<strong>自动触发部署</strong>，需要对项目做一些更改，例如<strong>添加一篇新文章</strong>。</li>
+<li><strong>现状</strong>：先查看本地 (<code>localhost:1313</code>) 运行的博客，确认当前的文章列表（只有一个 &ldquo;Chinese Test&rdquo;）。</li>
+</ul>
+<p>(12:47-13:22) <em><strong>5.5: 本地新增文章</strong></em></p>
+<ul>
+<li><strong>操作</strong>：在命令行中，执行 <code>hugo new content post/newnewnew/index.md</code> 命令，在 <code>content/post</code> 目录下创建一个名为 <code>newnewnew</code> 的子目录，并在其中生成 <code>index.md</code> 文件。</li>
+<li><strong>操作</strong>：再次执行 <code>hugo server -D</code> 启动本地服务。</li>
+<li><strong>验证</strong>：访问 <code>localhost:1313</code>，确认名为 <code>Newnewnew</code> 的新文章已成功创建并显示在本地博客首页。</li>
+</ul>
+<p>(13:22-14:03) <em><strong>5.6: 推送更改触发 Action</strong></em></p>
+<ul>
+<li><strong>操作</strong>：在命令行中按 <code>Ctrl+C</code> <strong>停止</strong>本地 <code>hugo server</code>。</li>
+<li><strong>操作</strong>：执行 <strong>Git 命令</strong>将更改推送到远程仓库：
+♈*   <code>git add .</code>：<strong>添加</strong>所有更改（包括新文章 <code>.md</code> 文件和 <code>.github/workflows/hugo_deploy.yaml</code> 文件）。
+♈*   <code>git commit -m &quot;update&quot;</code>：<strong>提交</strong>更改，提交信息为 &ldquo;update&rdquo;。
+♈*   <code>git push</code>：<strong>推送</strong>本地 <code>main</code> 分支的提交到 <strong>GitHub</strong> 上的 <code>hugo-main</code> 仓库。</li>
+</ul>
+<h1 id="part6-验证自动化部署结果与总结">part6: 验证自动化部署结果与总结
+</h1><p>(14:03-14:29) <em><strong>6.1: 观察 Action 执行</strong></em></p>
+<ul>
+<li><strong>操作</strong>：切换回 <strong>GitHub</strong> 网站，进入 <code>hugo-main</code> 仓库的 <code>Actions</code> 标签页。</li>
+<li><strong>观察</strong>：可以看到一个由刚才的 <code>push</code> 事件触发的名为 <code>update</code>（commit 信息）的 <strong>workflow run</strong> 正在执行（黄色图标，<code>in progress</code>）或者已经执行完毕（绿色勾，<code>Success</code>）。</li>
+<li><strong>检查</strong>：点击该 workflow run，可以查看名为 <code>deploy</code> 的 job，再点击进去可以看到详细的<strong>执行步骤和日志</strong>，确认 <code>Checkout</code>, <code>Setup Hugo</code>, <code>Build Web</code>, <code>Deploy Web</code> 等步骤均已<strong>成功完成</strong>。</li>
+</ul>
+<p>(14:29-14:53) <em><strong>6.2: 验证部署结果（首次刷新）</strong></em></p>
+<ul>
+<li><strong>操作</strong>：打开或刷新用于 <strong>GitHub Pages</strong> 托管的<strong>目标网站</strong>（作者的是 <code>https://letere-gz.github.io/hugo-dev/</code>）。</li>
+<li><strong>发现</strong>：<strong>第一次刷新</strong>时，页面上可能<strong>仍然没有</strong>显示新添加的文章 <code>Newnewnew</code>。</li>
+<li><strong>原因</strong>：<strong>GitHub Pages</strong> 的部署和 <strong>CDN 的缓存更新</strong>通常会有一定的<strong>延迟</strong>。</li>
+</ul>
+<p>(14:53-15:10) <em><strong>6.3: 验证部署结果（成功显示）</strong></em></p>
+<ul>
+<li><strong>操作</strong>：<strong>再次刷新</strong> GitHub Pages 网站页面。</li>
+<li><strong>结果</strong>：新添加的文章 <code>Newnewnew</code> <strong>成功出现在了</strong>部署后的网站首页上。</li>
+<li><strong>结论</strong>：这表明 <strong>GitHub Actions</strong> 已经成功地<strong>自动拉取</strong>了 <code>hugo-main</code> 仓库的最新代码，使用 <strong>Hugo</strong> 进行了<strong>构建</strong>，并将生成的 <code>public</code> 目录内容<strong>推送并部署</strong>到了 <code>hugo-dev</code> 这个 <strong>GitHub Pages</strong> 仓库。</li>
+</ul>
+<p>(15:10-15:40) <em><strong>6.4: 总结与结束</strong></em></p>
+<ul>
+<li><strong>总结</strong>：通过以上设置，现在实现了<strong>自动化部署流程</strong>。开发者只需专注于<strong>编写文章</strong> (<code>.md</code> 文件)，完成后执行 <code>git push</code> 将代码推送到源仓库 (<code>hugo-main</code>)。<strong>GitHub Actions</strong> 就会<strong>自动接管</strong>后续的<strong>构建和部署</strong>工作，<strong>无需再手动</strong>处理 <code>public</code> 目录的生成和上传。</li>
+<li><strong>评价</strong>：整个过程变得非常<strong>方便和省心</strong>。</li>
+</ul>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/hugo-stack-dev/tags/%E9%A1%B9%E7%9B%AE%E9%83%A8%E7%BD%B2/">项目部署</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">Related content</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/hugo-stack-dev/p/github-page%E9%83%A8%E7%BD%B2hugo%E5%8D%9A%E5%AE%A2/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">github page部署hugo博客</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/hugo-stack-dev/p/hugo%E5%8D%9A%E5%AE%A2action%E4%BB%A3%E7%A0%81%E9%83%A8%E7%BD%B2action%E4%BB%A3%E7%A0%81%E8%A7%A3%E6%9E%90/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">hugo博客action代码部署：action代码解析</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/hugo-stack-dev/p/hugo%E5%8D%9A%E5%AE%A2action%E4%BB%A3%E7%A0%81%E9%83%A8%E7%BD%B2hugo%E5%8D%9A%E5%AE%A2%E7%9A%84action%E4%BB%A3%E7%A0%81%E6%9C%AC%E4%BD%93/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">hugo博客action代码部署：hugo博客的action代码本体</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/hugo-stack-dev/p/%E6%90%AD%E5%BB%BA%E6%9C%AC%E5%9C%B0hugo%E5%8D%9A%E5%AE%A2/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">搭建本地hugo博客</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/hugo-stack-dev/p/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E5%8F%AA%E6%9C%89%E5%9C%A8%E9%A1%B9%E7%9B%AE%E7%9A%84%E6%9E%84%E5%BB%BA%E7%9A%84%E8%BF%87%E7%A8%8B%E4%B8%AD%E4%BD%BF%E7%94%A8/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">环境变量只有在项目的构建的过程中使用</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "hugo-theme-stack" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (typeof DISQUS == 'object') {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2025 Example Person
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.30.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/hugo-stack-dev/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

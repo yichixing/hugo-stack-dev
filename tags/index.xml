@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Tags on 个人笔记博客</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/tags/</link>
+        <description>Recent content in Tags on 个人笔记博客</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>Example Person</copyright>
+        <lastBuildDate>Thu, 20 Feb 2025 20:14:22 +0800</lastBuildDate><atom:link href="https://yichixing.github.io/hugo-stack-dev/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>AI使用技巧</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/tags/ai%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/</link>
+        <pubDate>Thu, 20 Feb 2025 20:14:22 +0800</pubDate>
+        
+        <guid>https://yichixing.github.io/hugo-stack-dev/tags/ai%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>用AI编程独立开MCP服务</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E7%94%A8ai%E7%BC%96%E7%A8%8B%E7%8B%AC%E7%AB%8B%E5%BC%80mcp%E6%9C%8D%E5%8A%A1/</link>
+        <pubDate>Thu, 20 Feb 2025 20:14:22 +0800</pubDate>
+        
+        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E7%94%A8ai%E7%BC%96%E7%A8%8B%E7%8B%AC%E7%AB%8B%E5%BC%80mcp%E6%9C%8D%E5%8A%A1/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>配置文件的参数baseURL</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E7%9A%84%E5%8F%82%E6%95%B0baseurl/</link>
+        <pubDate>Thu, 20 Feb 2025 20:14:22 +0800</pubDate>
+        
+        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E7%9A%84%E5%8F%82%E6%95%B0baseurl/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>项目部署</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E9%A1%B9%E7%9B%AE%E9%83%A8%E7%BD%B2/</link>
+        <pubDate>Thu, 20 Feb 2025 20:14:22 +0800</pubDate>
+        
+        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E9%A1%B9%E7%9B%AE%E9%83%A8%E7%BD%B2/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Github Action的作用</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/tags/github-action%E7%9A%84%E4%BD%9C%E7%94%A8/</link>
+        <pubDate>Tue, 20 Feb 2024 20:14:22 +0800</pubDate>
+        
+        <guid>https://yichixing.github.io/hugo-stack-dev/tags/github-action%E7%9A%84%E4%BD%9C%E7%94%A8/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Github配置</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/tags/github%E9%85%8D%E7%BD%AE/</link>
+        <pubDate>Mon, 20 Feb 2023 20:14:22 +0800</pubDate>
+        
+        <guid>https://yichixing.github.io/hugo-stack-dev/tags/github%E9%85%8D%E7%BD%AE/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Github项目配置</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/tags/github%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE/</link>
+        <pubDate>Mon, 20 Feb 2023 20:14:22 +0800</pubDate>
+        
+        <guid>https://yichixing.github.io/hugo-stack-dev/tags/github%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Css</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/tags/css/</link>
+        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://yichixing.github.io/hugo-stack-dev/tags/css/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Html</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/tags/html/</link>
+        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://yichixing.github.io/hugo-stack-dev/tags/html/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Markdown</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/tags/markdown/</link>
+        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://yichixing.github.io/hugo-stack-dev/tags/markdown/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Themes</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/tags/themes/</link>
+        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://yichixing.github.io/hugo-stack-dev/tags/themes/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Tag With Whitespaces</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/tags/tag-with-whitespaces/</link>
+        <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://yichixing.github.io/hugo-stack-dev/tags/tag-with-whitespaces/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Text</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/tags/text/</link>
+        <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://yichixing.github.io/hugo-stack-dev/tags/text/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Emoji</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/tags/emoji/</link>
+        <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://yichixing.github.io/hugo-stack-dev/tags/emoji/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>
