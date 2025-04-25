@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://yichixing.github.io/hugo-stack-dev/p/%E4%BD%BF%E7%94%A8github-action%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2hugo%E5%8D%9A%E5%AE%A2%E5%88%B0page%E4%BB%93%E5%BA%93/'>
 
-<link rel="stylesheet" href="/hugo-stack-dev/scss/style.min.f6cbf7b6c62e546de49fecd71995cb61699407909599bd62d7d45ee6cb108754.css"><meta property='og:title' content="使用github-action自动部署hugo博客到“page”仓库">
+<link rel="stylesheet" href="/hugo-stack-dev/scss/style.min.8988d17e9d548c32e35a7d7a314fd3e83a5a78e8d95f938197b99d858c8a7280.css"><meta property='og:title' content="使用github-action自动部署hugo博客到“page”仓库">
 <meta property='og:description' content="part1: 介绍 GitHub Action 自动化部署 Hugo 博客 (00:00-00:09) 1.1: 介绍目标\n视频开篇展示了一个本地运行的 Hugo 博客 (localhost:1313)。 目标是向大家介绍如何通过 GitHub 的 GitHub Actions 功能来自动部署博客。 (00:09-00:32) 1.2: 手动部署痛点与自动化优势\n♈指出传统方式下，每次修改完文件后，都需要手动将生成的 public 文件夹上传到服务器或托管平台，这个过程比较麻烦。 ♈使用 GitHub Actions 可以实现自动化：自动帮我们生成 public 目录，并将其部署到静态页面网站（如 GitHub Pages）。 ♈优点：只需提交代码 (git push)，后续的构建和部署过程就能自动完成，方便很多。 part2: 创建 GitHub 仓库并推送 Hugo 源码 (00:32-00:41) 2.1: 创建仓库准备\n要实现自动化部署，首先需要一个 GitHub 仓库来存放 Hugo 项目的主文件（源代码）。 操作：导航到 GitHub 网站，准备创建一个新的仓库。 (00:41-01:12) 2.2: 创建私有仓库\n在 GitHub 创建新仓库页面（经历短暂的网络卡顿后），设置仓库信息： 仓库名：hugo-main 可见性：建议选择私有（Private），因为源代码一般不需要公开。 操作：点击 Create repository 完成创建。 (01:12-01:24) 2.3: 上传文件准备\n仓库创建完成后，需要将本地的 Hugo 项目文件上传到这个新仓库。 关键点：上传前需要注意忽略掉一些不需要版本控制的文件。 (01:24-02:04) 2.4: 配置 .gitignore 忽略生成文件\n">
 <meta property='og:url' content='https://yichixing.github.io/hugo-stack-dev/p/%E4%BD%BF%E7%94%A8github-action%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2hugo%E5%8D%9A%E5%AE%A2%E5%88%B0page%E4%BB%93%E5%BA%93/'>
 <meta property='og:site_name' content='个人笔记博客'>
@@ -216,6 +216,17 @@
             </a>
         </li>
         
+
+        
+        <li class="static-categories-link">
+            <a href='/hugo-stack-dev/categories2/'>
+                <?xml version="1.0" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" width="128" height="128" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22,4.7V9a1,1,0,0,1-1,1H13a1,1,0,0,1-1-1V7H4V17h8V15a1,1,0,0,1,1-1h4a1,1,0,0,1,.884.532L18.5,15.7H21a1,1,0,0,1,1,1V21a1,1,0,0,1-1,1H13a1,1,0,0,1-1-1V19H3a1,1,0,0,1-1-1V3A1,1,0,0,1,4,3V5h8V3a1,1,0,0,1,1-1h4a1,1,0,0,1,.884.532L18.5,3.7H21A1,1,0,0,1,22,4.7Z"/></svg>  
+                <span>Categories</span> 
+            </a>
+        </li>
+        
+
         <li class="menu-bottom-section">
             <ol class="menu">
                     
@@ -268,8 +279,7 @@
             </ol>
         </li>
     </ol>
-</aside>
-
+</aside> 
     
 
             <main class="main full-width">

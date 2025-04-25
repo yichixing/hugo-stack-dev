@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://yichixing.github.io/hugo-stack-dev/p/github%E9%85%8D%E7%BD%AE1-%E4%BD%BF%E7%94%A8.gitignore%E7%9A%84%E6%84%8F%E4%B9%89/'>
 
-<link rel="stylesheet" href="/hugo-stack-dev/scss/style.min.f6cbf7b6c62e546de49fecd71995cb61699407909599bd62d7d45ee6cb108754.css"><meta property='og:title' content="github配置：1 使用.gitignore的意义">
+<link rel="stylesheet" href="/hugo-stack-dev/scss/style.min.8988d17e9d548c32e35a7d7a314fd3e83a5a78e8d95f938197b99d858c8a7280.css"><meta property='og:title' content="github配置：1 使用.gitignore的意义">
 <meta property='og:description' content="(01:24-02:04) 2.4: 配置 .gitignore 忽略生成文件\n说明：Hugo 项目中的某些文件/目录是自动生成的，不应该提交到源代码仓库，包括： public/：Hugo 生成的静态网站文件目录。 resources/：Hugo 处理后的资源缓存目录。 hugo.build.lock：构建锁文件。 hugo.exe：（如果在 Windows 下）Hugo 可执行文件本身。 ♈ 操作：在本地 Hugo 项目根目录下，创建一个名为 .gitignore 的文件。 ♈操作：编辑 .gitignore 文件，将上述需要忽略的文件名或目录名（如 public, resources, hugo.build.lock, hugo.exe）添加进去，每行一个。 ♈目的：保证上传到 GitHub 的是最干净、最原始的 Hugo 项目文件。 《♓目的就是不要让静态资源污染源码，因为hugo-main是源代码仓库，源代码仓库不负责展示github page，只负责运行action得到静态资源给其它部署仓库hugo-dev，所以没必要把多余的静态资源上传到hugo-main，反正在hugo-main展示这些静态资源》 &lt;git add .：添加所有文件到暂存区（♎.gitignore 会生效，忽略指定文件）。&gt; ">
 <meta property='og:url' content='https://yichixing.github.io/hugo-stack-dev/p/github%E9%85%8D%E7%BD%AE1-%E4%BD%BF%E7%94%A8.gitignore%E7%9A%84%E6%84%8F%E4%B9%89/'>
 <meta property='og:site_name' content='个人笔记博客'>
@@ -216,6 +216,17 @@
             </a>
         </li>
         
+
+        
+        <li class="static-categories-link">
+            <a href='/hugo-stack-dev/categories2/'>
+                <?xml version="1.0" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" width="128" height="128" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22,4.7V9a1,1,0,0,1-1,1H13a1,1,0,0,1-1-1V7H4V17h8V15a1,1,0,0,1,1-1h4a1,1,0,0,1,.884.532L18.5,15.7H21a1,1,0,0,1,1,1V21a1,1,0,0,1-1,1H13a1,1,0,0,1-1-1V19H3a1,1,0,0,1-1-1V3A1,1,0,0,1,4,3V5h8V3a1,1,0,0,1,1-1h4a1,1,0,0,1,.884.532L18.5,3.7H21A1,1,0,0,1,22,4.7Z"/></svg>  
+                <span>Categories</span> 
+            </a>
+        </li>
+        
+
         <li class="menu-bottom-section">
             <ol class="menu">
                     
@@ -268,8 +279,7 @@
             </ol>
         </li>
     </ol>
-</aside>
-
+</aside> 
     
 
             <main class="main full-width">

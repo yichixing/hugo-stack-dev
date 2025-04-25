@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://yichixing.github.io/hugo-stack-dev/p/github%E9%85%8D%E7%BD%AE2-github-pull-%E4%B8%8E-github-pushpull%E5%AF%B9%E5%88%86%E6%94%AF%E5%90%8E%E6%89%8D%E8%83%BD%E7%94%A8push/'>
 
-<link rel="stylesheet" href="/hugo-stack-dev/scss/style.min.f6cbf7b6c62e546de49fecd71995cb61699407909599bd62d7d45ee6cb108754.css"><meta property='og:title' content="github配置：2 github pull 与 github push，pull对分支后才能用push">
+<link rel="stylesheet" href="/hugo-stack-dev/scss/style.min.8988d17e9d548c32e35a7d7a314fd3e83a5a78e8d95f938197b99d858c8a7280.css"><meta property='og:title' content="github配置：2 github pull 与 github push，pull对分支后才能用push">
 <meta property='og:description' content="[0 检查当前分支的跟踪关系] &lt;命令：git status；因为如果追踪错误，那么我想要push推送到我想要的分支很可能失败，因为追踪错误的缘故，pull的是其它的分支，因此我想要的分支就没法push了&gt;\n[1 取消本地 main 分支对 所有分支 的跟踪] &lt;命令：git branch &ndash;unset-upstream&gt;\n[[[[2 指定pull拉取main的分支（为了push到main，只能强制指定要拉取main分支）] 《命令：git pull origin main》\n[[[[3 pull拉取了main分支后 就能push推送到main分支了] &lt;命令：git push -u origin main&gt;\n">
 <meta property='og:url' content='https://yichixing.github.io/hugo-stack-dev/p/github%E9%85%8D%E7%BD%AE2-github-pull-%E4%B8%8E-github-pushpull%E5%AF%B9%E5%88%86%E6%94%AF%E5%90%8E%E6%89%8D%E8%83%BD%E7%94%A8push/'>
 <meta property='og:site_name' content='个人笔记博客'>
@@ -216,6 +216,17 @@
             </a>
         </li>
         
+
+        
+        <li class="static-categories-link">
+            <a href='/hugo-stack-dev/categories2/'>
+                <?xml version="1.0" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" width="128" height="128" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22,4.7V9a1,1,0,0,1-1,1H13a1,1,0,0,1-1-1V7H4V17h8V15a1,1,0,0,1,1-1h4a1,1,0,0,1,.884.532L18.5,15.7H21a1,1,0,0,1,1,1V21a1,1,0,0,1-1,1H13a1,1,0,0,1-1-1V19H3a1,1,0,0,1-1-1V3A1,1,0,0,1,4,3V5h8V3a1,1,0,0,1,1-1h4a1,1,0,0,1,.884.532L18.5,3.7H21A1,1,0,0,1,22,4.7Z"/></svg>  
+                <span>Categories</span> 
+            </a>
+        </li>
+        
+
         <li class="menu-bottom-section">
             <ol class="menu">
                     
@@ -268,8 +279,7 @@
             </ol>
         </li>
     </ol>
-</aside>
-
+</aside> 
     
 
             <main class="main full-width">

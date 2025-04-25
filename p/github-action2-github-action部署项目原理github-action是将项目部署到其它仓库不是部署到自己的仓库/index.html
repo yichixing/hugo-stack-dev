@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://yichixing.github.io/hugo-stack-dev/p/github-action2-github-action%E9%83%A8%E7%BD%B2%E9%A1%B9%E7%9B%AE%E5%8E%9F%E7%90%86github-action%E6%98%AF%E5%B0%86%E9%A1%B9%E7%9B%AE%E9%83%A8%E7%BD%B2%E5%88%B0%E5%85%B6%E5%AE%83%E4%BB%93%E5%BA%93%E4%B8%8D%E6%98%AF%E9%83%A8%E7%BD%B2%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BB%93%E5%BA%93/'>
 
-<link rel="stylesheet" href="/hugo-stack-dev/scss/style.min.f6cbf7b6c62e546de49fecd71995cb61699407909599bd62d7d45ee6cb108754.css"><meta property='og:title' content="github action：2 github action部署项目原理：github action是将项目部署到其它仓库，不是部署到自己的仓库">
+<link rel="stylesheet" href="/hugo-stack-dev/scss/style.min.8988d17e9d548c32e35a7d7a314fd3e83a5a78e8d95f938197b99d858c8a7280.css"><meta property='og:title' content="github action：2 github action部署项目原理：github action是将项目部署到其它仓库，不是部署到自己的仓库">
 <meta property='og:description' content="(08:41-10:19) 4.4: 配置 Repository Secret\n♈ 目的：将生成的 Token 安全地提供给 GitHub Actions workflow 使用。不应该直接将 Token 字符串写入 YAML 文件。 操作路径：回到♎♐存放 Hugo 源代码的仓库（即 hugo-main），进入该仓库的 Settings -&gt; 左侧菜单 Security 下的 Secrets and variables -&gt; Actions。 ♈操作：点击 New repository secret 按钮。 配置 Secret： Name：输入 Secret 的名称。这个名称必须与 workflow YAML 文件中 secrets. 后面引用的名称完全一致。作者在这里将其命名为 TOKEN。 Secret：将刚才复制并保存的完整 Token 字符串粘贴到这里。 保存：点击 Add secret。 ♈优点：使用 Secrets 可以隐藏敏感信息，workflow 运行时会安全地注入该值，比硬编码在代码中安全得多 [[[[[使用aciton后将分源代码仓库和静态页面仓库 ]https://aistudio.google.com/prompts/1dv1SBgRsYgFBSgYe1Dseg0dyYouTZ3_P 《《《hugo-main 仓库 (源代码仓库)，专门用来提交项目源码的仓库，以及用来运行action的仓库，不需要开启github page的功能，所以hugo-main仓库不需要公开，也不需要把静态资源上传到这仓库上》 《《《hugo-dev 仓库 (部署目标/静态页面仓库)，hugo-main运行action后生成的静态资源文件所推送到的仓库，是存放最终网站文件并对外提供访问的地方，它是自动化流程的终点/发布目标，因此我们在仓库开启github page功能》 《《《aciton中的参数 EXTERNAL_REPOSITORY: letere-gz/hugo-dev 就是用来 明确指定了main仓库部署的目标是这个dev仓库。》\n">
 <meta property='og:url' content='https://yichixing.github.io/hugo-stack-dev/p/github-action2-github-action%E9%83%A8%E7%BD%B2%E9%A1%B9%E7%9B%AE%E5%8E%9F%E7%90%86github-action%E6%98%AF%E5%B0%86%E9%A1%B9%E7%9B%AE%E9%83%A8%E7%BD%B2%E5%88%B0%E5%85%B6%E5%AE%83%E4%BB%93%E5%BA%93%E4%B8%8D%E6%98%AF%E9%83%A8%E7%BD%B2%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BB%93%E5%BA%93/'>
 <meta property='og:site_name' content='个人笔记博客'>
@@ -216,6 +216,17 @@
             </a>
         </li>
         
+
+        
+        <li class="static-categories-link">
+            <a href='/hugo-stack-dev/categories2/'>
+                <?xml version="1.0" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" width="128" height="128" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22,4.7V9a1,1,0,0,1-1,1H13a1,1,0,0,1-1-1V7H4V17h8V15a1,1,0,0,1,1-1h4a1,1,0,0,1,.884.532L18.5,15.7H21a1,1,0,0,1,1,1V21a1,1,0,0,1-1,1H13a1,1,0,0,1-1-1V19H3a1,1,0,0,1-1-1V3A1,1,0,0,1,4,3V5h8V3a1,1,0,0,1,1-1h4a1,1,0,0,1,.884.532L18.5,3.7H21A1,1,0,0,1,22,4.7Z"/></svg>  
+                <span>Categories</span> 
+            </a>
+        </li>
+        
+
         <li class="menu-bottom-section">
             <ol class="menu">
                     
@@ -268,8 +279,7 @@
             </ol>
         </li>
     </ol>
-</aside>
-
+</aside> 
     
 
             <main class="main full-width">

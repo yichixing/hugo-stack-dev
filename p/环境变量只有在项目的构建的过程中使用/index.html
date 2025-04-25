@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://yichixing.github.io/hugo-stack-dev/p/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E5%8F%AA%E6%9C%89%E5%9C%A8%E9%A1%B9%E7%9B%AE%E7%9A%84%E6%9E%84%E5%BB%BA%E7%9A%84%E8%BF%87%E7%A8%8B%E4%B8%AD%E4%BD%BF%E7%94%A8/'>
 
-<link rel="stylesheet" href="/hugo-stack-dev/scss/style.min.f6cbf7b6c62e546de49fecd71995cb61699407909599bd62d7d45ee6cb108754.css"><meta property='og:title' content="环境变量只有在项目的构建的过程中使用">
+<link rel="stylesheet" href="/hugo-stack-dev/scss/style.min.8988d17e9d548c32e35a7d7a314fd3e83a5a78e8d95f938197b99d858c8a7280.css"><meta property='og:title' content="环境变量只有在项目的构建的过程中使用">
 <meta property='og:description' content="Cloudflare Pages 连接到 hugo-Fixlt-dev 仓库时，♈Cloudflare Pages 默认是直接托管该仓库中的 静态文件 ，♈它 不会 重新运行 hugo 构建命令。\n因此，♈你在 Cloudflare Pages 设置的环境变量 HUGO_BASEURL 在这个流程中 根本没有机会 被 Hugo 构建过程使用，因为它是在 Action（ hugo-main 仓库中）构建完成 之后 才接触到这些文件的。♈静态文件一旦生成，里面的绝对 URL 就已经固定了\n比如，♈GitHub Action 在构建时使用了固定的 baseURL （例如 GitHub Pages 的 URL），生成的 HTML/CSS/JS 文件中的链接都是指向这个 URL 的绝对路径。\n因此当 Cloudflare Pages 直接提供这些预先构建好的文件时，这些绝对路径对于 Cloudflare 的域名来说是错误的，导致资源加载失败\n">
 <meta property='og:url' content='https://yichixing.github.io/hugo-stack-dev/p/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E5%8F%AA%E6%9C%89%E5%9C%A8%E9%A1%B9%E7%9B%AE%E7%9A%84%E6%9E%84%E5%BB%BA%E7%9A%84%E8%BF%87%E7%A8%8B%E4%B8%AD%E4%BD%BF%E7%94%A8/'>
 <meta property='og:site_name' content='个人笔记博客'>
@@ -216,6 +216,17 @@
             </a>
         </li>
         
+
+        
+        <li class="static-categories-link">
+            <a href='/hugo-stack-dev/categories2/'>
+                <?xml version="1.0" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" width="128" height="128" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22,4.7V9a1,1,0,0,1-1,1H13a1,1,0,0,1-1-1V7H4V17h8V15a1,1,0,0,1,1-1h4a1,1,0,0,1,.884.532L18.5,15.7H21a1,1,0,0,1,1,1V21a1,1,0,0,1-1,1H13a1,1,0,0,1-1-1V19H3a1,1,0,0,1-1-1V3A1,1,0,0,1,4,3V5h8V3a1,1,0,0,1,1-1h4a1,1,0,0,1,.884.532L18.5,3.7H21A1,1,0,0,1,22,4.7Z"/></svg>  
+                <span>Categories</span> 
+            </a>
+        </li>
+        
+
         <li class="menu-bottom-section">
             <ol class="menu">
                     
@@ -268,8 +279,7 @@
             </ol>
         </li>
     </ol>
-</aside>
-
+</aside> 
     
 
             <main class="main full-width">
