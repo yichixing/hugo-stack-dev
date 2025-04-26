@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Next.js on 个人笔记博客</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/tags/next.js/</link>
+        <description>Recent content in Next.js on 个人笔记博客</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>Example Person</copyright>
+        <lastBuildDate>Tue, 11 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yichixing.github.io/hugo-stack-dev/tags/next.js/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>全流程项目构建到部署_穷鬼套餐版</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/p/%E5%85%A8%E6%B5%81%E7%A8%8B%E9%A1%B9%E7%9B%AE%E6%9E%84%E5%BB%BA%E5%88%B0%E9%83%A8%E7%BD%B2_%E7%A9%B7%E9%AC%BC%E5%A5%97%E9%A4%90%E7%89%88/</link>
+        <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://yichixing.github.io/hugo-stack-dev/p/%E5%85%A8%E6%B5%81%E7%A8%8B%E9%A1%B9%E7%9B%AE%E6%9E%84%E5%BB%BA%E5%88%B0%E9%83%A8%E7%BD%B2_%E7%A9%B7%E9%AC%BC%E5%A5%97%E9%A4%90%E7%89%88/</guid>
+        <description>&lt;p&gt;༺https://aistudio.google.com/prompts/111ysUKgf9_PR3y4WpkPTJiuEsCHn5DcG ༻&lt;/p&gt;
+&lt;h1 id=&#34;part1-独立开发者穷鬼套餐介绍&#34;&gt;part1: 独立开发者穷鬼套餐介绍
+&lt;/h1&gt;&lt;p&gt;(0:00-0:06) &lt;em&gt;&lt;strong&gt;1.1: 论坛热门话题：独立开发者穷鬼套餐&lt;/strong&gt;&lt;/em&gt;
+视频开头提到，在&lt;strong&gt;技术论坛&lt;/strong&gt;中经常看到一个有趣的话题，即**&amp;ldquo;独立开发者省钱之穷鬼套餐&amp;rdquo;**。&lt;/p&gt;
+&lt;p&gt;(0:06-0:13) &lt;em&gt;&lt;strong&gt;1.2: 穷鬼套餐覆盖范围&lt;/strong&gt;&lt;/em&gt;
+这些&lt;strong&gt;免费工具&lt;/strong&gt;涵盖了&lt;strong&gt;开发&lt;/strong&gt;、&lt;strong&gt;代码托管&lt;/strong&gt;、&lt;strong&gt;前后端部署&lt;/strong&gt;、&lt;strong&gt;数据库&lt;/strong&gt;以及&lt;strong&gt;用户行为分析&lt;/strong&gt;等一系列功能。&lt;/p&gt;
+&lt;p&gt;(0:13-0:17) &lt;em&gt;&lt;strong&gt;1.3: 适用人群&lt;/strong&gt;&lt;/em&gt;
+这种套餐&lt;strong&gt;尤其适合学生党&lt;/strong&gt;、&lt;strong&gt;独立开发者&lt;/strong&gt;以及&lt;strong&gt;初创公司&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;(0:17-0:24) &lt;em&gt;&lt;strong&gt;1.4: 零成本启动与迭代&lt;/strong&gt;&lt;/em&gt;
+开发者可以利用这些&lt;strong&gt;免费工具&lt;/strong&gt;，&lt;strong&gt;零成本&lt;/strong&gt;做出&lt;strong&gt;产品&lt;/strong&gt;并&lt;strong&gt;发布上线&lt;/strong&gt;，等到开始&lt;strong&gt;盈利&lt;/strong&gt;以后再&lt;strong&gt;慢慢迭代扩容&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;(0:24-0:34) &lt;em&gt;&lt;strong&gt;1.5: 本期视频目标&lt;/strong&gt;&lt;/em&gt;
+本期视频准备用一个&lt;strong&gt;小项目&lt;/strong&gt;（贪吃蛇游戏）把这些&lt;strong&gt;免费的工具&lt;/strong&gt;全部&lt;strong&gt;串联起来&lt;/strong&gt;，展示如何&lt;strong&gt;不花一分钱&lt;/strong&gt;就能&lt;strong&gt;上线一个可以赚钱的业务应用&lt;/strong&gt;。&lt;/p&gt;
+&lt;h1 id=&#34;part2-技术选型&#34;&gt;part2: 技术选型
+&lt;/h1&gt;&lt;p&gt;(0:34-0:40) &lt;em&gt;&lt;strong&gt;2.1: 后端部署成本最低方案：Node.js&lt;/strong&gt;&lt;/em&gt;
+作者认为，对于&lt;strong&gt;后端&lt;/strong&gt;，&lt;strong&gt;部署成本最低&lt;/strong&gt;的方案是 &lt;strong&gt;Node.js&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;(0:40-0:51) &lt;em&gt;&lt;strong&gt;2.2: Node.js 优势：Serverless Function&lt;/strong&gt;&lt;/em&gt;
+原因是 ♋&lt;strong&gt;Node.js&lt;/strong&gt; 可以很轻松地改造成 &lt;strong&gt;Serverless Function&lt;/strong&gt;（&lt;strong&gt;无服务器函数&lt;/strong&gt;）。现在很多平台提供&lt;strong&gt;免费的云函数部署服务&lt;/strong&gt;，♐例如 &lt;strong&gt;Cloudflare Worker&lt;/strong&gt;、&lt;strong&gt;Vercel&lt;/strong&gt; 和 &lt;strong&gt;Netlify&lt;/strong&gt; 等。&lt;/p&gt;
+&lt;p&gt;(0:51-0:56) &lt;em&gt;&lt;strong&gt;2.3: 前端选型：影响不大&lt;/strong&gt;&lt;/em&gt;
+对于&lt;strong&gt;前端&lt;/strong&gt;选型，作者认为其对于&lt;strong&gt;部署成本几乎没有影响&lt;/strong&gt;，选择自己喜欢的就好。&lt;/p&gt;
+&lt;p&gt;(0:56-1:04) &lt;em&gt;&lt;strong&gt;2.4: 前端推荐：React 与 React Native&lt;/strong&gt;&lt;/em&gt;
+推荐使用 &lt;strong&gt;React&lt;/strong&gt;，因为&lt;strong&gt;后续&lt;/strong&gt;还可以使用 &lt;strong&gt;React Native&lt;/strong&gt; 改造成&lt;strong&gt;跨端的手机应用&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;(1:04-1:10) &lt;em&gt;&lt;strong&gt;2.5: ♈框架选择：Next.js&lt;/strong&gt;&lt;/em&gt;
+♋结合&lt;strong&gt;后端 Node.js&lt;/strong&gt; 和&lt;strong&gt;前端 React&lt;/strong&gt;，很自然会想到 &lt;strong&gt;Next.js&lt;/strong&gt;，这是一个在&lt;strong&gt;海外十分流行&lt;/strong&gt;的&lt;strong&gt;开发框架&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;(1:10-1:18) &lt;em&gt;&lt;strong&gt;2.6: Next.js 优势：SEO 友好&lt;/strong&gt;&lt;/em&gt;
+&lt;strong&gt;Next.js&lt;/strong&gt; 具有 &lt;strong&gt;SEO 友好&lt;/strong&gt;的特点，使得网站更容易被&lt;strong&gt;搜索引擎收录&lt;/strong&gt;。它结合了&lt;strong&gt;客户端（Client）渲染&lt;/strong&gt;和&lt;strong&gt;服务器端（Server）渲染&lt;/strong&gt;（&lt;strong&gt;SSR/Static HTML&lt;/strong&gt;）的能力。&lt;/p&gt;
+&lt;p&gt;(1:18-1:24) &lt;em&gt;&lt;strong&gt;2.7: 本期项目选择与 AI 辅助&lt;/strong&gt;&lt;/em&gt;
+本期视频决定使用 &lt;strong&gt;Next.js&lt;/strong&gt; 来&lt;strong&gt;搭建工程&lt;/strong&gt;。由于作者对 &lt;strong&gt;Next.js&lt;/strong&gt; 不太熟悉，计划将&lt;strong&gt;主要的开发任务交给 AI&lt;/strong&gt; 来完成。&lt;/p&gt;
+&lt;h1 id=&#34;part3-ai开发工具与项目初始化&#34;&gt;part3: AI开发工具与项目初始化
+&lt;/h1&gt;&lt;p&gt;(1:24-1:35) &lt;em&gt;&lt;strong&gt;3.1: 推荐免费AI编程方案 (VSCode + Cline + OpenRouter)&lt;/strong&gt;&lt;/em&gt;
+推荐一个&lt;strong&gt;完全免费&lt;/strong&gt;的 &lt;strong&gt;AI 编程方案&lt;/strong&gt;：在 &lt;strong&gt;VS Code&lt;/strong&gt; 上使用 &lt;strong&gt;Cline&lt;/strong&gt; 插件，并接入 &lt;strong&gt;OpenRouter&lt;/strong&gt; 的&lt;strong&gt;免费 API&lt;/strong&gt;，以达到&lt;strong&gt;非常好的 AI 编程效果&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;(1:35-1:44) &lt;em&gt;&lt;strong&gt;3.2: 安装VSCode&lt;/strong&gt;&lt;/em&gt;
+首先访问 &lt;code&gt;code.visualstudio.com&lt;/code&gt;，&lt;strong&gt;下载&lt;/strong&gt;并&lt;strong&gt;安装 VS Code&lt;/strong&gt;。安装过程十分简单，&lt;strong&gt;一路点击下一步&lt;/strong&gt;即可。&lt;/p&gt;
+&lt;p&gt;(1:44-1:47) &lt;em&gt;&lt;strong&gt;3.3: VSCode 基础使用参考&lt;/strong&gt;&lt;/em&gt;
+作者提到之前有一个&lt;strong&gt;完整视频&lt;/strong&gt;介绍 &lt;strong&gt;VS Code&lt;/strong&gt; 的&lt;strong&gt;使用&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;(1:47-1:56) &lt;em&gt;&lt;strong&gt;3.4: 安装与配置Cline插件&lt;/strong&gt;&lt;/em&gt;
+进入 &lt;strong&gt;VS Code&lt;/strong&gt; 后，在&lt;strong&gt;扩展市场&lt;/strong&gt;搜索 &lt;strong&gt;Cline&lt;/strong&gt; 插件，点击 &lt;strong&gt;Install&lt;/strong&gt; 进行安装。&lt;/p&gt;
+&lt;p&gt;(1:56-2:05) &lt;em&gt;&lt;strong&gt;3.5: 获取 OpenRouter API Key&lt;/strong&gt;&lt;/em&gt;
+打开 &lt;strong&gt;Cline&lt;/strong&gt; 插件界面，选择 &lt;strong&gt;&amp;ldquo;Use your own API key&amp;rdquo;&lt;/strong&gt;，API Provider 选择 &lt;strong&gt;OpenRouter&lt;/strong&gt;，然后点击 &lt;strong&gt;&amp;ldquo;Get OpenRouter API Key&amp;rdquo;&lt;/strong&gt; 按钮。&lt;/p&gt;
+&lt;p&gt;(2:05-2:10) &lt;em&gt;&lt;strong&gt;3.6: OpenRouter授权&lt;/strong&gt;&lt;/em&gt;
+跳转到 &lt;strong&gt;OpenRouter&lt;/strong&gt; 网站进行&lt;strong&gt;授权&lt;/strong&gt;（该网站在&lt;strong&gt;国内可以直连&lt;/strong&gt;），如果没有账号需要先&lt;strong&gt;注册&lt;/strong&gt;。点击 &lt;strong&gt;Authorize&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;(2:10-2:23) &lt;em&gt;&lt;strong&gt;3.7: 完成Cline模型选择 (DeepSeek)&lt;/strong&gt;&lt;/em&gt;
+回到 &lt;strong&gt;VS Code&lt;/strong&gt;，点击 &lt;strong&gt;Open&lt;/strong&gt; 允许插件打开 URI。这样 &lt;strong&gt;OpenRouter API key&lt;/strong&gt; 就配置好了。在 &lt;strong&gt;Model&lt;/strong&gt; 选择处，搜索并选择&lt;strong&gt;免费&lt;/strong&gt;的 &lt;strong&gt;DeepSeek free&lt;/strong&gt; 模型（&lt;code&gt;deepseek/deepseek-chat-v3-0324-free&lt;/code&gt;）。&lt;strong&gt;AI 编程软件&lt;/strong&gt;配置完成。&lt;/p&gt;
+&lt;p&gt;(2:23-2:30) &lt;em&gt;&lt;strong&gt;3.8: 安装Node.js&lt;/strong&gt;&lt;/em&gt;
+♈访问 &lt;strong&gt;Node.js&lt;/strong&gt; 官网 (&lt;code&gt;nodejs.org&lt;/code&gt;)，&lt;strong&gt;下载&lt;/strong&gt;并&lt;strong&gt;安装 Node.js&lt;/strong&gt;（LTS 版本）。安装过程同样是&lt;strong&gt;一路点击下一步&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;(2:30-2:54) &lt;em&gt;&lt;strong&gt;3.9: ♈ 创建Next.js项目 (Snake)&lt;/strong&gt;&lt;/em&gt;
+&lt;strong&gt;♓安装完 Node.js 后&lt;/strong&gt;，&lt;strong&gt;♓重启 VS Code&lt;/strong&gt;。打开一个新的&lt;strong&gt;终端（Terminal）&lt;/strong&gt;，&lt;strong&gt;切换&lt;/strong&gt;到&lt;strong&gt;目标项目文件夹&lt;/strong&gt;（例如 &lt;code&gt;D:\Project2025&lt;/code&gt;）。♋输入命令 &lt;code&gt;npx create-next-app&lt;/code&gt; 并按回车。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;项目命名：&lt;/strong&gt; 输入 &lt;code&gt;snake&lt;/code&gt;（贪吃蛇）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;配置选项：&lt;/strong&gt; 对于 &lt;strong&gt;TypeScript&lt;/strong&gt;, &lt;strong&gt;ESLint&lt;/strong&gt;, &lt;strong&gt;Tailwind CSS&lt;/strong&gt;, &lt;strong&gt;&lt;code&gt;src/&lt;/code&gt; directory&lt;/strong&gt;, &lt;strong&gt;App Router&lt;/strong&gt;, &lt;strong&gt;import alias&lt;/strong&gt; 等选项，♋全部&lt;strong&gt;一路回车&lt;/strong&gt;使用&lt;strong&gt;默认配置&lt;/strong&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(2:54-3:06) &lt;em&gt;&lt;strong&gt;3.10: 启动初始Next.js项目&lt;/strong&gt;&lt;/em&gt;
+项目创建成功后，使用 &lt;strong&gt;VS Code&lt;/strong&gt; 打开&lt;strong&gt;新创建&lt;/strong&gt;的 &lt;code&gt;snake&lt;/code&gt; &lt;strong&gt;目录&lt;/strong&gt;，点击&lt;strong&gt;信任&lt;/strong&gt;。♋在&lt;strong&gt;终端&lt;/strong&gt;中输入 &lt;code&gt;npm run dev&lt;/code&gt; &lt;strong&gt;启动项目&lt;/strong&gt;。♋浏览器访问 &lt;code&gt;http://localhost:3000&lt;/code&gt;，可以看到一个&lt;strong&gt;空白的 Next.js 工程&lt;/strong&gt;已成功运行。&lt;/p&gt;
+&lt;p&gt;(3:07-3:18) &lt;em&gt;&lt;strong&gt;3.11: 使用Cline生成贪吃蛇游戏页面&lt;/strong&gt;&lt;/em&gt;
+接下来，准备使用&lt;strong&gt;AI工具（Cline）&lt;strong&gt;将&lt;/strong&gt;Next.js&lt;/strong&gt;的&lt;strong&gt;初始页面&lt;/strong&gt;改造。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;目标：&lt;/strong&gt; 将&lt;strong&gt;页面&lt;/strong&gt;改造成一个&lt;strong&gt;贪吃蛇的网页小游戏&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;操作：&lt;/strong&gt; 在&lt;strong&gt;Cline&lt;/strong&gt;中输入&lt;strong&gt;改造需求&lt;/strong&gt;的&lt;strong&gt;prompt&lt;/strong&gt;。（♋⌊把这个项目⌋改造成一个含吃蛇的网页版小游戏。）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;结果：&lt;/strong&gt; &lt;strong&gt;AI（Cline）&lt;strong&gt;成功&lt;/strong&gt;生成&lt;/strong&gt;了&lt;strong&gt;贪吃蛇游戏&lt;/strong&gt;的&lt;strong&gt;代码&lt;/strong&gt;，并在浏览器中&lt;strong&gt;演示&lt;/strong&gt;了&lt;strong&gt;基本的游戏界面&lt;/strong&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;part4-代码管理&#34;&gt;part4: 代码管理
+&lt;/h1&gt;&lt;p&gt;(3:18-3:24) &lt;em&gt;&lt;strong&gt;4.1: 个人开发者代码管理最佳选择：GitHub&lt;/strong&gt;&lt;/em&gt;
+对于&lt;strong&gt;个人开发者&lt;/strong&gt;来说，&lt;strong&gt;代码管理&lt;/strong&gt;的&lt;strong&gt;最佳选择&lt;/strong&gt;是 &lt;strong&gt;GitHub&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;(3:24-3:38) &lt;em&gt;&lt;strong&gt;4.2: GitHub 功能与优势&lt;/strong&gt;&lt;/em&gt;
+&lt;strong&gt;GitHub&lt;/strong&gt; 是&lt;strong&gt;全球最大&lt;/strong&gt;的&lt;strong&gt;代码仓库托管与协作平台&lt;/strong&gt;，可以在其中&lt;strong&gt;存储&lt;/strong&gt;、&lt;strong&gt;分享&lt;/strong&gt;并与他人一起&lt;strong&gt;编写代码&lt;/strong&gt;。它支持创建&lt;strong&gt;私有（private）仓库&lt;/strong&gt;，只有&lt;strong&gt;自己&lt;/strong&gt;和&lt;strong&gt;被授权的协作者&lt;/strong&gt;可以访问，&lt;strong&gt;不用担心&lt;/strong&gt;源代码泄露。&lt;/p&gt;
+&lt;p&gt;(3:38-3:50) &lt;em&gt;&lt;strong&gt;4.3: 解决GitHub访问慢的问题&lt;/strong&gt;&lt;/em&gt;
+如果&lt;strong&gt;访问 GitHub 速度很慢&lt;/strong&gt;，可以在&lt;strong&gt;搜索栏&lt;/strong&gt;搜索&amp;quot;&lt;strong&gt;商店&lt;/strong&gt;&amp;quot;，来到&lt;strong&gt;微软的应用商店（Microsoft Store）&lt;/strong&gt;，下载 &lt;strong&gt;Watt Toolkit&lt;/strong&gt; 这个工具。&lt;/p&gt;
+&lt;p&gt;(3:50-3:53) &lt;em&gt;&lt;strong&gt;4.4: GitHub 账号注册&lt;/strong&gt;&lt;/em&gt;
+如果没有 &lt;strong&gt;GitHub 账号&lt;/strong&gt;，需要先&lt;strong&gt;注册&lt;/strong&gt;一个。&lt;/p&gt;
+&lt;p&gt;(3:53-4:07) &lt;em&gt;&lt;strong&gt;4.5: 安装 Git&lt;/strong&gt;&lt;/em&gt;
+为了将 &lt;strong&gt;Next.js 工程&lt;/strong&gt;上传到 &lt;strong&gt;GitHub&lt;/strong&gt;，需要先安装 &lt;strong&gt;Git&lt;/strong&gt;。在 &lt;strong&gt;VS Code&lt;/strong&gt; 的&lt;strong&gt;源代码管理（Source Control）&lt;strong&gt;面板，点击 &lt;strong&gt;&amp;ldquo;Download Git for Windows&amp;rdquo;&lt;/strong&gt; 按钮，跳转到下载页面。&lt;strong&gt;下载 64 位的安装包&lt;/strong&gt;并&lt;/strong&gt;安装&lt;/strong&gt;，安装过程同样是&lt;strong&gt;一路点击下一步&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;(4:07-4:18) &lt;em&gt;&lt;strong&gt;4.6: 配置 Git 并发布到 GitHub&lt;/strong&gt;&lt;/em&gt;
+安装完 &lt;strong&gt;Git&lt;/strong&gt; 后，在 &lt;strong&gt;VS Code 终端&lt;/strong&gt;中配置 &lt;strong&gt;Git 用户名和邮箱&lt;/strong&gt;：
+&lt;code&gt;git config --global user.name &amp;quot;your_username&amp;quot;&lt;/code&gt;
+&lt;code&gt;git config --global user.email &amp;quot;your_email@example.com&amp;quot;&lt;/code&gt;
+然后，在 &lt;strong&gt;VS Code&lt;/strong&gt; 的&lt;strong&gt;源代码管理&lt;/strong&gt;面板♋点击 &lt;strong&gt;&amp;ldquo;Publish Branch&amp;rdquo;&lt;/strong&gt; 按钮。选择 &lt;strong&gt;&amp;ldquo;Publish to GitHub private repository&amp;rdquo;&lt;/strong&gt;♋⌊将代码发⌋ 布为&lt;strong&gt;私有仓库&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;(4:18-4:23) &lt;em&gt;&lt;strong&gt;4.7: 确认代码备份&lt;/strong&gt;&lt;/em&gt;
+现在，项目代码已经&lt;strong&gt;提交备份&lt;/strong&gt;到 &lt;strong&gt;GitHub&lt;/strong&gt; 上面了，拥有了一个&lt;strong&gt;远程的 Git 仓库&lt;/strong&gt;。&lt;/p&gt;
+&lt;h1 id=&#34;part5-数据库&#34;&gt;part5: 数据库
+&lt;/h1&gt;&lt;p&gt;(4:23-4:33) &lt;em&gt;&lt;strong&gt;5.1: 免费数据库服务推荐：Neon 与 Supabase&lt;/strong&gt;&lt;/em&gt;
+对于&lt;strong&gt;免费的数据库服务&lt;/strong&gt;，这里推荐两个：&lt;strong&gt;Neon&lt;/strong&gt; 和 &lt;strong&gt;Supabase&lt;/strong&gt;。它们都提供 &lt;strong&gt;500 MB&lt;/strong&gt; 的&lt;strong&gt;免费存储空间&lt;/strong&gt;。本视频选择使用 &lt;strong&gt;Neon&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;(4:33-4:46) &lt;em&gt;&lt;strong&gt;5.2: 创建 Neon 数据库&lt;/strong&gt;&lt;/em&gt;
+来到 &lt;strong&gt;Neon&lt;/strong&gt; 的官网 (&lt;code&gt;neon.tech&lt;/code&gt;)，♋点击 &lt;strong&gt;&amp;ldquo;Start for free&amp;rdquo;&lt;/strong&gt;。选择使用 &lt;strong&gt;GitHub 登录&lt;/strong&gt;。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;数据库配置：&lt;/strong&gt; &lt;strong&gt;Neon&lt;/strong&gt; 是基于 &lt;strong&gt;PostgreSQL&lt;/strong&gt; 的免费数据库。进入后，选择 &lt;strong&gt;PostgreSQL 版本&lt;/strong&gt;（如 17），给 &lt;strong&gt;Project name&lt;/strong&gt; 起个名字（如 &lt;code&gt;tech-shrimp-db&lt;/code&gt;）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;结果：&lt;/strong&gt; 瞬间就拥有了&lt;strong&gt;自己的免费数据库&lt;/strong&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(4:46-4:50) &lt;em&gt;&lt;strong&gt;5.3: 查看数据库连接信息&lt;/strong&gt;&lt;/em&gt;
+在 &lt;strong&gt;Neon&lt;/strong&gt; 的 ♈&lt;strong&gt;Project Dashboard&lt;/strong&gt;，♋点击右上角的 &lt;strong&gt;Connect&lt;/strong&gt; 按钮，可以查看&lt;strong&gt;数据库连接&lt;/strong&gt;的相关信息（如连接字符串、用户名、密码、主机地址、数据库名）。&lt;/p&gt;
+&lt;h1 id=&#34;part6-数据库工具与集成&#34;&gt;part6: 数据库工具与集成
+&lt;/h1&gt;&lt;p&gt;(4:50-4:57) &lt;em&gt;&lt;strong&gt;6.1: 数据库管理工具推荐：DBeaver&lt;/strong&gt;&lt;/em&gt;
+推荐使用&lt;strong&gt;开源免费&lt;/strong&gt;的&lt;strong&gt;数据库管理工具&lt;/strong&gt; &lt;strong&gt;DBeaver&lt;/strong&gt;。先来到其官网 (&lt;code&gt;dbeaver.io&lt;/code&gt;)，&lt;strong&gt;下载&lt;/strong&gt; &lt;strong&gt;DBeaver Community&lt;/strong&gt; 版本。&lt;/p&gt;
+&lt;p&gt;(4:57-5:20) &lt;em&gt;&lt;strong&gt;6.2: ♈连接 DBeaver 到 Neon 数据库&lt;/strong&gt;&lt;/em&gt;
+打开 &lt;strong&gt;DBeaver&lt;/strong&gt; 软件，&lt;strong&gt;新建数据库连接&lt;/strong&gt;。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;选择数据库类型：&lt;/strong&gt; 选择 &lt;strong&gt;PostgreSQL&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;填写连接信息：&lt;/strong&gt; 回到 &lt;strong&gt;Neon&lt;/strong&gt; 的♎&lt;strong&gt;connect连接信息&lt;/strong&gt;界面，将对应的&lt;strong&gt;主机（Host）地址&lt;/strong&gt;、&lt;strong&gt;数据库（Database）名&lt;/strong&gt;、&lt;strong&gt;用户（User）名&lt;/strong&gt;、&lt;strong&gt;密码（Password）&lt;/strong&gt; 复制并粘贴到 &lt;strong&gt;DBeaver&lt;/strong&gt; 的相应字段中。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;测试连接：&lt;/strong&gt; 点击 &lt;strong&gt;&amp;ldquo;测试连接&amp;rdquo;&lt;/strong&gt;。&lt;strong&gt;DBeaver&lt;/strong&gt; 会&lt;strong&gt;自动下载 PostgreSQL 驱动&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;结果：&lt;/strong&gt; &lt;strong&gt;连接成功&lt;/strong&gt;。点击&lt;strong&gt;完成&lt;/strong&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(5:20-5:35) &lt;em&gt;&lt;strong&gt;6.3: 在 DBeaver 中创建数据表&lt;/strong&gt;&lt;/em&gt;
+在 &lt;strong&gt;DBeaver&lt;/strong&gt; 左侧导航栏可以打开&lt;strong&gt;数据库&lt;/strong&gt;。♋接下来准备&lt;strong&gt;创建&lt;/strong&gt;一个&lt;strong&gt;表&lt;/strong&gt;，用来&lt;strong&gt;保存玩家分数&lt;/strong&gt;，做一个&lt;strong&gt;分数排行榜&lt;/strong&gt;。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;操作：&lt;/strong&gt; 在 &lt;code&gt;public&lt;/code&gt; 模式下的**表（Tables）**上右键，选择 &lt;strong&gt;&amp;ldquo;新建 表&amp;rdquo;&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;表结构：&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;表名：&lt;/strong&gt; &lt;code&gt;player_score&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;列：&lt;/strong&gt; 添加两列：&lt;code&gt;player_name&lt;/code&gt; (类型 &lt;code&gt;varchar&lt;/code&gt;) 和 &lt;code&gt;score&lt;/code&gt; (类型 &lt;code&gt;int&lt;/code&gt;)。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;保存：&lt;/strong&gt; 按 &lt;strong&gt;Ctrl+S&lt;/strong&gt; 保存，点击&lt;strong&gt;执行（Persist）&lt;/strong&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(5:35-5:58) &lt;em&gt;&lt;strong&gt;6.4: ♎使用 AI (Cline) 生成数据库操作代码&lt;/strong&gt;&lt;/em&gt;
+在 &lt;strong&gt;DBeaver&lt;/strong&gt; 中右键点击刚创建的♈ &lt;code&gt;player_score&lt;/code&gt; 表，选择 &lt;strong&gt;&amp;ldquo;生成 SQL&amp;rdquo;&lt;/strong&gt; -&amp;gt; &lt;strong&gt;DDL&lt;/strong&gt;，♐复制 &lt;strong&gt;&lt;code&gt;CREATE TABLE&lt;/code&gt;&lt;/strong&gt; 语句。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Prompt 构建：&lt;/strong&gt; ♐回到 &lt;strong&gt;VS Code&lt;/strong&gt; 的 &lt;strong&gt;Cline&lt;/strong&gt;，粘贴 &lt;code&gt;CREATE TABLE&lt;/code&gt; 语句，并提出需求：
+&lt;ol&gt;
+&lt;li&gt;♐请把&lt;strong&gt;玩家的数据&lt;/strong&gt;保存到 &lt;strong&gt;PostgreSQL 数据库&lt;/strong&gt;里面，以下是&lt;strong&gt;建表语句&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;♋&lt;strong&gt;游戏开始前&lt;/strong&gt;弄一个&lt;strong&gt;输入框&lt;/strong&gt;，让&lt;strong&gt;玩家自己填名字&lt;/strong&gt;。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(5:58-6:10) &lt;em&gt;&lt;strong&gt;6.5: 向 AI 提供数据库连接信息&lt;/strong&gt;&lt;/em&gt;
+&lt;strong&gt;♈⌊AI（Cline）&lt;/strong&gt; 询问 &lt;strong&gt;⌋PostgreSQL 数据库的连接信息&lt;/strong&gt;。回到 &lt;strong&gt;Neon&lt;/strong&gt; 复制完整的&lt;strong&gt;连接字符串（Connection string）&lt;/strong&gt;。
+♈它的主要目的是获取这些信息，以便生成正确配置的、能够连接数据库的应用程序代码 ♋因为它需要这些信息来生成正确的应用程序代码
+(6:10-6:16) &lt;em&gt;&lt;strong&gt;6.6: AI 生成代码并测试&lt;/strong&gt;&lt;/em&gt;
+将&lt;strong&gt;连接字符串&lt;/strong&gt;粘贴给 &lt;strong&gt;AI（Cline）&lt;/strong&gt;。&lt;strong&gt;AI&lt;/strong&gt; 修改了代码。点击 &lt;strong&gt;Save&lt;/strong&gt; 保存更改。在终端运行 &lt;code&gt;npm run dev&lt;/code&gt; 启动项目进行测试。&lt;/p&gt;
+&lt;p&gt;(6:16-6:41) &lt;em&gt;&lt;strong&gt;6.7: 发现并分析错误&lt;/strong&gt;&lt;/em&gt;
+启动时出现&lt;strong&gt;构建错误&lt;/strong&gt;：&lt;code&gt;Module not found: Can&#39;t resolve &#39;dns&#39;&lt;/code&gt;。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;定位原因：&lt;/strong&gt; 查看 &lt;strong&gt;AI&lt;/strong&gt; 写的代码，发现 &lt;code&gt;page.tsx&lt;/code&gt;（&lt;strong&gt;前端页面&lt;/strong&gt;）直接 &lt;code&gt;import&lt;/code&gt; 并调用了 &lt;code&gt;lib/db.ts&lt;/code&gt; 中的 &lt;code&gt;saveScore&lt;/code&gt; 方法。而 &lt;code&gt;saveScore&lt;/code&gt; 方法内部使用了 &lt;code&gt;pg&lt;/code&gt; 包进行数据库连接和操作 (&lt;code&gt;await pool.connect()&lt;/code&gt;, &lt;code&gt;client.query()&lt;/code&gt;)，并读取了环境变量 &lt;code&gt;process.env.DATABASE_URL&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;问题分析：&lt;/strong&gt; &lt;strong&gt;Next.js&lt;/strong&gt; 默认会将 &lt;code&gt;page.tsx&lt;/code&gt; 作为&lt;strong&gt;前端组件&lt;/strong&gt;处理。在&lt;strong&gt;前端（浏览器）环境&lt;/strong&gt;中直接调用包含&lt;strong&gt;后端数据库操作&lt;/strong&gt;（需要 &lt;code&gt;pg&lt;/code&gt; 包）和&lt;strong&gt;敏感信息&lt;/strong&gt;（数据库连接字符串）的代码是&lt;strong&gt;错误&lt;/strong&gt;的，并且存在&lt;strong&gt;严重的安全隐患&lt;/strong&gt;，会导致&lt;strong&gt;敏感信息暴露&lt;/strong&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(6:41-6:56) &lt;em&gt;&lt;strong&gt;6.8: 向 AI 反馈错误并寻求解决方案&lt;/strong&gt;&lt;/em&gt;
+与 &lt;strong&gt;AI（Cline）&lt;/strong&gt; 交流，指出&lt;strong&gt;保存数据库的逻辑&lt;/strong&gt;似乎不正常，询问♒⌊保存数据库这块的逻辑正常么？这是后台操作还是前端操作？⌋，♒AI肯定没有意识到自己的错误，让 &lt;strong&gt;AI&lt;/strong&gt; 检查其生成的代码，特别是 &lt;code&gt;db.ts&lt;/code&gt; 和 &lt;code&gt;page.tsx&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;(6:56-7:04) &lt;em&gt;&lt;strong&gt;6.9: AI 提出正确解决方案 (API Route)&lt;/strong&gt;&lt;/em&gt;
+&lt;strong&gt;AI（Cline）&lt;/strong&gt; 识别到错误，并提出了&lt;strong&gt;正确的解决方案&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;创建 API 路由：&lt;/strong&gt; 新建一个 &lt;strong&gt;API 端点&lt;/strong&gt;（例如 &lt;code&gt;/api/saveScore&lt;/code&gt;）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;前后端分离：&lt;/strong&gt; &lt;strong&gt;前端页面&lt;/strong&gt;通过&lt;strong&gt;发送 POST 请求&lt;/strong&gt;到这个 &lt;strong&gt;API 端点&lt;/strong&gt;来触发&lt;strong&gt;后端&lt;/strong&gt;的&lt;strong&gt;数据库保存&lt;/strong&gt;操作。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(7:04-7:19) &lt;em&gt;&lt;strong&gt;7.1: 更简洁的 Next.js 解决方案 (&lt;code&gt;use server&lt;/code&gt;)&lt;/strong&gt;&lt;/em&gt;
+作者指出，其实还有一种&lt;strong&gt;更简单&lt;/strong&gt;的 &lt;strong&gt;Next.js&lt;/strong&gt; 改法：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在 &lt;code&gt;lib/db.ts&lt;/code&gt; 文件的&lt;strong&gt;顶部&lt;/strong&gt;加上一行 &lt;code&gt;&#39;use server&#39;;&lt;/code&gt; 指令。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;作用：&lt;/strong&gt; 这会告诉 &lt;strong&gt;Next.js&lt;/strong&gt;，这个文件里的函数是&lt;strong&gt;服务器端&lt;/strong&gt;的 &lt;strong&gt;Action&lt;/strong&gt;。♋&lt;strong&gt;Next.js&lt;/strong&gt; 会&lt;strong&gt;自动&lt;/strong&gt;处理，♐生成相应的 &lt;strong&gt;API 端点&lt;/strong&gt;，♋将&lt;strong&gt;前后端的逻辑分割开&lt;/strong&gt;，无需手动创建 API 路由。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(7:19-7:51) &lt;em&gt;&lt;strong&gt;7.2: 对 AI 编程能力的思考&lt;/strong&gt;&lt;/em&gt;
+这个例子体现了作者对 &lt;strong&gt;AI 编程&lt;/strong&gt;的看法：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;AI 的角色：&lt;/strong&gt; 现阶段的 &lt;strong&gt;AI&lt;/strong&gt; 水平相当于一个&lt;strong&gt;知识面广&lt;/strong&gt;的&lt;strong&gt;初级程序员&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;人类的角色：&lt;/strong&gt; 人类依旧是&lt;strong&gt;高级程序员&lt;/strong&gt;、&lt;strong&gt;项目架构师&lt;/strong&gt;，需要负责&lt;strong&gt;系统架构设计&lt;/strong&gt;、理解&lt;strong&gt;编程原理&lt;/strong&gt;（如♈&lt;strong&gt;前后端交互&lt;/strong&gt;、&lt;strong&gt;保护安全信息&lt;/strong&gt;等系统架构的知识）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;协作方式：&lt;/strong&gt; 不能完全依赖 &lt;strong&gt;AI&lt;/strong&gt;，人类需要&lt;strong&gt;审查和指导 AI&lt;/strong&gt; 的工作，将更多精力投入到&lt;strong&gt;架构设计&lt;/strong&gt;和&lt;strong&gt;业务需求理解&lt;/strong&gt;上。作为&lt;strong&gt;人类&lt;/strong&gt;，掌握&lt;strong&gt;系统架构&lt;/strong&gt;、&lt;strong&gt;编程原理&lt;/strong&gt;等知识仍然是&lt;strong&gt;必学必会的&lt;/strong&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;part7-部署&#34;&gt;part7: 部署
+&lt;/h1&gt;&lt;p&gt;(7:51-8:00) &lt;em&gt;&lt;strong&gt;8.1: Next.js 项目最佳部署平台：Vercel&lt;/strong&gt;&lt;/em&gt;
+作为一个 &lt;strong&gt;Next.js 项目&lt;/strong&gt;，&lt;strong&gt;最方便&lt;/strong&gt;的部署方式就是部署到 &lt;strong&gt;Vercel&lt;/strong&gt; 里面，♋因为 &lt;strong&gt;Vercel&lt;/strong&gt; 目前是 &lt;strong&gt;Next.js 的母公司&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;(8:00-8:08) &lt;em&gt;&lt;strong&gt;8.2: 开始 Vercel 部署流程&lt;/strong&gt;&lt;/em&gt;
+来到 &lt;strong&gt;Vercel&lt;/strong&gt; 官网 (&lt;code&gt;vercel.com&lt;/code&gt;)，♋点击 &lt;strong&gt;&amp;ldquo;Start Deploying&amp;rdquo;&lt;/strong&gt;。选择 &lt;strong&gt;Continue with GitHub&lt;/strong&gt; 登录。♈选择之前创建的 &lt;code&gt;snake&lt;/code&gt; &lt;strong&gt;GitHub 仓库&lt;/strong&gt;，点击 &lt;strong&gt;Import&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;(8:08-8:18) &lt;em&gt;&lt;strong&gt;8.3: 配置环境变量并部署&lt;/strong&gt;&lt;/em&gt;
+项目设置基本保持&lt;strong&gt;默认&lt;/strong&gt;。♐&lt;strong&gt;唯一&lt;/strong&gt;需要修改的是在 &lt;strong&gt;Environment Variables（环境变量）&lt;/strong&gt; 中添加数据库连接信息。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Key:&lt;/strong&gt; &lt;code&gt;DATABASE_URL&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Value:&lt;/strong&gt; 粘贴从 &lt;strong&gt;Neon&lt;/strong&gt; 获取的&lt;strong&gt;连接字符串&lt;/strong&gt;。
+点击 &lt;strong&gt;Deploy&lt;/strong&gt; 开始部署。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(8:18-8:32) &lt;em&gt;&lt;strong&gt;8.4: 部署完成与访问&lt;/strong&gt;&lt;/em&gt;
+等待大约 &lt;strong&gt;1 分钟&lt;/strong&gt;左右，项目就&lt;strong&gt;部署完成&lt;/strong&gt;了。点击 &lt;strong&gt;&amp;ldquo;Continue to Dashboard&amp;rdquo;&lt;/strong&gt;。&lt;strong&gt;Vercel&lt;/strong&gt; 会分配一个&lt;strong&gt;默认域名&lt;/strong&gt;（例如 &lt;code&gt;snake-bice-three.vercel.app&lt;/code&gt;）。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;测试：&lt;/strong&gt; 访问该域名，功能与&lt;strong&gt;本地&lt;/strong&gt;一致，可以&lt;strong&gt;正常游戏&lt;/strong&gt;并&lt;strong&gt;保存分数&lt;/strong&gt;到 &lt;strong&gt;Neon 数据库&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;♋&lt;strong&gt;注意：&lt;/strong&gt; &lt;strong&gt;Vercel&lt;/strong&gt; 的&lt;strong&gt;默认域名&lt;/strong&gt;♋只能在&lt;strong&gt;国外的上网环境&lt;/strong&gt;访问到。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(8:32-8:45) &lt;em&gt;&lt;strong&gt;8.5: Vercel 免费额度限制&lt;/strong&gt;&lt;/em&gt;
+在♋ &lt;strong&gt;Vercel&lt;/strong&gt; 的 &lt;strong&gt;Dashboard&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Usage&lt;/strong&gt; 页面，♈可以看到&lt;strong&gt;免费用户&lt;/strong&gt;的&lt;strong&gt;用量限制&lt;/strong&gt;。作者认为 &lt;strong&gt;Edge Requests&lt;/strong&gt;（每月 100 万次）可能比较&lt;strong&gt;瓶颈&lt;/strong&gt;。如果&lt;strong&gt;升级到 Pro 模式&lt;/strong&gt;，这些用量限制可以&lt;strong&gt;提高 10 倍&lt;/strong&gt;。&lt;/p&gt;
+&lt;h1 id=&#34;part8-域名&#34;&gt;part8: 域名
+&lt;/h1&gt;&lt;p&gt;(8:45-8:55) &lt;em&gt;&lt;strong&gt;9.1: 域名的重要性与选择&lt;/strong&gt;&lt;/em&gt;
+&lt;strong&gt;域名&lt;/strong&gt;作为一个&lt;strong&gt;产品的排面&lt;/strong&gt;，不建议用&lt;strong&gt;免费的&lt;/strong&gt;，因为&lt;strong&gt;不稳定&lt;/strong&gt;且&lt;strong&gt;非常折腾&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;(8:55-9:05) &lt;em&gt;&lt;strong&gt;9.2: 推荐廉价域名注册商：NameSilo&lt;/strong&gt;&lt;/em&gt;
+可以来到 &lt;strong&gt;NameSilo&lt;/strong&gt; (&lt;code&gt;namesilo.com&lt;/code&gt;) 这个地址，以&lt;strong&gt;最低成本&lt;/strong&gt;获得一个域名。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;示例：&lt;/strong&gt; 搜索一个&lt;strong&gt;6 位数字&lt;/strong&gt;，发现 &lt;code&gt;6位数字.xyz&lt;/code&gt; 的域名只需要 &lt;strong&gt;0.99 美元一年&lt;/strong&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(9:05-9:18) &lt;em&gt;&lt;strong&gt;9.3: 使用 Cloudflare 托管域名&lt;/strong&gt;&lt;/em&gt;
+有了域名以后，可以把它♐&lt;strong&gt;托管&lt;/strong&gt;到 &lt;strong&gt;Cloudflare&lt;/strong&gt; 上面。作者提到，关于&lt;strong&gt;如何把域名托管到 Cloudflare&lt;/strong&gt;，在&lt;strong&gt;之前的视频&lt;/strong&gt;里有过详细介绍，这里不再赘述。&lt;/p&gt;
+&lt;p&gt;(9:18-9:34) &lt;em&gt;&lt;strong&gt;9.4: Vercel 绑定自定义域名&lt;/strong&gt;&lt;/em&gt;
+回到 &lt;strong&gt;Vercel&lt;/strong&gt; 的项目♋&lt;strong&gt;设置（Settings）&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Domains&lt;/strong&gt; 页面，点击 &lt;strong&gt;Add&lt;/strong&gt;。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;输入域名：&lt;/strong&gt; 输入自己购买并托管到 &lt;strong&gt;Cloudflare&lt;/strong&gt; 的域名（或子域名），♋例如 &lt;code&gt;snake.tech-shrimp.com&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;自动配置：&lt;/strong&gt; 点击 &lt;strong&gt;Add&lt;/strong&gt; 后，♋选择 &lt;strong&gt;Configure Automatically&lt;/strong&gt;。&lt;strong&gt;Vercel&lt;/strong&gt; 会自动通过 &lt;strong&gt;Cloudflare API&lt;/strong&gt; 配置 &lt;strong&gt;DNS 记录&lt;/strong&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(9:34-9:40) &lt;em&gt;&lt;strong&gt;9.5: 测试自定义域名&lt;/strong&gt;&lt;/em&gt;
+配置完成后，页面上会显示&lt;strong&gt;两个蓝色的对勾&lt;/strong&gt;，表示&lt;strong&gt;配置完成&lt;/strong&gt;。使用这个&lt;strong&gt;自定义域名&lt;/strong&gt;（&lt;code&gt;snake.tech-shrimp.com&lt;/code&gt;）同样可以&lt;strong&gt;访问&lt;/strong&gt;到刚才部署的网站，并且♉这个域名在&lt;strong&gt;国内是可以直连&lt;/strong&gt;的。&lt;/p&gt;
+&lt;h1 id=&#34;part9-用户行为分析&#34;&gt;part9: 用户行为分析
+&lt;/h1&gt;&lt;p&gt;(9:40-9:51) &lt;em&gt;&lt;strong&gt;10.1: 免费用户行为监控工具：Microsoft Clarity&lt;/strong&gt;&lt;/em&gt;
+推荐使用 &lt;strong&gt;Microsoft Clarity&lt;/strong&gt; (&lt;code&gt;clarity.microsoft.com&lt;/code&gt;)，这是&lt;strong&gt;微软&lt;/strong&gt;推出的&lt;strong&gt;免费用户行为监控工具&lt;/strong&gt;。它提供了&lt;strong&gt;热点地图（Heatmaps）&lt;/strong&gt;、♈&lt;strong&gt;用户行为录像（Session Recordings）&lt;/strong&gt;、**报表（Dashboard）**等一系列功能。&lt;/p&gt;
+&lt;p&gt;(9:51-10:02) &lt;em&gt;&lt;strong&gt;10.2: 集成 Clarity 到 Next.js 项目&lt;/strong&gt;&lt;/em&gt;
+登录 &lt;strong&gt;Clarity&lt;/strong&gt;（可以使用 &lt;strong&gt;Google 账号&lt;/strong&gt;）。♋在 &lt;strong&gt;Clarity&lt;/strong&gt; 项目设置中，♉选择&lt;strong&gt;手动安装（Manual install）&lt;/strong&gt;，♈获取&lt;strong&gt;跟踪代码（Tracking Code）&lt;/strong&gt;。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;操作：&lt;/strong&gt; 回到 &lt;strong&gt;VS Code&lt;/strong&gt;，打开 ♋⌊&lt;code&gt;app/layout.tsx&lt;/code&gt; 文件⌋。在 &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt; 标签内，定义一个 &lt;code&gt;&amp;lt;Script&amp;gt;&lt;/code&gt; 组件（从 &lt;code&gt;next/script&lt;/code&gt; 导入），。将 &lt;strong&gt;Clarity&lt;/strong&gt; 的&lt;strong&gt;跟踪代码&lt;/strong&gt;粘贴到 &lt;code&gt;&amp;lt;Script&amp;gt;&lt;/code&gt; 组件内部。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(10:02-10:10) &lt;em&gt;&lt;strong&gt;10.3: 验证 Clarity 集成&lt;/strong&gt;&lt;/em&gt;
+&lt;strong&gt;保存&lt;/strong&gt; &lt;code&gt;layout.tsx&lt;/code&gt; 文件。在&lt;strong&gt;本地&lt;/strong&gt;重新&lt;strong&gt;启动项目&lt;/strong&gt; (&lt;code&gt;npm run dev&lt;/code&gt;) 并进行一些操作。♈回到 &lt;strong&gt;Clarity&lt;/strong&gt; 网站，在&lt;strong&gt;录制（Recordings）&lt;strong&gt;页面，♐可以看到&lt;/strong&gt;作为用户的操作&lt;/strong&gt;已经被&lt;strong&gt;录制&lt;/strong&gt;下来了。&lt;/p&gt;
+&lt;p&gt;(10:10-10:17) &lt;em&gt;&lt;strong&gt;10.4: Clarity 其他功能说明&lt;/strong&gt;&lt;/em&gt;
+&lt;strong&gt;Clarity&lt;/strong&gt; 的&lt;strong&gt;仪表板（Dashboard）&lt;strong&gt;和&lt;/strong&gt;热点地图（Heatmaps）&lt;strong&gt;需要&lt;/strong&gt;过 24 小时&lt;/strong&gt;才能呈现数据。至此，♉已将网站&lt;strong&gt;轻松接入&lt;/strong&gt;了 &lt;strong&gt;Clarity&lt;/strong&gt;。&lt;/p&gt;
+&lt;h1 id=&#34;part10-邮件&#34;&gt;part10: 邮件
+&lt;/h1&gt;&lt;p&gt;(10:17-10:39) &lt;em&gt;&lt;strong&gt;11.1: 免费邮件收发方案&lt;/strong&gt;&lt;/em&gt;
+作者之前有一期视频介绍&lt;strong&gt;如何使用 Cloudflare 获取无限多个免费邮箱&lt;/strong&gt;。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;收邮件：&lt;/strong&gt; 主要使用 **Cloudflare 的电子邮箱路由（Email Routing）**功能。&lt;/li&gt;
+&lt;li&gt;♉&lt;strong&gt;发邮件「白Cloudflare无限多企业邮箱，可收发邮件」：&lt;/strong&gt; 借助 &lt;strong&gt;Resend&lt;/strong&gt; (&lt;code&gt;resend.com&lt;/code&gt;) 的&lt;strong&gt;免费 API&lt;/strong&gt;。&lt;strong&gt;Resend&lt;/strong&gt; 的&lt;strong&gt;免费套餐&lt;/strong&gt;每天可以发送 &lt;strong&gt;100 封&lt;/strong&gt;邮件，每个月最多 &lt;strong&gt;3000 封&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;说明：&lt;/strong&gt; 详细用法在&lt;strong&gt;之前的视频&lt;/strong&gt;里，本期不再赘述。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;part11-ddos-防御&#34;&gt;part11: DDoS 防御
+&lt;/h1&gt;&lt;p&gt;(10:39-10:55) &lt;em&gt;&lt;strong&gt;12.1: 免费 DDoS 防御方案&lt;/strong&gt;&lt;/em&gt;
+之前也有一期&lt;strong&gt;完整视频&lt;/strong&gt;介绍使用 &lt;strong&gt;Cloudflare 防御 DDoS 攻击&lt;/strong&gt;。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;主要方法：&lt;/strong&gt;
+&lt;ol&gt;
+&lt;li&gt;配置 &lt;strong&gt;CDN&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;配置 &lt;strong&gt;IP 白名单&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;使用 &lt;strong&gt;Cloudflare 防火墙（Firewall）&lt;/strong&gt;。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;说明：&lt;/strong&gt; 这三种方法可以有效防御 &lt;strong&gt;DDoS 攻击&lt;/strong&gt;，详细内容在那期视频里，这里不再赘述。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;part12-其他免费工具与总结&#34;&gt;part12: 其他免费工具与总结
+&lt;/h1&gt;&lt;p&gt;(10:55-1:01) &lt;em&gt;&lt;strong&gt;13.1: 其他推荐的免费工具&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;♎&lt;strong&gt;UI 设计：&lt;/strong&gt; 可以选择 &lt;strong&gt;Figma&lt;/strong&gt; (&lt;code&gt;figma.com&lt;/code&gt;)。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;文档工具：&lt;/strong&gt; 可以选择 &lt;strong&gt;Notion&lt;/strong&gt; (&lt;code&gt;notion.so&lt;/code&gt;)。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(11:01-1:04) &lt;em&gt;&lt;strong&gt;13.2: 工单管理工具&lt;/strong&gt;&lt;/em&gt;
+♎&lt;strong&gt;工单管理&lt;/strong&gt;可以使用 &lt;strong&gt;GitHub 的 Project 功能&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;(11:04-11:13) &lt;em&gt;&lt;strong&gt;13.3: 作者开发习惯与视频总结&lt;/strong&gt;&lt;/em&gt;
+作者自嘲写代码风格是**&amp;ldquo;一把梭&amp;rdquo;&lt;strong&gt;，通常&lt;/strong&gt;不做设计**、&lt;strong&gt;不写文档&lt;/strong&gt;、也&lt;strong&gt;不创建 ticket&lt;/strong&gt;。视频到此结束。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

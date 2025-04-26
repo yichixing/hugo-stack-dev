@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="༺https://aistudio.google.com/prompts/111ysUKgf9_PR3y4WpkPTJiuEsCHn5DcG ༻\npart1: 独立开发者穷鬼套餐介绍 (0:00-0:06) 1.1: 论坛热门话题：独立开发者穷鬼套餐 视频开头提到，在技术论坛中经常看到一个有趣的话题，即**&ldquo;独立开发者省钱之穷鬼套餐&rdquo;**。\n(0:06-0:13) 1.2: 穷鬼套餐覆盖范围 这些免费工具涵盖了开发、代码托管、前后端部署、数据库以及用户行为分析等一系列功能。\n(0:13-0:17) 1.3: 适用人群 这种套餐尤其适合学生党、独立开发者以及初创公司。\n(0:17-0:24) 1.4: 零成本启动与迭代 开发者可以利用这些免费工具，零成本做出产品并发布上线，等到开始盈利以后再慢慢迭代扩容。\n(0:24-0:34) 1.5: 本期视频目标 本期视频准备用一个小项目（贪吃蛇游戏）把这些免费的工具全部串联起来，展示如何不花一分钱就能上线一个可以赚钱的业务应用。\npart2: 技术选型 (0:34-0:40) 2.1: 后端部署成本最低方案：Node.js 作者认为，对于后端，部署成本最低的方案是 Node.js。\n(0:40-0:51) 2.2: Node.js 优势：Serverless Function 原因是 ♋Node.js 可以很轻松地改造成 Serverless Function（无服务器函数）。现在很多平台提供免费的云函数部署服务，♐例如 Cloudflare Worker、Vercel 和 Netlify 等。\n(0:51-0:56) 2.3: 前端选型：影响不大 对于前端选型，作者认为其对于部署成本几乎没有影响，选择自己喜欢的就好。\n(0:56-1:04) 2.4: 前端推荐：React 与 React Native 推荐使用 React，因为后续还可以使用 React Native 改造成跨端的手机应用。\n(1:04-1:10) 2.5: ♈框架选择：Next.js ♋结合后端 Node.js 和前端 React，很自然会想到 Next.js，这是一个在海外十分流行的开发框架。\n(1:10-1:18) 2.6: Next.js 优势：SEO 友好 Next.js 具有 SEO 友好的特点，使得网站更容易被搜索引擎收录。它结合了客户端（Client）渲染和服务器端（Server）渲染（SSR/Static HTML）的能力。\n">
+<title>全流程项目构建到部署_穷鬼套餐版</title>
+
+<link rel='canonical' href='https://yichixing.github.io/hugo-stack-dev/p/%E5%85%A8%E6%B5%81%E7%A8%8B%E9%A1%B9%E7%9B%AE%E6%9E%84%E5%BB%BA%E5%88%B0%E9%83%A8%E7%BD%B2_%E7%A9%B7%E9%AC%BC%E5%A5%97%E9%A4%90%E7%89%88/'>
+
+<link rel="stylesheet" href="/hugo-stack-dev/scss/style.min.4fde59680561315c07105d1e37c2d8c07e5dceb5fd32055e632bcbd9da9d7ec3.css"><meta property='og:title' content="全流程项目构建到部署_穷鬼套餐版">
+<meta property='og:description' content="༺https://aistudio.google.com/prompts/111ysUKgf9_PR3y4WpkPTJiuEsCHn5DcG ༻\npart1: 独立开发者穷鬼套餐介绍 (0:00-0:06) 1.1: 论坛热门话题：独立开发者穷鬼套餐 视频开头提到，在技术论坛中经常看到一个有趣的话题，即**&ldquo;独立开发者省钱之穷鬼套餐&rdquo;**。\n(0:06-0:13) 1.2: 穷鬼套餐覆盖范围 这些免费工具涵盖了开发、代码托管、前后端部署、数据库以及用户行为分析等一系列功能。\n(0:13-0:17) 1.3: 适用人群 这种套餐尤其适合学生党、独立开发者以及初创公司。\n(0:17-0:24) 1.4: 零成本启动与迭代 开发者可以利用这些免费工具，零成本做出产品并发布上线，等到开始盈利以后再慢慢迭代扩容。\n(0:24-0:34) 1.5: 本期视频目标 本期视频准备用一个小项目（贪吃蛇游戏）把这些免费的工具全部串联起来，展示如何不花一分钱就能上线一个可以赚钱的业务应用。\npart2: 技术选型 (0:34-0:40) 2.1: 后端部署成本最低方案：Node.js 作者认为，对于后端，部署成本最低的方案是 Node.js。\n(0:40-0:51) 2.2: Node.js 优势：Serverless Function 原因是 ♋Node.js 可以很轻松地改造成 Serverless Function（无服务器函数）。现在很多平台提供免费的云函数部署服务，♐例如 Cloudflare Worker、Vercel 和 Netlify 等。\n(0:51-0:56) 2.3: 前端选型：影响不大 对于前端选型，作者认为其对于部署成本几乎没有影响，选择自己喜欢的就好。\n(0:56-1:04) 2.4: 前端推荐：React 与 React Native 推荐使用 React，因为后续还可以使用 React Native 改造成跨端的手机应用。\n(1:04-1:10) 2.5: ♈框架选择：Next.js ♋结合后端 Node.js 和前端 React，很自然会想到 Next.js，这是一个在海外十分流行的开发框架。\n(1:10-1:18) 2.6: Next.js 优势：SEO 友好 Next.js 具有 SEO 友好的特点，使得网站更容易被搜索引擎收录。它结合了客户端（Client）渲染和服务器端（Server）渲染（SSR/Static HTML）的能力。\n">
+<meta property='og:url' content='https://yichixing.github.io/hugo-stack-dev/p/%E5%85%A8%E6%B5%81%E7%A8%8B%E9%A1%B9%E7%9B%AE%E6%9E%84%E5%BB%BA%E5%88%B0%E9%83%A8%E7%BD%B2_%E7%A9%B7%E9%AC%BC%E5%A5%97%E9%A4%90%E7%89%88/'>
+<meta property='og:site_name' content='个人笔记博客'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Node.js' /><meta property='article:tag' content='Next.js' /><meta property='article:tag' content='在线免费数据库服务' /><meta property='article:tag' content='项目部署' /><meta property='article:tag' content='AI操作' /><meta property='article:tag' content='域名绑定' /><meta property='article:published_time' content='2025-03-11T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-03-11T00:00:00&#43;00:00'/>
+<meta name="twitter:title" content="全流程项目构建到部署_穷鬼套餐版">
+<meta name="twitter:description" content="༺https://aistudio.google.com/prompts/111ysUKgf9_PR3y4WpkPTJiuEsCHn5DcG ༻\npart1: 独立开发者穷鬼套餐介绍 (0:00-0:06) 1.1: 论坛热门话题：独立开发者穷鬼套餐 视频开头提到，在技术论坛中经常看到一个有趣的话题，即**&ldquo;独立开发者省钱之穷鬼套餐&rdquo;**。\n(0:06-0:13) 1.2: 穷鬼套餐覆盖范围 这些免费工具涵盖了开发、代码托管、前后端部署、数据库以及用户行为分析等一系列功能。\n(0:13-0:17) 1.3: 适用人群 这种套餐尤其适合学生党、独立开发者以及初创公司。\n(0:17-0:24) 1.4: 零成本启动与迭代 开发者可以利用这些免费工具，零成本做出产品并发布上线，等到开始盈利以后再慢慢迭代扩容。\n(0:24-0:34) 1.5: 本期视频目标 本期视频准备用一个小项目（贪吃蛇游戏）把这些免费的工具全部串联起来，展示如何不花一分钱就能上线一个可以赚钱的业务应用。\npart2: 技术选型 (0:34-0:40) 2.1: 后端部署成本最低方案：Node.js 作者认为，对于后端，部署成本最低的方案是 Node.js。\n(0:40-0:51) 2.2: Node.js 优势：Serverless Function 原因是 ♋Node.js 可以很轻松地改造成 Serverless Function（无服务器函数）。现在很多平台提供免费的云函数部署服务，♐例如 Cloudflare Worker、Vercel 和 Netlify 等。\n(0:51-0:56) 2.3: 前端选型：影响不大 对于前端选型，作者认为其对于部署成本几乎没有影响，选择自己喜欢的就好。\n(0:56-1:04) 2.4: 前端推荐：React 与 React Native 推荐使用 React，因为后续还可以使用 React Native 改造成跨端的手机应用。\n(1:04-1:10) 2.5: ♈框架选择：Next.js ♋结合后端 Node.js 和前端 React，很自然会想到 Next.js，这是一个在海外十分流行的开发框架。\n(1:10-1:18) 2.6: Next.js 优势：SEO 友好 Next.js 具有 SEO 友好的特点，使得网站更容易被搜索引擎收录。它结合了客户端（Client）渲染和服务器端（Server）渲染（SSR/Static HTML）的能力。\n">
+    <link rel="shortcut icon" href="/PixPin_2025-04-25_00-04-07.ico" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/hugo-stack-dev/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/hugo-stack-dev/img/avatar_hu_c9e1ac70cf1ec753.png" width="300"
+                            height="237" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🍥</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/hugo-stack-dev">个人笔记博客</a></h1>
+            <h2 class="site-description">个人学习和工作的笔记的博客</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://github.com/CaiJimmy/hugo-theme-stack'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/hugo-stack-dev/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/hugo-stack-dev/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/hugo-stack-dev/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/hugo-stack-dev/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/hugo-stack-dev/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+
+        
+        <li class="static-categories-link">
+            <a href='/hugo-stack-dev/categories2/'>
+                <?xml version="1.0" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" width="128" height="128" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22,4.7V9a1,1,0,0,1-1,1H13a1,1,0,0,1-1-1V7H4V17h8V15a1,1,0,0,1,1-1h4a1,1,0,0,1,.884.532L18.5,15.7H21a1,1,0,0,1,1,1V21a1,1,0,0,1-1,1H13a1,1,0,0,1-1-1V19H3a1,1,0,0,1-1-1V3A1,1,0,0,1,4,3V5h8V3a1,1,0,0,1,1-1h4a1,1,0,0,1,.884.532L18.5,3.7H21A1,1,0,0,1,22,4.7Z"/></svg>  
+                <span>Categories</span> 
+            </a>
+        </li>
+        
+
+        <li class="menu-bottom-section">
+            <ol class="menu">
+                    
+                        <li id="i18n-switch">  
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                            <select name="language" title="language" onchange="window.location.href = this.selectedOptions[0].value">
+                                
+                                    <option value="https://yichixing.github.io/hugo-stack-dev/" selected>English</option>
+                                
+                                    <option value="https://yichixing.github.io/hugo-stack-dev/zh-cn/" >中文</option>
+                                
+                                    <option value="https://yichixing.github.io/hugo-stack-dev/ar/" >عربي</option>
+                                
+                            </select>
+                        </li>
+                    
+                
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>Dark Mode</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside> 
+    
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/hugo-stack-dev/categories/%E7%A9%B7%E9%AC%BC%E5%BC%80%E5%8F%91%E5%A5%97%E9%A4%90/" >
+                穷鬼开发套餐
+            </a>
+        
+            <a href="/hugo-stack-dev/categories/%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91/" >
+                项目开发
+            </a>
+        
+            <a href="/hugo-stack-dev/categories/%E9%A1%B9%E7%9B%AE%E9%83%A8%E7%BD%B2/" >
+                项目部署
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/hugo-stack-dev/p/%E5%85%A8%E6%B5%81%E7%A8%8B%E9%A1%B9%E7%9B%AE%E6%9E%84%E5%BB%BA%E5%88%B0%E9%83%A8%E7%BD%B2_%E7%A9%B7%E9%AC%BC%E5%A5%97%E9%A4%90%E7%89%88/">全流程项目构建到部署_穷鬼套餐版</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Mar 11, 2025</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    5 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>༺https://aistudio.google.com/prompts/111ysUKgf9_PR3y4WpkPTJiuEsCHn5DcG ༻</p>
+<h1 id="part1-独立开发者穷鬼套餐介绍">part1: 独立开发者穷鬼套餐介绍
+</h1><p>(0:00-0:06) <em><strong>1.1: 论坛热门话题：独立开发者穷鬼套餐</strong></em>
+视频开头提到，在<strong>技术论坛</strong>中经常看到一个有趣的话题，即**&ldquo;独立开发者省钱之穷鬼套餐&rdquo;**。</p>
+<p>(0:06-0:13) <em><strong>1.2: 穷鬼套餐覆盖范围</strong></em>
+这些<strong>免费工具</strong>涵盖了<strong>开发</strong>、<strong>代码托管</strong>、<strong>前后端部署</strong>、<strong>数据库</strong>以及<strong>用户行为分析</strong>等一系列功能。</p>
+<p>(0:13-0:17) <em><strong>1.3: 适用人群</strong></em>
+这种套餐<strong>尤其适合学生党</strong>、<strong>独立开发者</strong>以及<strong>初创公司</strong>。</p>
+<p>(0:17-0:24) <em><strong>1.4: 零成本启动与迭代</strong></em>
+开发者可以利用这些<strong>免费工具</strong>，<strong>零成本</strong>做出<strong>产品</strong>并<strong>发布上线</strong>，等到开始<strong>盈利</strong>以后再<strong>慢慢迭代扩容</strong>。</p>
+<p>(0:24-0:34) <em><strong>1.5: 本期视频目标</strong></em>
+本期视频准备用一个<strong>小项目</strong>（贪吃蛇游戏）把这些<strong>免费的工具</strong>全部<strong>串联起来</strong>，展示如何<strong>不花一分钱</strong>就能<strong>上线一个可以赚钱的业务应用</strong>。</p>
+<h1 id="part2-技术选型">part2: 技术选型
+</h1><p>(0:34-0:40) <em><strong>2.1: 后端部署成本最低方案：Node.js</strong></em>
+作者认为，对于<strong>后端</strong>，<strong>部署成本最低</strong>的方案是 <strong>Node.js</strong>。</p>
+<p>(0:40-0:51) <em><strong>2.2: Node.js 优势：Serverless Function</strong></em>
+原因是 ♋<strong>Node.js</strong> 可以很轻松地改造成 <strong>Serverless Function</strong>（<strong>无服务器函数</strong>）。现在很多平台提供<strong>免费的云函数部署服务</strong>，♐例如 <strong>Cloudflare Worker</strong>、<strong>Vercel</strong> 和 <strong>Netlify</strong> 等。</p>
+<p>(0:51-0:56) <em><strong>2.3: 前端选型：影响不大</strong></em>
+对于<strong>前端</strong>选型，作者认为其对于<strong>部署成本几乎没有影响</strong>，选择自己喜欢的就好。</p>
+<p>(0:56-1:04) <em><strong>2.4: 前端推荐：React 与 React Native</strong></em>
+推荐使用 <strong>React</strong>，因为<strong>后续</strong>还可以使用 <strong>React Native</strong> 改造成<strong>跨端的手机应用</strong>。</p>
+<p>(1:04-1:10) <em><strong>2.5: ♈框架选择：Next.js</strong></em>
+♋结合<strong>后端 Node.js</strong> 和<strong>前端 React</strong>，很自然会想到 <strong>Next.js</strong>，这是一个在<strong>海外十分流行</strong>的<strong>开发框架</strong>。</p>
+<p>(1:10-1:18) <em><strong>2.6: Next.js 优势：SEO 友好</strong></em>
+<strong>Next.js</strong> 具有 <strong>SEO 友好</strong>的特点，使得网站更容易被<strong>搜索引擎收录</strong>。它结合了<strong>客户端（Client）渲染</strong>和<strong>服务器端（Server）渲染</strong>（<strong>SSR/Static HTML</strong>）的能力。</p>
+<p>(1:18-1:24) <em><strong>2.7: 本期项目选择与 AI 辅助</strong></em>
+本期视频决定使用 <strong>Next.js</strong> 来<strong>搭建工程</strong>。由于作者对 <strong>Next.js</strong> 不太熟悉，计划将<strong>主要的开发任务交给 AI</strong> 来完成。</p>
+<h1 id="part3-ai开发工具与项目初始化">part3: AI开发工具与项目初始化
+</h1><p>(1:24-1:35) <em><strong>3.1: 推荐免费AI编程方案 (VSCode + Cline + OpenRouter)</strong></em>
+推荐一个<strong>完全免费</strong>的 <strong>AI 编程方案</strong>：在 <strong>VS Code</strong> 上使用 <strong>Cline</strong> 插件，并接入 <strong>OpenRouter</strong> 的<strong>免费 API</strong>，以达到<strong>非常好的 AI 编程效果</strong>。</p>
+<p>(1:35-1:44) <em><strong>3.2: 安装VSCode</strong></em>
+首先访问 <code>code.visualstudio.com</code>，<strong>下载</strong>并<strong>安装 VS Code</strong>。安装过程十分简单，<strong>一路点击下一步</strong>即可。</p>
+<p>(1:44-1:47) <em><strong>3.3: VSCode 基础使用参考</strong></em>
+作者提到之前有一个<strong>完整视频</strong>介绍 <strong>VS Code</strong> 的<strong>使用</strong>。</p>
+<p>(1:47-1:56) <em><strong>3.4: 安装与配置Cline插件</strong></em>
+进入 <strong>VS Code</strong> 后，在<strong>扩展市场</strong>搜索 <strong>Cline</strong> 插件，点击 <strong>Install</strong> 进行安装。</p>
+<p>(1:56-2:05) <em><strong>3.5: 获取 OpenRouter API Key</strong></em>
+打开 <strong>Cline</strong> 插件界面，选择 <strong>&ldquo;Use your own API key&rdquo;</strong>，API Provider 选择 <strong>OpenRouter</strong>，然后点击 <strong>&ldquo;Get OpenRouter API Key&rdquo;</strong> 按钮。</p>
+<p>(2:05-2:10) <em><strong>3.6: OpenRouter授权</strong></em>
+跳转到 <strong>OpenRouter</strong> 网站进行<strong>授权</strong>（该网站在<strong>国内可以直连</strong>），如果没有账号需要先<strong>注册</strong>。点击 <strong>Authorize</strong>。</p>
+<p>(2:10-2:23) <em><strong>3.7: 完成Cline模型选择 (DeepSeek)</strong></em>
+回到 <strong>VS Code</strong>，点击 <strong>Open</strong> 允许插件打开 URI。这样 <strong>OpenRouter API key</strong> 就配置好了。在 <strong>Model</strong> 选择处，搜索并选择<strong>免费</strong>的 <strong>DeepSeek free</strong> 模型（<code>deepseek/deepseek-chat-v3-0324-free</code>）。<strong>AI 编程软件</strong>配置完成。</p>
+<p>(2:23-2:30) <em><strong>3.8: 安装Node.js</strong></em>
+♈访问 <strong>Node.js</strong> 官网 (<code>nodejs.org</code>)，<strong>下载</strong>并<strong>安装 Node.js</strong>（LTS 版本）。安装过程同样是<strong>一路点击下一步</strong>。</p>
+<p>(2:30-2:54) <em><strong>3.9: ♈ 创建Next.js项目 (Snake)</strong></em>
+<strong>♓安装完 Node.js 后</strong>，<strong>♓重启 VS Code</strong>。打开一个新的<strong>终端（Terminal）</strong>，<strong>切换</strong>到<strong>目标项目文件夹</strong>（例如 <code>D:\Project2025</code>）。♋输入命令 <code>npx create-next-app</code> 并按回车。</p>
+<ul>
+<li><strong>项目命名：</strong> 输入 <code>snake</code>（贪吃蛇）。</li>
+<li><strong>配置选项：</strong> 对于 <strong>TypeScript</strong>, <strong>ESLint</strong>, <strong>Tailwind CSS</strong>, <strong><code>src/</code> directory</strong>, <strong>App Router</strong>, <strong>import alias</strong> 等选项，♋全部<strong>一路回车</strong>使用<strong>默认配置</strong>。</li>
+</ul>
+<p>(2:54-3:06) <em><strong>3.10: 启动初始Next.js项目</strong></em>
+项目创建成功后，使用 <strong>VS Code</strong> 打开<strong>新创建</strong>的 <code>snake</code> <strong>目录</strong>，点击<strong>信任</strong>。♋在<strong>终端</strong>中输入 <code>npm run dev</code> <strong>启动项目</strong>。♋浏览器访问 <code>http://localhost:3000</code>，可以看到一个<strong>空白的 Next.js 工程</strong>已成功运行。</p>
+<p>(3:07-3:18) <em><strong>3.11: 使用Cline生成贪吃蛇游戏页面</strong></em>
+接下来，准备使用<strong>AI工具（Cline）<strong>将</strong>Next.js</strong>的<strong>初始页面</strong>改造。</p>
+<ul>
+<li><strong>目标：</strong> 将<strong>页面</strong>改造成一个<strong>贪吃蛇的网页小游戏</strong>。</li>
+<li><strong>操作：</strong> 在<strong>Cline</strong>中输入<strong>改造需求</strong>的<strong>prompt</strong>。（♋⌊把这个项目⌋改造成一个含吃蛇的网页版小游戏。）</li>
+<li><strong>结果：</strong> <strong>AI（Cline）<strong>成功</strong>生成</strong>了<strong>贪吃蛇游戏</strong>的<strong>代码</strong>，并在浏览器中<strong>演示</strong>了<strong>基本的游戏界面</strong>。</li>
+</ul>
+<h1 id="part4-代码管理">part4: 代码管理
+</h1><p>(3:18-3:24) <em><strong>4.1: 个人开发者代码管理最佳选择：GitHub</strong></em>
+对于<strong>个人开发者</strong>来说，<strong>代码管理</strong>的<strong>最佳选择</strong>是 <strong>GitHub</strong>。</p>
+<p>(3:24-3:38) <em><strong>4.2: GitHub 功能与优势</strong></em>
+<strong>GitHub</strong> 是<strong>全球最大</strong>的<strong>代码仓库托管与协作平台</strong>，可以在其中<strong>存储</strong>、<strong>分享</strong>并与他人一起<strong>编写代码</strong>。它支持创建<strong>私有（private）仓库</strong>，只有<strong>自己</strong>和<strong>被授权的协作者</strong>可以访问，<strong>不用担心</strong>源代码泄露。</p>
+<p>(3:38-3:50) <em><strong>4.3: 解决GitHub访问慢的问题</strong></em>
+如果<strong>访问 GitHub 速度很慢</strong>，可以在<strong>搜索栏</strong>搜索&quot;<strong>商店</strong>&quot;，来到<strong>微软的应用商店（Microsoft Store）</strong>，下载 <strong>Watt Toolkit</strong> 这个工具。</p>
+<p>(3:50-3:53) <em><strong>4.4: GitHub 账号注册</strong></em>
+如果没有 <strong>GitHub 账号</strong>，需要先<strong>注册</strong>一个。</p>
+<p>(3:53-4:07) <em><strong>4.5: 安装 Git</strong></em>
+为了将 <strong>Next.js 工程</strong>上传到 <strong>GitHub</strong>，需要先安装 <strong>Git</strong>。在 <strong>VS Code</strong> 的<strong>源代码管理（Source Control）<strong>面板，点击 <strong>&ldquo;Download Git for Windows&rdquo;</strong> 按钮，跳转到下载页面。<strong>下载 64 位的安装包</strong>并</strong>安装</strong>，安装过程同样是<strong>一路点击下一步</strong>。</p>
+<p>(4:07-4:18) <em><strong>4.6: 配置 Git 并发布到 GitHub</strong></em>
+安装完 <strong>Git</strong> 后，在 <strong>VS Code 终端</strong>中配置 <strong>Git 用户名和邮箱</strong>：
+<code>git config --global user.name &quot;your_username&quot;</code>
+<code>git config --global user.email &quot;your_email@example.com&quot;</code>
+然后，在 <strong>VS Code</strong> 的<strong>源代码管理</strong>面板♋点击 <strong>&ldquo;Publish Branch&rdquo;</strong> 按钮。选择 <strong>&ldquo;Publish to GitHub private repository&rdquo;</strong>♋⌊将代码发⌋ 布为<strong>私有仓库</strong>。</p>
+<p>(4:18-4:23) <em><strong>4.7: 确认代码备份</strong></em>
+现在，项目代码已经<strong>提交备份</strong>到 <strong>GitHub</strong> 上面了，拥有了一个<strong>远程的 Git 仓库</strong>。</p>
+<h1 id="part5-数据库">part5: 数据库
+</h1><p>(4:23-4:33) <em><strong>5.1: 免费数据库服务推荐：Neon 与 Supabase</strong></em>
+对于<strong>免费的数据库服务</strong>，这里推荐两个：<strong>Neon</strong> 和 <strong>Supabase</strong>。它们都提供 <strong>500 MB</strong> 的<strong>免费存储空间</strong>。本视频选择使用 <strong>Neon</strong>。</p>
+<p>(4:33-4:46) <em><strong>5.2: 创建 Neon 数据库</strong></em>
+来到 <strong>Neon</strong> 的官网 (<code>neon.tech</code>)，♋点击 <strong>&ldquo;Start for free&rdquo;</strong>。选择使用 <strong>GitHub 登录</strong>。</p>
+<ul>
+<li><strong>数据库配置：</strong> <strong>Neon</strong> 是基于 <strong>PostgreSQL</strong> 的免费数据库。进入后，选择 <strong>PostgreSQL 版本</strong>（如 17），给 <strong>Project name</strong> 起个名字（如 <code>tech-shrimp-db</code>）。</li>
+<li><strong>结果：</strong> 瞬间就拥有了<strong>自己的免费数据库</strong>。</li>
+</ul>
+<p>(4:46-4:50) <em><strong>5.3: 查看数据库连接信息</strong></em>
+在 <strong>Neon</strong> 的 ♈<strong>Project Dashboard</strong>，♋点击右上角的 <strong>Connect</strong> 按钮，可以查看<strong>数据库连接</strong>的相关信息（如连接字符串、用户名、密码、主机地址、数据库名）。</p>
+<h1 id="part6-数据库工具与集成">part6: 数据库工具与集成
+</h1><p>(4:50-4:57) <em><strong>6.1: 数据库管理工具推荐：DBeaver</strong></em>
+推荐使用<strong>开源免费</strong>的<strong>数据库管理工具</strong> <strong>DBeaver</strong>。先来到其官网 (<code>dbeaver.io</code>)，<strong>下载</strong> <strong>DBeaver Community</strong> 版本。</p>
+<p>(4:57-5:20) <em><strong>6.2: ♈连接 DBeaver 到 Neon 数据库</strong></em>
+打开 <strong>DBeaver</strong> 软件，<strong>新建数据库连接</strong>。</p>
+<ul>
+<li><strong>选择数据库类型：</strong> 选择 <strong>PostgreSQL</strong>。</li>
+<li><strong>填写连接信息：</strong> 回到 <strong>Neon</strong> 的♎<strong>connect连接信息</strong>界面，将对应的<strong>主机（Host）地址</strong>、<strong>数据库（Database）名</strong>、<strong>用户（User）名</strong>、<strong>密码（Password）</strong> 复制并粘贴到 <strong>DBeaver</strong> 的相应字段中。</li>
+<li><strong>测试连接：</strong> 点击 <strong>&ldquo;测试连接&rdquo;</strong>。<strong>DBeaver</strong> 会<strong>自动下载 PostgreSQL 驱动</strong>。</li>
+<li><strong>结果：</strong> <strong>连接成功</strong>。点击<strong>完成</strong>。</li>
+</ul>
+<p>(5:20-5:35) <em><strong>6.3: 在 DBeaver 中创建数据表</strong></em>
+在 <strong>DBeaver</strong> 左侧导航栏可以打开<strong>数据库</strong>。♋接下来准备<strong>创建</strong>一个<strong>表</strong>，用来<strong>保存玩家分数</strong>，做一个<strong>分数排行榜</strong>。</p>
+<ul>
+<li><strong>操作：</strong> 在 <code>public</code> 模式下的**表（Tables）**上右键，选择 <strong>&ldquo;新建 表&rdquo;</strong>。</li>
+<li><strong>表结构：</strong>
+<ul>
+<li><strong>表名：</strong> <code>player_score</code></li>
+<li><strong>列：</strong> 添加两列：<code>player_name</code> (类型 <code>varchar</code>) 和 <code>score</code> (类型 <code>int</code>)。</li>
+</ul>
+</li>
+<li><strong>保存：</strong> 按 <strong>Ctrl+S</strong> 保存，点击<strong>执行（Persist）</strong>。</li>
+</ul>
+<p>(5:35-5:58) <em><strong>6.4: ♎使用 AI (Cline) 生成数据库操作代码</strong></em>
+在 <strong>DBeaver</strong> 中右键点击刚创建的♈ <code>player_score</code> 表，选择 <strong>&ldquo;生成 SQL&rdquo;</strong> -&gt; <strong>DDL</strong>，♐复制 <strong><code>CREATE TABLE</code></strong> 语句。</p>
+<ul>
+<li><strong>Prompt 构建：</strong> ♐回到 <strong>VS Code</strong> 的 <strong>Cline</strong>，粘贴 <code>CREATE TABLE</code> 语句，并提出需求：
+<ol>
+<li>♐请把<strong>玩家的数据</strong>保存到 <strong>PostgreSQL 数据库</strong>里面，以下是<strong>建表语句</strong>。</li>
+<li>♋<strong>游戏开始前</strong>弄一个<strong>输入框</strong>，让<strong>玩家自己填名字</strong>。</li>
+</ol>
+</li>
+</ul>
+<p>(5:58-6:10) <em><strong>6.5: 向 AI 提供数据库连接信息</strong></em>
+<strong>♈⌊AI（Cline）</strong> 询问 <strong>⌋PostgreSQL 数据库的连接信息</strong>。回到 <strong>Neon</strong> 复制完整的<strong>连接字符串（Connection string）</strong>。
+♈它的主要目的是获取这些信息，以便生成正确配置的、能够连接数据库的应用程序代码 ♋因为它需要这些信息来生成正确的应用程序代码
+(6:10-6:16) <em><strong>6.6: AI 生成代码并测试</strong></em>
+将<strong>连接字符串</strong>粘贴给 <strong>AI（Cline）</strong>。<strong>AI</strong> 修改了代码。点击 <strong>Save</strong> 保存更改。在终端运行 <code>npm run dev</code> 启动项目进行测试。</p>
+<p>(6:16-6:41) <em><strong>6.7: 发现并分析错误</strong></em>
+启动时出现<strong>构建错误</strong>：<code>Module not found: Can't resolve 'dns'</code>。</p>
+<ul>
+<li><strong>定位原因：</strong> 查看 <strong>AI</strong> 写的代码，发现 <code>page.tsx</code>（<strong>前端页面</strong>）直接 <code>import</code> 并调用了 <code>lib/db.ts</code> 中的 <code>saveScore</code> 方法。而 <code>saveScore</code> 方法内部使用了 <code>pg</code> 包进行数据库连接和操作 (<code>await pool.connect()</code>, <code>client.query()</code>)，并读取了环境变量 <code>process.env.DATABASE_URL</code>。</li>
+<li><strong>问题分析：</strong> <strong>Next.js</strong> 默认会将 <code>page.tsx</code> 作为<strong>前端组件</strong>处理。在<strong>前端（浏览器）环境</strong>中直接调用包含<strong>后端数据库操作</strong>（需要 <code>pg</code> 包）和<strong>敏感信息</strong>（数据库连接字符串）的代码是<strong>错误</strong>的，并且存在<strong>严重的安全隐患</strong>，会导致<strong>敏感信息暴露</strong>。</li>
+</ul>
+<p>(6:41-6:56) <em><strong>6.8: 向 AI 反馈错误并寻求解决方案</strong></em>
+与 <strong>AI（Cline）</strong> 交流，指出<strong>保存数据库的逻辑</strong>似乎不正常，询问♒⌊保存数据库这块的逻辑正常么？这是后台操作还是前端操作？⌋，♒AI肯定没有意识到自己的错误，让 <strong>AI</strong> 检查其生成的代码，特别是 <code>db.ts</code> 和 <code>page.tsx</code>。</p>
+<p>(6:56-7:04) <em><strong>6.9: AI 提出正确解决方案 (API Route)</strong></em>
+<strong>AI（Cline）</strong> 识别到错误，并提出了<strong>正确的解决方案</strong>：</p>
+<ul>
+<li><strong>创建 API 路由：</strong> 新建一个 <strong>API 端点</strong>（例如 <code>/api/saveScore</code>）。</li>
+<li><strong>前后端分离：</strong> <strong>前端页面</strong>通过<strong>发送 POST 请求</strong>到这个 <strong>API 端点</strong>来触发<strong>后端</strong>的<strong>数据库保存</strong>操作。</li>
+</ul>
+<p>(7:04-7:19) <em><strong>7.1: 更简洁的 Next.js 解决方案 (<code>use server</code>)</strong></em>
+作者指出，其实还有一种<strong>更简单</strong>的 <strong>Next.js</strong> 改法：</p>
+<ul>
+<li>在 <code>lib/db.ts</code> 文件的<strong>顶部</strong>加上一行 <code>'use server';</code> 指令。</li>
+<li><strong>作用：</strong> 这会告诉 <strong>Next.js</strong>，这个文件里的函数是<strong>服务器端</strong>的 <strong>Action</strong>。♋<strong>Next.js</strong> 会<strong>自动</strong>处理，♐生成相应的 <strong>API 端点</strong>，♋将<strong>前后端的逻辑分割开</strong>，无需手动创建 API 路由。</li>
+</ul>
+<p>(7:19-7:51) <em><strong>7.2: 对 AI 编程能力的思考</strong></em>
+这个例子体现了作者对 <strong>AI 编程</strong>的看法：</p>
+<ul>
+<li><strong>AI 的角色：</strong> 现阶段的 <strong>AI</strong> 水平相当于一个<strong>知识面广</strong>的<strong>初级程序员</strong>。</li>
+<li><strong>人类的角色：</strong> 人类依旧是<strong>高级程序员</strong>、<strong>项目架构师</strong>，需要负责<strong>系统架构设计</strong>、理解<strong>编程原理</strong>（如♈<strong>前后端交互</strong>、<strong>保护安全信息</strong>等系统架构的知识）。</li>
+<li><strong>协作方式：</strong> 不能完全依赖 <strong>AI</strong>，人类需要<strong>审查和指导 AI</strong> 的工作，将更多精力投入到<strong>架构设计</strong>和<strong>业务需求理解</strong>上。作为<strong>人类</strong>，掌握<strong>系统架构</strong>、<strong>编程原理</strong>等知识仍然是<strong>必学必会的</strong>。</li>
+</ul>
+<h1 id="part7-部署">part7: 部署
+</h1><p>(7:51-8:00) <em><strong>8.1: Next.js 项目最佳部署平台：Vercel</strong></em>
+作为一个 <strong>Next.js 项目</strong>，<strong>最方便</strong>的部署方式就是部署到 <strong>Vercel</strong> 里面，♋因为 <strong>Vercel</strong> 目前是 <strong>Next.js 的母公司</strong>。</p>
+<p>(8:00-8:08) <em><strong>8.2: 开始 Vercel 部署流程</strong></em>
+来到 <strong>Vercel</strong> 官网 (<code>vercel.com</code>)，♋点击 <strong>&ldquo;Start Deploying&rdquo;</strong>。选择 <strong>Continue with GitHub</strong> 登录。♈选择之前创建的 <code>snake</code> <strong>GitHub 仓库</strong>，点击 <strong>Import</strong>。</p>
+<p>(8:08-8:18) <em><strong>8.3: 配置环境变量并部署</strong></em>
+项目设置基本保持<strong>默认</strong>。♐<strong>唯一</strong>需要修改的是在 <strong>Environment Variables（环境变量）</strong> 中添加数据库连接信息。</p>
+<ul>
+<li><strong>Key:</strong> <code>DATABASE_URL</code></li>
+<li><strong>Value:</strong> 粘贴从 <strong>Neon</strong> 获取的<strong>连接字符串</strong>。
+点击 <strong>Deploy</strong> 开始部署。</li>
+</ul>
+<p>(8:18-8:32) <em><strong>8.4: 部署完成与访问</strong></em>
+等待大约 <strong>1 分钟</strong>左右，项目就<strong>部署完成</strong>了。点击 <strong>&ldquo;Continue to Dashboard&rdquo;</strong>。<strong>Vercel</strong> 会分配一个<strong>默认域名</strong>（例如 <code>snake-bice-three.vercel.app</code>）。</p>
+<ul>
+<li><strong>测试：</strong> 访问该域名，功能与<strong>本地</strong>一致，可以<strong>正常游戏</strong>并<strong>保存分数</strong>到 <strong>Neon 数据库</strong>。</li>
+<li>♋<strong>注意：</strong> <strong>Vercel</strong> 的<strong>默认域名</strong>♋只能在<strong>国外的上网环境</strong>访问到。</li>
+</ul>
+<p>(8:32-8:45) <em><strong>8.5: Vercel 免费额度限制</strong></em>
+在♋ <strong>Vercel</strong> 的 <strong>Dashboard</strong> -&gt; <strong>Usage</strong> 页面，♈可以看到<strong>免费用户</strong>的<strong>用量限制</strong>。作者认为 <strong>Edge Requests</strong>（每月 100 万次）可能比较<strong>瓶颈</strong>。如果<strong>升级到 Pro 模式</strong>，这些用量限制可以<strong>提高 10 倍</strong>。</p>
+<h1 id="part8-域名">part8: 域名
+</h1><p>(8:45-8:55) <em><strong>9.1: 域名的重要性与选择</strong></em>
+<strong>域名</strong>作为一个<strong>产品的排面</strong>，不建议用<strong>免费的</strong>，因为<strong>不稳定</strong>且<strong>非常折腾</strong>。</p>
+<p>(8:55-9:05) <em><strong>9.2: 推荐廉价域名注册商：NameSilo</strong></em>
+可以来到 <strong>NameSilo</strong> (<code>namesilo.com</code>) 这个地址，以<strong>最低成本</strong>获得一个域名。</p>
+<ul>
+<li><strong>示例：</strong> 搜索一个<strong>6 位数字</strong>，发现 <code>6位数字.xyz</code> 的域名只需要 <strong>0.99 美元一年</strong>。</li>
+</ul>
+<p>(9:05-9:18) <em><strong>9.3: 使用 Cloudflare 托管域名</strong></em>
+有了域名以后，可以把它♐<strong>托管</strong>到 <strong>Cloudflare</strong> 上面。作者提到，关于<strong>如何把域名托管到 Cloudflare</strong>，在<strong>之前的视频</strong>里有过详细介绍，这里不再赘述。</p>
+<p>(9:18-9:34) <em><strong>9.4: Vercel 绑定自定义域名</strong></em>
+回到 <strong>Vercel</strong> 的项目♋<strong>设置（Settings）</strong> -&gt; <strong>Domains</strong> 页面，点击 <strong>Add</strong>。</p>
+<ul>
+<li><strong>输入域名：</strong> 输入自己购买并托管到 <strong>Cloudflare</strong> 的域名（或子域名），♋例如 <code>snake.tech-shrimp.com</code>。</li>
+<li><strong>自动配置：</strong> 点击 <strong>Add</strong> 后，♋选择 <strong>Configure Automatically</strong>。<strong>Vercel</strong> 会自动通过 <strong>Cloudflare API</strong> 配置 <strong>DNS 记录</strong>。</li>
+</ul>
+<p>(9:34-9:40) <em><strong>9.5: 测试自定义域名</strong></em>
+配置完成后，页面上会显示<strong>两个蓝色的对勾</strong>，表示<strong>配置完成</strong>。使用这个<strong>自定义域名</strong>（<code>snake.tech-shrimp.com</code>）同样可以<strong>访问</strong>到刚才部署的网站，并且♉这个域名在<strong>国内是可以直连</strong>的。</p>
+<h1 id="part9-用户行为分析">part9: 用户行为分析
+</h1><p>(9:40-9:51) <em><strong>10.1: 免费用户行为监控工具：Microsoft Clarity</strong></em>
+推荐使用 <strong>Microsoft Clarity</strong> (<code>clarity.microsoft.com</code>)，这是<strong>微软</strong>推出的<strong>免费用户行为监控工具</strong>。它提供了<strong>热点地图（Heatmaps）</strong>、♈<strong>用户行为录像（Session Recordings）</strong>、**报表（Dashboard）**等一系列功能。</p>
+<p>(9:51-10:02) <em><strong>10.2: 集成 Clarity 到 Next.js 项目</strong></em>
+登录 <strong>Clarity</strong>（可以使用 <strong>Google 账号</strong>）。♋在 <strong>Clarity</strong> 项目设置中，♉选择<strong>手动安装（Manual install）</strong>，♈获取<strong>跟踪代码（Tracking Code）</strong>。</p>
+<ul>
+<li><strong>操作：</strong> 回到 <strong>VS Code</strong>，打开 ♋⌊<code>app/layout.tsx</code> 文件⌋。在 <code>&lt;body&gt;</code> 标签内，定义一个 <code>&lt;Script&gt;</code> 组件（从 <code>next/script</code> 导入），。将 <strong>Clarity</strong> 的<strong>跟踪代码</strong>粘贴到 <code>&lt;Script&gt;</code> 组件内部。</li>
+</ul>
+<p>(10:02-10:10) <em><strong>10.3: 验证 Clarity 集成</strong></em>
+<strong>保存</strong> <code>layout.tsx</code> 文件。在<strong>本地</strong>重新<strong>启动项目</strong> (<code>npm run dev</code>) 并进行一些操作。♈回到 <strong>Clarity</strong> 网站，在<strong>录制（Recordings）<strong>页面，♐可以看到</strong>作为用户的操作</strong>已经被<strong>录制</strong>下来了。</p>
+<p>(10:10-10:17) <em><strong>10.4: Clarity 其他功能说明</strong></em>
+<strong>Clarity</strong> 的<strong>仪表板（Dashboard）<strong>和</strong>热点地图（Heatmaps）<strong>需要</strong>过 24 小时</strong>才能呈现数据。至此，♉已将网站<strong>轻松接入</strong>了 <strong>Clarity</strong>。</p>
+<h1 id="part10-邮件">part10: 邮件
+</h1><p>(10:17-10:39) <em><strong>11.1: 免费邮件收发方案</strong></em>
+作者之前有一期视频介绍<strong>如何使用 Cloudflare 获取无限多个免费邮箱</strong>。</p>
+<ul>
+<li><strong>收邮件：</strong> 主要使用 **Cloudflare 的电子邮箱路由（Email Routing）**功能。</li>
+<li>♉<strong>发邮件「白Cloudflare无限多企业邮箱，可收发邮件」：</strong> 借助 <strong>Resend</strong> (<code>resend.com</code>) 的<strong>免费 API</strong>。<strong>Resend</strong> 的<strong>免费套餐</strong>每天可以发送 <strong>100 封</strong>邮件，每个月最多 <strong>3000 封</strong>。</li>
+<li><strong>说明：</strong> 详细用法在<strong>之前的视频</strong>里，本期不再赘述。</li>
+</ul>
+<h1 id="part11-ddos-防御">part11: DDoS 防御
+</h1><p>(10:39-10:55) <em><strong>12.1: 免费 DDoS 防御方案</strong></em>
+之前也有一期<strong>完整视频</strong>介绍使用 <strong>Cloudflare 防御 DDoS 攻击</strong>。</p>
+<ul>
+<li><strong>主要方法：</strong>
+<ol>
+<li>配置 <strong>CDN</strong>。</li>
+<li>配置 <strong>IP 白名单</strong>。</li>
+<li>使用 <strong>Cloudflare 防火墙（Firewall）</strong>。</li>
+</ol>
+</li>
+<li><strong>说明：</strong> 这三种方法可以有效防御 <strong>DDoS 攻击</strong>，详细内容在那期视频里，这里不再赘述。</li>
+</ul>
+<h1 id="part12-其他免费工具与总结">part12: 其他免费工具与总结
+</h1><p>(10:55-1:01) <em><strong>13.1: 其他推荐的免费工具</strong></em></p>
+<ul>
+<li>♎<strong>UI 设计：</strong> 可以选择 <strong>Figma</strong> (<code>figma.com</code>)。</li>
+<li><strong>文档工具：</strong> 可以选择 <strong>Notion</strong> (<code>notion.so</code>)。</li>
+</ul>
+<p>(11:01-1:04) <em><strong>13.2: 工单管理工具</strong></em>
+♎<strong>工单管理</strong>可以使用 <strong>GitHub 的 Project 功能</strong>。</p>
+<p>(11:04-11:13) <em><strong>13.3: 作者开发习惯与视频总结</strong></em>
+作者自嘲写代码风格是**&ldquo;一把梭&rdquo;<strong>，通常</strong>不做设计**、<strong>不写文档</strong>、也<strong>不创建 ticket</strong>。视频到此结束。</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/hugo-stack-dev/tags/node.js/">Node.js</a>
+        
+            <a href="/hugo-stack-dev/tags/next.js/">Next.js</a>
+        
+            <a href="/hugo-stack-dev/tags/%E5%9C%A8%E7%BA%BF%E5%85%8D%E8%B4%B9%E6%95%B0%E6%8D%AE%E5%BA%93%E6%9C%8D%E5%8A%A1/">在线免费数据库服务</a>
+        
+            <a href="/hugo-stack-dev/tags/%E9%A1%B9%E7%9B%AE%E9%83%A8%E7%BD%B2/">项目部署</a>
+        
+            <a href="/hugo-stack-dev/tags/ai%E6%93%8D%E4%BD%9C/">AI操作</a>
+        
+            <a href="/hugo-stack-dev/tags/%E5%9F%9F%E5%90%8D%E7%BB%91%E5%AE%9A/">域名绑定</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">Related content</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/hugo-stack-dev/p/github-page%E9%83%A8%E7%BD%B2hugo%E5%8D%9A%E5%AE%A2/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">github page部署hugo博客</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/hugo-stack-dev/p/hugo%E5%8D%9A%E5%AE%A2action%E4%BB%A3%E7%A0%81%E9%83%A8%E7%BD%B2action%E4%BB%A3%E7%A0%81%E8%A7%A3%E6%9E%90/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">hugo博客action代码部署：action代码解析</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/hugo-stack-dev/p/hugo%E5%8D%9A%E5%AE%A2action%E4%BB%A3%E7%A0%81%E9%83%A8%E7%BD%B2hugo%E5%8D%9A%E5%AE%A2%E7%9A%84action%E4%BB%A3%E7%A0%81%E6%9C%AC%E4%BD%93/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">hugo博客action代码部署：hugo博客的action代码本体</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/hugo-stack-dev/p/%E4%BD%BF%E7%94%A8github-action%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2hugo%E5%8D%9A%E5%AE%A2%E5%88%B0page%E4%BB%93%E5%BA%93/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">使用github-action自动部署hugo博客到“page”仓库</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/hugo-stack-dev/p/%E6%90%AD%E5%BB%BA%E6%9C%AC%E5%9C%B0hugo%E5%8D%9A%E5%AE%A2/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">搭建本地hugo博客</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "hugo-theme-stack" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (typeof DISQUS == 'object') {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2025 Example Person
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.30.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/hugo-stack-dev/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

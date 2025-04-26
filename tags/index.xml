@@ -7,7 +7,63 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Thu, 20 Feb 2025 20:14:22 +0800</lastBuildDate><atom:link href="https://yichixing.github.io/hugo-stack-dev/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 11 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yichixing.github.io/hugo-stack-dev/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>AI操作</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/tags/ai%E6%93%8D%E4%BD%9C/</link>
+        <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://yichixing.github.io/hugo-stack-dev/tags/ai%E6%93%8D%E4%BD%9C/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Markdown</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/tags/markdown/</link>
+        <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://yichixing.github.io/hugo-stack-dev/tags/markdown/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Next.js</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/tags/next.js/</link>
+        <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://yichixing.github.io/hugo-stack-dev/tags/next.js/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Node.js</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/tags/node.js/</link>
+        <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://yichixing.github.io/hugo-stack-dev/tags/node.js/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>在线免费数据库服务</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E5%9C%A8%E7%BA%BF%E5%85%8D%E8%B4%B9%E6%95%B0%E6%8D%AE%E5%BA%93%E6%9C%8D%E5%8A%A1/</link>
+        <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E5%9C%A8%E7%BA%BF%E5%85%8D%E8%B4%B9%E6%95%B0%E6%8D%AE%E5%BA%93%E6%9C%8D%E5%8A%A1/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>域名绑定</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E5%9F%9F%E5%90%8D%E7%BB%91%E5%AE%9A/</link>
+        <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E5%9F%9F%E5%90%8D%E7%BB%91%E5%AE%9A/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>项目部署</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E9%A1%B9%E7%9B%AE%E9%83%A8%E7%BD%B2/</link>
+        <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E9%A1%B9%E7%9B%AE%E9%83%A8%E7%BD%B2/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>AI使用技巧</title>
         <link>https://yichixing.github.io/hugo-stack-dev/tags/ai%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/</link>
         <pubDate>Thu, 20 Feb 2025 20:14:22 +0800</pubDate>
@@ -29,14 +85,6 @@
         <pubDate>Thu, 20 Feb 2025 20:14:22 +0800</pubDate>
         
         <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E7%9A%84%E5%8F%82%E6%95%B0baseurl/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>项目部署</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E9%A1%B9%E7%9B%AE%E9%83%A8%E7%BD%B2/</link>
-        <pubDate>Thu, 20 Feb 2025 20:14:22 +0800</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E9%A1%B9%E7%9B%AE%E9%83%A8%E7%BD%B2/</guid>
         <description></description>
         </item>
         <item>
@@ -77,14 +125,6 @@
         <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
         
         <guid>https://yichixing.github.io/hugo-stack-dev/tags/html/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Markdown</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/markdown/</link>
-        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/markdown/</guid>
         <description></description>
         </item>
         <item>

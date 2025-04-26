@@ -7,7 +7,103 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Thu, 20 Feb 2025 20:14:22 +0800</lastBuildDate><atom:link href="https://yichixing.github.io/hugo-stack-dev/collections/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 11 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yichixing.github.io/hugo-stack-dev/collections/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Cloudflare以外平台的自定义域名的绑定</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/collections/cloudflare%E4%BB%A5%E5%A4%96%E5%B9%B3%E5%8F%B0%E7%9A%84%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D%E7%9A%84%E7%BB%91%E5%AE%9A/</link>
+        <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://yichixing.github.io/hugo-stack-dev/collections/cloudflare%E4%BB%A5%E5%A4%96%E5%B9%B3%E5%8F%B0%E7%9A%84%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D%E7%9A%84%E7%BB%91%E5%AE%9A/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Next.js操作</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/collections/next.js%E6%93%8D%E4%BD%9C/</link>
+        <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://yichixing.github.io/hugo-stack-dev/collections/next.js%E6%93%8D%E4%BD%9C/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Node.js</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/collections/node.js/</link>
+        <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://yichixing.github.io/hugo-stack-dev/collections/node.js/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Test</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/collections/test/</link>
+        <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://yichixing.github.io/hugo-stack-dev/collections/test/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Vercel部署</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/collections/vercel%E9%83%A8%E7%BD%B2/</link>
+        <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://yichixing.github.io/hugo-stack-dev/collections/vercel%E9%83%A8%E7%BD%B2/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Vs Code连接git</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/collections/vs-code%E8%BF%9E%E6%8E%A5git/</link>
+        <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://yichixing.github.io/hugo-stack-dev/collections/vs-code%E8%BF%9E%E6%8E%A5git/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>免费数据库服务提供平台操作</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/collections/%E5%85%8D%E8%B4%B9%E6%95%B0%E6%8D%AE%E5%BA%93%E6%9C%8D%E5%8A%A1%E6%8F%90%E4%BE%9B%E5%B9%B3%E5%8F%B0%E6%93%8D%E4%BD%9C/</link>
+        <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://yichixing.github.io/hugo-stack-dev/collections/%E5%85%8D%E8%B4%B9%E6%95%B0%E6%8D%AE%E5%BA%93%E6%9C%8D%E5%8A%A1%E6%8F%90%E4%BE%9B%E5%B9%B3%E5%8F%B0%E6%93%8D%E4%BD%9C/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>标签测试</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/collections/%E6%A0%87%E7%AD%BE%E6%B5%8B%E8%AF%95/</link>
+        <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://yichixing.github.io/hugo-stack-dev/collections/%E6%A0%87%E7%AD%BE%E6%B5%8B%E8%AF%95/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>用AI开发Next.js</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/collections/%E7%94%A8ai%E5%BC%80%E5%8F%91next.js/</link>
+        <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://yichixing.github.io/hugo-stack-dev/collections/%E7%94%A8ai%E5%BC%80%E5%8F%91next.js/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>用AI生成数据库操作代码</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/collections/%E7%94%A8ai%E7%94%9F%E6%88%90%E6%95%B0%E6%8D%AE%E5%BA%93%E6%93%8D%E4%BD%9C%E4%BB%A3%E7%A0%81/</link>
+        <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://yichixing.github.io/hugo-stack-dev/collections/%E7%94%A8ai%E7%94%9F%E6%88%90%E6%95%B0%E6%8D%AE%E5%BA%93%E6%93%8D%E4%BD%9C%E4%BB%A3%E7%A0%81/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>用户行为监控工具</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/collections/%E7%94%A8%E6%88%B7%E8%A1%8C%E4%B8%BA%E7%9B%91%E6%8E%A7%E5%B7%A5%E5%85%B7/</link>
+        <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://yichixing.github.io/hugo-stack-dev/collections/%E7%94%A8%E6%88%B7%E8%A1%8C%E4%B8%BA%E7%9B%91%E6%8E%A7%E5%B7%A5%E5%85%B7/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>邮件功能</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/collections/%E9%82%AE%E4%BB%B6%E5%8A%9F%E8%83%BD/</link>
+        <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://yichixing.github.io/hugo-stack-dev/collections/%E9%82%AE%E4%BB%B6%E5%8A%9F%E8%83%BD/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Blog</title>
         <link>https://yichixing.github.io/hugo-stack-dev/collections/blog/</link>
         <pubDate>Thu, 20 Feb 2025 20:14:22 +0800</pubDate>
@@ -37,14 +133,6 @@
         <pubDate>Thu, 20 Feb 2025 20:14:22 +0800</pubDate>
         
         <guid>https://yichixing.github.io/hugo-stack-dev/collections/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E8%B5%8B%E5%80%BC%E7%BB%99%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E7%9A%84%E5%8F%82%E6%95%B0/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Test</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/collections/test/</link>
-        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/collections/test/</guid>
         <description></description>
         </item>
         
