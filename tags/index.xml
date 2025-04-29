@@ -7,348 +7,36 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Mon, 28 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yichixing.github.io/hugo-stack-dev/tags/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>C盘清理工具</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/c%E7%9B%98%E6%B8%85%E7%90%86%E5%B7%A5%E5%85%B7/</link>
-        <pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/c%E7%9B%98%E6%B8%85%E7%90%86%E5%B7%A5%E5%85%B7/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>一站式模型系统</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E4%B8%80%E7%AB%99%E5%BC%8F%E6%A8%A1%E5%9E%8B%E7%B3%BB%E7%BB%9F/</link>
-        <pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E4%B8%80%E7%AB%99%E5%BC%8F%E6%A8%A1%E5%9E%8B%E7%B3%BB%E7%BB%9F/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>传输工具</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E4%BC%A0%E8%BE%93%E5%B7%A5%E5%85%B7/</link>
-        <pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E4%BC%A0%E8%BE%93%E5%B7%A5%E5%85%B7/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>好的全麦吐司</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E5%A5%BD%E7%9A%84%E5%85%A8%E9%BA%A6%E5%90%90%E5%8F%B8/</link>
-        <pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E5%A5%BD%E7%9A%84%E5%85%A8%E9%BA%A6%E5%90%90%E5%8F%B8/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>好的可颂</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E5%A5%BD%E7%9A%84%E5%8F%AF%E9%A2%82/</link>
-        <pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E5%A5%BD%E7%9A%84%E5%8F%AF%E9%A2%82/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>好的法国面包</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E5%A5%BD%E7%9A%84%E6%B3%95%E5%9B%BD%E9%9D%A2%E5%8C%85/</link>
-        <pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E5%A5%BD%E7%9A%84%E6%B3%95%E5%9B%BD%E9%9D%A2%E5%8C%85/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>好的红豆包</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E5%A5%BD%E7%9A%84%E7%BA%A2%E8%B1%86%E5%8C%85/</link>
-        <pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E5%A5%BD%E7%9A%84%E7%BA%A2%E8%B1%86%E5%8C%85/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>好的黄油卷</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E5%A5%BD%E7%9A%84%E9%BB%84%E6%B2%B9%E5%8D%B7/</link>
-        <pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E5%A5%BD%E7%9A%84%E9%BB%84%E6%B2%B9%E5%8D%B7/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>好的黑麦面包</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E5%A5%BD%E7%9A%84%E9%BB%91%E9%BA%A6%E9%9D%A2%E5%8C%85/</link>
-        <pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E5%A5%BD%E7%9A%84%E9%BB%91%E9%BA%A6%E9%9D%A2%E5%8C%85/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>批量重命名工具</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E6%89%B9%E9%87%8F%E9%87%8D%E5%91%BD%E5%90%8D%E5%B7%A5%E5%85%B7/</link>
-        <pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E6%89%B9%E9%87%8F%E9%87%8D%E5%91%BD%E5%90%8D%E5%B7%A5%E5%85%B7/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>提示词手册</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E6%8F%90%E7%A4%BA%E8%AF%8D%E6%89%8B%E5%86%8C/</link>
-        <pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E6%8F%90%E7%A4%BA%E8%AF%8D%E6%89%8B%E5%86%8C/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>杏仁可颂</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E6%9D%8F%E4%BB%81%E5%8F%AF%E9%A2%82/</link>
-        <pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E6%9D%8F%E4%BB%81%E5%8F%AF%E9%A2%82/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>模型提示词题（全面）</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E6%A8%A1%E5%9E%8B%E6%8F%90%E7%A4%BA%E8%AF%8D%E9%A2%98%E5%85%A8%E9%9D%A2/</link>
-        <pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E6%A8%A1%E5%9E%8B%E6%8F%90%E7%A4%BA%E8%AF%8D%E9%A2%98%E5%85%A8%E9%9D%A2/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>视频字幕、水印清除工具</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E8%A7%86%E9%A2%91%E5%AD%97%E5%B9%95%E6%B0%B4%E5%8D%B0%E6%B8%85%E9%99%A4%E5%B7%A5%E5%85%B7/</link>
-        <pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E8%A7%86%E9%A2%91%E5%AD%97%E5%B9%95%E6%B0%B4%E5%8D%B0%E6%B8%85%E9%99%A4%E5%B7%A5%E5%85%B7/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>逻辑测试题题目本身（推理能力方面挑战gemini2.5pro）</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E9%80%BB%E8%BE%91%E6%B5%8B%E8%AF%95%E9%A2%98%E9%A2%98%E7%9B%AE%E6%9C%AC%E8%BA%AB%E6%8E%A8%E7%90%86%E8%83%BD%E5%8A%9B%E6%96%B9%E9%9D%A2%E6%8C%91%E6%88%98gemini2.5pro/</link>
-        <pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E9%80%BB%E8%BE%91%E6%B5%8B%E8%AF%95%E9%A2%98%E9%A2%98%E7%9B%AE%E6%9C%AC%E8%BA%AB%E6%8E%A8%E7%90%86%E8%83%BD%E5%8A%9B%E6%96%B9%E9%9D%A2%E6%8C%91%E6%88%98gemini2.5pro/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>AI有API接口测试的能力</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/ai%E6%9C%89api%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95%E7%9A%84%E8%83%BD%E5%8A%9B/</link>
-        <pubDate>Sun, 27 Apr 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/ai%E6%9C%89api%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95%E7%9A%84%E8%83%BD%E5%8A%9B/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Browser Tools MCP&#43;对应浏览器拓展（结合控制台报错修复问题）</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/browser-tools-mcp&#43;%E5%AF%B9%E5%BA%94%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8B%93%E5%B1%95%E7%BB%93%E5%90%88%E6%8E%A7%E5%88%B6%E5%8F%B0%E6%8A%A5%E9%94%99%E4%BF%AE%E5%A4%8D%E9%97%AE%E9%A2%98/</link>
-        <pubDate>Sun, 27 Apr 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/browser-tools-mcp&#43;%E5%AF%B9%E5%BA%94%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8B%93%E5%B1%95%E7%BB%93%E5%90%88%E6%8E%A7%E5%88%B6%E5%8F%B0%E6%8A%A5%E9%94%99%E4%BF%AE%E5%A4%8D%E9%97%AE%E9%A2%98/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Git&#43;github MCP</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/git&#43;github-mcp/</link>
-        <pubDate>Sun, 27 Apr 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/git&#43;github-mcp/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>OpenAI Vision API</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/openai-vision-api/</link>
-        <pubDate>Sun, 27 Apr 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/openai-vision-api/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>用 提示词文件 来实现项目开发（AI编程）</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E7%94%A8-%E6%8F%90%E7%A4%BA%E8%AF%8D%E6%96%87%E4%BB%B6-%E6%9D%A5%E5%AE%9E%E7%8E%B0%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91ai%E7%BC%96%E7%A8%8B/</link>
-        <pubDate>Sun, 27 Apr 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E7%94%A8-%E6%8F%90%E7%A4%BA%E8%AF%8D%E6%96%87%E4%BB%B6-%E6%9D%A5%E5%AE%9E%E7%8E%B0%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91ai%E7%BC%96%E7%A8%8B/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>用AI 用规则 完成提示词文件</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E7%94%A8ai-%E7%94%A8%E8%A7%84%E5%88%99-%E5%AE%8C%E6%88%90%E6%8F%90%E7%A4%BA%E8%AF%8D%E6%96%87%E4%BB%B6/</link>
-        <pubDate>Sun, 27 Apr 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E7%94%A8ai-%E7%94%A8%E8%A7%84%E5%88%99-%E5%AE%8C%E6%88%90%E6%8F%90%E7%A4%BA%E8%AF%8D%E6%96%87%E4%BB%B6/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>项目用技术栈提示词文件让AI实现了与外界AI模型的交互</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E9%A1%B9%E7%9B%AE%E7%94%A8%E6%8A%80%E6%9C%AF%E6%A0%88%E6%8F%90%E7%A4%BA%E8%AF%8D%E6%96%87%E4%BB%B6%E8%AE%A9ai%E5%AE%9E%E7%8E%B0%E4%BA%86%E4%B8%8E%E5%A4%96%E7%95%8Cai%E6%A8%A1%E5%9E%8B%E7%9A%84%E4%BA%A4%E4%BA%92/</link>
-        <pubDate>Sun, 27 Apr 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E9%A1%B9%E7%9B%AE%E7%94%A8%E6%8A%80%E6%9C%AF%E6%A0%88%E6%8F%90%E7%A4%BA%E8%AF%8D%E6%96%87%E4%BB%B6%E8%AE%A9ai%E5%AE%9E%E7%8E%B0%E4%BA%86%E4%B8%8E%E5%A4%96%E7%95%8Cai%E6%A8%A1%E5%9E%8B%E7%9A%84%E4%BA%A4%E4%BA%92/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>PotPlayer（可偶尔用于看片）</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/potplayer%E5%8F%AF%E5%81%B6%E5%B0%94%E7%94%A8%E4%BA%8E%E7%9C%8B%E7%89%87/</link>
-        <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/potplayer%E5%8F%AF%E5%81%B6%E5%B0%94%E7%94%A8%E4%BA%8E%E7%9C%8B%E7%89%87/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>PPT制作AI</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/ppt%E5%88%B6%E4%BD%9Cai/</link>
-        <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/ppt%E5%88%B6%E4%BD%9Cai/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Sub_check</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/sub_check/</link>
-        <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/sub_check/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>免费照片修复AI</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E5%85%8D%E8%B4%B9%E7%85%A7%E7%89%87%E4%BF%AE%E5%A4%8Dai/</link>
-        <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E5%85%8D%E8%B4%B9%E7%85%A7%E7%89%87%E4%BF%AE%E5%A4%8Dai/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>免费配音AI（文转语音）</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E5%85%8D%E8%B4%B9%E9%85%8D%E9%9F%B3ai%E6%96%87%E8%BD%AC%E8%AF%AD%E9%9F%B3/</link>
-        <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E5%85%8D%E8%B4%B9%E9%85%8D%E9%9F%B3ai%E6%96%87%E8%BD%AC%E8%AF%AD%E9%9F%B3/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>提示词AI</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E6%8F%90%E7%A4%BA%E8%AF%8Dai/</link>
-        <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E6%8F%90%E7%A4%BA%E8%AF%8Dai/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>检测AI率的AI</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E6%A3%80%E6%B5%8Bai%E7%8E%87%E7%9A%84ai/</link>
-        <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E6%A3%80%E6%B5%8Bai%E7%8E%87%E7%9A%84ai/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>法律AI</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E6%B3%95%E5%BE%8Bai/</link>
-        <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E6%B3%95%E5%BE%8Bai/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>短视频AI</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E7%9F%AD%E8%A7%86%E9%A2%91ai/</link>
-        <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E7%9F%AD%E8%A7%86%E9%A2%91ai/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>视频人物动作替换</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E8%A7%86%E9%A2%91%E4%BA%BA%E7%89%A9%E5%8A%A8%E4%BD%9C%E6%9B%BF%E6%8D%A2/</link>
-        <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E8%A7%86%E9%A2%91%E4%BA%BA%E7%89%A9%E5%8A%A8%E4%BD%9C%E6%9B%BF%E6%8D%A2/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>设计类AI</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E8%AE%BE%E8%AE%A1%E7%B1%BBai/</link>
-        <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E8%AE%BE%E8%AE%A1%E7%B1%BBai/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>通过能力对比来测试模型</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E9%80%9A%E8%BF%87%E8%83%BD%E5%8A%9B%E5%AF%B9%E6%AF%94%E6%9D%A5%E6%B5%8B%E8%AF%95%E6%A8%A1%E5%9E%8B/</link>
-        <pubDate>Sat, 29 Mar 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E9%80%9A%E8%BF%87%E8%83%BD%E5%8A%9B%E5%AF%B9%E6%AF%94%E6%9D%A5%E6%B5%8B%E8%AF%95%E6%A8%A1%E5%9E%8B/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>模型综合能力测试比对 Gemini2.5pro vs Claude 3.7</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E6%A8%A1%E5%9E%8B%E7%BB%BC%E5%90%88%E8%83%BD%E5%8A%9B%E6%B5%8B%E8%AF%95%E6%AF%94%E5%AF%B9-gemini2.5pro-vs-claude-3.7/</link>
-        <pubDate>Fri, 28 Mar 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E6%A8%A1%E5%9E%8B%E7%BB%BC%E5%90%88%E8%83%BD%E5%8A%9B%E6%B5%8B%E8%AF%95%E6%AF%94%E5%AF%B9-gemini2.5pro-vs-claude-3.7/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>环境变量赋值给配置文件的参数</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E8%B5%8B%E5%80%BC%E7%BB%99%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E7%9A%84%E5%8F%82%E6%95%B0/</link>
-        <pubDate>Fri, 28 Mar 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E8%B5%8B%E5%80%BC%E7%BB%99%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E7%9A%84%E5%8F%82%E6%95%B0/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>AI编程</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/ai%E7%BC%96%E7%A8%8B/</link>
+        <lastBuildDate>Tue, 11 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yichixing.github.io/hugo-stack-dev/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>AI操作</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/tags/ai%E6%93%8D%E4%BD%9C/</link>
         <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/ai%E7%BC%96%E7%A8%8B/</guid>
+        <guid>https://yichixing.github.io/hugo-stack-dev/tags/ai%E6%93%8D%E4%BD%9C/</guid>
         <description></description>
         </item>
         <item>
-        <title>AI识面包</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/ai%E8%AF%86%E9%9D%A2%E5%8C%85/</link>
+        <title>Markdown</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/tags/markdown/</link>
         <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/ai%E8%AF%86%E9%9D%A2%E5%8C%85/</guid>
+        <guid>https://yichixing.github.io/hugo-stack-dev/tags/markdown/</guid>
         <description></description>
         </item>
         <item>
-        <title>Next.js框架</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/next.js%E6%A1%86%E6%9E%B6/</link>
+        <title>Next.js</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/tags/next.js/</link>
         <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/next.js%E6%A1%86%E6%9E%B6/</guid>
+        <guid>https://yichixing.github.io/hugo-stack-dev/tags/next.js/</guid>
         <description></description>
         </item>
         <item>
-        <title>Vscode操作</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/vscode%E6%93%8D%E4%BD%9C/</link>
+        <title>Node.js</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/tags/node.js/</link>
         <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/vscode%E6%93%8D%E4%BD%9C/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>何为发酵控制</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E4%BD%95%E4%B8%BA%E5%8F%91%E9%85%B5%E6%8E%A7%E5%88%B6/</link>
-        <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E4%BD%95%E4%B8%BA%E5%8F%91%E9%85%B5%E6%8E%A7%E5%88%B6/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>吐司的降本增效</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E5%90%90%E5%8F%B8%E7%9A%84%E9%99%8D%E6%9C%AC%E5%A2%9E%E6%95%88/</link>
-        <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E5%90%90%E5%8F%B8%E7%9A%84%E9%99%8D%E6%9C%AC%E5%A2%9E%E6%95%88/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>向AI反馈错误并寻求解决方案</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E5%90%91ai%E5%8F%8D%E9%A6%88%E9%94%99%E8%AF%AF%E5%B9%B6%E5%AF%BB%E6%B1%82%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</link>
-        <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E5%90%91ai%E5%8F%8D%E9%A6%88%E9%94%99%E8%AF%AF%E5%B9%B6%E5%AF%BB%E6%B1%82%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</guid>
+        <guid>https://yichixing.github.io/hugo-stack-dev/tags/node.js/</guid>
         <description></description>
         </item>
         <item>
@@ -368,46 +56,6 @@
         <description></description>
         </item>
         <item>
-        <title>好吐司的特征吹牛</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E5%A5%BD%E5%90%90%E5%8F%B8%E7%9A%84%E7%89%B9%E5%BE%81%E5%90%B9%E7%89%9B/</link>
-        <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E5%A5%BD%E5%90%90%E5%8F%B8%E7%9A%84%E7%89%B9%E5%BE%81%E5%90%B9%E7%89%9B/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>安全信息保护</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E5%AE%89%E5%85%A8%E4%BF%A1%E6%81%AF%E4%BF%9D%E6%8A%A4/</link>
-        <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E5%AE%89%E5%85%A8%E4%BF%A1%E6%81%AF%E4%BF%9D%E6%8A%A4/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>本地后端部署服务</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E6%9C%AC%E5%9C%B0%E5%90%8E%E7%AB%AF%E9%83%A8%E7%BD%B2%E6%9C%8D%E5%8A%A1/</link>
-        <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E6%9C%AC%E5%9C%B0%E5%90%8E%E7%AB%AF%E9%83%A8%E7%BD%B2%E6%9C%8D%E5%8A%A1/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>认识发酵</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E8%AE%A4%E8%AF%86%E5%8F%91%E9%85%B5/</link>
-        <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E8%AE%A4%E8%AF%86%E5%8F%91%E9%85%B5/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>认识小吐司</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E8%AE%A4%E8%AF%86%E5%B0%8F%E5%90%90%E5%8F%B8/</link>
-        <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E8%AE%A4%E8%AF%86%E5%B0%8F%E5%90%90%E5%8F%B8/</guid>
-        <description></description>
-        </item>
-        <item>
         <title>项目部署</title>
         <link>https://yichixing.github.io/hugo-stack-dev/tags/%E9%A1%B9%E7%9B%AE%E9%83%A8%E7%BD%B2/</link>
         <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
@@ -416,59 +64,11 @@
         <description></description>
         </item>
         <item>
-        <title>Action代码本体</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/action%E4%BB%A3%E7%A0%81%E6%9C%AC%E4%BD%93/</link>
+        <title>AI使用技巧</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/tags/ai%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/</link>
         <pubDate>Thu, 20 Feb 2025 20:14:22 +0800</pubDate>
         
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/action%E4%BB%A3%E7%A0%81%E6%9C%AC%E4%BD%93/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>AI使用在线文档的三种技巧</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/ai%E4%BD%BF%E7%94%A8%E5%9C%A8%E7%BA%BF%E6%96%87%E6%A1%A3%E7%9A%84%E4%B8%89%E7%A7%8D%E6%8A%80%E5%B7%A7/</link>
-        <pubDate>Thu, 20 Feb 2025 20:14:22 +0800</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/ai%E4%BD%BF%E7%94%A8%E5%9C%A8%E7%BA%BF%E6%96%87%E6%A1%A3%E7%9A%84%E4%B8%89%E7%A7%8D%E6%8A%80%E5%B7%A7/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>BaseURL的重要性</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/baseurl%E7%9A%84%E9%87%8D%E8%A6%81%E6%80%A7/</link>
-        <pubDate>Thu, 20 Feb 2025 20:14:22 +0800</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/baseurl%E7%9A%84%E9%87%8D%E8%A6%81%E6%80%A7/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>BaseURL要作为部署平台的环境变量</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/baseurl%E8%A6%81%E4%BD%9C%E4%B8%BA%E9%83%A8%E7%BD%B2%E5%B9%B3%E5%8F%B0%E7%9A%84%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</link>
-        <pubDate>Thu, 20 Feb 2025 20:14:22 +0800</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/baseurl%E8%A6%81%E4%BD%9C%E4%B8%BA%E9%83%A8%E7%BD%B2%E5%B9%B3%E5%8F%B0%E7%9A%84%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Github Page部署hugo博客</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/github-page%E9%83%A8%E7%BD%B2hugo%E5%8D%9A%E5%AE%A2/</link>
-        <pubDate>Thu, 20 Feb 2025 20:14:22 +0800</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/github-page%E9%83%A8%E7%BD%B2hugo%E5%8D%9A%E5%AE%A2/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Github项目直接用AI客户端打开</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/github%E9%A1%B9%E7%9B%AE%E7%9B%B4%E6%8E%A5%E7%94%A8ai%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%89%93%E5%BC%80/</link>
-        <pubDate>Thu, 20 Feb 2025 20:14:22 +0800</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/github%E9%A1%B9%E7%9B%AE%E7%9B%B4%E6%8E%A5%E7%94%A8ai%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%89%93%E5%BC%80/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>在本地搭建hugo博客</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E5%9C%A8%E6%9C%AC%E5%9C%B0%E6%90%AD%E5%BB%BAhugo%E5%8D%9A%E5%AE%A2/</link>
-        <pubDate>Thu, 20 Feb 2025 20:14:22 +0800</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E5%9C%A8%E6%9C%AC%E5%9C%B0%E6%90%AD%E5%BB%BAhugo%E5%8D%9A%E5%AE%A2/</guid>
+        <guid>https://yichixing.github.io/hugo-stack-dev/tags/ai%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/</guid>
         <description></description>
         </item>
         <item>
@@ -480,187 +80,11 @@
         <description></description>
         </item>
         <item>
-        <title>部署项目的action代码</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E9%83%A8%E7%BD%B2%E9%A1%B9%E7%9B%AE%E7%9A%84action%E4%BB%A3%E7%A0%81/</link>
-        <pubDate>Thu, 20 Feb 2025 20:14:22 +0800</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E9%83%A8%E7%BD%B2%E9%A1%B9%E7%9B%AE%E7%9A%84action%E4%BB%A3%E7%A0%81/</guid>
-        <description></description>
-        </item>
-        <item>
         <title>配置文件的参数baseURL</title>
         <link>https://yichixing.github.io/hugo-stack-dev/tags/%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E7%9A%84%E5%8F%82%E6%95%B0baseurl/</link>
         <pubDate>Thu, 20 Feb 2025 20:14:22 +0800</pubDate>
         
         <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E7%9A%84%E5%8F%82%E6%95%B0baseurl/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>项目git操作&#43;action操作</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E9%A1%B9%E7%9B%AEgit%E6%93%8D%E4%BD%9C&#43;action%E6%93%8D%E4%BD%9C/</link>
-        <pubDate>Thu, 20 Feb 2025 20:14:22 +0800</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E9%A1%B9%E7%9B%AEgit%E6%93%8D%E4%BD%9C&#43;action%E6%93%8D%E4%BD%9C/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>2元模式模式垮台的根本原因</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/2%E5%85%83%E6%A8%A1%E5%BC%8F%E6%A8%A1%E5%BC%8F%E5%9E%AE%E5%8F%B0%E7%9A%84%E6%A0%B9%E6%9C%AC%E5%8E%9F%E5%9B%A0/</link>
-        <pubDate>Tue, 28 Jan 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/2%E5%85%83%E6%A8%A1%E5%BC%8F%E6%A8%A1%E5%BC%8F%E5%9E%AE%E5%8F%B0%E7%9A%84%E6%A0%B9%E6%9C%AC%E5%8E%9F%E5%9B%A0/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>CDN Ip行不行 Gmmini一测就知道</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/cdn-ip%E8%A1%8C%E4%B8%8D%E8%A1%8C-gmmini%E4%B8%80%E6%B5%8B%E5%B0%B1%E7%9F%A5%E9%81%93/</link>
-        <pubDate>Tue, 28 Jan 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/cdn-ip%E8%A1%8C%E4%B8%8D%E8%A1%8C-gmmini%E4%B8%80%E6%B5%8B%E5%B0%B1%E7%9F%A5%E9%81%93/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Cpu也能跑的小参数模型</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/cpu%E4%B9%9F%E8%83%BD%E8%B7%91%E7%9A%84%E5%B0%8F%E5%8F%82%E6%95%B0%E6%A8%A1%E5%9E%8B/</link>
-        <pubDate>Tue, 28 Jan 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/cpu%E4%B9%9F%E8%83%BD%E8%B7%91%E7%9A%84%E5%B0%8F%E5%8F%82%E6%95%B0%E6%A8%A1%E5%9E%8B/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>LMDeploy在linux系统部署模型</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/lmdeploy%E5%9C%A8linux%E7%B3%BB%E7%BB%9F%E9%83%A8%E7%BD%B2%E6%A8%A1%E5%9E%8B/</link>
-        <pubDate>Tue, 28 Jan 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/lmdeploy%E5%9C%A8linux%E7%B3%BB%E7%BB%9F%E9%83%A8%E7%BD%B2%E6%A8%A1%E5%9E%8B/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>OCR能力横向对比gemini2.5pro</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/ocr%E8%83%BD%E5%8A%9B%E6%A8%AA%E5%90%91%E5%AF%B9%E6%AF%94gemini2.5pro/</link>
-        <pubDate>Tue, 28 Jan 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/ocr%E8%83%BD%E5%8A%9B%E6%A8%AA%E5%90%91%E5%AF%B9%E6%AF%94gemini2.5pro/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Qwen3全参模型不开推理也非常强大</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/qwen3%E5%85%A8%E5%8F%82%E6%A8%A1%E5%9E%8B%E4%B8%8D%E5%BC%80%E6%8E%A8%E7%90%86%E4%B9%9F%E9%9D%9E%E5%B8%B8%E5%BC%BA%E5%A4%A7/</link>
-        <pubDate>Tue, 28 Jan 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/qwen3%E5%85%A8%E5%8F%82%E6%A8%A1%E5%9E%8B%E4%B8%8D%E5%BC%80%E6%8E%A8%E7%90%86%E4%B9%9F%E9%9D%9E%E5%B8%B8%E5%BC%BA%E5%A4%A7/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Qwen3小参数模型开了推理后 其效果常常能媲美甚至超过不开启思考模式的32B模型</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/qwen3%E5%B0%8F%E5%8F%82%E6%95%B0%E6%A8%A1%E5%9E%8B%E5%BC%80%E4%BA%86%E6%8E%A8%E7%90%86%E5%90%8E-%E5%85%B6%E6%95%88%E6%9E%9C%E5%B8%B8%E5%B8%B8%E8%83%BD%E5%AA%B2%E7%BE%8E%E7%94%9A%E8%87%B3%E8%B6%85%E8%BF%87%E4%B8%8D%E5%BC%80%E5%90%AF%E6%80%9D%E8%80%83%E6%A8%A1%E5%BC%8F%E7%9A%8432b%E6%A8%A1%E5%9E%8B/</link>
-        <pubDate>Tue, 28 Jan 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/qwen3%E5%B0%8F%E5%8F%82%E6%95%B0%E6%A8%A1%E5%9E%8B%E5%BC%80%E4%BA%86%E6%8E%A8%E7%90%86%E5%90%8E-%E5%85%B6%E6%95%88%E6%9E%9C%E5%B8%B8%E5%B8%B8%E8%83%BD%E5%AA%B2%E7%BE%8E%E7%94%9A%E8%87%B3%E8%B6%85%E8%BF%87%E4%B8%8D%E5%BC%80%E5%90%AF%E6%80%9D%E8%80%83%E6%A8%A1%E5%BC%8F%E7%9A%8432b%E6%A8%A1%E5%9E%8B/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>互联网模型的核心策略</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E4%BA%92%E8%81%94%E7%BD%91%E6%A8%A1%E5%9E%8B%E7%9A%84%E6%A0%B8%E5%BF%83%E7%AD%96%E7%95%A5/</link>
-        <pubDate>Tue, 28 Jan 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E4%BA%92%E8%81%94%E7%BD%91%E6%A8%A1%E5%9E%8B%E7%9A%84%E6%A0%B8%E5%BF%83%E7%AD%96%E7%95%A5/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>产品就不是店里卖的面包  真正的  “产品”是2元面包店这个项目本身</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E4%BA%A7%E5%93%81%E5%B0%B1%E4%B8%8D%E6%98%AF%E5%BA%97%E9%87%8C%E5%8D%96%E7%9A%84%E9%9D%A2%E5%8C%85--%E7%9C%9F%E6%AD%A3%E7%9A%84--%E4%BA%A7%E5%93%81%E6%98%AF2%E5%85%83%E9%9D%A2%E5%8C%85%E5%BA%97%E8%BF%99%E4%B8%AA%E9%A1%B9%E7%9B%AE%E6%9C%AC%E8%BA%AB/</link>
-        <pubDate>Tue, 28 Jan 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E4%BA%A7%E5%93%81%E5%B0%B1%E4%B8%8D%E6%98%AF%E5%BA%97%E9%87%8C%E5%8D%96%E7%9A%84%E9%9D%A2%E5%8C%85--%E7%9C%9F%E6%AD%A3%E7%9A%84--%E4%BA%A7%E5%93%81%E6%98%AF2%E5%85%83%E9%9D%A2%E5%8C%85%E5%BA%97%E8%BF%99%E4%B8%AA%E9%A1%B9%E7%9B%AE%E6%9C%AC%E8%BA%AB/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>可以要求模型帮我生成这样的规则</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E5%8F%AF%E4%BB%A5%E8%A6%81%E6%B1%82%E6%A8%A1%E5%9E%8B%E5%B8%AE%E6%88%91%E7%94%9F%E6%88%90%E8%BF%99%E6%A0%B7%E7%9A%84%E8%A7%84%E5%88%99/</link>
-        <pubDate>Tue, 28 Jan 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E5%8F%AF%E4%BB%A5%E8%A6%81%E6%B1%82%E6%A8%A1%E5%9E%8B%E5%B8%AE%E6%88%91%E7%94%9F%E6%88%90%E8%BF%99%E6%A0%B7%E7%9A%84%E8%A7%84%E5%88%99/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>商家自己的生存问题方面就不应该惯着消费者</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E5%95%86%E5%AE%B6%E8%87%AA%E5%B7%B1%E7%9A%84%E7%94%9F%E5%AD%98%E9%97%AE%E9%A2%98%E6%96%B9%E9%9D%A2%E5%B0%B1%E4%B8%8D%E5%BA%94%E8%AF%A5%E6%83%AF%E7%9D%80%E6%B6%88%E8%B4%B9%E8%80%85/</link>
-        <pubDate>Tue, 28 Jan 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E5%95%86%E5%AE%B6%E8%87%AA%E5%B7%B1%E7%9A%84%E7%94%9F%E5%AD%98%E9%97%AE%E9%A2%98%E6%96%B9%E9%9D%A2%E5%B0%B1%E4%B8%8D%E5%BA%94%E8%AF%A5%E6%83%AF%E7%9D%80%E6%B6%88%E8%B4%B9%E8%80%85/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>多模态模型视觉能力测试</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E5%A4%9A%E6%A8%A1%E6%80%81%E6%A8%A1%E5%9E%8B%E8%A7%86%E8%A7%89%E8%83%BD%E5%8A%9B%E6%B5%8B%E8%AF%95/</link>
-        <pubDate>Tue, 28 Jan 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E5%A4%9A%E6%A8%A1%E6%80%81%E6%A8%A1%E5%9E%8B%E8%A7%86%E8%A7%89%E8%83%BD%E5%8A%9B%E6%B5%8B%E8%AF%95/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>强力的开源模型（但需要本地配置较高）</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E5%BC%BA%E5%8A%9B%E7%9A%84%E5%BC%80%E6%BA%90%E6%A8%A1%E5%9E%8B%E4%BD%86%E9%9C%80%E8%A6%81%E6%9C%AC%E5%9C%B0%E9%85%8D%E7%BD%AE%E8%BE%83%E9%AB%98/</link>
-        <pubDate>Tue, 28 Jan 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E5%BC%BA%E5%8A%9B%E7%9A%84%E5%BC%80%E6%BA%90%E6%A8%A1%E5%9E%8B%E4%BD%86%E9%9C%80%E8%A6%81%E6%9C%AC%E5%9C%B0%E9%85%8D%E7%BD%AE%E8%BE%83%E9%AB%98/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>推广加盟也是赚密码</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E6%8E%A8%E5%B9%BF%E5%8A%A0%E7%9B%9F%E4%B9%9F%E6%98%AF%E8%B5%9A%E5%AF%86%E7%A0%81/</link>
-        <pubDate>Tue, 28 Jan 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E6%8E%A8%E5%B9%BF%E5%8A%A0%E7%9B%9F%E4%B9%9F%E6%98%AF%E8%B5%9A%E5%AF%86%E7%A0%81/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>无限长度影片生成模型已存在</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E6%97%A0%E9%99%90%E9%95%BF%E5%BA%A6%E5%BD%B1%E7%89%87%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B%E5%B7%B2%E5%AD%98%E5%9C%A8/</link>
-        <pubDate>Tue, 28 Jan 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E6%97%A0%E9%99%90%E9%95%BF%E5%BA%A6%E5%BD%B1%E7%89%87%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B%E5%B7%B2%E5%AD%98%E5%9C%A8/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>本地运行的模型API的前端界面：Gradio界面</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E6%9C%AC%E5%9C%B0%E8%BF%90%E8%A1%8C%E7%9A%84%E6%A8%A1%E5%9E%8Bapi%E7%9A%84%E5%89%8D%E7%AB%AF%E7%95%8C%E9%9D%A2gradio%E7%95%8C%E9%9D%A2/</link>
-        <pubDate>Tue, 28 Jan 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E6%9C%AC%E5%9C%B0%E8%BF%90%E8%A1%8C%E7%9A%84%E6%A8%A1%E5%9E%8Bapi%E7%9A%84%E5%89%8D%E7%AB%AF%E7%95%8C%E9%9D%A2gradio%E7%95%8C%E9%9D%A2/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>程序员做饭指南</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E7%A8%8B%E5%BA%8F%E5%91%98%E5%81%9A%E9%A5%AD%E6%8C%87%E5%8D%97/</link>
-        <pubDate>Tue, 28 Jan 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E7%A8%8B%E5%BA%8F%E5%91%98%E5%81%9A%E9%A5%AD%E6%8C%87%E5%8D%97/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>节点行不行 Gemini一测就知道</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E8%8A%82%E7%82%B9%E8%A1%8C%E4%B8%8D%E8%A1%8C-gemini%E4%B8%80%E6%B5%8B%E5%B0%B1%E7%9F%A5%E9%81%93/</link>
-        <pubDate>Tue, 28 Jan 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E8%8A%82%E7%82%B9%E8%A1%8C%E4%B8%8D%E8%A1%8C-gemini%E4%B8%80%E6%B5%8B%E5%B0%B1%E7%9F%A5%E9%81%93/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>赚钱的人累得要死，不赚钱的人更惨</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E8%B5%9A%E9%92%B1%E7%9A%84%E4%BA%BA%E7%B4%AF%E5%BE%97%E8%A6%81%E6%AD%BB%E4%B8%8D%E8%B5%9A%E9%92%B1%E7%9A%84%E4%BA%BA%E6%9B%B4%E6%83%A8/</link>
-        <pubDate>Tue, 28 Jan 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E8%B5%9A%E9%92%B1%E7%9A%84%E4%BA%BA%E7%B4%AF%E5%BE%97%E8%A6%81%E6%AD%BB%E4%B8%8D%E8%B5%9A%E9%92%B1%E7%9A%84%E4%BA%BA%E6%9B%B4%E6%83%A8/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>面包是需要人做的实体产品，产量有限</title>
-        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E9%9D%A2%E5%8C%85%E6%98%AF%E9%9C%80%E8%A6%81%E4%BA%BA%E5%81%9A%E7%9A%84%E5%AE%9E%E4%BD%93%E4%BA%A7%E5%93%81%E4%BA%A7%E9%87%8F%E6%9C%89%E9%99%90/</link>
-        <pubDate>Tue, 28 Jan 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/tags/%E9%9D%A2%E5%8C%85%E6%98%AF%E9%9C%80%E8%A6%81%E4%BA%BA%E5%81%9A%E7%9A%84%E5%AE%9E%E4%BD%93%E4%BA%A7%E5%93%81%E4%BA%A7%E9%87%8F%E6%9C%89%E9%99%90/</guid>
         <description></description>
         </item>
         <item>
@@ -685,6 +109,54 @@
         <pubDate>Mon, 20 Feb 2023 20:14:22 +0800</pubDate>
         
         <guid>https://yichixing.github.io/hugo-stack-dev/tags/github%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Css</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/tags/css/</link>
+        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://yichixing.github.io/hugo-stack-dev/tags/css/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Html</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/tags/html/</link>
+        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://yichixing.github.io/hugo-stack-dev/tags/html/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Themes</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/tags/themes/</link>
+        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://yichixing.github.io/hugo-stack-dev/tags/themes/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Tag With Whitespaces</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/tags/tag-with-whitespaces/</link>
+        <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://yichixing.github.io/hugo-stack-dev/tags/tag-with-whitespaces/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Text</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/tags/text/</link>
+        <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://yichixing.github.io/hugo-stack-dev/tags/text/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Emoji</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/tags/emoji/</link>
+        <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://yichixing.github.io/hugo-stack-dev/tags/emoji/</guid>
         <description></description>
         </item>
         

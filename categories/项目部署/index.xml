@@ -7,48 +7,13 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Fri, 28 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yichixing.github.io/hugo-stack-dev/categories/%E9%A1%B9%E7%9B%AE%E9%83%A8%E7%BD%B2/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>编程能力对比gemini2.5pro vsqwen2.5max和Claude-3.7-Sonnet </title>
-        <link>https://yichixing.github.io/hugo-stack-dev/p/%E7%BC%96%E7%A8%8B%E8%83%BD%E5%8A%9B%E5%AF%B9%E6%AF%94gemini2.5pro-vsqwen2.5max%E5%92%8Cclaude-3.7-sonnet/</link>
-        <pubDate>Fri, 28 Mar 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://yichixing.github.io/hugo-stack-dev/p/%E7%BC%96%E7%A8%8B%E8%83%BD%E5%8A%9B%E5%AF%B9%E6%AF%94gemini2.5pro-vsqwen2.5max%E5%92%8Cclaude-3.7-sonnet/</guid>
-        <description>&lt;ul&gt;
-&lt;li&gt;《《《编程能力 gemini2.5pro &amp;gt; qwen2.5max vs Claude-3.7-Sonnet》&lt;/li&gt;
-&lt;li&gt;【测试题目：想同时在GitHub Pages和Cloudflare Pages上部署Hugo博客，因此动态设置 baseURL】
-&lt;ul&gt;
-&lt;li&gt;《《能行的方案：分离构建，各自为政；既然问题根源在于“一次构建，两个不同 baseURL 的目标”，最清晰的解决方案就是让两个平台各自独立构建；简单来说就是github page和cloudflare page单独分别用main仓库源码部署》
-&lt;ul&gt;
-&lt;li&gt;《该方案可行的原因在于【cloudflare page真的有执行hugo源码的能力   cloudflare page能独立构建hugo项目得到hugo静态资源】，因此两个平台各自独立构建是成立的，让cloudflare page独立构建hugo项目得到hugo静态资源即可，然后github page也独立用action构建hugo项目得到hugo静态资源》&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&amp;lt;用该编程题一测就知道模型编程能力的优劣&amp;gt;
-&lt;ul&gt;
-&lt;li&gt;&amp;laquo;&amp;lt;【除了gemini2.5pro以外 ，其它模型都认为应该创建dev仓库的action代码 而且这个action还在run hugo -D】，这种说法是错误的，dev仓库都是从main仓库转换来的静态资源，因此dev仓库哪里来的源码让你执行hugo命令啊，能说出在dev仓库的action程序中执行run hugo -D 的全都是代码分析能力不行的，我把action源码给到这些模型，这些模型早就该分析出dev仓库都是静态资源，不可能在dev仓库执行aciton程序了&amp;gt;&lt;/li&gt;
-&lt;li&gt;《《《另外有一个重要的认知就是【配置文件的参数的参数值仅在项目构建过程正被读取】，这意味着项目构建好后不会调用参数，比如 配置文件的baseURL必须在项目构建过程中把变量设置好，项目构建完成后再设置变量就没用了》&lt;/li&gt;
-&lt;li&gt;《编程能力和推理能力一般的模型只会给你dev仓库的action代码，明明dev仓库的任何action的没意义》&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;《《《测试结论：gemini2.5pro是唯一能成功解决我问题的模型，因此gemini2.5pro成为我能免费用到的最强模型，不但可以帮助我用视频学习，还有免费使用的平台Trae或无限邮箱cursor，编程能力还是免费用到中的最强》&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;《♒《逻辑推理是gemini2.5pro比claude强，gemini2.5pro逻辑推理能力很强 文件索引能力在有明确提示词要求的情况下也非常强，所以单纯的编程的使用一定是gemini2.5pro&amp;gt;claude》
-&lt;ul&gt;
-&lt;li&gt;《♒《《因此gemini2.5pro适合开发 前后端 代码，而claude适合开发样式（UI）；♒claude用来开发UI的效果实在太好，本来我要求加个高光，claude还帮我加了个动画过渡效果》&lt;/li&gt;
-&lt;li&gt;《图片识别能力也是gemini2.5pro强，如果有图片想让AI按图片要求来，也是用gemini2.5pro；claude我把分格图片给它看，它居然看成了是卡片；♒而gemini2.5pro是真的能照着图片来写代码》&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        </item>
-        <item>
+        <lastBuildDate>Tue, 11 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yichixing.github.io/hugo-stack-dev/categories/%E9%A1%B9%E7%9B%AE%E9%83%A8%E7%BD%B2/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>全流程项目构建到部署_穷鬼套餐版</title>
         <link>https://yichixing.github.io/hugo-stack-dev/p/%E5%85%A8%E6%B5%81%E7%A8%8B%E9%A1%B9%E7%9B%AE%E6%9E%84%E5%BB%BA%E5%88%B0%E9%83%A8%E7%BD%B2_%E7%A9%B7%E9%AC%BC%E5%A5%97%E9%A4%90%E7%89%88/</link>
         <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
         
         <guid>https://yichixing.github.io/hugo-stack-dev/p/%E5%85%A8%E6%B5%81%E7%A8%8B%E9%A1%B9%E7%9B%AE%E6%9E%84%E5%BB%BA%E5%88%B0%E9%83%A8%E7%BD%B2_%E7%A9%B7%E9%AC%BC%E5%A5%97%E9%A4%90%E7%89%88/</guid>
-        <description>&lt;p&gt;༼全流程项目构建到部署_穷鬼套餐版 ༽
-༺https://aistudio.google.com/prompts/111ysUKgf9_PR3y4WpkPTJiuEsCHn5DcG ༻&lt;/p&gt;
+        <description>&lt;p&gt;༺https://aistudio.google.com/prompts/111ysUKgf9_PR3y4WpkPTJiuEsCHn5DcG ༻&lt;/p&gt;
 &lt;h1 id=&#34;part1-独立开发者穷鬼套餐介绍&#34;&gt;part1: 独立开发者穷鬼套餐介绍
 &lt;/h1&gt;&lt;p&gt;(0:00-0:06) &lt;em&gt;&lt;strong&gt;1.1: 论坛热门话题：独立开发者穷鬼套餐&lt;/strong&gt;&lt;/em&gt;
 视频开头提到，在&lt;strong&gt;技术论坛&lt;/strong&gt;中经常看到一个有趣的话题，即**&amp;ldquo;独立开发者省钱之穷鬼套餐&amp;rdquo;**。&lt;/p&gt;
@@ -171,8 +136,8 @@
 &lt;/ul&gt;
 &lt;p&gt;(5:58-6:10) &lt;em&gt;&lt;strong&gt;6.5: 向 AI 提供数据库连接信息&lt;/strong&gt;&lt;/em&gt;
 &lt;strong&gt;♈⌊AI（Cline）&lt;/strong&gt; 询问 &lt;strong&gt;⌋PostgreSQL 数据库的连接信息&lt;/strong&gt;。回到 &lt;strong&gt;Neon&lt;/strong&gt; 复制完整的&lt;strong&gt;连接字符串（Connection string）&lt;/strong&gt;。
-♈它的主要目的是获取这些信息，以便生成正确配置的、能够连接数据库的应用程序代码 ♋因为它需要这些信息来生成正确的应用程序代码&lt;/p&gt;
-&lt;p&gt;(6:10-6:16) &lt;em&gt;&lt;strong&gt;6.6: AI 生成代码并测试&lt;/strong&gt;&lt;/em&gt;
+♈它的主要目的是获取这些信息，以便生成正确配置的、能够连接数据库的应用程序代码 ♋因为它需要这些信息来生成正确的应用程序代码
+(6:10-6:16) &lt;em&gt;&lt;strong&gt;6.6: AI 生成代码并测试&lt;/strong&gt;&lt;/em&gt;
 将&lt;strong&gt;连接字符串&lt;/strong&gt;粘贴给 &lt;strong&gt;AI（Cline）&lt;/strong&gt;。&lt;strong&gt;AI&lt;/strong&gt; 修改了代码。点击 &lt;strong&gt;Save&lt;/strong&gt; 保存更改。在终端运行 &lt;code&gt;npm run dev&lt;/code&gt; 启动项目进行测试。&lt;/p&gt;
 &lt;p&gt;(6:16-6:41) &lt;em&gt;&lt;strong&gt;6.7: 发现并分析错误&lt;/strong&gt;&lt;/em&gt;
 启动时出现&lt;strong&gt;构建错误&lt;/strong&gt;：&lt;code&gt;Module not found: Can&#39;t resolve &#39;dns&#39;&lt;/code&gt;。&lt;/p&gt;
@@ -192,7 +157,7 @@
 作者指出，其实还有一种&lt;strong&gt;更简单&lt;/strong&gt;的 &lt;strong&gt;Next.js&lt;/strong&gt; 改法：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;在 &lt;code&gt;lib/db.ts&lt;/code&gt; 文件的&lt;strong&gt;顶部&lt;/strong&gt;加上一行 &lt;code&gt;&#39;use server&#39;;&lt;/code&gt; 指令。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;作用：&lt;/strong&gt; 这会告诉 &lt;strong&gt;Next.js&lt;/strong&gt;，这个文件里的函数是&lt;strong&gt;服务器后端方法&lt;/strong&gt;。♋&lt;strong&gt;Next.js&lt;/strong&gt; 会&lt;strong&gt;自动&lt;/strong&gt;处理，♐生成相应的 &lt;strong&gt;API 端点&lt;/strong&gt;，♋将&lt;strong&gt;前后端的逻辑分割开&lt;/strong&gt;，无需手动创建 API 路由。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;作用：&lt;/strong&gt; 这会告诉 &lt;strong&gt;Next.js&lt;/strong&gt;，这个文件里的函数是&lt;strong&gt;服务器端&lt;/strong&gt;的 &lt;strong&gt;Action&lt;/strong&gt;。♋&lt;strong&gt;Next.js&lt;/strong&gt; 会&lt;strong&gt;自动&lt;/strong&gt;处理，♐生成相应的 &lt;strong&gt;API 端点&lt;/strong&gt;，♋将&lt;strong&gt;前后端的逻辑分割开&lt;/strong&gt;，无需手动创建 API 路由。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;(7:19-7:51) &lt;em&gt;&lt;strong&gt;7.2: 对 AI 编程能力的思考&lt;/strong&gt;&lt;/em&gt;
 这个例子体现了作者对 &lt;strong&gt;AI 编程&lt;/strong&gt;的看法：&lt;/p&gt;
@@ -232,7 +197,7 @@
 &lt;p&gt;(9:05-9:18) &lt;em&gt;&lt;strong&gt;9.3: 使用 Cloudflare 托管域名&lt;/strong&gt;&lt;/em&gt;
 有了域名以后，可以把它♐&lt;strong&gt;托管&lt;/strong&gt;到 &lt;strong&gt;Cloudflare&lt;/strong&gt; 上面。作者提到，关于&lt;strong&gt;如何把域名托管到 Cloudflare&lt;/strong&gt;，在&lt;strong&gt;之前的视频&lt;/strong&gt;里有过详细介绍，这里不再赘述。&lt;/p&gt;
 &lt;p&gt;(9:18-9:34) &lt;em&gt;&lt;strong&gt;9.4: Vercel 绑定自定义域名&lt;/strong&gt;&lt;/em&gt;
-回到 &lt;strong&gt;Vercel&lt;/strong&gt; 的项目♍&lt;strong&gt;设置（Settings）&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Domains&lt;/strong&gt; 页面，点击 &lt;strong&gt;Add&lt;/strong&gt;。&lt;/p&gt;
+回到 &lt;strong&gt;Vercel&lt;/strong&gt; 的项目♋&lt;strong&gt;设置（Settings）&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Domains&lt;/strong&gt; 页面，点击 &lt;strong&gt;Add&lt;/strong&gt;。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;输入域名：&lt;/strong&gt; 输入自己购买并托管到 &lt;strong&gt;Cloudflare&lt;/strong&gt; 的域名（或子域名），♋例如 &lt;code&gt;snake.tech-shrimp.com&lt;/code&gt;。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;自动配置：&lt;/strong&gt; 点击 &lt;strong&gt;Add&lt;/strong&gt; 后，♋选择 &lt;strong&gt;Configure Automatically&lt;/strong&gt;。&lt;strong&gt;Vercel&lt;/strong&gt; 会自动通过 &lt;strong&gt;Cloudflare API&lt;/strong&gt; 配置 &lt;strong&gt;DNS 记录&lt;/strong&gt;。&lt;/li&gt;
@@ -1024,20 +989,10 @@ URL: &lt;a class=&#34;link&#34; href=&#34;http://example.org/posts/hugo%E5%8D%9A
         <pubDate>Thu, 20 Feb 2025 20:14:22 +0800</pubDate>
         
         <guid>https://yichixing.github.io/hugo-stack-dev/p/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E5%8F%AA%E6%9C%89%E5%9C%A8%E9%A1%B9%E7%9B%AE%E7%9A%84%E6%9E%84%E5%BB%BA%E7%9A%84%E8%BF%87%E7%A8%8B%E4%B8%AD%E4%BD%BF%E7%94%A8/</guid>
-        <description>&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Cloudflare Pages 连接到 hugo-Fixlt-dev 仓库时，♈Cloudflare Pages 默认是直接托管该仓库中的 静态文件 ，♈它 不会 重新运行 hugo 构建命令。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
+        <description>&lt;p&gt;Cloudflare Pages 连接到 hugo-Fixlt-dev 仓库时，♈Cloudflare Pages 默认是直接托管该仓库中的 静态文件 ，♈它 不会 重新运行 hugo 构建命令。&lt;/p&gt;
 &lt;p&gt;因此，♈你在 Cloudflare Pages 设置的环境变量 HUGO_BASEURL 在这个流程中 根本没有机会 被 Hugo 构建过程使用，因为它是在 Action（ hugo-main 仓库中）构建完成 之后 才接触到这些文件的。♈静态文件一旦生成，里面的绝对 URL 就已经固定了&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
 &lt;p&gt;比如，♈GitHub Action 在构建时使用了固定的 baseURL （例如 GitHub Pages 的 URL），生成的 HTML/CSS/JS 文件中的链接都是指向这个 URL 的绝对路径。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
 &lt;p&gt;因此当 Cloudflare Pages 直接提供这些预先构建好的文件时，这些绝对路径对于 Cloudflare 的域名来说是错误的，导致资源加载失败&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
 </description>
         </item>
         

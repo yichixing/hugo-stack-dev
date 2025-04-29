@@ -3,6 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://yichixing.github.io/hugo-stack-dev/ar/categories/</loc>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -19,24 +20,26 @@
                 href="https://yichixing.github.io/hugo-stack-dev/ar/categories/"
                 />
   </url><url>
-    <loc>https://yichixing.github.io/hugo-stack-dev/ar/collections/</loc>
+    <loc>https://yichixing.github.io/hugo-stack-dev/ar/post/</loc>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://yichixing.github.io/hugo-stack-dev/collections/"
+                href="https://yichixing.github.io/hugo-stack-dev/post/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://yichixing.github.io/hugo-stack-dev/zh-cn/collections/"
+                href="https://yichixing.github.io/hugo-stack-dev/zh-cn/post/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="https://yichixing.github.io/hugo-stack-dev/ar/collections/"
+                href="https://yichixing.github.io/hugo-stack-dev/ar/post/"
                 />
   </url><url>
     <loc>https://yichixing.github.io/hugo-stack-dev/ar/tags/</loc>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -53,7 +56,30 @@
                 href="https://yichixing.github.io/hugo-stack-dev/ar/tags/"
                 />
   </url><url>
+    <loc>https://yichixing.github.io/hugo-stack-dev/ar/categories/%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9/</loc>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yichixing.github.io/hugo-stack-dev/ar/categories/%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9-%D9%85%D8%B9-%D9%81%D8%B1%D8%A7%D8%BA%D8%A7%D8%AA/</loc>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yichixing.github.io/hugo-stack-dev/ar/tags/%D9%85%D8%A7%D8%B1%D9%83%D8%AF%D8%A7%D9%88%D9%86/</loc>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yichixing.github.io/hugo-stack-dev/ar/p/%D9%85%D8%AB%D8%A7%D9%84-%D9%86%D8%B5/</loc>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://yichixing.github.io/hugo-stack-dev/p/placeholder-text/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="https://yichixing.github.io/hugo-stack-dev/ar/p/%D9%85%D8%AB%D8%A7%D9%84-%D9%86%D8%B5/"
+                />
+  </url><url>
     <loc>https://yichixing.github.io/hugo-stack-dev/ar/</loc>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -68,6 +94,29 @@
                 rel="alternate"
                 hreflang="ar"
                 href="https://yichixing.github.io/hugo-stack-dev/ar/"
+                />
+  </url><url>
+    <loc>https://yichixing.github.io/hugo-stack-dev/ar/tags/%D9%86%D8%B5/</loc>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yichixing.github.io/hugo-stack-dev/ar/tags/%D9%88%D8%B3%D9%85-%D9%85%D8%B9-%D9%81%D8%B1%D8%A7%D8%BA%D8%A7%D8%AA/</loc>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yichixing.github.io/hugo-stack-dev/ar/collections/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://yichixing.github.io/hugo-stack-dev/collections/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://yichixing.github.io/hugo-stack-dev/zh-cn/collections/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="https://yichixing.github.io/hugo-stack-dev/ar/collections/"
                 />
   </url>
 </urlset>

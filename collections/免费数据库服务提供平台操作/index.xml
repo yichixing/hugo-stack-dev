@@ -13,8 +13,7 @@
         <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
         
         <guid>https://yichixing.github.io/hugo-stack-dev/p/%E5%85%A8%E6%B5%81%E7%A8%8B%E9%A1%B9%E7%9B%AE%E6%9E%84%E5%BB%BA%E5%88%B0%E9%83%A8%E7%BD%B2_%E7%A9%B7%E9%AC%BC%E5%A5%97%E9%A4%90%E7%89%88/</guid>
-        <description>&lt;p&gt;༼全流程项目构建到部署_穷鬼套餐版 ༽
-༺https://aistudio.google.com/prompts/111ysUKgf9_PR3y4WpkPTJiuEsCHn5DcG ༻&lt;/p&gt;
+        <description>&lt;p&gt;༺https://aistudio.google.com/prompts/111ysUKgf9_PR3y4WpkPTJiuEsCHn5DcG ༻&lt;/p&gt;
 &lt;h1 id=&#34;part1-独立开发者穷鬼套餐介绍&#34;&gt;part1: 独立开发者穷鬼套餐介绍
 &lt;/h1&gt;&lt;p&gt;(0:00-0:06) &lt;em&gt;&lt;strong&gt;1.1: 论坛热门话题：独立开发者穷鬼套餐&lt;/strong&gt;&lt;/em&gt;
 视频开头提到，在&lt;strong&gt;技术论坛&lt;/strong&gt;中经常看到一个有趣的话题，即**&amp;ldquo;独立开发者省钱之穷鬼套餐&amp;rdquo;**。&lt;/p&gt;
@@ -137,8 +136,8 @@
 &lt;/ul&gt;
 &lt;p&gt;(5:58-6:10) &lt;em&gt;&lt;strong&gt;6.5: 向 AI 提供数据库连接信息&lt;/strong&gt;&lt;/em&gt;
 &lt;strong&gt;♈⌊AI（Cline）&lt;/strong&gt; 询问 &lt;strong&gt;⌋PostgreSQL 数据库的连接信息&lt;/strong&gt;。回到 &lt;strong&gt;Neon&lt;/strong&gt; 复制完整的&lt;strong&gt;连接字符串（Connection string）&lt;/strong&gt;。
-♈它的主要目的是获取这些信息，以便生成正确配置的、能够连接数据库的应用程序代码 ♋因为它需要这些信息来生成正确的应用程序代码&lt;/p&gt;
-&lt;p&gt;(6:10-6:16) &lt;em&gt;&lt;strong&gt;6.6: AI 生成代码并测试&lt;/strong&gt;&lt;/em&gt;
+♈它的主要目的是获取这些信息，以便生成正确配置的、能够连接数据库的应用程序代码 ♋因为它需要这些信息来生成正确的应用程序代码
+(6:10-6:16) &lt;em&gt;&lt;strong&gt;6.6: AI 生成代码并测试&lt;/strong&gt;&lt;/em&gt;
 将&lt;strong&gt;连接字符串&lt;/strong&gt;粘贴给 &lt;strong&gt;AI（Cline）&lt;/strong&gt;。&lt;strong&gt;AI&lt;/strong&gt; 修改了代码。点击 &lt;strong&gt;Save&lt;/strong&gt; 保存更改。在终端运行 &lt;code&gt;npm run dev&lt;/code&gt; 启动项目进行测试。&lt;/p&gt;
 &lt;p&gt;(6:16-6:41) &lt;em&gt;&lt;strong&gt;6.7: 发现并分析错误&lt;/strong&gt;&lt;/em&gt;
 启动时出现&lt;strong&gt;构建错误&lt;/strong&gt;：&lt;code&gt;Module not found: Can&#39;t resolve &#39;dns&#39;&lt;/code&gt;。&lt;/p&gt;
@@ -158,7 +157,7 @@
 作者指出，其实还有一种&lt;strong&gt;更简单&lt;/strong&gt;的 &lt;strong&gt;Next.js&lt;/strong&gt; 改法：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;在 &lt;code&gt;lib/db.ts&lt;/code&gt; 文件的&lt;strong&gt;顶部&lt;/strong&gt;加上一行 &lt;code&gt;&#39;use server&#39;;&lt;/code&gt; 指令。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;作用：&lt;/strong&gt; 这会告诉 &lt;strong&gt;Next.js&lt;/strong&gt;，这个文件里的函数是&lt;strong&gt;服务器后端方法&lt;/strong&gt;。♋&lt;strong&gt;Next.js&lt;/strong&gt; 会&lt;strong&gt;自动&lt;/strong&gt;处理，♐生成相应的 &lt;strong&gt;API 端点&lt;/strong&gt;，♋将&lt;strong&gt;前后端的逻辑分割开&lt;/strong&gt;，无需手动创建 API 路由。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;作用：&lt;/strong&gt; 这会告诉 &lt;strong&gt;Next.js&lt;/strong&gt;，这个文件里的函数是&lt;strong&gt;服务器端&lt;/strong&gt;的 &lt;strong&gt;Action&lt;/strong&gt;。♋&lt;strong&gt;Next.js&lt;/strong&gt; 会&lt;strong&gt;自动&lt;/strong&gt;处理，♐生成相应的 &lt;strong&gt;API 端点&lt;/strong&gt;，♋将&lt;strong&gt;前后端的逻辑分割开&lt;/strong&gt;，无需手动创建 API 路由。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;(7:19-7:51) &lt;em&gt;&lt;strong&gt;7.2: 对 AI 编程能力的思考&lt;/strong&gt;&lt;/em&gt;
 这个例子体现了作者对 &lt;strong&gt;AI 编程&lt;/strong&gt;的看法：&lt;/p&gt;
@@ -198,7 +197,7 @@
 &lt;p&gt;(9:05-9:18) &lt;em&gt;&lt;strong&gt;9.3: 使用 Cloudflare 托管域名&lt;/strong&gt;&lt;/em&gt;
 有了域名以后，可以把它♐&lt;strong&gt;托管&lt;/strong&gt;到 &lt;strong&gt;Cloudflare&lt;/strong&gt; 上面。作者提到，关于&lt;strong&gt;如何把域名托管到 Cloudflare&lt;/strong&gt;，在&lt;strong&gt;之前的视频&lt;/strong&gt;里有过详细介绍，这里不再赘述。&lt;/p&gt;
 &lt;p&gt;(9:18-9:34) &lt;em&gt;&lt;strong&gt;9.4: Vercel 绑定自定义域名&lt;/strong&gt;&lt;/em&gt;
-回到 &lt;strong&gt;Vercel&lt;/strong&gt; 的项目♍&lt;strong&gt;设置（Settings）&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Domains&lt;/strong&gt; 页面，点击 &lt;strong&gt;Add&lt;/strong&gt;。&lt;/p&gt;
+回到 &lt;strong&gt;Vercel&lt;/strong&gt; 的项目♋&lt;strong&gt;设置（Settings）&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Domains&lt;/strong&gt; 页面，点击 &lt;strong&gt;Add&lt;/strong&gt;。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;输入域名：&lt;/strong&gt; 输入自己购买并托管到 &lt;strong&gt;Cloudflare&lt;/strong&gt; 的域名（或子域名），♋例如 &lt;code&gt;snake.tech-shrimp.com&lt;/code&gt;。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;自动配置：&lt;/strong&gt; 点击 &lt;strong&gt;Add&lt;/strong&gt; 后，♋选择 &lt;strong&gt;Configure Automatically&lt;/strong&gt;。&lt;strong&gt;Vercel&lt;/strong&gt; 会自动通过 &lt;strong&gt;Cloudflare API&lt;/strong&gt; 配置 &lt;strong&gt;DNS 记录&lt;/strong&gt;。&lt;/li&gt;
