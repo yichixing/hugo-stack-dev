@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Sub_check_win_GUI的linux版（webUI版）的意义是部署在外网的其它设备 on 个人笔记博客</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/collections/sub_check_win_gui%E7%9A%84linux%E7%89%88webui%E7%89%88%E7%9A%84%E6%84%8F%E4%B9%89%E6%98%AF%E9%83%A8%E7%BD%B2%E5%9C%A8%E5%A4%96%E7%BD%91%E7%9A%84%E5%85%B6%E5%AE%83%E8%AE%BE%E5%A4%87/</link>
+        <description>Recent content in Sub_check_win_GUI的linux版（webUI版）的意义是部署在外网的其它设备 on 个人笔记博客</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>Example Person</copyright>
+        <lastBuildDate>Fri, 11 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yichixing.github.io/hugo-stack-dev/collections/sub_check_win_gui%E7%9A%84linux%E7%89%88webui%E7%89%88%E7%9A%84%E6%84%8F%E4%B9%89%E6%98%AF%E9%83%A8%E7%BD%B2%E5%9C%A8%E5%A4%96%E7%BD%91%E7%9A%84%E5%85%B6%E5%AE%83%E8%AE%BE%E5%A4%87/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>视频懒得截图了</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/p/%E8%A7%86%E9%A2%91%E6%87%92%E5%BE%97%E6%88%AA%E5%9B%BE%E4%BA%86/</link>
+        <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://yichixing.github.io/hugo-stack-dev/p/%E8%A7%86%E9%A2%91%E6%87%92%E5%BE%97%E6%88%AA%E5%9B%BE%E4%BA%86/</guid>
+        <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=A52BrmvZvtU&amp;amp;t=141s&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.youtube.com/watch?v=A52BrmvZvtU&amp;t=141s&lt;/a&gt;：PotPlayer+DeepSeek自动识别翻译字幕&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=4906t5zygAE&amp;amp;t=161s&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.youtube.com/watch?v=4906t5zygAE&amp;t=161s&lt;/a&gt;：sub-check linux版，本地我已有sub_check_win_GUI，而该linux版的意义是部署在外网的其它设备，而且是docker或docker compose方式部署程序&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;《这里也提供了一个比较值得参考的GUI转WebUI的思路，就是单纯地将GUI界面转WebUI界面而已，我相信AI能做得到的》&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

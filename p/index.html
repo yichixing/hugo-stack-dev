@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="༼ ༽\n">
+<title></title>
+
+<link rel='canonical' href='https://yichixing.github.io/hugo-stack-dev/p/'>
+
+<link rel="stylesheet" href="/hugo-stack-dev/scss/style.min.08627b929f6bef3db38f46c7b03e5db45b48bf01e406d28ed541d7b2980a2d0f.css"><meta property='og:title' content="">
+<meta property='og:description' content="༼ ༽\n">
+<meta property='og:url' content='https://yichixing.github.io/hugo-stack-dev/p/'>
+<meta property='og:site_name' content='个人笔记博客'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:tag' content='' /><meta property='article:tag' content='' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2025-01-28T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-01-28T00:00:00&#43;00:00'/>
+<meta name="twitter:title" content="">
+<meta name="twitter:description" content="༼ ༽\n">
+    <link rel="shortcut icon" href="/PixPin_2025-04-25_00-04-07.ico" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/hugo-stack-dev/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/hugo-stack-dev/img/avatar_hu_c9e1ac70cf1ec753.png" width="300"
+                            height="237" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🍥</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/hugo-stack-dev">个人笔记博客</a></h1>
+            <h2 class="site-description">个人学习和工作的笔记的博客</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://github.com/CaiJimmy/hugo-theme-stack'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/hugo-stack-dev/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/hugo-stack-dev/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/hugo-stack-dev/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/hugo-stack-dev/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/hugo-stack-dev/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+
+        
+        <li class="static-categories-link">
+            <a href='/hugo-stack-dev/categories2/'>
+                <?xml version="1.0" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" width="128" height="128" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22,4.7V9a1,1,0,0,1-1,1H13a1,1,0,0,1-1-1V7H4V17h8V15a1,1,0,0,1,1-1h4a1,1,0,0,1,.884.532L18.5,15.7H21a1,1,0,0,1,1,1V21a1,1,0,0,1-1,1H13a1,1,0,0,1-1-1V19H3a1,1,0,0,1-1-1V3A1,1,0,0,1,4,3V5h8V3a1,1,0,0,1,1-1h4a1,1,0,0,1,.884.532L18.5,3.7H21A1,1,0,0,1,22,4.7Z"/></svg>  
+                <span>Categories</span> 
+            </a>
+        </li>
+        
+
+        <li class="menu-bottom-section">
+            <ol class="menu">
+                    
+                        <li id="i18n-switch">  
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                            <select name="language" title="language" onchange="window.location.href = this.selectedOptions[0].value">
+                                
+                                    <option value="https://yichixing.github.io/hugo-stack-dev/" selected>English</option>
+                                
+                                    <option value="https://yichixing.github.io/hugo-stack-dev/zh-cn/" >中文</option>
+                                
+                                    <option value="https://yichixing.github.io/hugo-stack-dev/ar/" >عربي</option>
+                                
+                            </select>
+                        </li>
+                    
+                
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>Dark Mode</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside> 
+    
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-collections">
+        
+        
+            
+                <span class="article-collection-badge"></span>
+            
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/hugo-stack-dev/p/"></a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Jan 28, 2025</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    1 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>༼ CPU中寄存器的原理༽</p>
+<h1 id="part1-寄存器与内存的对比及寄存器原理引入">part1: 寄存器与内存的对比及寄存器原理引入
+</h1><p>(00:00-00:17) <em><strong>1.1: CPU寄存器介绍</strong></em></p>
+<ul>
+<li>视频开头展示了一个<strong>Intel Core i5-7500 CPU</strong>。</li>
+<li>提到CPU内部有用于<strong>存储</strong>数据的装置，称为<strong>寄存器 (Register)</strong>。</li>
+<li><strong>比较</strong>寄存器和<strong>内存</strong>：寄存器<strong>容量很小</strong>，但拥有<strong>惊人的读写速度</strong>。</li>
+<li>提出问题：寄存器的原理是什么？为什么它比内存快这么多？</li>
+</ul>
+<h1 id="part2-组合逻辑电路的局限性">part2: 组合逻辑电路的局限性
+</h1><p>(00:17-00:39) <em><strong>2.1: 无记忆功能的电路示例</strong></em></p>
+<ul>
+<li>日常生活中<strong>接触</strong>的<strong>电路</strong>（如灯）大部分<strong>不具备存储信息的功能</strong>。</li>
+<li>演示一个简单的<strong>灯泡电路</strong>：包含电池、开关和灯泡。</li>
+<li>电路特点：开关闭合灯亮，开关断开灯灭。灯的状态<strong>只取决于当前开关的状态</strong>。</li>
+<li>这种电路被称为<strong>组合电路 (Combinational Logic)</strong>，其输出仅与当前输入有关，与过去状态无关。</li>
+</ul>
+<h1 id="part3-时序逻辑电路与记忆功能的需求">part3: 时序逻辑电路与记忆功能的需求
+</h1><p>(00:39-00:53) <em><strong>3.1: 组合电路无法满足计算机需求</strong></em></p>
+<ul>
+<li>指出仅有<strong>组合电路</strong>是<strong>无法做电脑的</strong>。</li>
+<li>解释原因：电脑的<strong>状态</strong>不仅<strong>取决于</strong>你<strong>当前的操作</strong>，还与<strong>以前的操作</strong>有关（需要<strong>记忆</strong>）。</li>
+<li>提出问题：如何让电路<strong>拥有记忆的功能</strong>？</li>
+</ul>
+<h1 id="part4-自我提醒机制记忆的类比与实现思路">part4: “自我提醒机制”——记忆的类比与实现思路
+</h1><p>(00:53-01:44) <em><strong>4.1: 生活中的记忆类比</strong></em></p>
+<ul>
+<li>使用一个生活场景类比记忆：妻子让丈夫去买东西（一袋盐，五斤苹果），丈夫需要记住这个信息。</li>
+<li><strong>画面内容：</strong> 女士（cosplay角色）说：“你去买一袋盐，五斤苹果”。男士问：“你怎么不去啊？” 女士回答：“我要去漫展找小哥哥玩呀！” 男士竖起大拇指：“合理”。</li>
+<li>丈夫通过在路上<strong>不停地对自己重复</strong>要买的东西（五斤苹果，一袋盐）来<strong>刷新</strong>自己的<strong>记忆</strong>，防止忘记。</li>
+<li>将这种方式称为“<strong>自我提醒机制 (Self Reminder Mechanism)</strong>”。</li>
+<li>这个机制将在设计存储电路时发挥<strong>决定性作用</strong>。</li>
+</ul>
+<h1 id="part5-基础逻辑门与简单的反馈电路">part5: 基础逻辑门与简单的反馈电路
+</h1><p>(01:44-02:44) <em><strong>5.1: 非门 (NOT Gate) 介绍</strong></em></p>
+<ul>
+<li>介绍<strong>非门</strong>（逻辑符号：一个三角形加一个小圆圈）。</li>
+<li>功能：可以将<strong>输入</strong>的信号进行<strong>反转</strong>。</li>
+<li>示例：输入<strong>高电平</strong>，输出<strong>低电平</strong>；输入<strong>低电平</strong>，输出<strong>高电平</strong>。
+(02:04-02:28) <em><strong>5.2: 单非门反馈电路 (振荡器)</strong></em></li>
+<li>引入“<strong>自我提醒机制</strong>”思路：将<strong>非门</strong>的<strong>输出</strong>接回到<strong>输入</strong>。</li>
+<li>演示结果：信号在<strong>高低电平</strong>之间<strong>循环往复</strong>地变化（<strong>振荡</strong>）。</li>
+<li><strong>画面内容：</strong> 假设初始输入为低电平，输出变高电平，高电平反馈回输入，输出变低电平，低电平再反馈，形成<strong>持续振荡</strong>。</li>
+<li>调侃：称其为“<strong>永动机</strong>”。
+(02:28-02:44) <em><strong>5.3: 澄清“永动机”与门电路供电</strong></em></li>
+<li>说明这<strong>不是永动机</strong>。</li>
+<li>解释：通常看到的门电路接线只是<strong>信号线</strong>，实际门电路还需要<strong>连接电源线</strong>（<strong>电源正极 VDD</strong> 和 <strong>电源负极 VSS</strong>）。</li>
+<li>高低电平变化的<strong>动力</strong>其实<strong>来自于电源线</strong>。</li>
+</ul>
+<h1 id="part6-双稳态电路的构建与特性">part6: 双稳态电路的构建与特性
+</h1><p>(02:44-03:11) <em><strong>6.1: 单非门反馈的问题与改进思路</strong></em></p>
+<ul>
+<li>指出单非门反馈电路<strong>无法存储数据</strong>，因为它一直在振荡。</li>
+<li>提出改进思路：将“光速”（信号传播速度）<strong>调慢</strong>（作为一种比喻），并在反馈路径上增加门电路。
+(03:11-04:09) <em><strong>6.2: 双非门反馈电路 (Bistable Circuit)</strong></em></li>
+<li>演示将信号传播速度调慢后，在合适时机<strong>再加入一个非门</strong>，形成<strong>两个非门</strong>互相反馈的环路。</li>
+<li><strong>分析</strong>：
+<ul>
+<li>如果上路输出为<strong>高电平</strong>，下路输入为高，输出为低，低电平反馈回上路输入，上路输出维持高电平 -&gt; <strong>稳定状态1</strong>。</li>
+<li>如果上路输出为<strong>低电平</strong>，下路输入为低，输出为高，高电平反馈回上路输入，上路输出维持低电平 -&gt; <strong>稳定状态2</strong>。</li>
+</ul>
+</li>
+<li>结论：这个由两个非门构成的电路具有<strong>两种稳定状态</strong>，可以用来<strong>存储1 bit</strong>的数据（例如，一种状态代表<strong>1</strong>，另一种代表<strong>0</strong>）。</li>
+<li>这种电路被称为<strong>双稳态电路 (Bistable Circuit)</strong>。
+(04:09-04:28) <em><strong>6.3: 双稳态电路的问题</strong></em></li>
+<li>目前这种双稳态电路虽然能稳定存储状态，但存在一个问题：<strong>状态无法被外部修改</strong>。不能简单地在特定时机插入非门来改变状态。</li>
+</ul>
+<h1 id="part7-引入控制锁存器的形成">part7: 引入控制——锁存器的形成
+</h1><p>(04:28-04:54) <em><strong>7.1: 或门 (OR Gate) 介绍</strong></em></p>
+<ul>
+<li>引入另一种门电路：<strong>或门</strong>。</li>
+<li>符号：类似盾牌的形状。</li>
+<li>有<strong>两个输入</strong>，<strong>一个输出</strong>。</li>
+<li>特性：<strong>只要</strong>有<strong>一个输入是高电平</strong>，<strong>输出就是高电平</strong>。只有当<strong>两个输入都是低电平</strong>时，<strong>输出才是低电平</strong>。
+(04:54-06:12) <em><strong>7.2: 构建可控的存储电路 (SR锁存器雏形)</strong></em></li>
+<li>将<strong>两个或门</strong>加入到之前的双稳态电路结构中，形成新的电路。</li>
+<li>引入两个外部输入：<strong>Input A</strong> 和 <strong>Input B</strong>。</li>
+<li><strong>演示写入操作 (Set/Reset)</strong>：
+<ul>
+<li>当 <strong>Input A</strong> 为<strong>低电平</strong>，<strong>Input B</strong> 为<strong>高电平</strong>时：
+<ul>
+<li>下方的或门由于 Input B 为高，其输出<strong>强制为高电平</strong>。</li>
+<li>这个高电平经过非门变成<strong>低电平</strong>。</li>
+<li>这个低电平反馈到上方或门的输入。</li>
+<li>由于 Input A 和反馈信号都为低电平，上方或门输出为低电平。</li>
+<li>低电平再经过非门变成<strong>高电平</strong>，反馈到下方或门。</li>
+<li>此时，电路状态被<strong>强制</strong>设定并<strong>稳定</strong>下来。Input B 的高电平<strong>打破</strong>了原有的<strong>双稳态机制</strong>。
+(06:12-06:50) <em><strong>7.3: 写入与保持 (Latch) 功能演示</strong></em></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>演示当 <strong>Input A</strong> 为<strong>高电平</strong>，<strong>Input B</strong> 为<strong>低电平</strong>时的写入操作，结果相反，电路状态被设定为另一种稳定状态。</li>
+<li><strong>演示保持 (Hold/Latch) 功能</strong>：
+<ul>
+<li>当 <strong>Input A</strong> 和 <strong>Input B</strong> <strong>都</strong>设置为<strong>低电平</strong>时 (<strong>锁存状态 Latch State</strong>):
+<ul>
+<li>或门的作用相当于不存在（输出取决于另一个反馈输入）。</li>
+<li>电路<strong>恢复</strong>到之前的<strong>双稳态结构</strong>。</li>
+<li>此时电路会<strong>保持 (维持)</strong> 上一次写入操作设定的状态。</li>
+<li>结论：电路<strong>记住</strong>了过去的状态，<strong>拥有了记忆的能力</strong>。
+(06:50-08:16) <em><strong>7.4: 锁存器的基本功能总结</strong></em></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>再次演示从写入状态转换到保持状态，状态得以维持。</li>
+<li>总结该电路（<strong>锁存器 Latch</strong>）具备的三个存储电路最基本的功能：
+<ul>
+<li><strong>写入 (Write)</strong>：通过设置 Input A 和 Input B (一个高一个低) 来改变存储状态。</li>
+<li><strong>保持 (Hold)</strong>：通过将 Input A 和 Input B 都设为低电平来维持当前状态。</li>
+<li><strong>读取 (Read)</strong>：通过引出导线<strong>测量</strong>电路内部某个节点的<strong>电平</strong>来获取存储的数据。</li>
+</ul>
+</li>
+</ul>
+<h1 id="part8-锁存器的非法输入与实际问题">part8: 锁存器的非法输入与实际问题
+</h1><p>(08:16-08:38) <em><strong>8.1: 探讨非法输入组合</strong></em></p>
+<ul>
+<li>提出疑问：如果 <strong>Input A</strong> 和 <strong>Input B</strong> <strong>都</strong>是<strong>高电平</strong>会发生什么？
+(08:38-09:47) <em><strong>8.2: 非法输入 (Input A=High, Input B=High) 的后果</strong></em></li>
+<li><strong>分析</strong>：当 Input A 和 B 都为高电平时，两个或门输出都为高电平，经过非门后，两个非门的输出都为<strong>低电平</strong>。</li>
+<li><strong>问题</strong>：如果此时<strong>同时</strong>将 Input A 和 B 变回<strong>低电平</strong>（进入保持状态），两个非门的输出理论上都应变为高电平。但由于<strong>实际电路中门电路响应存在延迟</strong>（不是理想的瞬时响应），哪个非门先变高是不确定的。</li>
+<li><strong>后果</strong>：
+<ul>
+<li>可能导致电路状态<strong>不确定 (Indeterminate State)</strong>。</li>
+<li>可能导致电路<strong>振荡 (癫狂)</strong>。</li>
+<li>可能因中间状态导致<strong>大量发热</strong>，甚至<strong>烧毁电路</strong>。</li>
+</ul>
+</li>
+<li>结论：Input A 和 B <strong>同时为高电平</strong>是一种<strong>非法输入</strong>或<strong>不确定后果的输入</strong>，在<strong>实际使用中应当避免</strong>。</li>
+<li>强调理想模型与现实的区别：理想模型中门电路响应是<strong>瞬时</strong>的，现实中存在<strong>延迟</strong>。</li>
+</ul>
+<h1 id="part9-电路简化与展望">part9: 电路简化与展望
+</h1><p>(09:47-10:31) <em><strong>9.1: 或非门 (NOR Gate) 与电路简化</strong></em></p>
+<ul>
+<li>展示或门和非门的<strong>内部结构</strong>（基于晶体管）。</li>
+<li>指出<strong>或门 + 非门</strong>的组合称为<strong>或非门 (NOR Gate)</strong>，并展示其符号。</li>
+<li>指出<strong>或非门</strong>的后半部分包含一个<strong>非门</strong>，而电路中另一个独立的部分也是一个<strong>非门</strong>。</li>
+<li>应用<strong>负负得正</strong>原理：连续两个非门可以<strong>抵消</strong>。</li>
+<li>结果：可以将原来的电路（两个或门 + 两个非门）<strong>简化</strong>为仅由<strong>两个或非门</strong>交叉耦合构成的等效电路。</li>
+<li>这个简化后的电路图就是课本上常见的<strong>SR锁存器</strong>（由或非门构成）。
+(10:31-10:48) <em><strong>9.2: 锁存器与寄存器的关系</strong></em></li>
+<li>提出问题：这个<strong>锁存器</strong>就能当作<strong>寄存器</strong>用了吗？</li>
+<li>回答：<strong>还不行</strong>，还缺少东西。
+(10:48-11:16) <em><strong>9.3: 下期预告</strong></em></li>
+<li>预告下期内容：
+<ul>
+<li>如何<strong>避免锁存器的非法输入</strong>。</li>
+<li><strong>真实的</strong>运算电路中<strong>电压的波形</strong>。</li>
+<li>什么是<strong>边沿触发 (Edge Trigger)</strong>。</li>
+<li>计算机中的 <strong>L1、L2、L3 缓存 (Cache)</strong> 与寄存器的电路是否一致，区别何在。</li>
+</ul>
+</li>
+</ul>
+<h1 id="part10-片尾彩蛋">part10: 片尾彩蛋
+</h1><p>(11:16-11:38) <em><strong>10.1: 购物后续</strong></em></p>
+<ul>
+<li>视频结尾，男士回到家，放下了购物成果。</li>
+<li><strong>画面内容：</strong> 男士放下一袋苹果和五袋盐，说：“一袋苹果，五斤盐”。</li>
+<li>女士（cosplay角色）看着桌子上的东西，露出困惑/无语的表情，问男士：“你要这么多盐干嘛？”。</li>
+<li>（呼应前面的记忆类比，暗示丈夫记混了数量和单位）。</li>
+</ul>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">Related content</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/hugo-stack-dev/p/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title"></h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/hugo-stack-dev/p/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title"></h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/hugo-stack-dev/p/%E6%A8%A1%E6%9D%BF/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">模板</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/hugo-stack-dev/p/%E7%94%9F%E6%88%90%E4%BB%80%E4%B9%88%E6%A0%B7%E7%9A%84%E8%A7%84%E5%88%99%E6%9C%89%E7%82%B9%E7%94%A8/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">生成什么样的规则有点用</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/hugo-stack-dev/p/api%E7%9A%84%E5%89%8D%E7%AB%AF%E7%95%8C%E9%9D%A2gradio%E7%95%8C%E9%9D%A2/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">API的前端界面：Gradio界面</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "hugo-theme-stack" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (typeof DISQUS == 'object') {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2025 Example Person
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.30.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/hugo-stack-dev/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

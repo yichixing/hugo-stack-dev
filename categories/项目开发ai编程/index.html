@@ -1,0 +1,1409 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="个人学习和工作的笔记的博客">
+<title>Category: 项目开发（AI编程） - 个人笔记博客</title>
+
+<link rel='canonical' href='https://yichixing.github.io/hugo-stack-dev/categories/%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91ai%E7%BC%96%E7%A8%8B/'>
+
+<link rel="stylesheet" href="/hugo-stack-dev/scss/style.min.08627b929f6bef3db38f46c7b03e5db45b48bf01e406d28ed541d7b2980a2d0f.css"><meta property='og:title' content="Category: 项目开发（AI编程） - 个人笔记博客">
+<meta property='og:description' content="个人学习和工作的笔记的博客">
+<meta property='og:url' content='https://yichixing.github.io/hugo-stack-dev/categories/%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91ai%E7%BC%96%E7%A8%8B/'>
+<meta property='og:site_name' content='个人笔记博客'>
+<meta property='og:type' content='website'>
+<meta name="twitter:title" content="Category: 项目开发（AI编程） - 个人笔记博客">
+<meta name="twitter:description" content="个人学习和工作的笔记的博客"><link rel="alternate" type="application/rss&#43;xml" href="https://yichixing.github.io/hugo-stack-dev/categories/%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91ai%E7%BC%96%E7%A8%8B/index.xml">
+    <link rel="shortcut icon" href="/PixPin_2025-04-25_00-04-07.ico" />
+
+    </head>
+    <body class="">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/hugo-stack-dev/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/hugo-stack-dev/img/avatar_hu_c9e1ac70cf1ec753.png" width="300"
+                            height="237" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🍥</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/hugo-stack-dev">个人笔记博客</a></h1>
+            <h2 class="site-description">个人学习和工作的笔记的博客</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://github.com/CaiJimmy/hugo-theme-stack'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/hugo-stack-dev/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/hugo-stack-dev/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/hugo-stack-dev/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/hugo-stack-dev/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/hugo-stack-dev/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+
+        
+        <li class="static-categories-link">
+            <a href='/hugo-stack-dev/categories2/'>
+                <?xml version="1.0" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" width="128" height="128" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22,4.7V9a1,1,0,0,1-1,1H13a1,1,0,0,1-1-1V7H4V17h8V15a1,1,0,0,1,1-1h4a1,1,0,0,1,.884.532L18.5,15.7H21a1,1,0,0,1,1,1V21a1,1,0,0,1-1,1H13a1,1,0,0,1-1-1V19H3a1,1,0,0,1-1-1V3A1,1,0,0,1,4,3V5h8V3a1,1,0,0,1,1-1h4a1,1,0,0,1,.884.532L18.5,3.7H21A1,1,0,0,1,22,4.7Z"/></svg>  
+                <span>Categories</span> 
+            </a>
+        </li>
+        
+
+        <li class="menu-bottom-section">
+            <ol class="menu">
+                    
+                        <li id="i18n-switch">  
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                            <select name="language" title="language" onchange="window.location.href = this.selectedOptions[0].value">
+                                
+                                    <option value="https://yichixing.github.io/hugo-stack-dev/" selected>English</option>
+                                
+                                    <option value="https://yichixing.github.io/hugo-stack-dev/zh-cn/" >中文</option>
+                                
+                                    <option value="https://yichixing.github.io/hugo-stack-dev/ar/" >عربي</option>
+                                
+                            </select>
+                        </li>
+                    
+                
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>Dark Mode</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside> 
+    
+    
+     
+    
+    
+
+            <main class="main full-width">
+    <header>
+        <h3 class="section-title">
+            
+                Categories
+            
+        </h3>
+
+        <div class="section-card">
+            <div class="section-details">
+                
+                
+                
+
+                <h3 class="section-count">3 pages</h3>
+                <h1 class="section-term">项目开发（AI编程）</h1>
+                
+                
+                    
+                        
+                        
+                            
+                                
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                
+                            
+                        
+                            
+                                
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                
+                            
+                        
+                            
+                                
+                                    
+                                        
+                                    
+                                
+                            
+                        
+                        
+                        
+                        
+                            <div class="term-summary-collections">
+                                
+                                    <span class="term-summary-collection-badge">git&#43;github 两个mcp实现用自然语言实现分支merge</span>
+                                
+                                    <span class="term-summary-collection-badge">用AI 根据规则 完成提示词文件</span>
+                                
+                                    <span class="term-summary-collection-badge">让AI 根据规则生成提示词文件 进行逐项开发 并且标记</span>
+                                
+                                    <span class="term-summary-collection-badge">项目用技术栈提示词文件让AI实现了与外界AI模型的交互</span>
+                                
+                                    <span class="term-summary-collection-badge">OpenAI Vision API的作用就是直接通过 HTTP 请求与 OpenAI API 交互</span>
+                                
+                                    <span class="term-summary-collection-badge">本地后端部署服务Node.js</span>
+                                
+                                    <span class="term-summary-collection-badge">前端的控制台的报错让AI用Browser Tools MCP分析（用AI客户端的市场安装 好根据提示给浏览器装拓展）</span>
+                                
+                                    <span class="term-summary-collection-badge">结合控制台报错修复问题</span>
+                                
+                                    <span class="term-summary-collection-badge">AI有检测API的能力（AI有API接口测试的能力）</span>
+                                
+                                    <span class="term-summary-collection-badge">Next.js框架操作</span>
+                                
+                                    <span class="term-summary-collection-badge">用AI开发Next.js</span>
+                                
+                                    <span class="term-summary-collection-badge">vscode操作：vs code连接git</span>
+                                
+                                    <span class="term-summary-collection-badge">免费数据库服务提供平台操作</span>
+                                
+                                    <span class="term-summary-collection-badge">用AI生成数据库操作代码</span>
+                                
+                                    <span class="term-summary-collection-badge">AI编程：如何向AI反馈错误并寻求解决方案</span>
+                                
+                                    <span class="term-summary-collection-badge">项目部署：Vercel部署</span>
+                                
+                                    <span class="term-summary-collection-badge">cloudflare以外平台的自定义域名的绑定</span>
+                                
+                                    <span class="term-summary-collection-badge">用户行为监控工具</span>
+                                
+                                    <span class="term-summary-collection-badge">邮件功能</span>
+                                
+                                    <span class="term-summary-collection-badge">靠着提示词是能够让AI实现开发MCP服务的</span>
+                                
+                            </div>
+                        
+                    
+                
+                
+                
+            </div>
+        </div>
+    </header>
+    
+    <section class="article-list--compact">
+        
+            <article>
+    <a href="/hugo-stack-dev/p/mcp-%E6%99%BA%E8%83%BD%E4%BD%93%E5%BC%80%E5%8F%91ai%E7%89%88%E4%BD%A0%E7%94%BB%E6%88%91%E7%8C%9C%E6%95%88%E7%8E%87%E7%BF%BB%E5%80%8D/">
+        <div class="article-details">
+            
+            
+                <div class="article-header-series">
+                    
+                    
+                        
+                    
+                    <span class="series-item">AI编程项目开发</span>
+                    <strong>、</strong><span class="series-item">AI项目开发</span>
+                    <strong>、</strong><span class="series-item">AI提示词</span>
+                    <strong>、</strong><span class="series-item">AI MCP</span>
+                    
+                </div>
+            
+            
+
+            <h2 class="article-title">MCP&#43;智能体，开发AI版“你画我猜”效率翻倍</h2>
+            <footer class="article-time">
+                <time datetime='2025-04-27T00:00:00Z'>Apr 27, 2025</time>
+            </footer>
+        </div>
+    </a>
+    
+    
+    
+        <div class="article-collections">
+            
+                
+                
+                    <span class="collection-badge">git&#43;github 两个mcp实现用自然语言实现分支merge</span>
+                
+                    <span class="collection-badge">用AI 根据规则 完成提示词文件</span>
+                
+                    <span class="collection-badge">让AI 根据规则生成提示词文件 进行逐项开发 并且标记</span>
+                
+                    <span class="collection-badge">项目用技术栈提示词文件让AI实现了与外界AI模型的交互</span>
+                
+                    <span class="collection-badge">OpenAI Vision API的作用就是直接通过 HTTP 请求与 OpenAI API 交互</span>
+                
+                    <span class="collection-badge">本地后端部署服务Node.js</span>
+                
+                    <span class="collection-badge">前端的控制台的报错让AI用Browser Tools MCP分析（用AI客户端的市场安装 好根据提示给浏览器装拓展）</span>
+                
+                    <span class="collection-badge">结合控制台报错修复问题</span>
+                
+                    <span class="collection-badge">AI有检测API的能力（AI有API接口测试的能力）</span>
+                
+            
+        </div>
+    
+</article> 
+        
+            <article>
+    <a href="/hugo-stack-dev/p/%E5%85%A8%E6%B5%81%E7%A8%8B%E9%A1%B9%E7%9B%AE%E6%9E%84%E5%BB%BA%E5%88%B0%E9%83%A8%E7%BD%B2_%E7%A9%B7%E9%AC%BC%E5%A5%97%E9%A4%90%E7%89%88/">
+        <div class="article-details">
+            
+            
+                <div class="article-header-series">
+                    
+                    
+                        
+                    
+                    <span class="series-item">AI编程项目开发</span>
+                    <strong>、</strong><span class="series-item">网络 域名</span>
+                    <strong>、</strong><span class="series-item">AI提示词</span>
+                    
+                </div>
+            
+            
+
+            <h2 class="article-title">全流程项目构建到部署_穷鬼套餐版</h2>
+            <footer class="article-time">
+                <time datetime='2025-03-11T00:00:00Z'>Mar 11, 2025</time>
+            </footer>
+        </div>
+    </a>
+    
+    
+    
+        <div class="article-collections">
+            
+                
+                
+                    <span class="collection-badge">本地后端部署服务Node.js</span>
+                
+                    <span class="collection-badge">Next.js框架操作</span>
+                
+                    <span class="collection-badge">用AI开发Next.js</span>
+                
+                    <span class="collection-badge">vscode操作：vs code连接git</span>
+                
+                    <span class="collection-badge">免费数据库服务提供平台操作</span>
+                
+                    <span class="collection-badge">用AI生成数据库操作代码</span>
+                
+                    <span class="collection-badge">AI编程：如何向AI反馈错误并寻求解决方案</span>
+                
+                    <span class="collection-badge">项目部署：Vercel部署</span>
+                
+                    <span class="collection-badge">cloudflare以外平台的自定义域名的绑定</span>
+                
+                    <span class="collection-badge">用户行为监控工具</span>
+                
+                    <span class="collection-badge">邮件功能</span>
+                
+            
+        </div>
+    
+</article> 
+        
+            <article>
+    <a href="/hugo-stack-dev/p/%E7%94%A8ai%E7%8B%AC%E7%AB%8B%E5%BC%80%E5%8F%91mcp%E6%9C%8D%E5%8A%A1-%E9%9B%86%E5%90%88/">
+        <div class="article-details">
+            
+            
+                <div class="article-header-series">
+                    
+                    
+                        
+                    
+                    <span class="series-item">AI编程</span>
+                    
+                </div>
+            
+            
+
+            <h2 class="article-title">用AI独立开发MCP服务 集合</h2>
+            <footer class="article-time">
+                <time datetime='2025-02-20T20:14:22&#43;08:00'>Feb 20, 2025</time>
+            </footer>
+        </div>
+    </a>
+    
+    
+    
+        <div class="article-collections">
+            
+                
+                
+                    <span class="collection-badge">靠着提示词是能够让AI实现开发MCP服务的</span>
+                
+            
+        </div>
+    
+</article> 
+        
+    </section>
+
+     
+        
+         
+        
+            
+                
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                
+            
+        
+            
+                
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                
+            
+        
+            
+                
+                    
+                        
+                    
+                
+            
+        
+         
+
+        
+            <section class="term-tags-section">
+                <hr>
+                
+                <h2 class="term-tags-section-title">
+                    
+                        <?xml version="1.0" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" width="128" height="128" viewBox="0 0 32 32" id="icon" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-1{fill:none;}</style></defs><title>tag</title><path d="M18.52,30a3,3,0,0,1-2.12-.88L2.88,15.61A3,3,0,0,1,2,13.49V5A3,3,0,0,1,5,2h8.49a3,3,0,0,1,2.12.88L29.12,16.39a3,3,0,0,1,0,4.25l-8.48,8.48A3,3,0,0,1,18.52,30ZM5,4A1,1,0,0,0,4,5v8.49a1,1,0,0,0,.3.71L17.81,27.71a1,1,0,0,0,1.41,0l8.49-8.49a1,1,0,0,0,0-1.41L14.2,4.3a1,1,0,0,0-.71-.3H5Z" transform="translate(0 0)"/><path d="M10,14a4,4,0,1,1,4-4A4,4,0,0,1,10,14Zm0-6a2,2,0,1,0,2,2A2,2,0,0,0,10,8Z" transform="translate(0 0)"/><rect id="_Transparent_Rectangle_" data-name="&lt;Transparent Rectangle&gt;" class="cls-1" width="32" height="32"/></svg> 
+                        <span>"categories：项目开发（AI编程）"的相关Tags</span>
+                    
+                </h2>
+                
+                    
+                    <div class="term-tags-container">
+                        
+                             
+                            
+                                
+                                    
+                                
+                            
+                                
+                            
+                                
+                            
+                            
+                                <a href="/tags/ai%E6%9C%89api%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95%E7%9A%84%E8%83%BD%E5%8A%9B" class="term-tag-badge">AI有API接口测试的能力</a>
+                            
+                        
+                             
+                            
+                                
+                            
+                                
+                                    
+                                
+                            
+                                
+                            
+                            
+                                <a href="/tags/ai%E7%BC%96%E7%A8%8B" class="term-tag-badge">AI编程</a>
+                            
+                        
+                             
+                            
+                                
+                                    
+                                
+                            
+                                
+                            
+                                
+                            
+                            
+                                <a href="/tags/browser-tools-mcp&#43;%E5%AF%B9%E5%BA%94%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8B%93%E5%B1%95%E7%BB%93%E5%90%88%E6%8E%A7%E5%88%B6%E5%8F%B0%E6%8A%A5%E9%94%99%E4%BF%AE%E5%A4%8D%E9%97%AE%E9%A2%98" class="term-tag-badge">Browser Tools MCP&#43;对应浏览器拓展（结合控制台报错修复问题）</a>
+                            
+                        
+                             
+                            
+                                
+                                    
+                                
+                            
+                                
+                            
+                                
+                            
+                            
+                                <a href="/tags/git&#43;github-mcp" class="term-tag-badge">git&#43;github MCP</a>
+                            
+                        
+                             
+                            
+                                
+                            
+                                
+                                    
+                                
+                            
+                                
+                            
+                            
+                                <a href="/tags/next.js%E6%A1%86%E6%9E%B6" class="term-tag-badge">Next.js框架</a>
+                            
+                        
+                             
+                            
+                                
+                                    
+                                
+                            
+                                
+                            
+                                
+                            
+                            
+                                <a href="/tags/openai-vision-api" class="term-tag-badge">OpenAI Vision API</a>
+                            
+                        
+                             
+                            
+                                
+                            
+                                
+                                    
+                                
+                            
+                                
+                            
+                            
+                                <a href="/tags/vscode%E6%93%8D%E4%BD%9C" class="term-tag-badge">vscode操作</a>
+                            
+                        
+                             
+                            
+                                
+                            
+                                
+                                    
+                                
+                            
+                                
+                            
+                            
+                                <a href="/tags/%E5%90%91ai%E5%8F%8D%E9%A6%88%E9%94%99%E8%AF%AF%E5%B9%B6%E5%AF%BB%E6%B1%82%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88" class="term-tag-badge">向AI反馈错误并寻求解决方案</a>
+                            
+                        
+                             
+                            
+                                
+                            
+                                
+                                    
+                                
+                            
+                                
+                            
+                            
+                                <a href="/tags/%E5%9C%A8%E7%BA%BF%E5%85%8D%E8%B4%B9%E6%95%B0%E6%8D%AE%E5%BA%93%E6%9C%8D%E5%8A%A1" class="term-tag-badge">在线免费数据库服务</a>
+                            
+                        
+                             
+                            
+                                
+                            
+                                
+                                    
+                                
+                            
+                                
+                            
+                            
+                                <a href="/tags/%E5%9F%9F%E5%90%8D%E7%BB%91%E5%AE%9A" class="term-tag-badge">域名绑定</a>
+                            
+                        
+                             
+                            
+                                
+                            
+                                
+                                    
+                                
+                            
+                                
+                            
+                            
+                                <a href="/tags/%E5%AE%89%E5%85%A8%E4%BF%A1%E6%81%AF%E4%BF%9D%E6%8A%A4" class="term-tag-badge">安全信息保护</a>
+                            
+                        
+                             
+                            
+                                
+                            
+                                
+                                    
+                                
+                            
+                                
+                            
+                            
+                                <a href="/tags/%E6%9C%AC%E5%9C%B0%E5%90%8E%E7%AB%AF%E9%83%A8%E7%BD%B2%E6%9C%8D%E5%8A%A1" class="term-tag-badge">本地后端部署服务</a>
+                            
+                        
+                             
+                            
+                                
+                                    
+                                
+                            
+                                
+                            
+                                
+                            
+                            
+                                <a href="/tags/%E7%94%A8-%E6%8F%90%E7%A4%BA%E8%AF%8D%E6%96%87%E4%BB%B6-%E6%9D%A5%E5%AE%9E%E7%8E%B0%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91ai%E7%BC%96%E7%A8%8B" class="term-tag-badge">用 提示词文件 来实现项目开发（AI编程）</a>
+                            
+                        
+                             
+                            
+                                
+                                    
+                                
+                            
+                                
+                            
+                                
+                            
+                            
+                                <a href="/tags/%E7%94%A8ai-%E7%94%A8%E8%A7%84%E5%88%99-%E5%AE%8C%E6%88%90%E6%8F%90%E7%A4%BA%E8%AF%8D%E6%96%87%E4%BB%B6" class="term-tag-badge">用AI 用规则 完成提示词文件</a>
+                            
+                        
+                             
+                            
+                                
+                            
+                                
+                            
+                                
+                                    
+                                
+                            
+                            
+                                <a href="/tags/%E7%94%A8ai%E7%BC%96%E7%A8%8B%E7%8B%AC%E7%AB%8B%E5%BC%80mcp%E6%9C%8D%E5%8A%A1" class="term-tag-badge">用AI编程独立开MCP服务</a>
+                            
+                        
+                             
+                            
+                                
+                                    
+                                
+                            
+                                
+                            
+                                
+                            
+                            
+                                <a href="/tags/%E9%A1%B9%E7%9B%AE%E7%94%A8%E6%8A%80%E6%9C%AF%E6%A0%88%E6%8F%90%E7%A4%BA%E8%AF%8D%E6%96%87%E4%BB%B6%E8%AE%A9ai%E5%AE%9E%E7%8E%B0%E4%BA%86%E4%B8%8E%E5%A4%96%E7%95%8Cai%E6%A8%A1%E5%9E%8B%E7%9A%84%E4%BA%A4%E4%BA%92" class="term-tag-badge">项目用技术栈提示词文件让AI实现了与外界AI模型的交互</a>
+                            
+                        
+                             
+                            
+                                
+                            
+                                
+                                    
+                                
+                            
+                                
+                            
+                            
+                                <a href="/tags/%E9%A1%B9%E7%9B%AE%E9%83%A8%E7%BD%B2" class="term-tag-badge">项目部署</a>
+                            
+                        
+                    </div>
+                    
+                    
+                    <style>
+                        .term-tags-container {
+                            margin: 0.3rem 0 1rem 0;   
+                            display: flex;
+                            flex-wrap: wrap;
+                            gap: 0.5rem;
+                        }
+                        .term-tag-badge {
+                            display: inline-block;
+                            padding: 0.3rem 0.6rem;
+                            background-color: #2c3e50;
+                            color: white;
+                            border-radius: 4px;
+                            font-size: 1.5rem;
+                            text-decoration: none;
+                            transition: all 0.3s ease;
+                        }
+                        .term-tag-badge:hover {
+                            background-color: #2983c1;
+                            color: white;
+                            transform: translateY(-2px);
+                            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+                        }
+                         
+                        .term-tags-section-title {
+                            margin-bottom: 0.5rem;
+                        }
+                         
+                        .term-tag-card:first-of-type {
+                            margin-top: 1.5rem;
+                        }
+                    </style>
+                    
+                    
+                    
+                         
+                        
+                            
+                                
+                            
+                        
+                            
+                        
+                            
+                        
+                        
+                            <div class="term-tag-card">
+                                <h3 class="term-tag-title">
+                                    <?xml version="1.0" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" width="128" height="128" viewBox="0 0 32 32" id="icon" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-1{fill:none;}</style></defs><title>tag</title><path d="M18.52,30a3,3,0,0,1-2.12-.88L2.88,15.61A3,3,0,0,1,2,13.49V5A3,3,0,0,1,5,2h8.49a3,3,0,0,1,2.12.88L29.12,16.39a3,3,0,0,1,0,4.25l-8.48,8.48A3,3,0,0,1,18.52,30ZM5,4A1,1,0,0,0,4,5v8.49a1,1,0,0,0,.3.71L17.81,27.71a1,1,0,0,0,1.41,0l8.49-8.49a1,1,0,0,0,0-1.41L14.2,4.3a1,1,0,0,0-.71-.3H5Z" transform="translate(0 0)"/><path d="M10,14a4,4,0,1,1,4-4A4,4,0,0,1,10,14Zm0-6a2,2,0,1,0,2,2A2,2,0,0,0,10,8Z" transform="translate(0 0)"/><rect id="_Transparent_Rectangle_" data-name="&lt;Transparent Rectangle&gt;" class="cls-1" width="32" height="32"/></svg>  
+                                    AI有API接口测试的能力
+                                    <sup>(1)</sup>
+                                </h3>
+                                <ul class="term-tag-post-list">
+                                    
+                                        <li><a href="/hugo-stack-dev/p/mcp-%E6%99%BA%E8%83%BD%E4%BD%93%E5%BC%80%E5%8F%91ai%E7%89%88%E4%BD%A0%E7%94%BB%E6%88%91%E7%8C%9C%E6%95%88%E7%8E%87%E7%BF%BB%E5%80%8D/">MCP&#43;智能体，开发AI版“你画我猜”效率翻倍</a></li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    
+                         
+                        
+                            
+                        
+                            
+                                
+                            
+                        
+                            
+                        
+                        
+                            <div class="term-tag-card">
+                                <h3 class="term-tag-title">
+                                    <?xml version="1.0" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" width="128" height="128" viewBox="0 0 32 32" id="icon" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-1{fill:none;}</style></defs><title>tag</title><path d="M18.52,30a3,3,0,0,1-2.12-.88L2.88,15.61A3,3,0,0,1,2,13.49V5A3,3,0,0,1,5,2h8.49a3,3,0,0,1,2.12.88L29.12,16.39a3,3,0,0,1,0,4.25l-8.48,8.48A3,3,0,0,1,18.52,30ZM5,4A1,1,0,0,0,4,5v8.49a1,1,0,0,0,.3.71L17.81,27.71a1,1,0,0,0,1.41,0l8.49-8.49a1,1,0,0,0,0-1.41L14.2,4.3a1,1,0,0,0-.71-.3H5Z" transform="translate(0 0)"/><path d="M10,14a4,4,0,1,1,4-4A4,4,0,0,1,10,14Zm0-6a2,2,0,1,0,2,2A2,2,0,0,0,10,8Z" transform="translate(0 0)"/><rect id="_Transparent_Rectangle_" data-name="&lt;Transparent Rectangle&gt;" class="cls-1" width="32" height="32"/></svg>  
+                                    AI编程
+                                    <sup>(1)</sup>
+                                </h3>
+                                <ul class="term-tag-post-list">
+                                    
+                                        <li><a href="/hugo-stack-dev/p/%E5%85%A8%E6%B5%81%E7%A8%8B%E9%A1%B9%E7%9B%AE%E6%9E%84%E5%BB%BA%E5%88%B0%E9%83%A8%E7%BD%B2_%E7%A9%B7%E9%AC%BC%E5%A5%97%E9%A4%90%E7%89%88/">全流程项目构建到部署_穷鬼套餐版</a></li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    
+                         
+                        
+                            
+                                
+                            
+                        
+                            
+                        
+                            
+                        
+                        
+                            <div class="term-tag-card">
+                                <h3 class="term-tag-title">
+                                    <?xml version="1.0" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" width="128" height="128" viewBox="0 0 32 32" id="icon" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-1{fill:none;}</style></defs><title>tag</title><path d="M18.52,30a3,3,0,0,1-2.12-.88L2.88,15.61A3,3,0,0,1,2,13.49V5A3,3,0,0,1,5,2h8.49a3,3,0,0,1,2.12.88L29.12,16.39a3,3,0,0,1,0,4.25l-8.48,8.48A3,3,0,0,1,18.52,30ZM5,4A1,1,0,0,0,4,5v8.49a1,1,0,0,0,.3.71L17.81,27.71a1,1,0,0,0,1.41,0l8.49-8.49a1,1,0,0,0,0-1.41L14.2,4.3a1,1,0,0,0-.71-.3H5Z" transform="translate(0 0)"/><path d="M10,14a4,4,0,1,1,4-4A4,4,0,0,1,10,14Zm0-6a2,2,0,1,0,2,2A2,2,0,0,0,10,8Z" transform="translate(0 0)"/><rect id="_Transparent_Rectangle_" data-name="&lt;Transparent Rectangle&gt;" class="cls-1" width="32" height="32"/></svg>  
+                                    Browser Tools MCP&#43;对应浏览器拓展（结合控制台报错修复问题）
+                                    <sup>(1)</sup>
+                                </h3>
+                                <ul class="term-tag-post-list">
+                                    
+                                        <li><a href="/hugo-stack-dev/p/mcp-%E6%99%BA%E8%83%BD%E4%BD%93%E5%BC%80%E5%8F%91ai%E7%89%88%E4%BD%A0%E7%94%BB%E6%88%91%E7%8C%9C%E6%95%88%E7%8E%87%E7%BF%BB%E5%80%8D/">MCP&#43;智能体，开发AI版“你画我猜”效率翻倍</a></li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    
+                         
+                        
+                            
+                                
+                            
+                        
+                            
+                        
+                            
+                        
+                        
+                            <div class="term-tag-card">
+                                <h3 class="term-tag-title">
+                                    <?xml version="1.0" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" width="128" height="128" viewBox="0 0 32 32" id="icon" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-1{fill:none;}</style></defs><title>tag</title><path d="M18.52,30a3,3,0,0,1-2.12-.88L2.88,15.61A3,3,0,0,1,2,13.49V5A3,3,0,0,1,5,2h8.49a3,3,0,0,1,2.12.88L29.12,16.39a3,3,0,0,1,0,4.25l-8.48,8.48A3,3,0,0,1,18.52,30ZM5,4A1,1,0,0,0,4,5v8.49a1,1,0,0,0,.3.71L17.81,27.71a1,1,0,0,0,1.41,0l8.49-8.49a1,1,0,0,0,0-1.41L14.2,4.3a1,1,0,0,0-.71-.3H5Z" transform="translate(0 0)"/><path d="M10,14a4,4,0,1,1,4-4A4,4,0,0,1,10,14Zm0-6a2,2,0,1,0,2,2A2,2,0,0,0,10,8Z" transform="translate(0 0)"/><rect id="_Transparent_Rectangle_" data-name="&lt;Transparent Rectangle&gt;" class="cls-1" width="32" height="32"/></svg>  
+                                    git&#43;github MCP
+                                    <sup>(1)</sup>
+                                </h3>
+                                <ul class="term-tag-post-list">
+                                    
+                                        <li><a href="/hugo-stack-dev/p/mcp-%E6%99%BA%E8%83%BD%E4%BD%93%E5%BC%80%E5%8F%91ai%E7%89%88%E4%BD%A0%E7%94%BB%E6%88%91%E7%8C%9C%E6%95%88%E7%8E%87%E7%BF%BB%E5%80%8D/">MCP&#43;智能体，开发AI版“你画我猜”效率翻倍</a></li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    
+                         
+                        
+                            
+                        
+                            
+                                
+                            
+                        
+                            
+                        
+                        
+                            <div class="term-tag-card">
+                                <h3 class="term-tag-title">
+                                    <?xml version="1.0" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" width="128" height="128" viewBox="0 0 32 32" id="icon" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-1{fill:none;}</style></defs><title>tag</title><path d="M18.52,30a3,3,0,0,1-2.12-.88L2.88,15.61A3,3,0,0,1,2,13.49V5A3,3,0,0,1,5,2h8.49a3,3,0,0,1,2.12.88L29.12,16.39a3,3,0,0,1,0,4.25l-8.48,8.48A3,3,0,0,1,18.52,30ZM5,4A1,1,0,0,0,4,5v8.49a1,1,0,0,0,.3.71L17.81,27.71a1,1,0,0,0,1.41,0l8.49-8.49a1,1,0,0,0,0-1.41L14.2,4.3a1,1,0,0,0-.71-.3H5Z" transform="translate(0 0)"/><path d="M10,14a4,4,0,1,1,4-4A4,4,0,0,1,10,14Zm0-6a2,2,0,1,0,2,2A2,2,0,0,0,10,8Z" transform="translate(0 0)"/><rect id="_Transparent_Rectangle_" data-name="&lt;Transparent Rectangle&gt;" class="cls-1" width="32" height="32"/></svg>  
+                                    Next.js框架
+                                    <sup>(1)</sup>
+                                </h3>
+                                <ul class="term-tag-post-list">
+                                    
+                                        <li><a href="/hugo-stack-dev/p/%E5%85%A8%E6%B5%81%E7%A8%8B%E9%A1%B9%E7%9B%AE%E6%9E%84%E5%BB%BA%E5%88%B0%E9%83%A8%E7%BD%B2_%E7%A9%B7%E9%AC%BC%E5%A5%97%E9%A4%90%E7%89%88/">全流程项目构建到部署_穷鬼套餐版</a></li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    
+                         
+                        
+                            
+                                
+                            
+                        
+                            
+                        
+                            
+                        
+                        
+                            <div class="term-tag-card">
+                                <h3 class="term-tag-title">
+                                    <?xml version="1.0" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" width="128" height="128" viewBox="0 0 32 32" id="icon" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-1{fill:none;}</style></defs><title>tag</title><path d="M18.52,30a3,3,0,0,1-2.12-.88L2.88,15.61A3,3,0,0,1,2,13.49V5A3,3,0,0,1,5,2h8.49a3,3,0,0,1,2.12.88L29.12,16.39a3,3,0,0,1,0,4.25l-8.48,8.48A3,3,0,0,1,18.52,30ZM5,4A1,1,0,0,0,4,5v8.49a1,1,0,0,0,.3.71L17.81,27.71a1,1,0,0,0,1.41,0l8.49-8.49a1,1,0,0,0,0-1.41L14.2,4.3a1,1,0,0,0-.71-.3H5Z" transform="translate(0 0)"/><path d="M10,14a4,4,0,1,1,4-4A4,4,0,0,1,10,14Zm0-6a2,2,0,1,0,2,2A2,2,0,0,0,10,8Z" transform="translate(0 0)"/><rect id="_Transparent_Rectangle_" data-name="&lt;Transparent Rectangle&gt;" class="cls-1" width="32" height="32"/></svg>  
+                                    OpenAI Vision API
+                                    <sup>(1)</sup>
+                                </h3>
+                                <ul class="term-tag-post-list">
+                                    
+                                        <li><a href="/hugo-stack-dev/p/mcp-%E6%99%BA%E8%83%BD%E4%BD%93%E5%BC%80%E5%8F%91ai%E7%89%88%E4%BD%A0%E7%94%BB%E6%88%91%E7%8C%9C%E6%95%88%E7%8E%87%E7%BF%BB%E5%80%8D/">MCP&#43;智能体，开发AI版“你画我猜”效率翻倍</a></li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    
+                         
+                        
+                            
+                        
+                            
+                                
+                            
+                        
+                            
+                        
+                        
+                            <div class="term-tag-card">
+                                <h3 class="term-tag-title">
+                                    <?xml version="1.0" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" width="128" height="128" viewBox="0 0 32 32" id="icon" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-1{fill:none;}</style></defs><title>tag</title><path d="M18.52,30a3,3,0,0,1-2.12-.88L2.88,15.61A3,3,0,0,1,2,13.49V5A3,3,0,0,1,5,2h8.49a3,3,0,0,1,2.12.88L29.12,16.39a3,3,0,0,1,0,4.25l-8.48,8.48A3,3,0,0,1,18.52,30ZM5,4A1,1,0,0,0,4,5v8.49a1,1,0,0,0,.3.71L17.81,27.71a1,1,0,0,0,1.41,0l8.49-8.49a1,1,0,0,0,0-1.41L14.2,4.3a1,1,0,0,0-.71-.3H5Z" transform="translate(0 0)"/><path d="M10,14a4,4,0,1,1,4-4A4,4,0,0,1,10,14Zm0-6a2,2,0,1,0,2,2A2,2,0,0,0,10,8Z" transform="translate(0 0)"/><rect id="_Transparent_Rectangle_" data-name="&lt;Transparent Rectangle&gt;" class="cls-1" width="32" height="32"/></svg>  
+                                    vscode操作
+                                    <sup>(1)</sup>
+                                </h3>
+                                <ul class="term-tag-post-list">
+                                    
+                                        <li><a href="/hugo-stack-dev/p/%E5%85%A8%E6%B5%81%E7%A8%8B%E9%A1%B9%E7%9B%AE%E6%9E%84%E5%BB%BA%E5%88%B0%E9%83%A8%E7%BD%B2_%E7%A9%B7%E9%AC%BC%E5%A5%97%E9%A4%90%E7%89%88/">全流程项目构建到部署_穷鬼套餐版</a></li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    
+                         
+                        
+                            
+                        
+                            
+                                
+                            
+                        
+                            
+                        
+                        
+                            <div class="term-tag-card">
+                                <h3 class="term-tag-title">
+                                    <?xml version="1.0" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" width="128" height="128" viewBox="0 0 32 32" id="icon" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-1{fill:none;}</style></defs><title>tag</title><path d="M18.52,30a3,3,0,0,1-2.12-.88L2.88,15.61A3,3,0,0,1,2,13.49V5A3,3,0,0,1,5,2h8.49a3,3,0,0,1,2.12.88L29.12,16.39a3,3,0,0,1,0,4.25l-8.48,8.48A3,3,0,0,1,18.52,30ZM5,4A1,1,0,0,0,4,5v8.49a1,1,0,0,0,.3.71L17.81,27.71a1,1,0,0,0,1.41,0l8.49-8.49a1,1,0,0,0,0-1.41L14.2,4.3a1,1,0,0,0-.71-.3H5Z" transform="translate(0 0)"/><path d="M10,14a4,4,0,1,1,4-4A4,4,0,0,1,10,14Zm0-6a2,2,0,1,0,2,2A2,2,0,0,0,10,8Z" transform="translate(0 0)"/><rect id="_Transparent_Rectangle_" data-name="&lt;Transparent Rectangle&gt;" class="cls-1" width="32" height="32"/></svg>  
+                                    向AI反馈错误并寻求解决方案
+                                    <sup>(1)</sup>
+                                </h3>
+                                <ul class="term-tag-post-list">
+                                    
+                                        <li><a href="/hugo-stack-dev/p/%E5%85%A8%E6%B5%81%E7%A8%8B%E9%A1%B9%E7%9B%AE%E6%9E%84%E5%BB%BA%E5%88%B0%E9%83%A8%E7%BD%B2_%E7%A9%B7%E9%AC%BC%E5%A5%97%E9%A4%90%E7%89%88/">全流程项目构建到部署_穷鬼套餐版</a></li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    
+                         
+                        
+                            
+                        
+                            
+                                
+                            
+                        
+                            
+                        
+                        
+                            <div class="term-tag-card">
+                                <h3 class="term-tag-title">
+                                    <?xml version="1.0" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" width="128" height="128" viewBox="0 0 32 32" id="icon" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-1{fill:none;}</style></defs><title>tag</title><path d="M18.52,30a3,3,0,0,1-2.12-.88L2.88,15.61A3,3,0,0,1,2,13.49V5A3,3,0,0,1,5,2h8.49a3,3,0,0,1,2.12.88L29.12,16.39a3,3,0,0,1,0,4.25l-8.48,8.48A3,3,0,0,1,18.52,30ZM5,4A1,1,0,0,0,4,5v8.49a1,1,0,0,0,.3.71L17.81,27.71a1,1,0,0,0,1.41,0l8.49-8.49a1,1,0,0,0,0-1.41L14.2,4.3a1,1,0,0,0-.71-.3H5Z" transform="translate(0 0)"/><path d="M10,14a4,4,0,1,1,4-4A4,4,0,0,1,10,14Zm0-6a2,2,0,1,0,2,2A2,2,0,0,0,10,8Z" transform="translate(0 0)"/><rect id="_Transparent_Rectangle_" data-name="&lt;Transparent Rectangle&gt;" class="cls-1" width="32" height="32"/></svg>  
+                                    在线免费数据库服务
+                                    <sup>(1)</sup>
+                                </h3>
+                                <ul class="term-tag-post-list">
+                                    
+                                        <li><a href="/hugo-stack-dev/p/%E5%85%A8%E6%B5%81%E7%A8%8B%E9%A1%B9%E7%9B%AE%E6%9E%84%E5%BB%BA%E5%88%B0%E9%83%A8%E7%BD%B2_%E7%A9%B7%E9%AC%BC%E5%A5%97%E9%A4%90%E7%89%88/">全流程项目构建到部署_穷鬼套餐版</a></li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    
+                         
+                        
+                            
+                        
+                            
+                                
+                            
+                        
+                            
+                        
+                        
+                            <div class="term-tag-card">
+                                <h3 class="term-tag-title">
+                                    <?xml version="1.0" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" width="128" height="128" viewBox="0 0 32 32" id="icon" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-1{fill:none;}</style></defs><title>tag</title><path d="M18.52,30a3,3,0,0,1-2.12-.88L2.88,15.61A3,3,0,0,1,2,13.49V5A3,3,0,0,1,5,2h8.49a3,3,0,0,1,2.12.88L29.12,16.39a3,3,0,0,1,0,4.25l-8.48,8.48A3,3,0,0,1,18.52,30ZM5,4A1,1,0,0,0,4,5v8.49a1,1,0,0,0,.3.71L17.81,27.71a1,1,0,0,0,1.41,0l8.49-8.49a1,1,0,0,0,0-1.41L14.2,4.3a1,1,0,0,0-.71-.3H5Z" transform="translate(0 0)"/><path d="M10,14a4,4,0,1,1,4-4A4,4,0,0,1,10,14Zm0-6a2,2,0,1,0,2,2A2,2,0,0,0,10,8Z" transform="translate(0 0)"/><rect id="_Transparent_Rectangle_" data-name="&lt;Transparent Rectangle&gt;" class="cls-1" width="32" height="32"/></svg>  
+                                    域名绑定
+                                    <sup>(1)</sup>
+                                </h3>
+                                <ul class="term-tag-post-list">
+                                    
+                                        <li><a href="/hugo-stack-dev/p/%E5%85%A8%E6%B5%81%E7%A8%8B%E9%A1%B9%E7%9B%AE%E6%9E%84%E5%BB%BA%E5%88%B0%E9%83%A8%E7%BD%B2_%E7%A9%B7%E9%AC%BC%E5%A5%97%E9%A4%90%E7%89%88/">全流程项目构建到部署_穷鬼套餐版</a></li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    
+                         
+                        
+                            
+                        
+                            
+                                
+                            
+                        
+                            
+                        
+                        
+                            <div class="term-tag-card">
+                                <h3 class="term-tag-title">
+                                    <?xml version="1.0" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" width="128" height="128" viewBox="0 0 32 32" id="icon" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-1{fill:none;}</style></defs><title>tag</title><path d="M18.52,30a3,3,0,0,1-2.12-.88L2.88,15.61A3,3,0,0,1,2,13.49V5A3,3,0,0,1,5,2h8.49a3,3,0,0,1,2.12.88L29.12,16.39a3,3,0,0,1,0,4.25l-8.48,8.48A3,3,0,0,1,18.52,30ZM5,4A1,1,0,0,0,4,5v8.49a1,1,0,0,0,.3.71L17.81,27.71a1,1,0,0,0,1.41,0l8.49-8.49a1,1,0,0,0,0-1.41L14.2,4.3a1,1,0,0,0-.71-.3H5Z" transform="translate(0 0)"/><path d="M10,14a4,4,0,1,1,4-4A4,4,0,0,1,10,14Zm0-6a2,2,0,1,0,2,2A2,2,0,0,0,10,8Z" transform="translate(0 0)"/><rect id="_Transparent_Rectangle_" data-name="&lt;Transparent Rectangle&gt;" class="cls-1" width="32" height="32"/></svg>  
+                                    安全信息保护
+                                    <sup>(1)</sup>
+                                </h3>
+                                <ul class="term-tag-post-list">
+                                    
+                                        <li><a href="/hugo-stack-dev/p/%E5%85%A8%E6%B5%81%E7%A8%8B%E9%A1%B9%E7%9B%AE%E6%9E%84%E5%BB%BA%E5%88%B0%E9%83%A8%E7%BD%B2_%E7%A9%B7%E9%AC%BC%E5%A5%97%E9%A4%90%E7%89%88/">全流程项目构建到部署_穷鬼套餐版</a></li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    
+                         
+                        
+                            
+                        
+                            
+                                
+                            
+                        
+                            
+                        
+                        
+                            <div class="term-tag-card">
+                                <h3 class="term-tag-title">
+                                    <?xml version="1.0" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" width="128" height="128" viewBox="0 0 32 32" id="icon" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-1{fill:none;}</style></defs><title>tag</title><path d="M18.52,30a3,3,0,0,1-2.12-.88L2.88,15.61A3,3,0,0,1,2,13.49V5A3,3,0,0,1,5,2h8.49a3,3,0,0,1,2.12.88L29.12,16.39a3,3,0,0,1,0,4.25l-8.48,8.48A3,3,0,0,1,18.52,30ZM5,4A1,1,0,0,0,4,5v8.49a1,1,0,0,0,.3.71L17.81,27.71a1,1,0,0,0,1.41,0l8.49-8.49a1,1,0,0,0,0-1.41L14.2,4.3a1,1,0,0,0-.71-.3H5Z" transform="translate(0 0)"/><path d="M10,14a4,4,0,1,1,4-4A4,4,0,0,1,10,14Zm0-6a2,2,0,1,0,2,2A2,2,0,0,0,10,8Z" transform="translate(0 0)"/><rect id="_Transparent_Rectangle_" data-name="&lt;Transparent Rectangle&gt;" class="cls-1" width="32" height="32"/></svg>  
+                                    本地后端部署服务
+                                    <sup>(1)</sup>
+                                </h3>
+                                <ul class="term-tag-post-list">
+                                    
+                                        <li><a href="/hugo-stack-dev/p/%E5%85%A8%E6%B5%81%E7%A8%8B%E9%A1%B9%E7%9B%AE%E6%9E%84%E5%BB%BA%E5%88%B0%E9%83%A8%E7%BD%B2_%E7%A9%B7%E9%AC%BC%E5%A5%97%E9%A4%90%E7%89%88/">全流程项目构建到部署_穷鬼套餐版</a></li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    
+                         
+                        
+                            
+                                
+                            
+                        
+                            
+                        
+                            
+                        
+                        
+                            <div class="term-tag-card">
+                                <h3 class="term-tag-title">
+                                    <?xml version="1.0" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" width="128" height="128" viewBox="0 0 32 32" id="icon" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-1{fill:none;}</style></defs><title>tag</title><path d="M18.52,30a3,3,0,0,1-2.12-.88L2.88,15.61A3,3,0,0,1,2,13.49V5A3,3,0,0,1,5,2h8.49a3,3,0,0,1,2.12.88L29.12,16.39a3,3,0,0,1,0,4.25l-8.48,8.48A3,3,0,0,1,18.52,30ZM5,4A1,1,0,0,0,4,5v8.49a1,1,0,0,0,.3.71L17.81,27.71a1,1,0,0,0,1.41,0l8.49-8.49a1,1,0,0,0,0-1.41L14.2,4.3a1,1,0,0,0-.71-.3H5Z" transform="translate(0 0)"/><path d="M10,14a4,4,0,1,1,4-4A4,4,0,0,1,10,14Zm0-6a2,2,0,1,0,2,2A2,2,0,0,0,10,8Z" transform="translate(0 0)"/><rect id="_Transparent_Rectangle_" data-name="&lt;Transparent Rectangle&gt;" class="cls-1" width="32" height="32"/></svg>  
+                                    用 提示词文件 来实现项目开发（AI编程）
+                                    <sup>(1)</sup>
+                                </h3>
+                                <ul class="term-tag-post-list">
+                                    
+                                        <li><a href="/hugo-stack-dev/p/mcp-%E6%99%BA%E8%83%BD%E4%BD%93%E5%BC%80%E5%8F%91ai%E7%89%88%E4%BD%A0%E7%94%BB%E6%88%91%E7%8C%9C%E6%95%88%E7%8E%87%E7%BF%BB%E5%80%8D/">MCP&#43;智能体，开发AI版“你画我猜”效率翻倍</a></li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    
+                         
+                        
+                            
+                                
+                            
+                        
+                            
+                        
+                            
+                        
+                        
+                            <div class="term-tag-card">
+                                <h3 class="term-tag-title">
+                                    <?xml version="1.0" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" width="128" height="128" viewBox="0 0 32 32" id="icon" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-1{fill:none;}</style></defs><title>tag</title><path d="M18.52,30a3,3,0,0,1-2.12-.88L2.88,15.61A3,3,0,0,1,2,13.49V5A3,3,0,0,1,5,2h8.49a3,3,0,0,1,2.12.88L29.12,16.39a3,3,0,0,1,0,4.25l-8.48,8.48A3,3,0,0,1,18.52,30ZM5,4A1,1,0,0,0,4,5v8.49a1,1,0,0,0,.3.71L17.81,27.71a1,1,0,0,0,1.41,0l8.49-8.49a1,1,0,0,0,0-1.41L14.2,4.3a1,1,0,0,0-.71-.3H5Z" transform="translate(0 0)"/><path d="M10,14a4,4,0,1,1,4-4A4,4,0,0,1,10,14Zm0-6a2,2,0,1,0,2,2A2,2,0,0,0,10,8Z" transform="translate(0 0)"/><rect id="_Transparent_Rectangle_" data-name="&lt;Transparent Rectangle&gt;" class="cls-1" width="32" height="32"/></svg>  
+                                    用AI 用规则 完成提示词文件
+                                    <sup>(1)</sup>
+                                </h3>
+                                <ul class="term-tag-post-list">
+                                    
+                                        <li><a href="/hugo-stack-dev/p/mcp-%E6%99%BA%E8%83%BD%E4%BD%93%E5%BC%80%E5%8F%91ai%E7%89%88%E4%BD%A0%E7%94%BB%E6%88%91%E7%8C%9C%E6%95%88%E7%8E%87%E7%BF%BB%E5%80%8D/">MCP&#43;智能体，开发AI版“你画我猜”效率翻倍</a></li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    
+                         
+                        
+                            
+                        
+                            
+                        
+                            
+                                
+                            
+                        
+                        
+                            <div class="term-tag-card">
+                                <h3 class="term-tag-title">
+                                    <?xml version="1.0" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" width="128" height="128" viewBox="0 0 32 32" id="icon" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-1{fill:none;}</style></defs><title>tag</title><path d="M18.52,30a3,3,0,0,1-2.12-.88L2.88,15.61A3,3,0,0,1,2,13.49V5A3,3,0,0,1,5,2h8.49a3,3,0,0,1,2.12.88L29.12,16.39a3,3,0,0,1,0,4.25l-8.48,8.48A3,3,0,0,1,18.52,30ZM5,4A1,1,0,0,0,4,5v8.49a1,1,0,0,0,.3.71L17.81,27.71a1,1,0,0,0,1.41,0l8.49-8.49a1,1,0,0,0,0-1.41L14.2,4.3a1,1,0,0,0-.71-.3H5Z" transform="translate(0 0)"/><path d="M10,14a4,4,0,1,1,4-4A4,4,0,0,1,10,14Zm0-6a2,2,0,1,0,2,2A2,2,0,0,0,10,8Z" transform="translate(0 0)"/><rect id="_Transparent_Rectangle_" data-name="&lt;Transparent Rectangle&gt;" class="cls-1" width="32" height="32"/></svg>  
+                                    用AI编程独立开MCP服务
+                                    <sup>(1)</sup>
+                                </h3>
+                                <ul class="term-tag-post-list">
+                                    
+                                        <li><a href="/hugo-stack-dev/p/%E7%94%A8ai%E7%8B%AC%E7%AB%8B%E5%BC%80%E5%8F%91mcp%E6%9C%8D%E5%8A%A1-%E9%9B%86%E5%90%88/">用AI独立开发MCP服务 集合</a></li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    
+                         
+                        
+                            
+                                
+                            
+                        
+                            
+                        
+                            
+                        
+                        
+                            <div class="term-tag-card">
+                                <h3 class="term-tag-title">
+                                    <?xml version="1.0" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" width="128" height="128" viewBox="0 0 32 32" id="icon" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-1{fill:none;}</style></defs><title>tag</title><path d="M18.52,30a3,3,0,0,1-2.12-.88L2.88,15.61A3,3,0,0,1,2,13.49V5A3,3,0,0,1,5,2h8.49a3,3,0,0,1,2.12.88L29.12,16.39a3,3,0,0,1,0,4.25l-8.48,8.48A3,3,0,0,1,18.52,30ZM5,4A1,1,0,0,0,4,5v8.49a1,1,0,0,0,.3.71L17.81,27.71a1,1,0,0,0,1.41,0l8.49-8.49a1,1,0,0,0,0-1.41L14.2,4.3a1,1,0,0,0-.71-.3H5Z" transform="translate(0 0)"/><path d="M10,14a4,4,0,1,1,4-4A4,4,0,0,1,10,14Zm0-6a2,2,0,1,0,2,2A2,2,0,0,0,10,8Z" transform="translate(0 0)"/><rect id="_Transparent_Rectangle_" data-name="&lt;Transparent Rectangle&gt;" class="cls-1" width="32" height="32"/></svg>  
+                                    项目用技术栈提示词文件让AI实现了与外界AI模型的交互
+                                    <sup>(1)</sup>
+                                </h3>
+                                <ul class="term-tag-post-list">
+                                    
+                                        <li><a href="/hugo-stack-dev/p/mcp-%E6%99%BA%E8%83%BD%E4%BD%93%E5%BC%80%E5%8F%91ai%E7%89%88%E4%BD%A0%E7%94%BB%E6%88%91%E7%8C%9C%E6%95%88%E7%8E%87%E7%BF%BB%E5%80%8D/">MCP&#43;智能体，开发AI版“你画我猜”效率翻倍</a></li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    
+                         
+                        
+                            
+                        
+                            
+                                
+                            
+                        
+                            
+                        
+                        
+                            <div class="term-tag-card">
+                                <h3 class="term-tag-title">
+                                    <?xml version="1.0" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" width="128" height="128" viewBox="0 0 32 32" id="icon" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-1{fill:none;}</style></defs><title>tag</title><path d="M18.52,30a3,3,0,0,1-2.12-.88L2.88,15.61A3,3,0,0,1,2,13.49V5A3,3,0,0,1,5,2h8.49a3,3,0,0,1,2.12.88L29.12,16.39a3,3,0,0,1,0,4.25l-8.48,8.48A3,3,0,0,1,18.52,30ZM5,4A1,1,0,0,0,4,5v8.49a1,1,0,0,0,.3.71L17.81,27.71a1,1,0,0,0,1.41,0l8.49-8.49a1,1,0,0,0,0-1.41L14.2,4.3a1,1,0,0,0-.71-.3H5Z" transform="translate(0 0)"/><path d="M10,14a4,4,0,1,1,4-4A4,4,0,0,1,10,14Zm0-6a2,2,0,1,0,2,2A2,2,0,0,0,10,8Z" transform="translate(0 0)"/><rect id="_Transparent_Rectangle_" data-name="&lt;Transparent Rectangle&gt;" class="cls-1" width="32" height="32"/></svg>  
+                                    项目部署
+                                    <sup>(1)</sup>
+                                </h3>
+                                <ul class="term-tag-post-list">
+                                    
+                                        <li><a href="/hugo-stack-dev/p/%E5%85%A8%E6%B5%81%E7%A8%8B%E9%A1%B9%E7%9B%AE%E6%9E%84%E5%BB%BA%E5%88%B0%E9%83%A8%E7%BD%B2_%E7%A9%B7%E9%AC%BC%E5%A5%97%E9%A4%90%E7%89%88/">全流程项目构建到部署_穷鬼套餐版</a></li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    
+                
+            </section>
+        
+    
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2025 Example Person
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.30.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/hugo-stack-dev/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

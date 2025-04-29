@@ -1,0 +1,1040 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>模型测试 on 个人笔记博客</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/categories/%E6%A8%A1%E5%9E%8B%E6%B5%8B%E8%AF%95/</link>
+        <description>Recent content in 模型测试 on 个人笔记博客</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>Example Person</copyright>
+        <lastBuildDate>Mon, 28 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yichixing.github.io/hugo-stack-dev/categories/%E6%A8%A1%E5%9E%8B%E6%B5%8B%E8%AF%95/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>AI逻辑测试题题目本身（只有少数模型能答对） </title>
+        <link>https://yichixing.github.io/hugo-stack-dev/p/ai%E9%80%BB%E8%BE%91%E6%B5%8B%E8%AF%95%E9%A2%98%E9%A2%98%E7%9B%AE%E6%9C%AC%E8%BA%AB%E5%8F%AA%E6%9C%89%E5%B0%91%E6%95%B0%E6%A8%A1%E5%9E%8B%E8%83%BD%E7%AD%94%E5%AF%B9/</link>
+        <pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://yichixing.github.io/hugo-stack-dev/p/ai%E9%80%BB%E8%BE%91%E6%B5%8B%E8%AF%95%E9%A2%98%E9%A2%98%E7%9B%AE%E6%9C%AC%E8%BA%AB%E5%8F%AA%E6%9C%89%E5%B0%91%E6%95%B0%E6%A8%A1%E5%9E%8B%E8%83%BD%E7%AD%94%E5%AF%B9/</guid>
+        <description>&lt;h1 id=&#34;题目&#34;&gt;题目：
+&lt;/h1&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;  1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 22
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 23
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 24
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 25
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 26
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 27
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 28
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 29
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 30
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 31
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 32
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 33
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 34
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 35
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 36
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 37
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 38
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 39
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 40
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 41
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 42
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 43
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 44
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 45
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 46
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 47
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 48
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 49
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 50
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 51
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 52
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 53
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 54
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 55
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 56
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 57
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 58
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 59
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 60
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 61
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 62
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 63
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 64
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 65
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 66
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 67
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 68
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 69
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 70
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 71
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 72
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 73
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 74
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 75
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 76
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 77
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 78
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 79
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 80
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 81
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 82
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 83
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 84
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 85
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 86
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 87
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 88
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 89
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 90
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 91
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 92
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 93
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 94
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 95
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 96
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 97
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 98
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 99
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;100
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;101
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;102
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;103
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;104
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;105
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;106
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;107
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;108
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;109
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;110
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;111
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;112
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;113
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;114
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;115
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;116
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;117
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;118
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;119
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;120
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;121
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;122
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;123
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;124
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;125
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;126
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;127
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;128
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;129
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;130
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;131
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;132
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;133
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;134
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;135
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;136
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;137
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;138
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;139
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;140
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;141
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;142
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;143
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;144
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;145
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;146
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;147
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;148
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;149
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;150
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;151
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;152
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;153
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;154
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;155
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;156
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;157
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;158
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;159
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;160
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;161
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;162
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;163
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;164
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;165
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;166
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;167
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;168
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;169
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;170
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;171
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;172
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;173
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;174
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;175
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;176
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;177
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;178
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;179
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;180
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;181
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;182
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;183
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;184
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;185
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;186
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;187
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;188
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;189
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;190
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;191
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;192
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;193
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;194
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;195
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;196
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;197
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;198
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;199
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;200
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;201
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;202
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;203
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;204
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;205
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;206
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;207
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;208
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;209
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;210
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;211
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;212
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;213
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;214
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;215
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;216
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;217
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;218
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;219
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;220
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;221
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;222
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;223
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;224
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;225
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;226
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;227
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;228
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;229
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;230
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;231
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;232
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;233
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;如果我修改了baseURL&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;的https:&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;//yichixing.github.io/hugo-Fixlt-dev/，那github pag估计就用不了，也就是github page 和 cloudflare page二选一：
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;好的，用户现在遇到了一个问题，他们想同时在GitHub&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Pages和Cloudflare&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Pages上部署Hugo博客，但修改baseURL后导致其中一个平台无法正常使用。用户可能希望两个平台都能正确显示，但目前只能二选一。我需要分析问题根源，并提供解决方案。&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;首先，用户提到修改baseURL为GitHub&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Pages的路径后，Cloudflare&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Pages出现问题。这是因为baseURL决定了生成静态文件中资源（如CSS、JS）的路径。如果baseURL设置为GitHub&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Pages的子路径，那么在Cloudflare&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Pages上，这些资源路径会指向错误的URL，导致样式加载失败。&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;用户的需求是让两个平台都能正常工作，但当前的配置只能支持一个。这可能是因为Hugo的baseURL是硬编码的，无法同时适应两个不同的部署路径。需要找到一种方法，让Hugo在不同环境下生成不同的baseURL，或者使用相对路径来避免绝对路径的问题。&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;接下来，我需要考虑可能的解决方案。例如，使用环境变量在构建时动态设置baseURL，或者在Cloudflare&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Pages中配置自定义域名，使其路径与GitHub&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Pages一致。另外，检查是否启用了相对URLs选项，这可以让资源使用相对路径，而不是绝对路径，从而适应不同的部署路径。&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;用户可能对Hugo的配置和持续集成/持续部署（CI/CD）流程不太熟悉，所以需要提供详细的步骤，比如如何在GitHub&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Actions中设置不同的环境变量，或者在Cloudflare&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Pages中配置构建命令。同时，需要确保用户理解每个步骤的作用，避免混淆。&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;还要考虑用户是否希望通过自定义域名来统一访问路径，这样无论部署到哪个平台，baseURL都可以指向同一个自定义域名，从而避免路径冲突。这可能需要配置DNS和SSL证书，但可以从根本上解决问题。&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;最后，总结解决方案，分步骤说明如何配置，确保用户能够逐步操作，并验证每个步骤的效果，确保两个平台都能正常显示。&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;方案&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;：动态设置&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;baseURL（通过环境变量）&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;在构建时动态注入&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;baseURL，实现不同平台的差异化配置。&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;GitHub&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Pages&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;配置&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;toml&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;复制&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;baseURL&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;https://yichixing.github.io/hugo-Fixlt-dev/&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;Cloudflare&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Pages&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;配置&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;在&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Cloudflare&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Pages&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;的构建设置中添加环境变量&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;：&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;变量名&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;：HUGO_BASEURL&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;值&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;：https:&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;//your-cloudflare-domain.com/
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;修改&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;config.toml&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;：&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;toml&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;复制&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;baseURL&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;env.HUGO_BASEURL&lt;/span&gt;  &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;优先使用环境变量&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;正确写法&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;toml&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;复制&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;baseURL&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;env.HUGO_BASEURL&amp;#34;&lt;/span&gt;  &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;✅&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;使用双引号包裹&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;工作流名称&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;name:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;deploy&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;触发工作流的事件&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;on:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;push:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;branches:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;仅在&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;main&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;分支被推送时触发&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;main&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;定义工作流中的作业&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;jobs:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;定义一个名为&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;deploy&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;的作业&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;deploy:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;指定作业运行的环境为最新的&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Ubuntu&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;系统&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;runs-on:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;ubuntu-latest&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;定义作业中的步骤&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;steps:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;步骤&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;：检出代码&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;name:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Checkout&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;使用官方的&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;actions/checkout&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;动作来获取仓库代码&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;uses:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;actions/checkout@v&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;4&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;with:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;获取完整的&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Git&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;历史记录（对于部署工具&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;peaceiris/actions-gh-pages&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;可能需要）&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;表示获取所有历史，而不是默认的浅克隆（只获取最后一次提交）&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;fetch-depth:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;步骤&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;：设置&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Hugo&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;环境&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;err&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;name:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Setup&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Hugo&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;使用社区维护的&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;peaceiris/actions-hugo&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;动作来安装&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Hugo&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;err&#34;&gt;uses:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;peaceiris/actions-hugo@v&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;err&#34;&gt;with:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;指定要安装的&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Hugo&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;版本为最新版&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;err&#34;&gt;hugo-version:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;&amp;#39;latest&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;明确指定安装&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Hugo&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;的&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Extended&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;版本（支持&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;SASS/SCSS&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;等特性）&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;err&#34;&gt;extended:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;步骤&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;：构建网站&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;err&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;name:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Build&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Web&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;运行&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Hugo&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;命令来生成静态网站文件&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;-D&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;参数表示包含草稿内容（如果本地预览用过，这里保持一致，或按需移除）&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;err&#34;&gt;run:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;hugo&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;-D&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;步骤&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;：部署网站到&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;GitHub&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Pages&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;err&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;name:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Deploy&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Web&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;使用社区维护的&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;peaceiris/actions-gh-pages&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;动作来部署&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;err&#34;&gt;uses:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;peaceiris/actions-gh-pages@v&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;4&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;err&#34;&gt;with:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;指定用于认证的&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Personal&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Access&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Token&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;(PAT)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;secrets.TOKEN&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;会从仓库的&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Secrets&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;中读取名为&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;TOKEN&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;的值&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;（视频中占位符是&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;你的token变量名，这里假设你设置为&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;TOKEN）&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;err&#34;&gt;PERSONAL_TOKEN:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;secrets.TOKEN&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;指定要将静态文件部署到的目标仓库&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;格式为：你的GitHub用户名/目标仓库名&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;（视频中占位符是&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;你的github名/你的仓库名，这里假设目标仓库是&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;letere-gz/hugo-dev）&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;err&#34;&gt;EXTERNAL_REPOSITORY:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;yichixing/hugo-Fixlt-dev&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;指定将静态文件推送到目标仓库的哪个分支（通常是&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;gh-pages&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;或&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;main）&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;err&#34;&gt;PUBLISH_BRANCH:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;main&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;指定包含构建好的静态网站文件的目录（Hugo&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;默认生成到&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;public）&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;err&#34;&gt;PUBLISH_DIR:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;./public&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;自定义部署时&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Git&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;提交的信息&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;err&#34;&gt;commit_message:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;auto&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;deploy&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;env:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;HUGO_BASEURL:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;https://yichixing.github.io/hugo-Fixlt-dev/&amp;#34;&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;这个加在哪里？&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;name:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;deploy&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;on:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;push:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;branches:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;main&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;jobs:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;deploy:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;runs-on:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;ubuntu-latest&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;steps:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;name:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Checkout&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;uses:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;actions/checkout@v&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;4&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;with:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;fetch-depth:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;name:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Setup&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Hugo&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;err&#34;&gt;uses:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;peaceiris/actions-hugo@v&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;err&#34;&gt;with:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;err&#34;&gt;hugo-version:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;&amp;#39;latest&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;err&#34;&gt;extended:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;关键修改：在&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Build&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Web&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;步骤中添加环境变量&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;err&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;name:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Build&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Web&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;err&#34;&gt;run:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;hugo&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;-D&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;err&#34;&gt;env:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;err&#34;&gt;HUGO_BASEURL:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;https://yichixing.github.io/hugo-Fixlt-dev/&amp;#34;&lt;/span&gt;  &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;添加到这里&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;err&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;name:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Deploy&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Web&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;err&#34;&gt;uses:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;peaceiris/actions-gh-pages@v&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;4&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;err&#34;&gt;with:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;err&#34;&gt;PERSONAL_TOKEN:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;secrets.TOKEN&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;err&#34;&gt;EXTERNAL_REPOSITORY:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;yichixing/hugo-Fixlt-dev&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;err&#34;&gt;PUBLISH_BRANCH:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;main&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;err&#34;&gt;PUBLISH_DIR:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;./public&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;err&#34;&gt;commit_message:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;auto&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;deploy&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;IGNORE_WHEN_COPYING_START&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;content_copy&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;download&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;Use&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;code&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;with&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;caution.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;IGNORE_WHEN_COPYING_END&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;上面是前因后果，下面是问题所在：&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;main仓库使用action生成静态程序给dev仓库时，action不能修改环境变量啊，否则环境变量覆盖了dev仓库的baseURL，导致cloudflare&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;page的环境变量用不了，需要dev仓库自己使用aciton才行，你给我个dev仓库的完整的action代码吧&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;这是main仓库的工作流&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;工作流名称&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;name:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;deploy&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;触发工作流的事件&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;on:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;push:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;branches:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;仅在&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;main&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;分支被推送时触发&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;main&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;定义工作流中的作业&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;jobs:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;定义一个名为&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;deploy&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;的作业&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;deploy:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;指定作业运行的环境为最新的&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Ubuntu&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;系统&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;runs-on:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;ubuntu-latest&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;定义作业中的步骤&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;steps:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;步骤&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;：检出代码&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;name:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Checkout&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;使用官方的&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;actions/checkout&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;动作来获取仓库代码&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;uses:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;actions/checkout@v&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;4&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;with:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;获取完整的&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Git&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;历史记录（对于部署工具&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;peaceiris/actions-gh-pages&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;可能需要）&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;表示获取所有历史，而不是默认的浅克隆（只获取最后一次提交）&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;fetch-depth:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;步骤&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;：设置&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Hugo&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;环境&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;err&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;name:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Setup&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Hugo&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;使用社区维护的&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;peaceiris/actions-hugo&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;动作来安装&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Hugo&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;err&#34;&gt;uses:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;peaceiris/actions-hugo@v&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;err&#34;&gt;with:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;指定要安装的&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Hugo&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;版本为最新版&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;err&#34;&gt;hugo-version:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;&amp;#39;latest&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;明确指定安装&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Hugo&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;的&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Extended&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;版本（支持&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;SASS/SCSS&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;等特性）&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;err&#34;&gt;extended:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;步骤&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;：构建网站&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;err&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;name:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Build&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Web&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;运行&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Hugo&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;命令来生成静态网站文件&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;-D&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;参数表示包含草稿内容（如果本地预览用过，这里保持一致，或按需移除）&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;err&#34;&gt;run:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;hugo&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;-D&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;步骤&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;：部署网站到&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;GitHub&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Pages&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;err&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;name:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Deploy&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Web&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;使用社区维护的&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;peaceiris/actions-gh-pages&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;动作来部署&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;err&#34;&gt;uses:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;peaceiris/actions-gh-pages@v&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;4&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;err&#34;&gt;with:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;指定用于认证的&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Personal&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Access&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Token&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;(PAT)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;secrets.TOKEN&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;会从仓库的&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Secrets&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;中读取名为&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;TOKEN&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;的值&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;（视频中占位符是&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;你的token变量名，这里假设你设置为&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;TOKEN）&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;err&#34;&gt;PERSONAL_TOKEN:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;secrets.TOKEN&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;指定要将静态文件部署到的目标仓库&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;格式为：你的GitHub用户名/目标仓库名&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;（视频中占位符是&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;你的github名/你的仓库名，这里假设目标仓库是&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;letere-gz/hugo-dev）&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;err&#34;&gt;EXTERNAL_REPOSITORY:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;yichixing/hugo-Fixlt-dev&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;指定将静态文件推送到目标仓库的哪个分支（通常是&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;gh-pages&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;或&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;main）&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;err&#34;&gt;PUBLISH_BRANCH:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;main&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;指定包含构建好的静态网站文件的目录（Hugo&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;默认生成到&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;public）&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;err&#34;&gt;PUBLISH_DIR:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;./public&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;自定义部署时&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Git&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;提交的信息&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;err&#34;&gt;commit_message:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;auto&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;deploy&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;IGNORE_WHEN_COPYING_START&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;content_copy&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;download&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;Use&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;code&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;with&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;caution.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;IGNORE_WHEN_COPYING_END&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;你先回答我，你看懂了前因后果没，回答懂了还是不懂，不懂的我会补充；然后再解决我的疑问；另一个疑问是cloudflare&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;page的环境变量的疑问，我怀疑cloudflare&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;page连接了dev库后得到了完整的静态资源，此时cloudflare&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;page的环境变量baseURL就无法作用在静态资源里面了，你觉得是还是不是，回答一下&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+        </item>
+        <item>
+        <title>模型测试题大全（AI超元领域版） </title>
+        <link>https://yichixing.github.io/hugo-stack-dev/p/%E6%A8%A1%E5%9E%8B%E6%B5%8B%E8%AF%95%E9%A2%98%E5%A4%A7%E5%85%A8ai%E8%B6%85%E5%85%83%E9%A2%86%E5%9F%9F%E7%89%88/</link>
+        <pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://yichixing.github.io/hugo-stack-dev/p/%E6%A8%A1%E5%9E%8B%E6%B5%8B%E8%AF%95%E9%A2%98%E5%A4%A7%E5%85%A8ai%E8%B6%85%E5%85%83%E9%A2%86%E5%9F%9F%E7%89%88/</guid>
+        <description>&lt;h1 id=&#34;题目&#34;&gt;题目：
+&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;[[[[[[[模型测试]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;《《《编程能力 gemini2.5pro &amp;gt; qwen2.5max vs Claude-3.7-Sonnet》&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;【测试题目：想同时在GitHub Pages和Cloudflare Pages上部署Hugo博客，因此动态设置 baseUR】
+&lt;ul&gt;
+&lt;li&gt;《《能行的方案：分离构建，各自为政；既然问题根源在于“一次构建，两个不同 baseURL 的目标”，最清晰的解决方案就是让两个平台各自独立构建；简单来说就是github page和cloudflare page单独分别用main仓库源码部署》
+&lt;ul&gt;
+&lt;li&gt;《该方案可行的原因在于【cloudflare page真的有执行hugo源码的能力   cloudflare page能独立构建hugo项目得到hugo静态资源】，因此两个平台各自独立构建是成立的，让cloudflare page独立构建hugo项目得到hugo静态资源即可，然后github page也独立用action构建hugo项目得到hugo静态资源》&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&amp;lt;用该编程题一测就知道模型编程能力的优劣&amp;gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;laquo;&amp;lt;【除了gemini2.5pro以外 ，其它模型都认为应该创建dev仓库的action代码 而且这个action还在run hugo -D】，这种说法是错误的，dev仓库都是从main仓库转换来的静态资源，因此dev仓库哪里来的源码让你执行hugo命令啊，能说出在dev仓库的action程序中执行run hugo -D 的全都是代码分析能力不行的，我把action源码给到这些模型，这些模型早就该分析出dev仓库都是静态资源，不可能在dev仓库执行aciton程序了&amp;gt;&lt;/li&gt;
+&lt;li&gt;《《《另外有一个重要的认知就是【配置文件的参数的参数值仅在项目构建过程正被读取】，这意味着项目构建好后不会调用参数，比如 配置文件的baseURL必须在项目构建过程中把变量设置好，项目构建完成后再设置变量就没用了》&lt;/li&gt;
+&lt;li&gt;《编程能力和推理能力一般的模型》&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;《《《测试结论：gemini2.5pro是唯一能成功解决我问题的模型，因此gemini2.5pro成为我能免费用到的最强模型，不但可以帮助我用视频学习，还有免费使用的平台Trae，编程能力还是免费用到中的最强》&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&amp;lt;本地开源模型比较 千问QWQ vsGemma 3、千问QWQ视觉推理能力测试&amp;gt; &lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1LcdaYZEN2/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.bilibili.com/video/BV1LcdaYZEN2/&lt;/a&gt;  &lt;a class=&#34;link&#34; href=&#34;https://aistudio.google.com/prompts/1wToupoSnKb31mh4-ZZ535NZNrK_7knrk&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://aistudio.google.com/prompts/1wToupoSnKb31mh4-ZZ535NZNrK_7knrk&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[1 千问QWQ vsGemma 3]
+&lt;ul&gt;
+&lt;li&gt;[1 推理能力肯定有思维链的千问QWQ强]
+&lt;ul&gt;
+&lt;li&gt;&amp;lt;内置了思维链的QWQ在推理时性能是远高于没有推理能力的模型的，使用更长的时间和更长的token输出来获取更高的性能&amp;gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;[2 翻译能力]
+&lt;ul&gt;
+&lt;li&gt;&amp;lt;在使用推理能力下，内置了思维链的QWQ在花费思考时间的前提下能稍微领先gemma3，但翻译也很看重速度，不用思维链时gemma3胜，所以综合来看，翻译还是gemma3强&amp;gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;[3 长文本总结能力]
+&lt;ul&gt;
+&lt;li&gt;&amp;lt;思维链对长上下文的总结也是有一定帮助的，还是QWQ强&amp;gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;[4 角色扮演能力（文学能力）]
+&lt;ul&gt;
+&lt;li&gt;&amp;lt;gemma3在角色扮演这块很强，模型能完全理解提示词里面设置好的角色，由于gemma3的指令跟随能力更强，所以角色扮演也很容易跟随我们的引导进行变化&amp;gt;&lt;/li&gt;
+&lt;li&gt;&amp;lt;QWQ的强大推理能力导致了逻辑性太强，表达会倾向于书面化，也就是AI味道太浓&amp;gt;&lt;/li&gt;
+&lt;li&gt;&amp;lt;推理模型的特殊性也导致QWQ无法再长周期指令下保质指令性能，在多轮角色扮演后会表现出一些非常不理智的行为&amp;gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;[5 编程能力]
+&lt;ul&gt;
+&lt;li&gt;《编程能力方面推普通模型不可能打得过推理模型，肯定是QWQ胜，当然时间消耗和上下文消耗只能自己取舍了，有思维链的QWQ在编程能力可是能解决R1的存在》&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;[6 指令跟随能力]
+&lt;ul&gt;
+&lt;li&gt;[6.1 注意力测试]
+&lt;ul&gt;
+&lt;li&gt;&amp;lt;指令跟随能力检验的是 模型在多轮对话中理解和持续遵循复杂指令的能力，可以理解成上下文记忆和处理以及理解能力，其中最重要的当然是模型对上下文的记忆能力，因为推理分析太占用注意力了》&lt;/li&gt;
+&lt;li&gt;《单次规则下，指令跟随能力方面 gemma3更强，推理模型无法在长周期指令下保质指令性能，因为推理模型注意力比不过普通模型，推理模型更容易因为随着对话次数的增加而导致注意力衰减，导致输出环节出现规则遗忘等“掉链子”情况》
+&lt;ul&gt;
+&lt;li&gt;《总结起来就是在使用推理模型的时候，一定要在提示词那里时刻提醒模型规则，否则推理模型把注意力都集中在了推理分析，容易遗忘规则的》&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;《《多轮对话弥补方案：每轮对话都提起规则，这种情况下就是QWQ更强，它只是注意力不集中在以前的规则，但只要规则在现在，推理模型就会把注意力分配到现在的规则，再凭借强大的推理能力去遵循规则》&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;[[[6.2 复杂规则的遵循能力]
+&lt;ul&gt;
+&lt;li&gt;《《其实指令跟随能力更多的是要求模型按我的规则输出，也就是提示词里面的“同时满足所有这些要求，并且这个分析本身也要遵循上述所有规则”，输入的规则越多越复杂就越是考验模型的指令跟随能力；》&lt;/li&gt;
+&lt;li&gt;《《复杂指令的遵循肯定推理模型强，推理模型只是多轮对话不行，因为多轮多话会导致模型注意力不集中；但单次输出的话，推理模型本身能把强逻辑和推理能力注意力集中在规则上，输出的格式肯定更准确&amp;gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;lt;比如同样的例子和格式，gemin2.0无论怎么提醒它格式，它都无法输出正确的格式，但gemini2.5pro凭借它的推理能力能做到更容易做到以复杂的规则输出&amp;gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;《续，在指令跟随能力上 其实推理模型gemini2.5pro也不太行，对提示词又要求  比如给出了例子和格式还要我再把格式解释一遍，字体修改也是两次的提起，尤其是中文输出更是要重复提起  &lt;a class=&#34;link&#34; href=&#34;https://aistudio.google.com/prompts/17frt2TEoNuFHOBzK-lF4EDJmr-XYYCzD&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://aistudio.google.com/prompts/17frt2TEoNuFHOBzK-lF4EDJmr-XYYCzD&lt;/a&gt;》&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;[2 推理模型vs基础语言模型]
+&lt;ul&gt;
+&lt;li&gt;[1 结论]
+&lt;ul&gt;
+&lt;li&gt;&amp;lt;推理模型和基础语音模型没有绝对的谁强谁弱，它们各有优劣，适用于不同的应用场景 &amp;gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;[2 推理模型虽然强大，但缺点不能视而不见]
+&lt;ul&gt;
+&lt;li&gt;&amp;laquo;1 推理模型不适合需要快速交互的场景，因为优异的性能，然而这种优势也伴随着显著的代价，及每一次提问都需要更额外的思考过程，甚至可能长达五分钟以上&amp;gt;&lt;/li&gt;
+&lt;li&gt;&amp;lt;2 对于算力有限的本地电脑而言，这种额外的运算负担会直接导致输出速度显著地下降，无疑是一个不容忽视的缺点&amp;gt;&lt;/li&gt;
+&lt;li&gt;&amp;lt;3 注意力机制问题导致指令跟随能力不强，角色扮演、多轮对话的场景容易出错，需要时刻提醒规则&amp;gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;[3 gemma3的优点]
+&lt;ul&gt;
+&lt;li&gt;&amp;lt;1 综合性能强，除了编程以外几乎什么都做&amp;gt;&lt;/li&gt;
+&lt;li&gt;&amp;lt;2 性能表现则展现出另一种优势，无需冗长的思考过程，响应迅速，能够更快速地交付结果，提升了使用效率&amp;gt;&lt;/li&gt;
+&lt;li&gt;&amp;lt;3 指令跟随能力更强，适合多轮多话或晚角色扮演&amp;gt;&lt;/li&gt;
+&lt;li&gt;&amp;lt;4 文学能力更强，不像推理模型因为逻辑性太强导致输出的文学AI味太浓&amp;gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;[3 gemma3视觉推理能力测试]
+&lt;ul&gt;
+&lt;li&gt;[1 OCR能力]
+&lt;ul&gt;
+&lt;li&gt;&amp;lt;完美地将整个表格OCR， 带颜色的数据也能标注出来&amp;gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;[2 复杂图像分析（比如折线图）]
+&lt;ul&gt;
+&lt;li&gt;&amp;lt;能对所有关键数据都进行提取，分析了表格的走向， 其对图表的分析还是非常到位的，分析的结论也是正确的&amp;gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;[3 故事情节和故事逻辑理解能力]
+&lt;ul&gt;
+&lt;li&gt;&amp;lt;gemma3能理解多张图片的逻辑关系，能把多张图片拼接成一个连续的故事情节&amp;gt;&lt;/li&gt;
+&lt;li&gt;&amp;lt;比如给几张猫和老鼠的图片，gemma3把这几张图片拼接成一个连续的故事情节：Tom打字 -&amp;gt; Jerry拔插头 -&amp;gt; Tom触电&amp;gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;[4 对复杂或抽象的构图的理解（比如视觉错位）]
+&lt;ul&gt;
+&lt;li&gt;&amp;lt;gemma3始终不是推理模型，肯定无法处理视觉元素的扭曲、错位、抽象表达&amp;gt;&lt;/li&gt;
+&lt;li&gt;&amp;laquo;模型需要更深入的推理（例如，判断这些扭曲的元素是什么、它们代表什么意义）才能理解复杂构图，同时有推理能力和推理能力的千问2.5max应该会做得更好&amp;raquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&amp;laquo;&amp;lt;GPT-4.1测试&amp;gt; &lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV14AdZYpEDk&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.bilibili.com/video/BV14AdZYpEDk&lt;/a&gt;   &lt;a class=&#34;link&#34; href=&#34;https://aistudio.google.com/prompts/1woqAsn54QZrpy8CoeyzMsiFfTMPg_u1B&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://aistudio.google.com/prompts/1woqAsn54QZrpy8CoeyzMsiFfTMPg_u1B&lt;/a&gt;   （获取测试题） &lt;a class=&#34;link&#34; href=&#34;https://aistudio.google.com/prompts/1woqAsn54QZrpy8CoeyzMsiFfTMPg_u1B&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://aistudio.google.com/prompts/1woqAsn54QZrpy8CoeyzMsiFfTMPg_u1B&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[gpt4.1模型能力测试《《《可以要提示词 这些提示词用来测试模型的能力很好》]
+&lt;ul&gt;
+&lt;li&gt;[1 幻觉识别能力]
+&lt;ul&gt;
+&lt;li&gt;&amp;lt;对于虚构的人物、历史事件、地理位置识别较好，不易产生幻觉；但对于虚构的科学理论、技术、化学物质等容易产生幻觉，会一本正经地编造信息。&amp;gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;[2 指令遵循能力]
+&lt;ul&gt;
+&lt;li&gt;&amp;lt;基本能遵循复杂的多重指令，比如用【测试模型是否能遵循指令的复杂指令测试的提示词】测试，输出结果成功实现 包括否定性约束（如禁用特定字母）和格式要求（如JSON），能力较之前版本有显著提升，但在细节处理上（如 答案标签 格式）可能存在小瑕疵。&amp;gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://aistudio.google.com/prompts/1KyZa9d9Vd3D4dItzp3wgkDRe6frLgT5C&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://aistudio.google.com/prompts/1KyZa9d9Vd3D4dItzp3wgkDRe6frLgT5C&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;[3 逻辑推理能力]
+&lt;ul&gt;
+&lt;li&gt;&amp;lt;在解决增加了复杂约束条件的农夫过河问题时失败，第一步即出错，表明其在复杂逻辑推理方面仍有不足。&amp;gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;[4 模式识别能力]
+&lt;ul&gt;
+&lt;li&gt;&amp;lt;使用【找规律测试（序列推理测试）的提示词】中，gpt4.1未能识别基于字母的序列规律，但成功识别了两种不同的数字序列规律（交替模式和二进制模式）。&amp;gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;[5 编程能力]
+&lt;ul&gt;
+&lt;li&gt;&amp;lt;编程能力强大，尤其在SwiftUI和前端（HTML/Tailwind CSS）方面表现出色，能生成复杂且有效的代码和界面；但在Three.js可视化方面生成的代码未能成功渲染；通过Cline插件也能完成较复杂的macOS应用开发（如水印应用），但可能需要错误修复环节。&amp;gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;[6 API调用成本]
+&lt;ul&gt;
+&lt;li&gt;&amp;lt;API调用成本尚可，完成较复杂的macOS应用开发（如水印应用）消耗了约 $0.56 的 API 调用费用，对于这样一个相对复杂的项目来说，成本尚可接受&amp;gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>编程能力对比gemini2.5pro vsqwen2.5max和Claude-3.7-Sonnet </title>
+        <link>https://yichixing.github.io/hugo-stack-dev/p/%E7%BC%96%E7%A8%8B%E8%83%BD%E5%8A%9B%E5%AF%B9%E6%AF%94gemini2.5pro-vsqwen2.5max%E5%92%8Cclaude-3.7-sonnet/</link>
+        <pubDate>Fri, 28 Mar 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://yichixing.github.io/hugo-stack-dev/p/%E7%BC%96%E7%A8%8B%E8%83%BD%E5%8A%9B%E5%AF%B9%E6%AF%94gemini2.5pro-vsqwen2.5max%E5%92%8Cclaude-3.7-sonnet/</guid>
+        <description>&lt;ul&gt;
+&lt;li&gt;《《《编程能力 gemini2.5pro &amp;gt; qwen2.5max vs Claude-3.7-Sonnet》&lt;/li&gt;
+&lt;li&gt;【测试题目：想同时在GitHub Pages和Cloudflare Pages上部署Hugo博客，因此动态设置 baseURL】
+&lt;ul&gt;
+&lt;li&gt;《《能行的方案：分离构建，各自为政；既然问题根源在于“一次构建，两个不同 baseURL 的目标”，最清晰的解决方案就是让两个平台各自独立构建；简单来说就是github page和cloudflare page单独分别用main仓库源码部署》
+&lt;ul&gt;
+&lt;li&gt;《该方案可行的原因在于【cloudflare page真的有执行hugo源码的能力   cloudflare page能独立构建hugo项目得到hugo静态资源】，因此两个平台各自独立构建是成立的，让cloudflare page独立构建hugo项目得到hugo静态资源即可，然后github page也独立用action构建hugo项目得到hugo静态资源》&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&amp;lt;用该编程题一测就知道模型编程能力的优劣&amp;gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;laquo;&amp;lt;【除了gemini2.5pro以外 ，其它模型都认为应该创建dev仓库的action代码 而且这个action还在run hugo -D】，这种说法是错误的，dev仓库都是从main仓库转换来的静态资源，因此dev仓库哪里来的源码让你执行hugo命令啊，能说出在dev仓库的action程序中执行run hugo -D 的全都是代码分析能力不行的，我把action源码给到这些模型，这些模型早就该分析出dev仓库都是静态资源，不可能在dev仓库执行aciton程序了&amp;gt;&lt;/li&gt;
+&lt;li&gt;《《《另外有一个重要的认知就是【配置文件的参数的参数值仅在项目构建过程正被读取】，这意味着项目构建好后不会调用参数，比如 配置文件的baseURL必须在项目构建过程中把变量设置好，项目构建完成后再设置变量就没用了》&lt;/li&gt;
+&lt;li&gt;《编程能力和推理能力一般的模型只会给你dev仓库的action代码，明明dev仓库的任何action的没意义》&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;《《《测试结论：gemini2.5pro是唯一能成功解决我问题的模型，因此gemini2.5pro成为我能免费用到的最强模型，不但可以帮助我用视频学习，还有免费使用的平台Trae或无限邮箱cursor，编程能力还是免费用到中的最强》&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;《♒《逻辑推理是gemini2.5pro比claude强，gemini2.5pro逻辑推理能力很强 文件索引能力在有明确提示词要求的情况下也非常强，所以单纯的编程的使用一定是gemini2.5pro&amp;gt;claude》
+&lt;ul&gt;
+&lt;li&gt;《♒《《因此gemini2.5pro适合开发 前后端 代码，而claude适合开发样式（UI）；♒claude用来开发UI的效果实在太好，本来我要求加个高光，claude还帮我加了个动画过渡效果》&lt;/li&gt;
+&lt;li&gt;《图片识别能力也是gemini2.5pro强，如果有图片想让AI按图片要求来，也是用gemini2.5pro；claude我把分格图片给它看，它居然看成了是卡片；♒而gemini2.5pro是真的能照着图片来写代码》&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>Qwen3模型测试结果（包含能本地部署的小参数模型）</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/p/qwen3%E6%A8%A1%E5%9E%8B%E6%B5%8B%E8%AF%95%E7%BB%93%E6%9E%9C%E5%8C%85%E5%90%AB%E8%83%BD%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2%E7%9A%84%E5%B0%8F%E5%8F%82%E6%95%B0%E6%A8%A1%E5%9E%8B/</link>
+        <pubDate>Tue, 28 Jan 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://yichixing.github.io/hugo-stack-dev/p/qwen3%E6%A8%A1%E5%9E%8B%E6%B5%8B%E8%AF%95%E7%BB%93%E6%9E%9C%E5%8C%85%E5%90%AB%E8%83%BD%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2%E7%9A%84%E5%B0%8F%E5%8F%82%E6%95%B0%E6%A8%A1%E5%9E%8B/</guid>
+        <description>&lt;p&gt;༼🚀企业级最强开源大模型Qwen3震撼发布！本地部署+全面客观测评！Qwen3-235B-A22B+Qwen3-32B+Qwen3-14B谁是最强王者？ollama+LM Studio+vLLM本地部署 ༽&lt;/p&gt;
+&lt;h1 id=&#34;part1-internvl3-ocr能力测试---手写体识别&#34;&gt;part1: InternVL3 OCR能力测试 - 手写体识别
+&lt;/h1&gt;&lt;p&gt;好的，这是视频中对Qwen3系列模型测试结果的总结：&lt;/p&gt;
+&lt;h1 id=&#34;part-1-qwen3-模型基础能力与幻觉测试&#34;&gt;Part 1: Qwen3 模型基础能力与幻觉测试
+&lt;/h1&gt;&lt;p&gt;(04:02-04:30) &lt;em&gt;&lt;strong&gt;1.1: 知识库截止日期测试&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;测试类型&lt;/strong&gt;：知识库时效性。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;结果&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Qwen3-235B-A22B&lt;/strong&gt; 的知识库截止日期为 &lt;strong&gt;2024年6月&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Qwen3-32B&lt;/strong&gt; 的知识库截止日期到 &lt;strong&gt;2024年10月&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Qwen3-14B&lt;/strong&gt; 的知识库截止日期到 &lt;strong&gt;2024年10月&lt;/strong&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;作者观点&lt;/strong&gt;: 三款模型的知识都比较新。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(04:30-06:33) &lt;em&gt;&lt;strong&gt;1.2: 幻觉测试（虚构信息辨别）&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;测试类型&lt;/strong&gt;：模型对明确虚构或不存在信息的辨别能力。
+&lt;ul&gt;
+&lt;li&gt;数字大小比较 (2.999 vs 2.12345)&lt;/li&gt;
+&lt;li&gt;英文单词字母统计 (stresslessness)&lt;/li&gt;
+&lt;li&gt;虚构人物（量子信息学家马克·威尔逊教授）&lt;/li&gt;
+&lt;li&gt;虚构化学物质（九氧化二氮）&lt;/li&gt;
+&lt;li&gt;虚构历史事件（公元前235年秦国与齐国的“稷下之盟”）&lt;/li&gt;
+&lt;li&gt;虚构物理理论（反熵矩阵理论）&lt;/li&gt;
+&lt;li&gt;虚构文学事件（狄更斯和海明威在巴黎辩论）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;结果&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;数字比较&lt;/strong&gt;：三款模型（235B, 32B, 14B）均&lt;strong&gt;正确&lt;/strong&gt;比较。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;字母统计&lt;/strong&gt;：三款模型（235B, 32B, 14B）均&lt;strong&gt;正确&lt;/strong&gt;统计。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;虚构人物/化学物质/物理理论/文学事件&lt;/strong&gt;：三款模型（235B, 32B, 14B）基本都能&lt;strong&gt;正确识别&lt;/strong&gt;出这些是虚构的，没有直接产生幻觉进行编造。&lt;strong&gt;235B&lt;/strong&gt;和&lt;strong&gt;32B&lt;/strong&gt;表现很好，&lt;strong&gt;14B&lt;/strong&gt;（开启思考模式后）也能识别。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;虚构历史事件&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Qwen3-235B-A22B&lt;/strong&gt;：&lt;strong&gt;正确&lt;/strong&gt;指出该事件没有明确记载。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Qwen3-32B&lt;/strong&gt;：&lt;strong&gt;产生了幻觉&lt;/strong&gt;，编造了“稷下之盟”的细节内容，这是错误的。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Qwen3-14B&lt;/strong&gt;（开启思考模式）：&lt;strong&gt;正确&lt;/strong&gt;指出该事件不存在。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;作者观点&lt;/strong&gt;: Qwen3在辨别虚构信息方面表现不错，尤其是235B和开启思考模式的14B。但32B在虚构历史事件上出现了明显幻觉。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;part-2-qwen3-模型逻辑推理与遵循指令能力测试&#34;&gt;Part 2: Qwen3 模型逻辑推理与遵循指令能力测试
+&lt;/h1&gt;&lt;p&gt;(07:02-08:15) &lt;em&gt;&lt;strong&gt;2.1: 多维模式识别与逻辑推理测试&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;测试类型&lt;/strong&gt;：根据规则填充矩阵、寻找序列规律（字母、数字、二进制）。
+&lt;ul&gt;
+&lt;li&gt;矩阵填充&lt;/li&gt;
+&lt;li&gt;字母序列 (OTTFFSSEN&amp;hellip;)&lt;/li&gt;
+&lt;li&gt;交替数字序列 (3, 5, 6, 10, 9&amp;hellip;)&lt;/li&gt;
+&lt;li&gt;二进制序列 (1, 2, 4, 8&amp;hellip;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;结果&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;矩阵填充&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Qwen3-235B-A22B&lt;/strong&gt;：&lt;strong&gt;错误&lt;/strong&gt;，未能解决。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Qwen3-32B&lt;/strong&gt;：&lt;strong&gt;错误&lt;/strong&gt;，未能解决。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Qwen3-14B&lt;/strong&gt;（开启思考模式）：&lt;strong&gt;正确&lt;/strong&gt;解决。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;序列规律&lt;/strong&gt;：三款模型（235B, 32B, 14B）对于字母、交替数字、二进制序列均能&lt;strong&gt;正确&lt;/strong&gt;找出规律并补全。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;作者观点&lt;/strong&gt;: 在矩阵逻辑题上，14B开启思考模式后表现优于两个更大的模型。但在序列规律题上，三者表现都很好。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(08:15-08:30) &lt;em&gt;&lt;strong&gt;2.2: JSON结构化输出能力测试&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;测试类型&lt;/strong&gt;：根据给定信息生成包含订单处理逻辑的JSON结构。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;输入指令&lt;/strong&gt;：请根据以下信息，生成一个包含订单处理逻辑的JSON结构：[包含客户信息、购物车商品、优惠券、物流选项、支付方式等信息]&amp;hellip;请计算最终订单金额&amp;hellip;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;结果&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Qwen3-235B-A22B&lt;/strong&gt;：生成的&lt;strong&gt;JSON格式正确&lt;/strong&gt;，但&lt;strong&gt;折扣计算顺序出错&lt;/strong&gt;，导致最终金额有&lt;strong&gt;误差&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Qwen3-32B&lt;/strong&gt;：生成的&lt;strong&gt;JSON格式正确&lt;/strong&gt;，但出现的&lt;strong&gt;错误较多&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Qwen3-14B&lt;/strong&gt;（开启思考模式）：生成的&lt;strong&gt;JSON格式和计算结果均正确&lt;/strong&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;作者观点&lt;/strong&gt;: 14B开启思考模式后表现最好，235B次之，32B错误较多。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(09:01-09:35) &lt;em&gt;&lt;strong&gt;2.3: 混合格式信息提取与结构化输出测试&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;测试类型&lt;/strong&gt;：将包含CSV、XML、普通文本的混合信息转换为统一的JSON格式。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;输入指令&lt;/strong&gt;：请将以下混合信息转换为统一的JSON格式：[包含CSV格式的产品信息、XML格式的供应商信息、普通文本的促销活动信息]&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;结果&lt;/strong&gt;：三款模型（235B, 32B, 14B）均能&lt;strong&gt;成功&lt;/strong&gt;将混合格式信息转换为正确的&lt;strong&gt;JSON格式&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;作者观点&lt;/strong&gt;: 在这个混合格式转换任务上，三款模型表现都非常不错。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(09:35-10:18) &lt;em&gt;&lt;strong&gt;2.4: 代码理解与SVG格式生成测试&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;测试类型&lt;/strong&gt;：根据Python冒泡排序代码生成SVG格式的流程图。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;输入指令&lt;/strong&gt;：为下面的代码用SVG画出完整的流程图：[Python冒泡排序代码]&amp;hellip;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;结果&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;三款模型（235B, 32B, 14B）均生成了&lt;strong&gt;SVG代码&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;但是，所有模型生成的SVG代码在浏览器中打开时均&lt;strong&gt;出现报错&lt;/strong&gt;，无法正确渲染成流程图。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;作者观点&lt;/strong&gt;: 三款模型在生成可用的SVG流程图方面都失败了。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(10:18-12:57) &lt;em&gt;&lt;strong&gt;2.5: 农夫过河问题（复杂逻辑推理）&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;测试类型&lt;/strong&gt;：解决经典的农夫过河逻辑谜题。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;输入指令&lt;/strong&gt;：农夫带着一只老虎、一只羊、一条蛇、一只鸡和一筐苹果要过河&amp;hellip;[详细规则]&amp;hellip;请问农夫如何才能将老虎、羊、蛇、鸡和苹果安全送到对岸？&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;结果&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Qwen3-235B-A22B&lt;/strong&gt;：&lt;strong&gt;失败&lt;/strong&gt;。在第五步“农夫带鸡过河”后，分析安全性时&lt;strong&gt;产生幻觉&lt;/strong&gt;，错误地认为“老虎会阻止蛇吃羊”，而规则中蛇不吃羊，导致后续步骤错误。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Qwen3-32B&lt;/strong&gt;：&lt;strong&gt;失败&lt;/strong&gt;。在第一步就&lt;strong&gt;出错&lt;/strong&gt;，选择了带鸡过河，违反了鸡会阻止老虎吃羊的规则（虽然原题规则是鸡阻止蛇吃鸡，但此处模型理解或应用规则错误）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Qwen3-14B&lt;/strong&gt;（开启思考模式）：&lt;strong&gt;失败&lt;/strong&gt;。步骤给出的看似合理，但在第七步“带羊过河”后，对岸状态分析错误，认为有老虎、羊、蛇，此时老虎会吃羊，违反安全规则。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;作者观点&lt;/strong&gt;: 这个经典的农夫过河问题&lt;strong&gt;难倒了所有三款Qwen3模型&lt;/strong&gt;，它们在多步复杂逻辑推理和状态跟踪方面存在明显不足，容易产生幻觉或违反规则。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(12:58-13:36) &lt;em&gt;&lt;strong&gt;2.6: 文档分析能力测试&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;测试类型&lt;/strong&gt;：基于上传的PDF文档（Phi-4-Mini技术报告）回答问题。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;输入指令&lt;/strong&gt;：[上传PDF后提问] Phi-4-Mini具有多少个Transformer层？隐藏状态大小是多少？它使用的GQA配置具体包含多少个查询头和键/值头？&amp;hellip;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;结果&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Qwen3-235B-A22B&lt;/strong&gt;：&lt;strong&gt;正确&lt;/strong&gt;回答了所有问题。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Qwen3-32B&lt;/strong&gt;：&lt;strong&gt;部分正确&lt;/strong&gt;，前两个问题回答正确，第三个问题（得分提高百分点）回答错误。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Qwen3-14B&lt;/strong&gt;（通过Open WebUI测试）：&lt;strong&gt;失败&lt;/strong&gt;，未能从文档中找到答案。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;作者观点&lt;/strong&gt;: &lt;strong&gt;235B&lt;/strong&gt;表现最好。&lt;strong&gt;14B&lt;/strong&gt;的失败可能是由于&lt;strong&gt;Open WebUI&lt;/strong&gt;文档解析功能的问题，不完全代表模型本身的能力。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(13:36-14:17) &lt;em&gt;&lt;strong&gt;2.7: 算法与编程能力测试&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;测试类型&lt;/strong&gt;：用Python编程实现计算第N个质数，要求不引入外部库。
+&lt;ul&gt;
+&lt;li&gt;算法题：计算438990637是第多少个质数。&lt;/li&gt;
+&lt;li&gt;编程题：设计一个2D物理模拟系统（涉及碰撞、旋转等）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;结果&lt;/strong&gt;（算法题）：
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Qwen3-235B-A22B&lt;/strong&gt;：给出的&lt;strong&gt;Python代码&lt;/strong&gt;只做了&lt;strong&gt;基本的优化&lt;/strong&gt;，整体效率较低。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Qwen3-32B&lt;/strong&gt;：给出的代码采用了&lt;strong&gt;更高效&lt;/strong&gt;的方法，通过存储已找到的质数来加速判断。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Qwen3-14B&lt;/strong&gt;（开启思考模式）：给出的代码&lt;strong&gt;优化程度最高&lt;/strong&gt;，比32B的还要好一些，例如在找到目标后能退出循环。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;结果&lt;/strong&gt;（编程题 - 2D物理模拟）：
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Qwen3-235B-A22B&lt;/strong&gt;：生成的&lt;strong&gt;Pygame代码&lt;/strong&gt;无法一次性运行，运行时&lt;strong&gt;闪退&lt;/strong&gt;且没有内容，代码存在&lt;strong&gt;错误&lt;/strong&gt;（如 &amp;lsquo;BLACK&amp;rsquo; is not defined）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Qwen3-32B&lt;/strong&gt;：生成的代码同样无法一次性运行，运行时&lt;strong&gt;闪退&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Qwen3-14B&lt;/strong&gt;（开启思考模式）：生成的代码&lt;strong&gt;能够运行&lt;/strong&gt;，并展示了两个六边形和一个移动的小球，但&lt;strong&gt;未完全实现&lt;/strong&gt;题目要求的所有物理特性（如交叉区域弹跳）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;作者观点&lt;/strong&gt;: 在算法题上，&lt;strong&gt;14B&lt;/strong&gt;和&lt;strong&gt;32B&lt;/strong&gt;的代码优化能力优于&lt;strong&gt;235B&lt;/strong&gt;。在编程题上，只有&lt;strong&gt;14B&lt;/strong&gt;生成的代码能基本运行，但功能不完善，而&lt;strong&gt;235B&lt;/strong&gt;和&lt;strong&gt;32B&lt;/strong&gt;生成的代码都无法直接运行。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(10:18-10:56) &lt;em&gt;&lt;strong&gt;2.8: 提示词遵循能力与负责问题分析能力测试&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;测试类型&lt;/strong&gt;：模型是否能严格按照一个复杂的、包含多步骤和格式要求的提示词（Prompt）来分析和回答问题。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;输入指令&lt;/strong&gt;：你现在是一名超级思维解析师&amp;hellip;[详细的多步骤分析要求，包括解析流程规范、使用特定符号、探索多种答案、明确能力边界、审视推理过程、应用最佳实践、JSON格式输出等]&amp;hellip;下面是你要解决的问题：[抛硬币概率问题]。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;结果&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;三款模型（235B, 32B, 14B）均&lt;strong&gt;未能遵循&lt;/strong&gt;复杂的提示词指令。它们都&lt;strong&gt;只给出了第一步&lt;/strong&gt;（输出包含“步骤”、“标题”、“内容”、“下一步行动”的JSON），而没有继续执行提示词中要求的后续分析步骤。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;作者观点&lt;/strong&gt;: 这个测试表明，Qwen3系列模型在&lt;strong&gt;严格遵循复杂指令（Prompt Following）&lt;strong&gt;方面存在&lt;/strong&gt;显著的短板&lt;/strong&gt;，这是一个较大的弱点。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(10:57-11:48) &lt;em&gt;&lt;strong&gt;2.9: SQL能力测试&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;测试类型&lt;/strong&gt;：根据给定的数据库表结构（产品表、供应商表、客户表、采购订单表、销售订单表、库存交易表等）和5个具体问题，生成相应的SQL查询语句。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;结果&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Qwen3-235B-A22B&lt;/strong&gt;：生成的5个SQL查询语句&lt;strong&gt;全部正确&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Qwen3-32B&lt;/strong&gt;：第3个问题（供应商绩效）使用的**&lt;code&gt;DATEDIFF&lt;/code&gt;函数语法是SQL Server特有的**，而非通用的或MySQL的语法，其他SQL语句正确。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Qwen3-14B&lt;/strong&gt;（开启思考模式）：生成的5个SQL查询语句&lt;strong&gt;全部正确&lt;/strong&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;作者观点&lt;/strong&gt;: &lt;strong&gt;235B&lt;/strong&gt;和&lt;strong&gt;14B&lt;/strong&gt;的SQL能力非常强，&lt;strong&gt;32B&lt;/strong&gt;稍有不足（使用了特定数据库方言）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;part-5-总体评价&#34;&gt;Part 5: 总体评价
+&lt;/h1&gt;&lt;p&gt;(15:19-15:38) &lt;em&gt;&lt;strong&gt;5.1: 作者总结&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;作者观点&lt;/strong&gt;: 通过多方面的测试，可以发现&lt;strong&gt;Qwen3系列模型&lt;/strong&gt;在多方面的能力都&lt;strong&gt;有了很大的提升&lt;/strong&gt;。但是，在&lt;strong&gt;复杂逻辑推理&lt;/strong&gt;（如农夫过河）、&lt;strong&gt;严格遵循提示词指令&lt;/strong&gt;以及&lt;strong&gt;部分代码生成&lt;/strong&gt;（尤其是SVG）方面仍有不足。&lt;strong&gt;14B参数的模型&lt;/strong&gt;在开启&lt;strong&gt;思考模式&lt;/strong&gt;后，其效果常常能&lt;strong&gt;媲美甚至超过&lt;/strong&gt;不开启思考模式的&lt;strong&gt;32B模型&lt;/strong&gt;，有时甚至比&lt;strong&gt;235B模型&lt;/strong&gt;效果还好一些（例如在JSON准确性、算法优化方面）。用户可以根据自己的项目需求和对模型能力侧重的不同，来选择不同参数的版本。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>开源多模态模型InternVL3视觉能力测试</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/p/%E5%BC%80%E6%BA%90%E5%A4%9A%E6%A8%A1%E6%80%81%E6%A8%A1%E5%9E%8Binternvl3%E8%A7%86%E8%A7%89%E8%83%BD%E5%8A%9B%E6%B5%8B%E8%AF%95/</link>
+        <pubDate>Tue, 28 Jan 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://yichixing.github.io/hugo-stack-dev/p/%E5%BC%80%E6%BA%90%E5%A4%9A%E6%A8%A1%E6%80%81%E6%A8%A1%E5%9E%8Binternvl3%E8%A7%86%E8%A7%89%E8%83%BD%E5%8A%9B%E6%B5%8B%E8%AF%95/</guid>
+        <description>&lt;p&gt;༼🚀挑战Gemini 2.5！最强开源企业级OCR大模型InternVL3！本地部署教程+实战测评全纪录，轻松搞定潦草手写汉字、模糊PDF扫描件、模糊复杂表格，效果炸裂超过人眼！支持Open WebUI ༽&lt;/p&gt;
+&lt;h1 id=&#34;part1-internvl3-ocr能力测试---手写体识别&#34;&gt;part1: InternVL3 OCR能力测试 - 手写体识别
+&lt;/h1&gt;&lt;p&gt;#模型的UI界面&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;模型的UI界面用的是openWebUi
+(03:34-04:43)
+&lt;em&gt;&lt;strong&gt;1.1: 测试1 - 手写体识别&lt;/strong&gt;&lt;/em&gt;
+在&lt;strong&gt;OpenWebUI&lt;/strong&gt;中选择部署好的&lt;strong&gt;OpenGVLab/InternVL3-14B-Instruct&lt;/strong&gt;模型进行测试。
+上传一张手写体图片（内容为一首诗）。
+&lt;strong&gt;输入指令&lt;/strong&gt;：“提取图上的文字内容, 并保持原有格式输出”。
+&lt;strong&gt;测试结果&lt;/strong&gt;：模型&lt;strong&gt;很快&lt;/strong&gt;提取出了图片中的手写文字内容，包括诗的标题“&lt;strong&gt;暮春感怀&lt;/strong&gt;”和最后的签名“&lt;strong&gt;AI超元域-书&lt;/strong&gt;”。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(04:43-05:20)
+&lt;em&gt;&lt;strong&gt;1.2: 手写体识别结果比对与评价&lt;/strong&gt;&lt;/em&gt;
+将模型提取的文字内容与原图进行逐行比对。
+&lt;strong&gt;测试结果&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;所有诗句内容均&lt;strong&gt;完全正确&lt;/strong&gt;提取。&lt;/li&gt;
+&lt;li&gt;诗名后的&lt;strong&gt;破折号 (&amp;ndash;)&lt;/strong&gt; 和签名后的&lt;strong&gt;点号 (.)&lt;/strong&gt; 也被&lt;strong&gt;正确识别&lt;/strong&gt;并提取。
+&lt;strong&gt;作者观点&lt;/strong&gt;：对于如此&lt;strong&gt;潦草的手写体&lt;/strong&gt;，包括&lt;strong&gt;标点符号&lt;/strong&gt;都能&lt;strong&gt;正确提取&lt;/strong&gt;，效果&lt;strong&gt;非常好&lt;/strong&gt;。之前测试中只有&lt;strong&gt;Gemini 2.5 Pro&lt;/strong&gt;能达到这个效果。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(05:47-07:06)
+&lt;em&gt;&lt;strong&gt;1.3: Gradio界面资源监控下的手写体识别测试&lt;/strong&gt;&lt;/em&gt;
+使用作者编写的&lt;strong&gt;Gradio脚本&lt;/strong&gt;来实时监控模型推理时的&lt;strong&gt;系统资源&lt;/strong&gt;（CPU、内存、GPU显存）占用情况。
+在Gradio界面中再次上传之前的手写体图片。
+&lt;strong&gt;输入指令&lt;/strong&gt;：“提取图上的文字内容, 并保持原有格式输出”。
+&lt;strong&gt;测试结果&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;模型再次&lt;strong&gt;成功提取&lt;/strong&gt;了手写内容。&lt;/li&gt;
+&lt;li&gt;资源监控显示：&lt;strong&gt;CPU使用率&lt;/strong&gt;有波动，&lt;strong&gt;内存使用&lt;/strong&gt;约&lt;strong&gt;2.53 GB&lt;/strong&gt;（初始）上升至处理时的峰值，&lt;strong&gt;GPU显存&lt;/strong&gt;占用高达&lt;strong&gt;45.71 / 47.99 GB (95.2%)&lt;/strong&gt;（使用单张&lt;strong&gt;A6000&lt;/strong&gt;显卡运行&lt;strong&gt;InternVL3-14B&lt;/strong&gt;模型）。
+&lt;strong&gt;作者观点&lt;/strong&gt;： &lt;strong&gt;14B参数&lt;/strong&gt;的模型显存占用较高。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;part2-internvl3-ocr能力测试---发票与重叠文字识别&#34;&gt;part2: InternVL3 OCR能力测试 - 发票与重叠文字识别
+&lt;/h1&gt;&lt;p&gt;(07:06-08:04)
+&lt;em&gt;&lt;strong&gt;2.1: 测试2 - 发票扫描件识别（含模糊与重叠文字）&lt;/strong&gt;&lt;/em&gt;
+上传一张发票扫描件图片，图片中包含&lt;strong&gt;模糊文字&lt;/strong&gt;和&lt;strong&gt;重叠文字&lt;/strong&gt;。
+&lt;strong&gt;输入指令&lt;/strong&gt;：“提取图上的文字内容, 并保持原有格式输出”。
+&lt;strong&gt;测试结果&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;模型将提取内容输出到&lt;strong&gt;code block&lt;/strong&gt;中。&lt;/li&gt;
+&lt;li&gt;发票顶部的英文公司信息和地址&lt;strong&gt;完全正确&lt;/strong&gt;提取。&lt;/li&gt;
+&lt;li&gt;发票号码、日期、付款条件、到期日等信息&lt;strong&gt;完全正确&lt;/strong&gt;提取。&lt;/li&gt;
+&lt;li&gt;客户信息（公司名、联系人、地址、电话、客户编号）&lt;strong&gt;完全正确&lt;/strong&gt;提取。&lt;/li&gt;
+&lt;li&gt;项目明细部分：
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;云服务器租用 / Cloud Server Hosting&amp;rdquo; 行：&lt;strong&gt;完全正确&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;企业数据备份服务 / Data Backup Service&amp;rdquo; 行：&lt;strong&gt;价格部分存在重叠文字（¥3,500.00与$900.00重叠），模型正确识别并提取为 ¥3,500.00&lt;/strong&gt;，数量“1项”也正确。&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;技术支持 / Technical Support&amp;rdquo; 行：&lt;strong&gt;价格部分存在重叠文字（¥19,200.00与¥800.00重叠），模型正确识别并提取为 ¥19,200.00&lt;/strong&gt;，数量“24小时”也正确。&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;软件许可证 / Software License&amp;rdquo; 行：&lt;strong&gt;完全正确&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;安全审计服务 / Security Audit&amp;rdquo; 行：&lt;strong&gt;完全正确&lt;/strong&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;小计、税额、总计金额&lt;strong&gt;完全正确&lt;/strong&gt;提取。&lt;/li&gt;
+&lt;li&gt;付款方式、银行转账、账户名、银行、账号、Swift代码等信息&lt;strong&gt;完全正确&lt;/strong&gt;提取。&lt;/li&gt;
+&lt;li&gt;唯一识别错误：在重叠的 &amp;ldquo;Data Backup Service&amp;rdquo; 价格处，模型输出为&lt;code&gt;¥3,500.00&lt;/code&gt;，原始应为&lt;code&gt;¥3,500.00&lt;/code&gt;，识别出了重叠内容但未能完全还原格式（原图重叠了$900和¥3500）。 &lt;em&gt;修正：仔细观察视频，应是¥3,500.00与$9,560.00重叠，模型识别为&lt;code&gt;¥3,500.00&lt;/code&gt;，识别是正确的。&lt;/em&gt;
+&lt;strong&gt;作者观点&lt;/strong&gt;：效果&lt;strong&gt;非常不错&lt;/strong&gt;，特别是能处理&lt;strong&gt;重叠文字&lt;/strong&gt;的情况。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;part3-internvl3-ocr能力测试---模糊pdf扫描件识别含表格和代码&#34;&gt;part3: InternVL3 OCR能力测试 - 模糊PDF扫描件识别（含表格和代码）
+&lt;/h1&gt;&lt;p&gt;(08:04-09:03)
+&lt;em&gt;&lt;strong&gt;3.1: 测试3 - 模糊PDF扫描件识别&lt;/strong&gt;&lt;/em&gt;
+上传一张&lt;strong&gt;非常模糊&lt;/strong&gt;的PDF扫描件图片，包含普通文本、一个表格和一段代码。
+&lt;strong&gt;输入指令&lt;/strong&gt;：“提取图上的文字内容, 并保持原有格式输出”。
+&lt;strong&gt;测试结果&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;文档标题“&lt;strong&gt;AI超元域原创视频-文档扫描测试&lt;/strong&gt;”&lt;strong&gt;正确&lt;/strong&gt;提取。&lt;/li&gt;
+&lt;li&gt;开头的英文段落 (Lorem ipsum&amp;hellip;) &lt;strong&gt;正确&lt;/strong&gt;提取。&lt;/li&gt;
+&lt;li&gt;中间的中文段落及三个要点（第一点、第二点、第三点）&lt;strong&gt;均正确&lt;/strong&gt;提取，并保持了原有的格式。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;表格&lt;/strong&gt;内容（包括表头“项目”、“描述”、“状态”及三行测试数据）&lt;strong&gt;完全正确&lt;/strong&gt;提取。&lt;/li&gt;
+&lt;li&gt;底部的&lt;strong&gt;非常模糊的代码段&lt;/strong&gt; (function testAIVision()&amp;hellip;) &lt;strong&gt;也完全正确&lt;/strong&gt;地提取出来，并&lt;strong&gt;保持了原有的代码格式&lt;/strong&gt;。
+&lt;strong&gt;作者观点&lt;/strong&gt;：即使文档&lt;strong&gt;非常模糊&lt;/strong&gt;，模型依然能够&lt;strong&gt;准确&lt;/strong&gt;提取文本、表格和代码。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;part4-internvl3-ocr能力测试---复杂模糊pdf扫描件识别含噪声&#34;&gt;part4: InternVL3 OCR能力测试 - 复杂模糊PDF扫描件识别（含噪声）
+&lt;/h1&gt;&lt;p&gt;(09:04-10:11)
+&lt;em&gt;&lt;strong&gt;4.1: 测试4 - 带噪声的复杂模糊PDF扫描件识别&lt;/strong&gt;&lt;/em&gt;
+上传一张&lt;strong&gt;更加模糊且复杂&lt;/strong&gt;的PDF扫描件，包含标题、文本和一个带有&lt;strong&gt;人为添加的红色线条噪声&lt;/strong&gt;的表格。
+&lt;strong&gt;输入指令&lt;/strong&gt;：“提取图上的文字内容, 并保持原有格式输出”。
+&lt;strong&gt;测试结果&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;报告标题“&lt;strong&gt;研究报告：人工智能在现代商业中的应用&lt;/strong&gt;”和副标题“&lt;strong&gt;3.2 行业应用案例分析&lt;/strong&gt;”&lt;strong&gt;正确&lt;/strong&gt;提取。&lt;/li&gt;
+&lt;li&gt;第一段中文长文本内容&lt;strong&gt;正确&lt;/strong&gt;提取。&lt;/li&gt;
+&lt;li&gt;包含&lt;strong&gt;人为噪声&lt;/strong&gt;的&lt;strong&gt;表格&lt;/strong&gt;内容&lt;strong&gt;完全正确&lt;/strong&gt;提取，模型&lt;strong&gt;成功忽略了噪声&lt;/strong&gt;。其中“医疗健康”行，“投资回报率”列的数值&lt;strong&gt;128.7&lt;/strong&gt;，即使带有噪声干扰，也&lt;strong&gt;正确提取&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;表格下方的引用说明文字“*人工智能的商业价值&amp;hellip;”&lt;strong&gt;基本正确&lt;/strong&gt;提取，但遗漏了中间非常模糊的一小段文字（“各行业AI技术采用及投资回报分析&amp;hellip;”）。&lt;/li&gt;
+&lt;li&gt;图例说明“&lt;strong&gt;图7: AI技术投资与业务绩效相关性分析&lt;/strong&gt;”&lt;strong&gt;正确&lt;/strong&gt;提取。&lt;/li&gt;
+&lt;li&gt;最下方的“AI商业应用研究系列&amp;hellip;”&lt;strong&gt;正确&lt;/strong&gt;提取。
+&lt;strong&gt;作者观点&lt;/strong&gt;：&lt;strong&gt;非常难得&lt;/strong&gt;，模型不仅处理了模糊性，还&lt;strong&gt;有效忽略了表格中的噪声&lt;/strong&gt;，提取结果&lt;strong&gt;非常准确&lt;/strong&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;part5-internvl3-ocr能力测试---复杂模糊表格扫描件识别&#34;&gt;part5: InternVL3 OCR能力测试 - 复杂模糊表格扫描件识别
+&lt;/h1&gt;&lt;p&gt;(10:11-10:50)
+&lt;em&gt;&lt;strong&gt;5.1: 测试5 - 复杂模糊表格扫描件识别&lt;/strong&gt;&lt;/em&gt;
+上传一张包含&lt;strong&gt;非常模糊且复杂表格&lt;/strong&gt;的扫描件图片，表格中部分文字&lt;strong&gt;超出了单元格边界&lt;/strong&gt;。
+&lt;strong&gt;输入指令&lt;/strong&gt;：“提取图上的文字内容, 并保持原有格式输出”。
+&lt;strong&gt;测试结果&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;模型使用&lt;strong&gt;Markdown格式&lt;/strong&gt;输出了表格内容。&lt;/li&gt;
+&lt;li&gt;经过仔细比对，表格的&lt;strong&gt;所有内容&lt;/strong&gt;，包括那些&lt;strong&gt;超出单元格的文字&lt;/strong&gt;，都被&lt;strong&gt;完全正确&lt;/strong&gt;地提取出来。&lt;/li&gt;
+&lt;li&gt;表格下方的表注“&lt;strong&gt;表1: AI超元域2024-2025年度项目进度表&lt;/strong&gt;”和页码信息“&lt;strong&gt;第1页，共5页&lt;/strong&gt;”也&lt;strong&gt;完全正确&lt;/strong&gt;提取。
+&lt;strong&gt;作者观点&lt;/strong&gt;：即使表格&lt;strong&gt;非常模糊和复杂&lt;/strong&gt;，提取结果依然&lt;strong&gt;完全正确&lt;/strong&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;part6-internvl3-ocr能力测试---图像理解与描述&#34;&gt;part6: InternVL3 OCR能力测试 - 图像理解与描述
+&lt;/h1&gt;&lt;p&gt;(10:50-11:27)
+&lt;em&gt;&lt;strong&gt;6.1: 测试6 - 线条画（Meme图）描述&lt;/strong&gt;&lt;/em&gt;
+上传一张&lt;strong&gt;线条画&lt;/strong&gt;（Meme图）图片。
+&lt;strong&gt;输入指令&lt;/strong&gt;：“描述这张图”。
+&lt;strong&gt;测试结果&lt;/strong&gt;：模型&lt;strong&gt;正确识别&lt;/strong&gt;出这是一幅&lt;strong&gt;线条画 (line drawing)&lt;/strong&gt;，描绘了一个&lt;strong&gt;聚会场景 (party scene)&lt;/strong&gt;，并准确描述了图中&lt;strong&gt;五个人物&lt;/strong&gt;各自的位置和动作状态。
+&lt;strong&gt;作者观点&lt;/strong&gt;：对图像内容的&lt;strong&gt;描述基本正确&lt;/strong&gt;。&lt;/p&gt;
+&lt;h1 id=&#34;part7-internvl3-ocr能力测试---流程图理解与代码生成&#34;&gt;part7: InternVL3 OCR能力测试 - 流程图理解与代码生成
+&lt;/h1&gt;&lt;p&gt;(11:27-12:53)
+&lt;em&gt;&lt;strong&gt;7.1: 测试7 - 流程图转Python代码&lt;/strong&gt;&lt;/em&gt;
+上传一张&lt;strong&gt;流程图&lt;/strong&gt;图片，该流程图展示的是&lt;strong&gt;冒泡排序 (bubble sort)&lt;/strong&gt; 算法。
+&lt;strong&gt;输入指令&lt;/strong&gt;：“请根据图上的流程, 用python给出完整的代码”。
+&lt;strong&gt;测试结果&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;模型&lt;strong&gt;成功识别&lt;/strong&gt;出流程图代表的是&lt;strong&gt;冒泡排序算法&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;生成了相应的&lt;strong&gt;Python代码&lt;/strong&gt;来实现该算法。&lt;/li&gt;
+&lt;li&gt;将生成的代码复制到代码编辑器中&lt;strong&gt;运行测试&lt;/strong&gt;，代码&lt;strong&gt;能够成功运行&lt;/strong&gt;并输出了&lt;strong&gt;正确的排序结果&lt;/strong&gt; ([11, 12, 22, 25, 34, 64, 90])。
+&lt;strong&gt;作者观点&lt;/strong&gt;：模型能够&lt;strong&gt;识别流程图&lt;/strong&gt;的逻辑，并将其&lt;strong&gt;转换为可运行的Python代码&lt;/strong&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;part8-总结与评价&#34;&gt;part8: 总结与评价
+&lt;/h1&gt;&lt;p&gt;(12:53-13:11)
+&lt;em&gt;&lt;strong&gt;8.1: 作者最终评价&lt;/strong&gt;&lt;/em&gt;
+&lt;strong&gt;作者观点&lt;/strong&gt;：通过多方面和多角度的测试，可以发现 &lt;strong&gt;InternVL3-14B-Instruct&lt;/strong&gt; 这款模型的&lt;strong&gt;OCR能力还是非常强的&lt;/strong&gt;。即使面对&lt;strong&gt;非常模糊&lt;/strong&gt;的图像，模型也能&lt;strong&gt;成功提取&lt;/strong&gt;图像上的文字内容。对于需要在&lt;strong&gt;本地部署&lt;/strong&gt;进行&lt;strong&gt;OCR任务&lt;/strong&gt;的企业项目来说，这款模型是一个&lt;strong&gt;非常不错的选择&lt;/strong&gt;。视频中用到的代码和指令会放在&lt;strong&gt;视频下方描述栏&lt;/strong&gt;或&lt;strong&gt;评论区&lt;/strong&gt;，以及作者的&lt;strong&gt;博客 (&lt;a class=&#34;link&#34; href=&#34;https://www.aivi.fyi&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;www.aivi.fyi&lt;/a&gt;)&lt;/strong&gt;。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

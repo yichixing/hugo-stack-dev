@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>直接用Vllm命令就能在linux系统下将模型加载并启动成一个模型的API服务了 on 个人笔记博客</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/collections/%E7%9B%B4%E6%8E%A5%E7%94%A8vllm%E5%91%BD%E4%BB%A4%E5%B0%B1%E8%83%BD%E5%9C%A8linux%E7%B3%BB%E7%BB%9F%E4%B8%8B%E5%B0%86%E6%A8%A1%E5%9E%8B%E5%8A%A0%E8%BD%BD%E5%B9%B6%E5%90%AF%E5%8A%A8%E6%88%90%E4%B8%80%E4%B8%AA%E6%A8%A1%E5%9E%8B%E7%9A%84api%E6%9C%8D%E5%8A%A1%E4%BA%86/</link>
+        <description>Recent content in 直接用Vllm命令就能在linux系统下将模型加载并启动成一个模型的API服务了 on 个人笔记博客</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>Example Person</copyright>
+        <lastBuildDate>Tue, 28 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yichixing.github.io/hugo-stack-dev/collections/%E7%9B%B4%E6%8E%A5%E7%94%A8vllm%E5%91%BD%E4%BB%A4%E5%B0%B1%E8%83%BD%E5%9C%A8linux%E7%B3%BB%E7%BB%9F%E4%B8%8B%E5%B0%86%E6%A8%A1%E5%9E%8B%E5%8A%A0%E8%BD%BD%E5%B9%B6%E5%90%AF%E5%8A%A8%E6%88%90%E4%B8%80%E4%B8%AA%E6%A8%A1%E5%9E%8B%E7%9A%84api%E6%9C%8D%E5%8A%A1%E4%BA%86/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>用VLLM本地linux系统部署Qwen3</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/p/%E7%94%A8vllm%E6%9C%AC%E5%9C%B0linux%E7%B3%BB%E7%BB%9F%E9%83%A8%E7%BD%B2qwen3/</link>
+        <pubDate>Tue, 28 Jan 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://yichixing.github.io/hugo-stack-dev/p/%E7%94%A8vllm%E6%9C%AC%E5%9C%B0linux%E7%B3%BB%E7%BB%9F%E9%83%A8%E7%BD%B2qwen3/</guid>
+        <description>&lt;p&gt;༼ 企业级最强开源大模型Qwen3震撼发布！本地部署+全面客观测评！Qwen3-235B-A22B+Qwen3-32B+Qwen3-14B谁是最强王者？ollama+LM Studio+vLLM本地部署I༽&lt;/p&gt;
+&lt;h1 id=&#34;part-1-准备vllm部署环境&#34;&gt;Part 1: 准备vLLM部署环境
+&lt;/h1&gt;&lt;p&gt;(01:57-02:06) &lt;em&gt;&lt;strong&gt;1.1: 介绍vLLM及部署平台&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;作者提到的关键信息&lt;/strong&gt;：如果需要进行&lt;strong&gt;企业项目&lt;/strong&gt;部署，可以使用&lt;strong&gt;vLLM&lt;/strong&gt;。作者将在&lt;strong&gt;Ubuntu系统&lt;/strong&gt;上演示使用&lt;strong&gt;vLLM&lt;/strong&gt;进行部署。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(02:06-02:10) &lt;em&gt;&lt;strong&gt;1.2: 展示部署环境&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;关键操作&lt;/strong&gt;：作者执行&lt;code&gt;nvidia-smi&lt;/code&gt;命令查看服务器的显卡信息。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;目的&lt;/strong&gt;：确认部署环境的硬件配置。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;画面内容&lt;/strong&gt;：显示服务器使用的是&lt;strong&gt;NVIDIA RTX A6000&lt;/strong&gt;显卡，显存为&lt;strong&gt;48G&lt;/strong&gt;，CUDA版本为12.7。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(02:10-02:19) &lt;em&gt;&lt;strong&gt;1.3: 安装Miniconda&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;目的&lt;/strong&gt;：安装&lt;strong&gt;Miniconda&lt;/strong&gt;用于管理Python环境和依赖包。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;关键操作&lt;/strong&gt;：作者展示并执行了一系列命令来下载、安装&lt;strong&gt;Miniconda&lt;/strong&gt;，并配置相关的环境变量。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;画面内容&lt;/strong&gt;:
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 安装Miniconda (如果尚未安装)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda.sh
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;bash ~/miniconda.sh -b -p &lt;span class=&#34;nv&#34;&gt;$HOME&lt;/span&gt;/miniconda
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;eval&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$HOME&lt;/span&gt;/miniconda/bin/conda shell.bash hook&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;export PATH=&amp;#34;$HOME/miniconda/bin:$PATH&amp;#34;&amp;#39;&lt;/span&gt; &amp;gt;&amp;gt; ~/.bashrc
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;source&lt;/span&gt; ~/.bashrc
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;结果&lt;/strong&gt;：&lt;strong&gt;Miniconda&lt;/strong&gt;环境安装并配置完成。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(02:19-02:29) &lt;em&gt;&lt;strong&gt;1.4: 创建并激活Conda环境&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;目的&lt;/strong&gt;：创建一个独立的Python环境（&lt;code&gt;qwen3_env&lt;/code&gt;）用于&lt;strong&gt;vLLM&lt;/strong&gt;部署，指定&lt;strong&gt;Python版本为3.10&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;关键操作&lt;/strong&gt;：执行&lt;code&gt;conda create&lt;/code&gt;命令创建环境，然后执行&lt;code&gt;conda activate&lt;/code&gt;命令激活该环境。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;画面内容&lt;/strong&gt;:
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 创建conda环境&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;conda create -n qwen3_env &lt;span class=&#34;nv&#34;&gt;python&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;3.10 -y
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;conda activate qwen3_env
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;结果&lt;/strong&gt;：成功创建并进入了名为&lt;code&gt;qwen3_env&lt;/code&gt;的&lt;strong&gt;Conda&lt;/strong&gt;环境。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(02:29-02:35) &lt;em&gt;&lt;strong&gt;1.5: 安装vLLM及依赖&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;目的&lt;/strong&gt;：安装&lt;strong&gt;vLLM&lt;/strong&gt;库及其运行所需的依赖库（&lt;strong&gt;ray&lt;/strong&gt;, &lt;strong&gt;transformers&lt;/strong&gt;, &lt;strong&gt;accelerate&lt;/strong&gt;）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;关键操作&lt;/strong&gt;：在已激活的&lt;strong&gt;Conda&lt;/strong&gt;环境（&lt;code&gt;qwen3_env&lt;/code&gt;）中，使用&lt;code&gt;pip install&lt;/code&gt;命令安装&lt;strong&gt;vLLM&lt;/strong&gt;及相关依赖。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;画面内容&lt;/strong&gt;:
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pip install vllm ray transformers accelerate
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;结果&lt;/strong&gt;：&lt;strong&gt;vLLM&lt;/strong&gt;及其依赖库安装完成。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;part-2-使用vllm启动qwen3-14b模型服务&#34;&gt;Part 2: 使用vLLM启动Qwen3 14B模型服务
+&lt;/h1&gt;&lt;p&gt;(02:35-02:46) &lt;em&gt;&lt;strong&gt;2.1: 启动vLLM服务&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;目的&lt;/strong&gt;：使用&lt;strong&gt;vLLM&lt;/strong&gt;将&lt;strong&gt;Qwen3 14B&lt;/strong&gt;模型加载并启动为一个API服务。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;关键操作&lt;/strong&gt;：执行&lt;code&gt;vllm serve&lt;/code&gt;命令，指定模型为&lt;strong&gt;Qwen/Qwen3-14B&lt;/strong&gt;，并添加了参数&lt;code&gt;--enable-reasoning&lt;/code&gt;和&lt;code&gt;--reasoning-parser deepseek_r1&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;画面内容&lt;/strong&gt;:
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;vllm serve Qwen/Qwen3-14B --enable-reasoning --reasoning-parser deepseek_r1
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;结果&lt;/strong&gt;：&lt;strong&gt;vLLM&lt;/strong&gt;服务成功启动，API服务器监听在&lt;code&gt;http://0.0.0.0:8000&lt;/code&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;part-3-通过open-webui调用vllm模型&#34;&gt;Part 3: 通过Open WebUI调用vLLM模型
+&lt;/h1&gt;&lt;p&gt;(02:46-03:38) &lt;em&gt;&lt;strong&gt;3.1: 安装、启动并配置Open WebUI连接vLLM&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;目的&lt;/strong&gt;：配置一个Web UI（&lt;strong&gt;Open WebUI&lt;/strong&gt;）来方便地与通过&lt;strong&gt;vLLM&lt;/strong&gt;部署的&lt;strong&gt;Qwen3 14B&lt;/strong&gt;模型进行交互。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;关键操作&lt;/strong&gt;:
+&lt;ol&gt;
+&lt;li&gt;在本地电脑终端安装&lt;strong&gt;Open WebUI&lt;/strong&gt;：&lt;code&gt;pip install open-webui&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;启动&lt;strong&gt;Open WebUI&lt;/strong&gt;服务：&lt;code&gt;open-webui serve&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;在浏览器访问&lt;code&gt;http://localhost:8080&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;进入&lt;strong&gt;Open WebUI&lt;/strong&gt;设置 -&amp;gt; 管理员设置 -&amp;gt; 外部连接。&lt;/li&gt;
+&lt;li&gt;在&lt;strong&gt;OpenAI API连接&lt;/strong&gt;设置中，将&lt;strong&gt;API请求地址&lt;/strong&gt;设置为&lt;strong&gt;vLLM&lt;/strong&gt;服务器的&lt;strong&gt;IP地址+端口号+/v1&lt;/strong&gt;（例如：&lt;code&gt;http://192.168.1.105:8000/v1&lt;/code&gt;）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;API Key&lt;/strong&gt;处随意输入几个字母。&lt;/li&gt;
+&lt;li&gt;点击保存。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;结果&lt;/strong&gt;：&lt;strong&gt;Open WebUI&lt;/strong&gt;配置完成，可以连接到&lt;strong&gt;vLLM&lt;/strong&gt;服务。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(03:38-03:52) &lt;em&gt;&lt;strong&gt;3.2: 在Open WebUI中选择并使用模型&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;目的&lt;/strong&gt;：通过配置好的&lt;strong&gt;Open WebUI&lt;/strong&gt;界面与&lt;strong&gt;Qwen3 14B&lt;/strong&gt;模型进行对话测试。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;关键操作&lt;/strong&gt;：在&lt;strong&gt;Open WebUI&lt;/strong&gt;中，点击&lt;strong&gt;新建对话&lt;/strong&gt;，然后在模型选择列表中选择刚配置好的&lt;strong&gt;Qwen: Qwen3 14B&lt;/strong&gt;模型。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;结果&lt;/strong&gt;：用户现在可以通过&lt;strong&gt;Open WebUI&lt;/strong&gt;与本地通过&lt;strong&gt;vLLM&lt;/strong&gt;部署的&lt;strong&gt;Qwen3 14B&lt;/strong&gt;模型进行交互。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;part-4-补充信息&#34;&gt;Part 4: 补充信息
+&lt;/h1&gt;&lt;p&gt;(15:39-15:43) &lt;em&gt;&lt;strong&gt;4.1: 获取代码和指令&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;作者建议&lt;/strong&gt;：视频中使用的代码和指令会放在视频下方的描述栏或者评论区。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(15:43-15:49) &lt;em&gt;&lt;strong&gt;4.2: 通过博客获取笔记&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;作者建议&lt;/strong&gt;：如果在视频下方无法找到代码和指令，可以访问作者的博客（&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.aivi.fyi&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;www.aivi.fyi&lt;/a&gt;&lt;/strong&gt;）查找本期视频对应的笔记。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

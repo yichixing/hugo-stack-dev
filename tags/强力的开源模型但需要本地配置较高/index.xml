@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>强力的开源模型（但需要本地配置较高） on 个人笔记博客</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E5%BC%BA%E5%8A%9B%E7%9A%84%E5%BC%80%E6%BA%90%E6%A8%A1%E5%9E%8B%E4%BD%86%E9%9C%80%E8%A6%81%E6%9C%AC%E5%9C%B0%E9%85%8D%E7%BD%AE%E8%BE%83%E9%AB%98/</link>
+        <description>Recent content in 强力的开源模型（但需要本地配置较高） on 个人笔记博客</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>Example Person</copyright>
+        <lastBuildDate>Tue, 28 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yichixing.github.io/hugo-stack-dev/tags/%E5%BC%BA%E5%8A%9B%E7%9A%84%E5%BC%80%E6%BA%90%E6%A8%A1%E5%9E%8B%E4%BD%86%E9%9C%80%E8%A6%81%E6%9C%AC%E5%9C%B0%E9%85%8D%E7%BD%AE%E8%BE%83%E9%AB%98/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>开源多模态模型InternVL3视觉能力测试</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/p/%E5%BC%80%E6%BA%90%E5%A4%9A%E6%A8%A1%E6%80%81%E6%A8%A1%E5%9E%8Binternvl3%E8%A7%86%E8%A7%89%E8%83%BD%E5%8A%9B%E6%B5%8B%E8%AF%95/</link>
+        <pubDate>Tue, 28 Jan 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://yichixing.github.io/hugo-stack-dev/p/%E5%BC%80%E6%BA%90%E5%A4%9A%E6%A8%A1%E6%80%81%E6%A8%A1%E5%9E%8Binternvl3%E8%A7%86%E8%A7%89%E8%83%BD%E5%8A%9B%E6%B5%8B%E8%AF%95/</guid>
+        <description>&lt;p&gt;༼🚀挑战Gemini 2.5！最强开源企业级OCR大模型InternVL3！本地部署教程+实战测评全纪录，轻松搞定潦草手写汉字、模糊PDF扫描件、模糊复杂表格，效果炸裂超过人眼！支持Open WebUI ༽&lt;/p&gt;
+&lt;h1 id=&#34;part1-internvl3-ocr能力测试---手写体识别&#34;&gt;part1: InternVL3 OCR能力测试 - 手写体识别
+&lt;/h1&gt;&lt;p&gt;#模型的UI界面&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;模型的UI界面用的是openWebUi
+(03:34-04:43)
+&lt;em&gt;&lt;strong&gt;1.1: 测试1 - 手写体识别&lt;/strong&gt;&lt;/em&gt;
+在&lt;strong&gt;OpenWebUI&lt;/strong&gt;中选择部署好的&lt;strong&gt;OpenGVLab/InternVL3-14B-Instruct&lt;/strong&gt;模型进行测试。
+上传一张手写体图片（内容为一首诗）。
+&lt;strong&gt;输入指令&lt;/strong&gt;：“提取图上的文字内容, 并保持原有格式输出”。
+&lt;strong&gt;测试结果&lt;/strong&gt;：模型&lt;strong&gt;很快&lt;/strong&gt;提取出了图片中的手写文字内容，包括诗的标题“&lt;strong&gt;暮春感怀&lt;/strong&gt;”和最后的签名“&lt;strong&gt;AI超元域-书&lt;/strong&gt;”。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(04:43-05:20)
+&lt;em&gt;&lt;strong&gt;1.2: 手写体识别结果比对与评价&lt;/strong&gt;&lt;/em&gt;
+将模型提取的文字内容与原图进行逐行比对。
+&lt;strong&gt;测试结果&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;所有诗句内容均&lt;strong&gt;完全正确&lt;/strong&gt;提取。&lt;/li&gt;
+&lt;li&gt;诗名后的&lt;strong&gt;破折号 (&amp;ndash;)&lt;/strong&gt; 和签名后的&lt;strong&gt;点号 (.)&lt;/strong&gt; 也被&lt;strong&gt;正确识别&lt;/strong&gt;并提取。
+&lt;strong&gt;作者观点&lt;/strong&gt;：对于如此&lt;strong&gt;潦草的手写体&lt;/strong&gt;，包括&lt;strong&gt;标点符号&lt;/strong&gt;都能&lt;strong&gt;正确提取&lt;/strong&gt;，效果&lt;strong&gt;非常好&lt;/strong&gt;。之前测试中只有&lt;strong&gt;Gemini 2.5 Pro&lt;/strong&gt;能达到这个效果。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(05:47-07:06)
+&lt;em&gt;&lt;strong&gt;1.3: Gradio界面资源监控下的手写体识别测试&lt;/strong&gt;&lt;/em&gt;
+使用作者编写的&lt;strong&gt;Gradio脚本&lt;/strong&gt;来实时监控模型推理时的&lt;strong&gt;系统资源&lt;/strong&gt;（CPU、内存、GPU显存）占用情况。
+在Gradio界面中再次上传之前的手写体图片。
+&lt;strong&gt;输入指令&lt;/strong&gt;：“提取图上的文字内容, 并保持原有格式输出”。
+&lt;strong&gt;测试结果&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;模型再次&lt;strong&gt;成功提取&lt;/strong&gt;了手写内容。&lt;/li&gt;
+&lt;li&gt;资源监控显示：&lt;strong&gt;CPU使用率&lt;/strong&gt;有波动，&lt;strong&gt;内存使用&lt;/strong&gt;约&lt;strong&gt;2.53 GB&lt;/strong&gt;（初始）上升至处理时的峰值，&lt;strong&gt;GPU显存&lt;/strong&gt;占用高达&lt;strong&gt;45.71 / 47.99 GB (95.2%)&lt;/strong&gt;（使用单张&lt;strong&gt;A6000&lt;/strong&gt;显卡运行&lt;strong&gt;InternVL3-14B&lt;/strong&gt;模型）。
+&lt;strong&gt;作者观点&lt;/strong&gt;： &lt;strong&gt;14B参数&lt;/strong&gt;的模型显存占用较高。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;part2-internvl3-ocr能力测试---发票与重叠文字识别&#34;&gt;part2: InternVL3 OCR能力测试 - 发票与重叠文字识别
+&lt;/h1&gt;&lt;p&gt;(07:06-08:04)
+&lt;em&gt;&lt;strong&gt;2.1: 测试2 - 发票扫描件识别（含模糊与重叠文字）&lt;/strong&gt;&lt;/em&gt;
+上传一张发票扫描件图片，图片中包含&lt;strong&gt;模糊文字&lt;/strong&gt;和&lt;strong&gt;重叠文字&lt;/strong&gt;。
+&lt;strong&gt;输入指令&lt;/strong&gt;：“提取图上的文字内容, 并保持原有格式输出”。
+&lt;strong&gt;测试结果&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;模型将提取内容输出到&lt;strong&gt;code block&lt;/strong&gt;中。&lt;/li&gt;
+&lt;li&gt;发票顶部的英文公司信息和地址&lt;strong&gt;完全正确&lt;/strong&gt;提取。&lt;/li&gt;
+&lt;li&gt;发票号码、日期、付款条件、到期日等信息&lt;strong&gt;完全正确&lt;/strong&gt;提取。&lt;/li&gt;
+&lt;li&gt;客户信息（公司名、联系人、地址、电话、客户编号）&lt;strong&gt;完全正确&lt;/strong&gt;提取。&lt;/li&gt;
+&lt;li&gt;项目明细部分：
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;云服务器租用 / Cloud Server Hosting&amp;rdquo; 行：&lt;strong&gt;完全正确&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;企业数据备份服务 / Data Backup Service&amp;rdquo; 行：&lt;strong&gt;价格部分存在重叠文字（¥3,500.00与$900.00重叠），模型正确识别并提取为 ¥3,500.00&lt;/strong&gt;，数量“1项”也正确。&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;技术支持 / Technical Support&amp;rdquo; 行：&lt;strong&gt;价格部分存在重叠文字（¥19,200.00与¥800.00重叠），模型正确识别并提取为 ¥19,200.00&lt;/strong&gt;，数量“24小时”也正确。&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;软件许可证 / Software License&amp;rdquo; 行：&lt;strong&gt;完全正确&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;安全审计服务 / Security Audit&amp;rdquo; 行：&lt;strong&gt;完全正确&lt;/strong&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;小计、税额、总计金额&lt;strong&gt;完全正确&lt;/strong&gt;提取。&lt;/li&gt;
+&lt;li&gt;付款方式、银行转账、账户名、银行、账号、Swift代码等信息&lt;strong&gt;完全正确&lt;/strong&gt;提取。&lt;/li&gt;
+&lt;li&gt;唯一识别错误：在重叠的 &amp;ldquo;Data Backup Service&amp;rdquo; 价格处，模型输出为&lt;code&gt;¥3,500.00&lt;/code&gt;，原始应为&lt;code&gt;¥3,500.00&lt;/code&gt;，识别出了重叠内容但未能完全还原格式（原图重叠了$900和¥3500）。 &lt;em&gt;修正：仔细观察视频，应是¥3,500.00与$9,560.00重叠，模型识别为&lt;code&gt;¥3,500.00&lt;/code&gt;，识别是正确的。&lt;/em&gt;
+&lt;strong&gt;作者观点&lt;/strong&gt;：效果&lt;strong&gt;非常不错&lt;/strong&gt;，特别是能处理&lt;strong&gt;重叠文字&lt;/strong&gt;的情况。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;part3-internvl3-ocr能力测试---模糊pdf扫描件识别含表格和代码&#34;&gt;part3: InternVL3 OCR能力测试 - 模糊PDF扫描件识别（含表格和代码）
+&lt;/h1&gt;&lt;p&gt;(08:04-09:03)
+&lt;em&gt;&lt;strong&gt;3.1: 测试3 - 模糊PDF扫描件识别&lt;/strong&gt;&lt;/em&gt;
+上传一张&lt;strong&gt;非常模糊&lt;/strong&gt;的PDF扫描件图片，包含普通文本、一个表格和一段代码。
+&lt;strong&gt;输入指令&lt;/strong&gt;：“提取图上的文字内容, 并保持原有格式输出”。
+&lt;strong&gt;测试结果&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;文档标题“&lt;strong&gt;AI超元域原创视频-文档扫描测试&lt;/strong&gt;”&lt;strong&gt;正确&lt;/strong&gt;提取。&lt;/li&gt;
+&lt;li&gt;开头的英文段落 (Lorem ipsum&amp;hellip;) &lt;strong&gt;正确&lt;/strong&gt;提取。&lt;/li&gt;
+&lt;li&gt;中间的中文段落及三个要点（第一点、第二点、第三点）&lt;strong&gt;均正确&lt;/strong&gt;提取，并保持了原有的格式。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;表格&lt;/strong&gt;内容（包括表头“项目”、“描述”、“状态”及三行测试数据）&lt;strong&gt;完全正确&lt;/strong&gt;提取。&lt;/li&gt;
+&lt;li&gt;底部的&lt;strong&gt;非常模糊的代码段&lt;/strong&gt; (function testAIVision()&amp;hellip;) &lt;strong&gt;也完全正确&lt;/strong&gt;地提取出来，并&lt;strong&gt;保持了原有的代码格式&lt;/strong&gt;。
+&lt;strong&gt;作者观点&lt;/strong&gt;：即使文档&lt;strong&gt;非常模糊&lt;/strong&gt;，模型依然能够&lt;strong&gt;准确&lt;/strong&gt;提取文本、表格和代码。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;part4-internvl3-ocr能力测试---复杂模糊pdf扫描件识别含噪声&#34;&gt;part4: InternVL3 OCR能力测试 - 复杂模糊PDF扫描件识别（含噪声）
+&lt;/h1&gt;&lt;p&gt;(09:04-10:11)
+&lt;em&gt;&lt;strong&gt;4.1: 测试4 - 带噪声的复杂模糊PDF扫描件识别&lt;/strong&gt;&lt;/em&gt;
+上传一张&lt;strong&gt;更加模糊且复杂&lt;/strong&gt;的PDF扫描件，包含标题、文本和一个带有&lt;strong&gt;人为添加的红色线条噪声&lt;/strong&gt;的表格。
+&lt;strong&gt;输入指令&lt;/strong&gt;：“提取图上的文字内容, 并保持原有格式输出”。
+&lt;strong&gt;测试结果&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;报告标题“&lt;strong&gt;研究报告：人工智能在现代商业中的应用&lt;/strong&gt;”和副标题“&lt;strong&gt;3.2 行业应用案例分析&lt;/strong&gt;”&lt;strong&gt;正确&lt;/strong&gt;提取。&lt;/li&gt;
+&lt;li&gt;第一段中文长文本内容&lt;strong&gt;正确&lt;/strong&gt;提取。&lt;/li&gt;
+&lt;li&gt;包含&lt;strong&gt;人为噪声&lt;/strong&gt;的&lt;strong&gt;表格&lt;/strong&gt;内容&lt;strong&gt;完全正确&lt;/strong&gt;提取，模型&lt;strong&gt;成功忽略了噪声&lt;/strong&gt;。其中“医疗健康”行，“投资回报率”列的数值&lt;strong&gt;128.7&lt;/strong&gt;，即使带有噪声干扰，也&lt;strong&gt;正确提取&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;表格下方的引用说明文字“*人工智能的商业价值&amp;hellip;”&lt;strong&gt;基本正确&lt;/strong&gt;提取，但遗漏了中间非常模糊的一小段文字（“各行业AI技术采用及投资回报分析&amp;hellip;”）。&lt;/li&gt;
+&lt;li&gt;图例说明“&lt;strong&gt;图7: AI技术投资与业务绩效相关性分析&lt;/strong&gt;”&lt;strong&gt;正确&lt;/strong&gt;提取。&lt;/li&gt;
+&lt;li&gt;最下方的“AI商业应用研究系列&amp;hellip;”&lt;strong&gt;正确&lt;/strong&gt;提取。
+&lt;strong&gt;作者观点&lt;/strong&gt;：&lt;strong&gt;非常难得&lt;/strong&gt;，模型不仅处理了模糊性，还&lt;strong&gt;有效忽略了表格中的噪声&lt;/strong&gt;，提取结果&lt;strong&gt;非常准确&lt;/strong&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;part5-internvl3-ocr能力测试---复杂模糊表格扫描件识别&#34;&gt;part5: InternVL3 OCR能力测试 - 复杂模糊表格扫描件识别
+&lt;/h1&gt;&lt;p&gt;(10:11-10:50)
+&lt;em&gt;&lt;strong&gt;5.1: 测试5 - 复杂模糊表格扫描件识别&lt;/strong&gt;&lt;/em&gt;
+上传一张包含&lt;strong&gt;非常模糊且复杂表格&lt;/strong&gt;的扫描件图片，表格中部分文字&lt;strong&gt;超出了单元格边界&lt;/strong&gt;。
+&lt;strong&gt;输入指令&lt;/strong&gt;：“提取图上的文字内容, 并保持原有格式输出”。
+&lt;strong&gt;测试结果&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;模型使用&lt;strong&gt;Markdown格式&lt;/strong&gt;输出了表格内容。&lt;/li&gt;
+&lt;li&gt;经过仔细比对，表格的&lt;strong&gt;所有内容&lt;/strong&gt;，包括那些&lt;strong&gt;超出单元格的文字&lt;/strong&gt;，都被&lt;strong&gt;完全正确&lt;/strong&gt;地提取出来。&lt;/li&gt;
+&lt;li&gt;表格下方的表注“&lt;strong&gt;表1: AI超元域2024-2025年度项目进度表&lt;/strong&gt;”和页码信息“&lt;strong&gt;第1页，共5页&lt;/strong&gt;”也&lt;strong&gt;完全正确&lt;/strong&gt;提取。
+&lt;strong&gt;作者观点&lt;/strong&gt;：即使表格&lt;strong&gt;非常模糊和复杂&lt;/strong&gt;，提取结果依然&lt;strong&gt;完全正确&lt;/strong&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;part6-internvl3-ocr能力测试---图像理解与描述&#34;&gt;part6: InternVL3 OCR能力测试 - 图像理解与描述
+&lt;/h1&gt;&lt;p&gt;(10:50-11:27)
+&lt;em&gt;&lt;strong&gt;6.1: 测试6 - 线条画（Meme图）描述&lt;/strong&gt;&lt;/em&gt;
+上传一张&lt;strong&gt;线条画&lt;/strong&gt;（Meme图）图片。
+&lt;strong&gt;输入指令&lt;/strong&gt;：“描述这张图”。
+&lt;strong&gt;测试结果&lt;/strong&gt;：模型&lt;strong&gt;正确识别&lt;/strong&gt;出这是一幅&lt;strong&gt;线条画 (line drawing)&lt;/strong&gt;，描绘了一个&lt;strong&gt;聚会场景 (party scene)&lt;/strong&gt;，并准确描述了图中&lt;strong&gt;五个人物&lt;/strong&gt;各自的位置和动作状态。
+&lt;strong&gt;作者观点&lt;/strong&gt;：对图像内容的&lt;strong&gt;描述基本正确&lt;/strong&gt;。&lt;/p&gt;
+&lt;h1 id=&#34;part7-internvl3-ocr能力测试---流程图理解与代码生成&#34;&gt;part7: InternVL3 OCR能力测试 - 流程图理解与代码生成
+&lt;/h1&gt;&lt;p&gt;(11:27-12:53)
+&lt;em&gt;&lt;strong&gt;7.1: 测试7 - 流程图转Python代码&lt;/strong&gt;&lt;/em&gt;
+上传一张&lt;strong&gt;流程图&lt;/strong&gt;图片，该流程图展示的是&lt;strong&gt;冒泡排序 (bubble sort)&lt;/strong&gt; 算法。
+&lt;strong&gt;输入指令&lt;/strong&gt;：“请根据图上的流程, 用python给出完整的代码”。
+&lt;strong&gt;测试结果&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;模型&lt;strong&gt;成功识别&lt;/strong&gt;出流程图代表的是&lt;strong&gt;冒泡排序算法&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;生成了相应的&lt;strong&gt;Python代码&lt;/strong&gt;来实现该算法。&lt;/li&gt;
+&lt;li&gt;将生成的代码复制到代码编辑器中&lt;strong&gt;运行测试&lt;/strong&gt;，代码&lt;strong&gt;能够成功运行&lt;/strong&gt;并输出了&lt;strong&gt;正确的排序结果&lt;/strong&gt; ([11, 12, 22, 25, 34, 64, 90])。
+&lt;strong&gt;作者观点&lt;/strong&gt;：模型能够&lt;strong&gt;识别流程图&lt;/strong&gt;的逻辑，并将其&lt;strong&gt;转换为可运行的Python代码&lt;/strong&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;part8-总结与评价&#34;&gt;part8: 总结与评价
+&lt;/h1&gt;&lt;p&gt;(12:53-13:11)
+&lt;em&gt;&lt;strong&gt;8.1: 作者最终评价&lt;/strong&gt;&lt;/em&gt;
+&lt;strong&gt;作者观点&lt;/strong&gt;：通过多方面和多角度的测试，可以发现 &lt;strong&gt;InternVL3-14B-Instruct&lt;/strong&gt; 这款模型的&lt;strong&gt;OCR能力还是非常强的&lt;/strong&gt;。即使面对&lt;strong&gt;非常模糊&lt;/strong&gt;的图像，模型也能&lt;strong&gt;成功提取&lt;/strong&gt;图像上的文字内容。对于需要在&lt;strong&gt;本地部署&lt;/strong&gt;进行&lt;strong&gt;OCR任务&lt;/strong&gt;的企业项目来说，这款模型是一个&lt;strong&gt;非常不错的选择&lt;/strong&gt;。视频中用到的代码和指令会放在&lt;strong&gt;视频下方描述栏&lt;/strong&gt;或&lt;strong&gt;评论区&lt;/strong&gt;，以及作者的&lt;strong&gt;博客 (&lt;a class=&#34;link&#34; href=&#34;https://www.aivi.fyi&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;www.aivi.fyi&lt;/a&gt;)&lt;/strong&gt;。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

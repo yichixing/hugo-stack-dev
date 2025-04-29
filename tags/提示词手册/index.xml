@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>提示词手册 on 个人笔记博客</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/tags/%E6%8F%90%E7%A4%BA%E8%AF%8D%E6%89%8B%E5%86%8C/</link>
+        <description>Recent content in 提示词手册 on 个人笔记博客</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>Example Person</copyright>
+        <lastBuildDate>Mon, 28 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yichixing.github.io/hugo-stack-dev/tags/%E6%8F%90%E7%A4%BA%E8%AF%8D%E6%89%8B%E5%86%8C/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>工具集合</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/p/%E5%B7%A5%E5%85%B7%E9%9B%86%E5%90%88/</link>
+        <pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://yichixing.github.io/hugo-stack-dev/p/%E5%B7%A5%E5%85%B7%E9%9B%86%E5%90%88/</guid>
+        <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&amp;laquo;&amp;lt;传输工具filepizza：只要在地址输入分享链接就可以传输，因此手机端也能用； &lt;a class=&#34;link&#34; href=&#34;https://github.com/kern/filepizza&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/kern/filepizza&lt;/a&gt;；在线版：https://file.pizza/&amp;gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;《♓《虽然只支持传输单个文件，但我可以打包啊，因此相当于无论传输什么都没限制；》&lt;/li&gt;
+&lt;li&gt;《♐《由于只需要拍个网址下来，所以使用便易程度因人而异，但比起那种软件流畅度低的localsend，我还是更接受用流畅的网页》&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&amp;lt;C盘清理工具：Windows Cleaner ；https://github.com/darkmatter2048/WindowsCleaner&amp;gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&amp;lt;视频字幕、水印清除工具：video-subtitle-remover；这个作者的另一款软件就是大名鼎鼎的硬字幕提取软件 ；https://github.com/YaoFANGUK/video-subtitle-remover&amp;gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&amp;lt;AI提示词手册：system-prompts-and-models-of-ai-tools（）；https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools &amp;gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&amp;lt;一站式模型系统；aigcpanel &lt;a class=&#34;link&#34; href=&#34;https://github.com/modstart-lib/aigcpanel%3e&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/modstart-lib/aigcpanel&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&amp;lt;批量重命名工具：rename-photos ；https://github.com/Arman19941113/rename-photos&amp;gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

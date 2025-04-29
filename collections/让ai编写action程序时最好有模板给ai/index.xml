@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>让AI编写action程序时最好有模板给AI on 个人笔记博客</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/collections/%E8%AE%A9ai%E7%BC%96%E5%86%99action%E7%A8%8B%E5%BA%8F%E6%97%B6%E6%9C%80%E5%A5%BD%E6%9C%89%E6%A8%A1%E6%9D%BF%E7%BB%99ai/</link>
+        <description>Recent content in 让AI编写action程序时最好有模板给AI on 个人笔记博客</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>Example Person</copyright>
+        <lastBuildDate>Mon, 20 Feb 2023 20:14:22 +0800</lastBuildDate><atom:link href="https://yichixing.github.io/hugo-stack-dev/collections/%E8%AE%A9ai%E7%BC%96%E5%86%99action%E7%A8%8B%E5%BA%8F%E6%97%B6%E6%9C%80%E5%A5%BD%E6%9C%89%E6%A8%A1%E6%9D%BF%E7%BB%99ai/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>github action：3 AI编写action程序技巧</title>
+        <link>https://yichixing.github.io/hugo-stack-dev/p/github-action3-ai%E7%BC%96%E5%86%99action%E7%A8%8B%E5%BA%8F%E6%8A%80%E5%B7%A7/</link>
+        <pubDate>Mon, 20 Feb 2023 20:14:22 +0800</pubDate>
+        
+        <guid>https://yichixing.github.io/hugo-stack-dev/p/github-action3-ai%E7%BC%96%E5%86%99action%E7%A8%8B%E5%BA%8F%E6%8A%80%E5%B7%A7/</guid>
+        <description>&lt;ul&gt;
+&lt;li&gt;github aciton配置文件如何创建
+&lt;ul&gt;
+&lt;li&gt;(2 action配置文件用aciton模板的配置文件， action模板配置文件扔给AI，说明需要这个action模板运行哪个脚本，让AI修改即可，因为有些时候 AI直接生成的action配置文件aciton根本运行不了)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
